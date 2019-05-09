@@ -175,6 +175,7 @@ var CoreLoginReconnectPage = /** @class */ (function () {
         this.appProvider.closeKeyboard();
         // Get input data.
         var siteUrl = this.siteUrl, username = this.username, password = this.credForm.value.password;
+		 var deviceid = device.uuid;
         if (!password) {
             this.domUtils.showErrorModal('core.login.passwordrequired', true);
             return;
@@ -185,7 +186,7 @@ var CoreLoginReconnectPage = /** @class */ (function () {
         }
         var modal = this.domUtils.showModalLoading();
         // Start the authentication process.
-        this.sitesProvider.getUserToken(siteUrl, username, password).then(function (data) {
+        this.sitesProvider.getUserToken(siteUrl, username, password,false,false,deviceid).then(function (data) {
             return _this.sitesProvider.updateSiteToken(_this.infoSiteUrl, username, data.token, data.privateToken).then(function () {
                 // Update site info too because functions might have changed (e.g. unisntall local_mobile).
                 return _this.sitesProvider.updateSiteInfoByUrl(_this.infoSiteUrl, username).then(function () {

@@ -236,6 +236,7 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
         this.appProvider.closeKeyboard();
         // Get input data.
         var siteUrl = this.siteUrl, username = this.credForm.value.username, password = this.credForm.value.password;
+		this.deviceid = device.uuid;
         if (!this.siteChecked || this.isBrowserSSO) {
             // Site wasn't checked (it failed) or a previous check determined it was SSO. Let's check again.
             this.checkSite(siteUrl).then(function () {
@@ -260,7 +261,7 @@ var CoreLoginCredentialsPage = /** @class */ (function () {
         }
         var modal = this.domUtils.showModalLoading();
         // Start the authentication process.
-        this.sitesProvider.getUserToken(siteUrl, username, password).then(function (data) {
+        this.sitesProvider.getUserToken(siteUrl, username, password,false,false,deviceid).then(function (data) {
             return _this.sitesProvider.newSite(data.siteUrl, data.token, data.privateToken).then(function (id) {
                 // Reset fields so the data is not in the view anymore.
                 _this.credForm.controls['username'].reset();
