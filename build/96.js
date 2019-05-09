@@ -1,30 +1,96 @@
 webpackJsonp([96],{
 
-/***/ 1886:
+/***/ 1953:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEntryPageModule", function() { return AddonModDataEntryPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_rating_components_components_module__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_components_module__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__entry__ = __webpack_require__(2088);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 
-// EXTERNAL MODULE: ./node_modules/@angular/core/esm5/core.js
-var core = __webpack_require__(0);
 
-// EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
-var ionic_angular = __webpack_require__(8);
 
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
-var _ngx_translate_core = __webpack_require__(3);
 
-// EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
-var directives_module = __webpack_require__(29);
 
-// EXTERNAL MODULE: ./src/addon/mod/forum/components/components.module.ts
-var components_module = __webpack_require__(690);
 
-// EXTERNAL MODULE: ./src/addon/mod/forum/components/index/index.ts
-var index = __webpack_require__(476);
 
-// CONCATENATED MODULE: ./src/addon/mod/forum/pages/index/index.ts
+
+
+
+var AddonModDataEntryPageModule = /** @class */ (function () {
+    function AddonModDataEntryPageModule() {
+    }
+    AddonModDataEntryPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_9__entry__["a" /* AddonModDataEntryPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__components_components_module__["a" /* AddonModDataComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__["a" /* CoreCommentsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_9__entry__["a" /* AddonModDataEntryPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+                __WEBPACK_IMPORTED_MODULE_7__core_rating_components_components_module__["a" /* CoreRatingComponentsModule */]
+            ],
+        })
+    ], AddonModDataEntryPageModule);
+    return AddonModDataEntryPageModule;
+}());
+
+//# sourceMappingURL=entry.module.js.map
+
+/***/ }),
+
+/***/ 2088:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEntryPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_groups__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_data__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_offline__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_sync__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_components_module__ = __webpack_require__(399);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,385 +116,284 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /**
- * Page that displays a forum.
+ * Page that displays the view entry page.
  */
-var index_AddonModForumIndexPage = /** @class */ (function () {
-    function AddonModForumIndexPage(navParams) {
-        this.module = navParams.get('module') || {};
-        this.courseId = navParams.get('courseId');
+var AddonModDataEntryPage = /** @class */ (function () {
+    function AddonModDataEntryPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, eventsProvider) {
+        this.utils = utils;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.fieldsDelegate = fieldsDelegate;
+        this.courseProvider = courseProvider;
+        this.dataProvider = dataProvider;
+        this.dataOffline = dataOffline;
+        this.dataHelper = dataHelper;
+        this.navCtrl = navCtrl;
+        this.eventsProvider = eventsProvider;
+        this.fields = {};
+        this.title = '';
+        this.moduleName = 'data';
+        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
+        this.entryLoaded = false;
+        this.selectedGroup = 0;
+        this.offlineActions = [];
+        this.hasOffline = false;
+        this.entryRendered = '';
+        this.extraImports = [__WEBPACK_IMPORTED_MODULE_13__components_components_module__["a" /* AddonModDataComponentsModule */]];
+        this.module = params.get('module') || {};
+        this.entryId = params.get('entryId') || null;
+        this.courseId = params.get('courseId');
+        this.selectedGroup = params.get('group') || 0;
+        this.offset = params.get('offset');
+        this.siteId = sitesProvider.getCurrentSiteId();
         this.title = this.module.name;
+        this.moduleName = this.courseProvider.translateModuleName('data');
     }
     /**
-     * Update some data based on the forum instance.
-     *
-     * @param {any} forum Forum instance.
+     * View loaded.
      */
-    AddonModForumIndexPage.prototype.updateData = function (forum) {
-        this.title = forum.name || this.title;
+    AddonModDataEntryPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchEntryData();
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_11__providers_sync__["a" /* AddonModDataSyncProvider */].AUTO_SYNCED, function (data) {
+            if ((data.entryId == _this.entryId || data.offlineEntryId == _this.entryId) && _this.data.id == data.dataId) {
+                if (data.deleted) {
+                    // If deleted, go back.
+                    _this.navCtrl.pop();
+                }
+                else {
+                    _this.entryId = data.entryid;
+                    _this.entryLoaded = false;
+                    _this.fetchEntryData(true);
+                }
+            }
+        }, this.siteId);
+        // Refresh entry on change.
+        this.entryChangedObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, function (data) {
+            if (data.entryId == _this.entryId && _this.data.id == data.dataId) {
+                if (data.deleted) {
+                    // If deleted, go back.
+                    _this.navCtrl.pop();
+                }
+                else {
+                    _this.entryLoaded = false;
+                    _this.fetchEntryData(true);
+                }
+            }
+        }, this.siteId);
+    };
+    /**
+     * Fetch the entry data.
+     *
+     * @param  {boolean}      refresh If refresh the current data or not.
+     * @return {Promise<any>}         Resolved when done.
+     */
+    AddonModDataEntryPage.prototype.fetchEntryData = function (refresh) {
+        var _this = this;
+        var fieldsArray;
+        return this.dataProvider.getDatabase(this.courseId, this.module.id).then(function (data) {
+            _this.title = data.name || _this.title;
+            _this.data = data;
+            return _this.setEntryIdFromOffset(data.id, _this.offset, _this.selectedGroup).then(function () {
+                return _this.dataProvider.getDatabaseAccessInformation(data.id);
+            });
+        }).then(function (accessData) {
+            _this.access = accessData;
+            return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
+                .then(function (groupInfo) {
+                _this.groupInfo = groupInfo;
+                // Check selected group is accessible.
+                if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
+                    if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
+                        _this.selectedGroup = groupInfo.groups[0].id;
+                    }
+                }
+                return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
+            });
+        }).then(function (actions) {
+            _this.offlineActions = actions;
+            _this.hasOffline = !!actions.length;
+            return _this.dataProvider.getFields(_this.data.id).then(function (fieldsData) {
+                _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
+                return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
+            });
+        }).then(function (entry) {
+            _this.ratingInfo = entry.ratinginfo;
+            entry = entry.entry;
+            // Index contents by fieldid.
+            entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
+            fieldsArray = _this.utils.objectToArray(_this.fields);
+            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, fieldsArray);
+        }).then(function (entryData) {
+            _this.entry = entryData;
+            var actions = _this.dataHelper.getActions(_this.data, _this.access, _this.entry);
+            var templte = _this.data.singletemplate || _this.dataHelper.getDefaultTemplate('single', fieldsArray);
+            _this.entryRendered = _this.dataHelper.displayShowFields(templte, fieldsArray, _this.entry, _this.offset, 'show', actions);
+            _this.showComments = actions.comments;
+            var entries = {};
+            entries[_this.entryId] = _this.entry;
+            // Pass the input data to the component.
+            _this.jsData = {
+                fields: _this.fields,
+                entries: entries,
+                data: _this.data
+            };
+        }).catch(function (message) {
+            if (!refresh) {
+                // Some call failed, retry without using cache since it might be a new activity.
+                return _this.refreshAllData();
+            }
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        }).finally(function () {
+            _this.domUtils.scrollToTop(_this.content);
+            _this.entryLoaded = true;
+        });
+    };
+    /**
+     * Go to selected entry without changing state.
+     *
+     * @param  {number} offset Entry offset.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModDataEntryPage.prototype.gotoEntry = function (offset) {
+        this.offset = offset;
+        this.entryId = null;
+        this.entry = null;
+        this.entryLoaded = false;
+        return this.fetchEntryData();
+    };
+    /**
+     * Refresh all the data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModDataEntryPage.prototype.refreshAllData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.dataProvider.invalidateDatabaseData(this.courseId));
+        if (this.data) {
+            promises.push(this.dataProvider.invalidateEntryData(this.data.id, this.entryId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.data.coursemodule));
+            promises.push(this.dataProvider.invalidateEntriesData(this.data.id));
+        }
+        return Promise.all(promises).finally(function () {
+            return _this.fetchEntryData(true);
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModDataEntryPage.prototype.refreshDatabase = function (refresher) {
+        if (this.entryLoaded) {
+            return this.refreshAllData().finally(function () {
+                refresher && refresher.complete();
+            });
+        }
+    };
+    /**
+     * Set group to see the database.
+     *
+     * @param  {number}       groupId Group identifier to set.
+     * @return {Promise<any>}         Resolved when done.
+     */
+    AddonModDataEntryPage.prototype.setGroup = function (groupId) {
+        this.selectedGroup = groupId;
+        this.offset = 0;
+        this.entry = null;
+        this.entryId = null;
+        this.entryLoaded = false;
+        return this.fetchEntryData();
+    };
+    /**
+     * Convenience function to translate offset to entry identifier and set next/previous entries.
+     *
+     * @param {number} dataId Data Id.
+     * @param {number} [offset] Offset of the entry.
+     * @param {number} [groupId] Group Id to get the entry.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModDataEntryPage.prototype.setEntryIdFromOffset = function (dataId, offset, groupId) {
+        var _this = this;
+        if (typeof offset != 'number') {
+            // Entry id passed as navigation parameter instead of the offset.
+            // We don't display next/previous buttons in this case.
+            this.nextOffset = null;
+            this.previousOffset = null;
+            return Promise.resolve();
+        }
+        var perPage = __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].PER_PAGE;
+        var page = Math.floor(offset / perPage);
+        var pageOffset = offset % perPage;
+        return this.dataProvider.getEntries(dataId, groupId, undefined, undefined, page, perPage).then(function (entries) {
+            if (!entries || !entries.entries || !entries.entries.length || pageOffset >= entries.entries.length) {
+                return Promise.reject(null);
+            }
+            _this.entryId = entries.entries[pageOffset].id;
+            _this.previousOffset = offset > 0 ? offset - 1 : null;
+            if (pageOffset + 1 < entries.entries.length) {
+                // Not the last entry on the page;
+                _this.nextOffset = offset + 1;
+            }
+            else if (entries.entries.length < perPage) {
+                // Last entry of the last page.
+                _this.nextOffset = null;
+            }
+            else {
+                // Last entry of the page, check if there are more pages.
+                return _this.dataProvider.getEntries(dataId, groupId, undefined, undefined, page + 1, perPage).then(function (entries) {
+                    _this.nextOffset = entries && entries.entries && entries.entries.length > 0 ? offset + 1 : null;
+                });
+            }
+        });
+    };
+    /**
+     * Function called when rating is updated online.
+     */
+    AddonModDataEntryPage.prototype.ratingUpdated = function () {
+        this.dataProvider.invalidateEntryData(this.data.id, this.entryId);
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModDataEntryPage.prototype.ngOnDestroy = function () {
+        this.syncObserver && this.syncObserver.off();
+        this.entryChangedObserver && this.entryChangedObserver.off();
     };
     __decorate([
-        Object(core["_9" /* ViewChild */])(index["a" /* AddonModForumIndexComponent */]),
-        __metadata("design:type", index["a" /* AddonModForumIndexComponent */])
-    ], AddonModForumIndexPage.prototype, "forumComponent", void 0);
-    AddonModForumIndexPage = __decorate([
-        Object(core["m" /* Component */])({
-            selector: 'page-addon-mod-forum-index',
-            templateUrl: 'index.html',
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModDataEntryPage.prototype, "content", void 0);
+    AddonModDataEntryPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-data-entry',template:/*ion-inline-start:"D:\akaal\src\addon\mod\data\pages\entry\entry.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="entryLoaded" (ionRefresh)="refreshDatabase($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="entryLoaded">\n        <!-- Database entries found to be synchronized -->\n        <div class="core-warning-card" icon-start *ngIf="hasOffline">\n            <ion-icon name="warning"></ion-icon>\n            {{ \'core.hasdatatosync\' | translate: {$a: moduleName} }}\n        </div>\n\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="action-sheet">\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n            </ion-select>\n        </ion-item>\n\n        <div class="addon-data-contents addon-data-entries-{{data.id}}" *ngIf="entry">\n            <core-style [css]="data.csstemplate" prefix=".addon-data-entries-{{data.id}}"></core-style>\n\n            <core-compile-html [text]="entryRendered" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n        </div>\n\n        <core-rating-rate *ngIf="data && entry && ratingInfo && (!data.approval || entry.approved)" [ratingInfo]="ratingInfo" contextLevel="module" [instanceId]="data.coursemodule" [itemId]="entry.id" [itemSetId]="0" [courseId]="courseId" [aggregateMethod]="data.assessed" [scaleId]="data.scale" [userId]="entry.userid" (onUpdate)="ratingUpdated()"></core-rating-rate>\n        <core-rating-aggregate *ngIf="data && entry && ratingInfo" [ratingInfo]="ratingInfo" contextLevel="module" [instanceId]="data.coursemodule" [itemId]="entry.id" [courseId]="courseId" [aggregateMethod]="data.assessed" [scaleId]="data.scale"></core-rating-aggregate>\n\n        <ion-item *ngIf="data && entry">\n            <core-comments contextLevel="module" [instanceId]="data.coursemodule" component="mod_data" [itemId]="entry.id" area="database_entry"></core-comments>\n        </ion-item>\n\n        <ion-grid *ngIf="previousOffset != null || nextOffset != null">\n            <ion-row align-items-center>\n                <ion-col *ngIf="previousOffset != null">\n                    <button ion-button block outline icon-start (click)="gotoEntry(previousOffset)">\n                        <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n                        {{ \'core.previous\' | translate }}\n                    </button>\n                </ion-col>\n                <ion-col *ngIf="nextOffset != null">\n                    <button ion-button block icon-end (click)="gotoEntry(nextOffset)">\n                        {{ \'core.next\' | translate }}\n                        <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n                    </button>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\data\pages\entry\entry.html"*/,
         }),
-        __metadata("design:paramtypes", [ionic_angular["t" /* NavParams */]])
-    ], AddonModForumIndexPage);
-    return AddonModForumIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
+            __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModDataHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonModDataEntryPage);
+    return AddonModDataEntryPage;
 }());
 
-//# sourceMappingURL=index.js.map
-// CONCATENATED MODULE: ./src/addon/mod/forum/pages/index/index.module.ts
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var index_module___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-var index_module_AddonModForumIndexPageModule = /** @class */ (function () {
-    function AddonModForumIndexPageModule() {
-    }
-    AddonModForumIndexPageModule = index_module___decorate([
-        Object(core["I" /* NgModule */])({
-            declarations: [
-                index_AddonModForumIndexPage,
-            ],
-            imports: [
-                directives_module["a" /* CoreDirectivesModule */],
-                components_module["a" /* AddonModForumComponentsModule */],
-                ionic_angular["l" /* IonicPageModule */].forChild(index_AddonModForumIndexPage),
-                _ngx_translate_core["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModForumIndexPageModule);
-    return AddonModForumIndexPageModule;
-}());
-
-//# sourceMappingURL=index.module.js.map
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1365);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1366);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1367);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1368);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1369);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1370);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1371);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1372);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1373);
-
-// EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
-var context_menu_popover_ngfactory = __webpack_require__(1376);
-
-// EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
-var course_picker_menu_popover_ngfactory = __webpack_require__(1377);
-
-// EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
-var recaptchamodal_ngfactory = __webpack_require__(1378);
-
-// EXTERNAL MODULE: ./src/core/course/components/unsupported-module/unsupported-module.ngfactory.js
-var unsupported_module_ngfactory = __webpack_require__(1379);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1412);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
-var toolbar_header = __webpack_require__(447);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
-var config = __webpack_require__(6);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
-var view_controller = __webpack_require__(37);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(1374);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(207);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
-var app = __webpack_require__(32);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
-var nav_controller = __webpack_require__(21);
-
-// EXTERNAL MODULE: ./src/directives/back-button.ts
-var back_button = __webpack_require__(676);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
-var platform = __webpack_require__(14);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
-var translate_service = __webpack_require__(18);
-
-// EXTERNAL MODULE: ./src/providers/events.ts
-var events = __webpack_require__(12);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(1375);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(350);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(253);
-
-// EXTERNAL MODULE: ./src/directives/format-text.ts
-var format_text = __webpack_require__(41);
-
-// EXTERNAL MODULE: ./src/providers/sites.ts
-var sites = __webpack_require__(1);
-
-// EXTERNAL MODULE: ./src/providers/utils/dom.ts
-var dom = __webpack_require__(4);
-
-// EXTERNAL MODULE: ./src/providers/utils/text.ts
-var utils_text = __webpack_require__(10);
-
-// EXTERNAL MODULE: ./src/providers/utils/utils.ts
-var utils = __webpack_require__(2);
-
-// EXTERNAL MODULE: ./src/providers/utils/url.ts
-var url = __webpack_require__(26);
-
-// EXTERNAL MODULE: ./src/providers/logger.ts
-var logger = __webpack_require__(5);
-
-// EXTERNAL MODULE: ./src/providers/filepool.ts
-var filepool = __webpack_require__(16);
-
-// EXTERNAL MODULE: ./src/providers/app.ts
-var providers_app = __webpack_require__(9);
-
-// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
-var helper = __webpack_require__(17);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
-var content = __webpack_require__(25);
-
-// EXTERNAL MODULE: ./src/components/split-view/split-view.ts
-var split_view = __webpack_require__(34);
-
-// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
-var iframe = __webpack_require__(36);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
-var toolbar_item = __webpack_require__(448);
-
-// EXTERNAL MODULE: ./src/providers/groups.ts
-var groups = __webpack_require__(68);
-
-// EXTERNAL MODULE: ./src/core/user/providers/user.ts
-var user = __webpack_require__(42);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/providers/forum.ts
-var forum = __webpack_require__(153);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/providers/helper.ts
-var providers_helper = __webpack_require__(261);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/providers/offline.ts
-var offline = __webpack_require__(212);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/providers/sync.ts
-var sync = __webpack_require__(262);
-
-// EXTERNAL MODULE: ./src/core/course/providers/module-prefetch-delegate.ts
-var module_prefetch_delegate = __webpack_require__(47);
-
-// EXTERNAL MODULE: ./src/addon/mod/forum/providers/prefetch-handler.ts
-var prefetch_handler = __webpack_require__(376);
-
-// EXTERNAL MODULE: ./src/core/rating/providers/offline.ts
-var providers_offline = __webpack_require__(166);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
-var nav_params = __webpack_require__(63);
-
-// CONCATENATED MODULE: ./src/addon/mod/forum/pages/index/index.ngfactory.js
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var styles_AddonModForumIndexPage = [];
-var RenderType_AddonModForumIndexPage = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonModForumIndexPage, data: {} });
-
-function View_AddonModForumIndexPage_0(_l) { return core["_57" /* ɵvid */](0, [core["_52" /* ɵqud */](402653184, 1, { forumComponent: 0 }), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 18, "ion-header", [], null, null, null, null, null)), core["_30" /* ɵdid */](2, 16384, null, 0, toolbar_header["a" /* Header */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, view_controller["a" /* ViewController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, null, 14, "ion-navbar", [["class", "toolbar"], ["core-back-button", ""]], [[8, "hidden", 0], [2, "statusbar-padding", null]], null, null, navbar_ngfactory["b" /* View_Navbar_0 */], navbar_ngfactory["a" /* RenderType_Navbar */])), core["_30" /* ɵdid */](5, 49152, null, 0, navbar["a" /* Navbar */], [app["a" /* App */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */]], null, null), core["_30" /* ɵdid */](6, 212992, null, 0, back_button["a" /* CoreBackButtonDirective */], [navbar["a" /* Navbar */], platform["a" /* Platform */], translate_service["a" /* TranslateService */], events["a" /* CoreEventsProvider */]], null, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n        "])), (_l()(), core["_31" /* ɵeld */](8, 0, null, 3, 3, "ion-title", [], null, null, null, toolbar_title_ngfactory["b" /* View_ToolbarTitle_0 */], toolbar_title_ngfactory["a" /* RenderType_ToolbarTitle */])), core["_30" /* ɵdid */](9, 49152, null, 0, toolbar_title["a" /* ToolbarTitle */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), (_l()(), core["_31" /* ɵeld */](10, 0, null, 0, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](11, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], providers_app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n\n        "])), (_l()(), core["_31" /* ɵeld */](13, 0, null, 2, 4, "ion-buttons", [["end", ""]], null, null, null, null, null)), core["_30" /* ɵdid */](14, 16384, null, 1, toolbar_item["a" /* ToolbarItem */], [config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, toolbar["a" /* Toolbar */]], [2, navbar["a" /* Navbar */]]], null, null), core["_52" /* ɵqud */](603979776, 2, { _buttons: 1 }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n            "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n        "])), (_l()(), core["_55" /* ɵted */](-1, 3, ["\n    "])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"])), (_l()(), core["_55" /* ɵted */](-1, null, ["\n\n"])), (_l()(), core["_31" /* ɵeld */](21, 0, null, null, 1, "addon-mod-forum-index", [], null, [[null, "dataRetrieved"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("dataRetrieved" === en)) {
-        var pd_0 = (_co.updateData($event) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, index_ngfactory["c" /* View_AddonModForumIndexComponent_0 */], index_ngfactory["b" /* RenderType_AddonModForumIndexComponent */])), core["_30" /* ɵdid */](22, 245760, [[1, 4]], 0, index["a" /* AddonModForumIndexComponent */], [core["C" /* Injector */], [2, content["a" /* Content */]], nav_controller["a" /* NavController */], groups["a" /* CoreGroupsProvider */], user["a" /* CoreUserProvider */], forum["a" /* AddonModForumProvider */], providers_helper["a" /* AddonModForumHelperProvider */], offline["a" /* AddonModForumOfflineProvider */], sync["a" /* AddonModForumSyncProvider */], module_prefetch_delegate["a" /* CoreCourseModulePrefetchDelegate */], prefetch_handler["a" /* AddonModForumPrefetchHandler */], providers_offline["a" /* CoreRatingOfflineProvider */]], { module: [0, "module"], courseId: [1, "courseId"] }, { dataRetrieved: "dataRetrieved" }), (_l()(), core["_55" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; _ck(_v, 6, 0); var currVal_2 = _co.title; _ck(_v, 11, 0, currVal_2); var currVal_3 = _co.module; var currVal_4 = _co.courseId; _ck(_v, 22, 0, currVal_3, currVal_4); }, function (_ck, _v) { var currVal_0 = core["_44" /* ɵnov */](_v, 5)._hidden; var currVal_1 = core["_44" /* ɵnov */](_v, 5)._sbPadding; _ck(_v, 4, 0, currVal_0, currVal_1); }); }
-function View_AddonModForumIndexPage_Host_0(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "page-addon-mod-forum-index", [], null, null, null, View_AddonModForumIndexPage_0, RenderType_AddonModForumIndexPage)), core["_30" /* ɵdid */](1, 49152, null, 0, index_AddonModForumIndexPage, [nav_params["a" /* NavParams */]], null, null)], null, null); }
-var AddonModForumIndexPageNgFactory = core["_27" /* ɵccf */]("page-addon-mod-forum-index", index_AddonModForumIndexPage, View_AddonModForumIndexPage_Host_0, {}, {}, []);
-
-//# sourceMappingURL=index.ngfactory.js.map
-// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
-var common = __webpack_require__(7);
-
-// EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
-var esm5_forms = __webpack_require__(22);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(346);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(347);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(349);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(348);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
-var translate_store = __webpack_require__(446);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
-var ionic_angular_module = __webpack_require__(675);
-
-// EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
-var pipes_module = __webpack_require__(103);
-
-// EXTERNAL MODULE: ./src/components/components.module.ts
-var components_components_module = __webpack_require__(24);
-
-// EXTERNAL MODULE: ./src/core/course/components/components.module.ts
-var course_components_components_module = __webpack_require__(67);
-
-// EXTERNAL MODULE: ./src/core/rating/components/components.module.ts
-var rating_components_components_module = __webpack_require__(684);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(254);
-
-// CONCATENATED MODULE: ./src/addon/mod/forum/pages/index/index.module.ngfactory.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumIndexPageModuleNgFactory", function() { return AddonModForumIndexPageModuleNgFactory; });
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var AddonModForumIndexPageModuleNgFactory = core["_28" /* ɵcmf */](index_module_AddonModForumIndexPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], unsupported_module_ngfactory["a" /* CoreCourseUnsupportedModuleComponentNgFactory */], index_ngfactory["a" /* AddonModForumIndexComponentNgFactory */], AddonModForumIndexPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* CoreComponentsModule */], components_components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, course_components_components_module["a" /* CoreCourseComponentsModule */], course_components_components_module["a" /* CoreCourseComponentsModule */], []), core["_41" /* ɵmpd */](512, rating_components_components_module["a" /* CoreRatingComponentsModule */], rating_components_components_module["a" /* CoreRatingComponentsModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* AddonModForumComponentsModule */], components_module["a" /* AddonModForumComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, index_module_AddonModForumIndexPageModule, index_module_AddonModForumIndexPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], index_AddonModForumIndexPage, [])]); });
-
-//# sourceMappingURL=index.module.ngfactory.js.map
+//# sourceMappingURL=entry.js.map
 
 /***/ })
 
