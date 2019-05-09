@@ -1,1 +1,1113 @@
-webpackJsonp([2],{1868:function(n,e,l){"use strict";function t(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"core-search-box",[["autocorrect","off"],["lengthCheck","2"],["spellcheck","false"]],null,[[null,"onSubmit"],[null,"onClear"]],function(n,e,l){var t=!0,a=n.component;if("onSubmit"===e){t=!1!==a.searchMessage(l)&&t}if("onClear"===e){t=!1!==a.clearSearch(l)&&t}return t},X.b,X.a)),C._30(1,114688,null,0,Y.a,[nn.a,en.a],{placeholder:[0,"placeholder"],autocorrect:[1,"autocorrect"],spellcheck:[2,"spellcheck"],lengthCheck:[3,"lengthCheck"],disabled:[4,"disabled"]},{onSubmit:"onSubmit",onClear:"onClear"}),C._47(131072,ln.a,[nn.a,C.j])],function(n,e){var l=e.component;n(e,1,0,C._56(e,1,0,C._44(e,2).transform("addon.messages.message")),"off","false","2",!l.loaded)},null)}function a(n){return C._57(0,[(n()(),C._31(0,0,null,null,18,"a",[["class","addon-message-discussion item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(n,e,l){var t=!0;if("click"===e){t=!1!==n.component.gotoDiscussion(n.context.$implicit.userid,n.context.$implicit.messageid)&&t}return t},tn.b,tn.a)),C._30(1,1097728,null,3,an.a,[sn.a,on.a,C.t,C.V,[2,un.a]],null,null),C._52(335544320,4,{contentLabel:0}),C._52(603979776,5,{_buttons:1}),C._52(603979776,6,{_icons:1}),C._30(5,16384,null,0,rn.a,[],null,null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,cn.b,cn.a)),C._30(8,16384,null,0,dn.a,[],null,null),C._30(9,770048,null,0,fn.a,[_n.a,U.a,en.a,hn.a,j.a],{user:[0,"user"],checkOnline:[1,"checkOnline"]},null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(11,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),C._31(12,0,null,null,1,"core-format-text",[],null,null,null,null,null)),C._30(13,540672,null,0,pn.a,[C.t,U.a,mn.a,gn.a,nn.a,bn.a,en.a,vn.a,yn.a,In.a,hn.a,On.a,[2,_n.a],[2,xn.a],[2,w.a],Cn.a,j.a],{text:[0,"text"]},null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(15,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),C._31(16,0,null,null,1,"core-format-text",[["clean","true"],["singleLine","true"]],null,null,null,null,null)),C._30(17,540672,null,0,pn.a,[C.t,U.a,mn.a,gn.a,nn.a,bn.a,en.a,vn.a,yn.a,In.a,hn.a,On.a,[2,_n.a],[2,xn.a],[2,w.a],Cn.a,j.a],{text:[0,"text"],clean:[1,"clean"],singleLine:[2,"singleLine"]},null),(n()(),C._55(-1,2,["\n            "]))],function(n,e){n(e,9,0,e.context.$implicit,e.context.$implicit.showonlinestatus);n(e,13,0,e.context.$implicit.fullname);n(e,17,0,e.context.$implicit.lastmessage,"true","true")},function(n,e){n(e,0,0,e.context.$implicit.fullname,e.context.$implicit.userid==e.component.discussionUserId)})}function s(n){return C._57(0,[(n()(),C._31(0,0,null,null,21,"ion-list",[["no-margin",""]],null,null,null,null,null)),C._30(1,16384,null,0,Dn.a,[on.a,C.t,C.V,bn.a,Rn.l,jn.a],null,null),(n()(),C._55(-1,null,["\n            "])),(n()(),C._31(3,0,null,null,14,"ion-item-divider",[["class","item item-divider"]],null,null,null,tn.b,tn.a)),C._30(4,1097728,null,3,an.a,[sn.a,on.a,C.t,C.V,[2,un.a]],null,null),C._52(335544320,1,{contentLabel:0}),C._52(603979776,2,{_buttons:1}),C._52(603979776,3,{_icons:1}),C._30(8,16384,null,0,Un.a,[on.a,C.t,C.V],null,null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),C._55(11,null,["",""])),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(14,0,null,4,2,"ion-note",[["item-end",""]],null,null,null,null,null)),C._30(15,16384,null,0,Mn.a,[on.a,C.t,C.V],null,null),(n()(),C._55(16,null,["",""])),(n()(),C._55(-1,2,["\n            "])),(n()(),C._55(-1,null,["\n            "])),(n()(),C._26(16777216,null,null,1,null,a)),C._30(20,802816,null,0,wn.j,[C._11,C._6,C.E],{ngForOf:[0,"ngForOf"]},null),(n()(),C._55(-1,null,["\n        "]))],function(n,e){n(e,20,0,e.component.search.results)},function(n,e){var l=e.component;n(e,11,0,C._56(e,11,0,C._44(e,12).transform("core.searchresults")));n(e,16,0,l.search.results.length)})}function o(n){return C._57(0,[(n()(),C._31(0,0,null,null,0,"span",[["class","core-primary-circle"]],null,null,null,null,null))],null,null)}function i(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),C._55(1,null,["",""])),C._49(2,1)],null,function(n,e){n(e,1,0,C._56(e,1,0,n(e,2,0,C._44(e.parent.parent.parent.parent,0),e.parent.parent.context.$implicit.message.timecreated/1e3)))})}function u(n){return C._57(0,[(n()(),C._31(0,0,null,null,8,"ion-note",[],null,null,null,null,null)),C._30(1,16384,null,0,Mn.a,[on.a,C.t,C.V],null,null),(n()(),C._55(-1,null,["\n                    "])),(n()(),C._26(16777216,null,null,1,null,o)),C._30(4,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,null,["\n                    "])),(n()(),C._26(16777216,null,null,1,null,i)),C._30(7,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,null,["\n                "]))],function(n,e){n(e,4,0,e.parent.context.$implicit.unread);n(e,7,0,e.parent.context.$implicit.message.timecreated>0)},null)}function r(n){return C._57(0,[(n()(),C._31(0,0,null,null,23,"a",[["class","addon-message-discussion item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(n,e,l){var t=!0;if("click"===e){t=!1!==n.component.gotoDiscussion(n.context.$implicit.message.user)&&t}return t},tn.b,tn.a)),C._30(1,1097728,null,3,an.a,[sn.a,on.a,C.t,C.V,[2,un.a]],null,null),C._52(335544320,7,{contentLabel:0}),C._52(603979776,8,{_buttons:1}),C._52(603979776,9,{_icons:1}),C._30(5,16384,null,0,rn.a,[],null,null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,cn.b,cn.a)),C._30(8,16384,null,0,dn.a,[],null,null),C._30(9,770048,null,0,fn.a,[_n.a,U.a,en.a,hn.a,j.a],{user:[0,"user"],checkOnline:[1,"checkOnline"]},null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(11,0,null,2,4,"h2",[],null,null,null,null,null)),(n()(),C._55(-1,null,["\n                    "])),(n()(),C._31(13,0,null,null,1,"core-format-text",[],null,null,null,null,null)),C._30(14,540672,null,0,pn.a,[C.t,U.a,mn.a,gn.a,nn.a,bn.a,en.a,vn.a,yn.a,In.a,hn.a,On.a,[2,_n.a],[2,xn.a],[2,w.a],Cn.a,j.a],{text:[0,"text"]},null),(n()(),C._55(-1,null,["\n                "])),(n()(),C._55(-1,2,["\n                "])),(n()(),C._26(16777216,null,2,1,null,u)),C._30(18,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,2,["\n                "])),(n()(),C._31(20,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),C._31(21,0,null,null,1,"core-format-text",[["clean","true"],["singleLine","true"]],null,null,null,null,null)),C._30(22,540672,null,0,pn.a,[C.t,U.a,mn.a,gn.a,nn.a,bn.a,en.a,vn.a,yn.a,In.a,hn.a,On.a,[2,_n.a],[2,xn.a],[2,w.a],Cn.a,j.a],{text:[0,"text"],clean:[1,"clean"],singleLine:[2,"singleLine"]},null),(n()(),C._55(-1,2,["\n            "]))],function(n,e){n(e,9,0,e.context.$implicit,e.context.$implicit.showonlinestatus);n(e,14,0,e.context.$implicit.fullname);n(e,18,0,e.context.$implicit.message.timecreated>0||e.context.$implicit.unread);n(e,22,0,e.context.$implicit.message.message,"true","true")},function(n,e){n(e,0,0,e.context.$implicit.fullname,e.context.$implicit.message.user==e.component.discussionUserId)})}function c(n){return C._57(0,[(n()(),C._31(0,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),C._30(1,16384,null,0,Dn.a,[on.a,C.t,C.V,bn.a,Rn.l,jn.a],null,null),(n()(),C._55(-1,null,["\n            "])),(n()(),C._26(16777216,null,null,1,null,r)),C._30(4,802816,null,0,wn.j,[C._11,C._6,C.E],{ngForOf:[0,"ngForOf"]},null),(n()(),C._55(-1,null,["\n        "]))],function(n,e){n(e,4,0,e.component.discussions)},null)}function d(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"core-empty-box",[["icon","chatbubbles"]],null,null,null,Pn.b,Pn.a)),C._30(1,49152,null,0,Sn.a,[],{message:[0,"message"],icon:[1,"icon"]},null),C._47(131072,ln.a,[nn.a,C.j])],function(n,e){n(e,1,0,C._56(e,1,0,C._44(e,2).transform("addon.messages.nomessagesfound")),"chatbubbles")},null)}function f(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"core-empty-box",[["icon","search"]],null,null,null,Pn.b,Pn.a)),C._30(1,49152,null,0,Sn.a,[],{message:[0,"message"],icon:[1,"icon"]},null),C._47(131072,ln.a,[nn.a,C.j])],function(n,e){n(e,1,0,C._56(e,1,0,C._44(e,2).transform("core.noresults")),"search")},null)}function _(n){return C._57(0,[C._47(0,En.a,[yn.a,nn.a,kn.a]),(n()(),C._31(1,0,null,null,29,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),C._30(2,4374528,null,0,xn.a,[on.a,bn.a,jn.a,C.t,C.V,$n.a,Ln.a,C.M,[2,Tn.a],[2,_n.a]],null,null),(n()(),C._55(-1,1,["\n    "])),(n()(),C._31(4,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,e,l){var t=!0;if("ionRefresh"===e){t=!1!==n.component.refreshData(l)&&t}return t},null,null)),C._30(5,212992,null,0,qn.a,[bn.a,xn.a,C.M,Rn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),C._55(-1,null,["\n        "])),(n()(),C._31(7,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Nn.b,Nn.a)),C._30(8,114688,null,0,An.a,[qn.a,on.a],{pullingText:[0,"pullingText"]},null),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,null,["\n    "])),(n()(),C._55(-1,1,["\n\n    "])),(n()(),C._26(16777216,null,1,1,null,t)),C._30(13,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,1,["\n\n    "])),(n()(),C._31(15,0,null,1,14,"core-loading",[],null,null,null,Fn.b,Fn.a)),C._30(16,638976,null,0,Wn.a,[nn.a,C.t,j.a,en.a],{hideUntil:[0,"hideUntil"],message:[1,"message"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,s)),C._30(19,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,c)),C._30(22,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,d)),C._30(25,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,f)),C._30(28,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n    "])),(n()(),C._55(-1,1,["\n"])),(n()(),C._55(-1,null,["\n"]))],function(n,e){var l=e.component;n(e,5,0,l.loaded);n(e,8,0,C._34(1,"",C._56(e,8,0,C._44(e,9).transform("core.pulltorefresh")),""));n(e,13,0,l.search.enabled);n(e,16,0,l.loaded,l.loadingMessage);n(e,19,0,l.search.showResults);n(e,22,0,!l.search.showResults);n(e,25,0,(!l.discussions||l.discussions.length<=0)&&!l.search.showResults);n(e,28,0,(!l.search.results||l.search.results.length<=0)&&l.search.showResults)},function(n,e){n(e,1,0,C._44(e,2).statusbarPadding,C._44(e,2)._hasRefresher);n(e,4,0,"inactive"!==C._44(e,5).state,C._44(e,5)._top);n(e,7,0,C._44(e,8).r.state)})}function h(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,Pn.b,Pn.a)),C._30(1,49152,null,0,Sn.a,[],{message:[0,"message"],icon:[1,"icon"]},null),C._47(131072,ln.a,[nn.a,C.j])],function(n,e){n(e,1,0,C._56(e,1,0,C._44(e,2).transform("addon.messages.contactlistempty")),"person")},null)}function p(n){return C._57(0,[(n()(),C._31(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,Pn.b,Pn.a)),C._30(1,49152,null,0,Sn.a,[],{message:[0,"message"],icon:[1,"icon"]},null),C._47(131072,ln.a,[nn.a,C.j])],function(n,e){n(e,1,0,C._56(e,1,0,C._44(e,2).transform("addon.messages.nousersfound")),"person")},null)}function m(n){return C._57(0,[(n()(),C._31(0,0,null,null,14,"a",[["class","addon-messages-conversation-item item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(n,e,l){var t=!0;if("click"===e){t=!1!==n.component.gotoDiscussion(n.parent.context.$implicit.id)&&t}return t},tn.b,tn.a)),C._30(1,1097728,null,3,an.a,[sn.a,on.a,C.t,C.V,[2,un.a]],null,null),C._52(335544320,4,{contentLabel:0}),C._52(603979776,5,{_buttons:1}),C._52(603979776,6,{_icons:1}),C._30(5,16384,null,0,rn.a,[],null,null),(n()(),C._55(-1,2,["\n                        "])),(n()(),C._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,cn.b,cn.a)),C._30(8,16384,null,0,dn.a,[],null,null),C._30(9,770048,null,0,fn.a,[_n.a,U.a,en.a,hn.a,j.a],{user:[0,"user"],checkOnline:[1,"checkOnline"]},null),(n()(),C._55(-1,2,["\n                        "])),(n()(),C._31(11,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),C._31(12,0,null,null,1,"core-format-text",[],null,null,null,null,null)),C._30(13,540672,null,0,pn.a,[C.t,U.a,mn.a,gn.a,nn.a,bn.a,en.a,vn.a,yn.a,In.a,hn.a,On.a,[2,_n.a],[2,xn.a],[2,w.a],Cn.a,j.a],{text:[0,"text"]},null),(n()(),C._55(-1,2,["\n                    "]))],function(n,e){n(e,9,0,e.parent.context.$implicit,e.parent.context.$implicit.showonlinestatus);n(e,13,0,e.parent.context.$implicit.fullname)},function(n,e){n(e,0,0,e.parent.context.$implicit.fullname,e.parent.context.$implicit.id==e.component.discussionUserId)})}function g(n){return C._57(0,[(n()(),C._31(0,0,null,null,5,null,null,null,null,null,null,null)),(n()(),C._55(-1,null,["\n                    "])),(n()(),C._55(-1,null,["\n                    "])),(n()(),C._26(16777216,null,null,1,null,m)),C._30(4,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,null,["\n                "]))],function(n,e){n(e,4,0,e.context.$implicit.profileimageurl||e.context.$implicit.profileimageurlsmall)},null)}function b(n){return C._57(0,[(n()(),C._31(0,0,null,null,20,null,null,null,null,null,null,null)),(n()(),C._55(-1,null,["\n                "])),(n()(),C._31(2,0,null,null,14,"ion-item-divider",[["class","item item-divider"]],null,null,null,tn.b,tn.a)),C._30(3,1097728,null,3,an.a,[sn.a,on.a,C.t,C.V,[2,un.a]],null,null),C._52(335544320,1,{contentLabel:0}),C._52(603979776,2,{_buttons:1}),C._52(603979776,3,{_icons:1}),C._30(7,16384,null,0,Un.a,[on.a,C.t,C.V],null,null),(n()(),C._55(-1,2,["\n                    "])),(n()(),C._31(9,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),C._55(10,null,["",""])),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,2,["\n                    "])),(n()(),C._31(13,0,null,4,2,"ion-note",[["item-end",""]],null,null,null,null,null)),C._30(14,16384,null,0,Mn.a,[on.a,C.t,C.V],null,null),(n()(),C._55(15,null,["",""])),(n()(),C._55(-1,2,["\n                "])),(n()(),C._55(-1,null,["\n                "])),(n()(),C._26(16777216,null,null,1,null,g)),C._30(19,802816,null,0,wn.j,[C._11,C._6,C.E],{ngForOf:[0,"ngForOf"]},null),(n()(),C._55(-1,null,["\n            "]))],function(n,e){n(e,19,0,e.component.contacts[e.parent.context.$implicit])},function(n,e){var l=e.component;n(e,10,0,C._56(e,10,0,C._44(e,11).transform("addon.messages.type_"+e.parent.context.$implicit)));n(e,15,0,l.contacts[e.parent.context.$implicit].length)})}function v(n){return C._57(0,[(n()(),C._31(0,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),C._30(1,16384,null,0,Dn.a,[on.a,C.t,C.V,bn.a,Rn.l,jn.a],null,null),(n()(),C._55(-1,null,["\n            "])),(n()(),C._26(16777216,null,null,1,null,b)),C._30(4,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,null,["\n        "]))],function(n,e){var l=e.component;n(e,4,0,l.contacts[e.context.$implicit]&&(l.contacts[e.context.$implicit].length>0||e.context.$implicit===l.searchType))},null)}function y(n){return C._57(0,[(n()(),C._31(0,0,null,null,27,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),C._30(1,4374528,null,0,xn.a,[on.a,bn.a,jn.a,C.t,C.V,$n.a,Ln.a,C.M,[2,Tn.a],[2,_n.a]],null,null),(n()(),C._55(-1,1,["\n    "])),(n()(),C._31(3,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,e,l){var t=!0;if("ionRefresh"===e){t=!1!==n.component.refreshData(l)&&t}return t},null,null)),C._30(4,212992,null,0,qn.a,[bn.a,xn.a,C.M,Rn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),C._55(-1,null,["\n        "])),(n()(),C._31(6,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Nn.b,Nn.a)),C._30(7,114688,null,0,An.a,[qn.a,on.a],{pullingText:[0,"pullingText"]},null),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,null,["\n    "])),(n()(),C._55(-1,1,["\n\n    "])),(n()(),C._31(11,0,null,1,2,"core-search-box",[["autocorrect","off"],["lengthCheck","2"],["spellcheck","false"]],null,[[null,"onSubmit"],[null,"onClear"]],function(n,e,l){var t=!0,a=n.component;if("onSubmit"===e){t=!1!==a.search(l)&&t}if("onClear"===e){t=!1!==a.clearSearch(l)&&t}return t},X.b,X.a)),C._30(12,114688,null,0,Y.a,[nn.a,en.a],{placeholder:[0,"placeholder"],autocorrect:[1,"autocorrect"],spellcheck:[2,"spellcheck"],lengthCheck:[3,"lengthCheck"],disabled:[4,"disabled"]},{onSubmit:"onSubmit",onClear:"onClear"}),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,1,["\n\n    "])),(n()(),C._31(15,0,null,1,11,"core-loading",[],null,null,null,Fn.b,Fn.a)),C._30(16,638976,null,0,Wn.a,[nn.a,C.t,j.a,en.a],{hideUntil:[0,"hideUntil"],message:[1,"message"]},null),(n()(),C._55(-1,0,["\n        "])),(n()(),C._26(16777216,null,0,1,null,h)),C._30(19,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,p)),C._30(22,16384,null,0,wn.k,[C._11,C._6],{ngIf:[0,"ngIf"]},null),(n()(),C._55(-1,0,["\n\n        "])),(n()(),C._26(16777216,null,0,1,null,v)),C._30(25,802816,null,0,wn.j,[C._11,C._6,C.E],{ngForOf:[0,"ngForOf"]},null),(n()(),C._55(-1,0,["\n    "])),(n()(),C._55(-1,1,["\n"])),(n()(),C._55(-1,null,["\n"]))],function(n,e){var l=e.component;n(e,4,0,l.loaded);n(e,7,0,C._34(1,"",C._56(e,7,0,C._44(e,8).transform("core.pulltorefresh")),""));n(e,12,0,C._56(e,12,0,C._44(e,13).transform("addon.messages.contactname")),"off","false","2",!l.loaded);n(e,16,0,l.loaded,l.loadingMessage);n(e,19,0,!l.hasContacts&&""==l.searchString);n(e,22,0,!l.hasContacts&&""!=l.searchString);n(e,25,0,l.contactTypes)},function(n,e){n(e,0,0,C._44(e,1).statusbarPadding,C._44(e,1)._hasRefresher);n(e,3,0,"inactive"!==C._44(e,4).state,C._44(e,4)._top);n(e,6,0,C._44(e,7).r.state)})}function I(n){return C._57(0,[(n()(),C._55(-1,null,["\n                    "])),(n()(),C._31(1,0,null,null,1,"addon-messages-discussions",[],null,null,null,_,Kn)),C._30(2,245760,null,0,Gn.a,[j.a,U.a,nn.a,M.a,mn.a,Bn.a,hn.a,bn.a,en.a,Hn.a],null,null),(n()(),C._55(-1,null,["\n                "]))],function(n,e){n(e,2,0)},null)}function O(n){return C._57(0,[(n()(),C._55(-1,null,["\n                    "])),(n()(),C._31(1,0,null,null,1,"addon-messages-contacts",[],null,null,null,y,Jn)),C._30(2,245760,null,0,zn.a,[U.a,nn.a,hn.a,M.a,mn.a,Bn.a,j.a],null,null),(n()(),C._55(-1,null,["\n                "]))],function(n,e){n(e,2,0)},null)}function x(n){return C._57(0,[C._52(402653184,1,{splitviewCtrl:0}),C._52(402653184,2,{tabsComponent:0}),(n()(),C._31(2,0,null,null,21,"ion-header",[],null,null,null,null,null)),C._30(3,16384,null,0,Zn.a,[on.a,C.t,C.V,[2,Tn.a]],null,null),(n()(),C._55(-1,null,["\n    "])),(n()(),C._31(5,0,null,null,17,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Qn.b,Qn.a)),C._30(6,49152,null,0,Xn.a,[$n.a,[2,Tn.a],[2,_n.a],on.a,C.t,C.V],null,null),C._30(7,212992,null,0,Yn.a,[Xn.a,bn.a,nn.a,j.a],null,null),(n()(),C._55(-1,3,["\n        "])),(n()(),C._31(9,0,null,3,3,"ion-title",[],null,null,null,ne.b,ne.a)),C._30(10,49152,null,0,ee.a,[on.a,C.t,C.V,[2,le.a],[2,Xn.a]],null,null),(n()(),C._55(11,0,["",""])),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,3,["\n        "])),(n()(),C._31(14,0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),C._30(15,16384,null,1,te.a,[on.a,C.t,C.V,[2,le.a],[2,Xn.a]],null,null),C._52(603979776,3,{_buttons:1}),(n()(),C._55(-1,null,["\n            "])),(n()(),C._55(-1,null,["\n            "])),(n()(),C._31(19,0,null,null,1,"core-context-menu",[],null,null,null,ae.b,ae.a)),C._30(20,245760,null,0,se.a,[nn.a,oe.a,C.t,mn.a,[2,ie.a],en.a],null,null),(n()(),C._55(-1,null,["\n        "])),(n()(),C._55(-1,3,["\n    "])),(n()(),C._55(-1,null,["\n"])),(n()(),C._55(-1,null,["\n"])),(n()(),C._31(25,0,null,null,28,"core-split-view",[],null,null,null,ue.b,ue.a)),C._30(26,245760,[[1,4]],0,w.a,[[2,_n.a],C.t,re.a,bn.a,nn.a],null,null),(n()(),C._55(-1,0,["\n    "])),(n()(),C._31(28,0,null,0,24,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),C._30(29,4374528,null,0,xn.a,[on.a,bn.a,jn.a,C.t,C.V,$n.a,Ln.a,C.M,[2,Tn.a],[2,_n.a]],null,null),(n()(),C._55(-1,1,["\n        "])),(n()(),C._31(31,0,null,1,20,"core-tabs",[],null,null,null,ce.b,ce.a)),C._30(32,4964352,[[2,4]],0,P.a,[C.t,xn.a,mn.a,hn.a,bn.a,nn.a],null,null),(n()(),C._55(-1,0,["\n            "])),(n()(),C._31(34,0,null,0,7,"core-tab",[["icon","chatbubbles"]],null,null,null,de.b,de.a)),C._30(35,245760,null,2,ie.a,[P.a,C.t,mn.a,en.a],{title:[0,"title"],icon:[1,"icon"]},null),C._52(335544320,4,{template:0}),C._52(335544320,5,{scroll:0}),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,null,["\n                "])),(n()(),C._26(0,[[4,2]],null,0,null,I)),(n()(),C._55(-1,null,["\n            "])),(n()(),C._55(-1,0,["\n            "])),(n()(),C._31(43,0,null,0,7,"core-tab",[["icon","person"]],null,null,null,de.b,de.a)),C._30(44,245760,null,2,ie.a,[P.a,C.t,mn.a,en.a],{title:[0,"title"],icon:[1,"icon"]},null),C._52(335544320,6,{template:0}),C._52(335544320,7,{scroll:0}),C._47(131072,ln.a,[nn.a,C.j]),(n()(),C._55(-1,null,["\n                "])),(n()(),C._26(0,[[6,2]],null,0,null,O)),(n()(),C._55(-1,null,["\n            "])),(n()(),C._55(-1,0,["\n        "])),(n()(),C._55(-1,1,["\n    "])),(n()(),C._55(-1,0,["\n"]))],function(n,e){n(e,7,0),n(e,20,0),n(e,26,0),n(e,32,0);n(e,35,0,C._56(e,35,0,C._44(e,38).transform("addon.messages.messages")),"chatbubbles");n(e,44,0,C._56(e,44,0,C._44(e,47).transform("addon.messages.contacts")),"person")},function(n,e){n(e,5,0,C._44(e,6)._hidden,C._44(e,6)._sbPadding);n(e,11,0,C._56(e,11,0,C._44(e,12).transform("addon.messages.messages")));n(e,28,0,C._44(e,29).statusbarPadding,C._44(e,29)._hasRefresher)})}Object.defineProperty(e,"__esModule",{value:!0});var C=l(0),D=l(8),R=l(3),j=l(12),U=l(1),M=l(148),w=l(34),P=l(150),S=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},E=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},k=function(){function n(n,e){var l=this;this.siteId=e.getCurrentSiteId(),this.loadSplitViewObserver=n.on(M.a.SPLIT_VIEW_LOAD_EVENT,function(n){!n.discussion||!l.splitviewCtrl.isOn()&&n.onlyWithSplitView||l.gotoDiscussion(n.discussion,n.message)},this.siteId)}return n.prototype.gotoDiscussion=function(n,e){var l={userId:n};e&&(l.message=e),this.splitviewCtrl.push("AddonMessagesDiscussionPage",l)},n.prototype.ionViewDidEnter=function(){this.tabsComponent&&this.tabsComponent.ionViewDidEnter()},n.prototype.ionViewDidLeave=function(){this.tabsComponent&&this.tabsComponent.ionViewDidLeave()},n.prototype.ngOnDestroy=function(){this.loadSplitViewObserver&&this.loadSplitViewObserver.off()},S([Object(C._9)(w.a),E("design:type",w.a)],n.prototype,"splitviewCtrl",void 0),S([Object(C._9)(P.a),E("design:type",P.a)],n.prototype,"tabsComponent",void 0),n=S([Object(C.m)({selector:"page-addon-messages-index",templateUrl:"index.html"}),E("design:paramtypes",[j.a,U.a])],n)}(),V=l(24),$=l(29),L=l(1983),T=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},q=function(){function n(){}return n=T([Object(C.I)({declarations:[k],imports:[V.a,$.a,L.a,D.l.forChild(k),R.b.forChild()]})],n)}(),N=l(1365),A=l(1366),F=l(1367),W=l(1368),G=l(1369),B=l(1370),H=l(1371),K=l(1372),z=l(1373),J=l(1376),Z=l(1377),Q=l(1378),X=l(1397),Y=l(460),nn=l(18),en=l(2),ln=l(27),tn=l(30),an=l(20),sn=l(19),on=l(6),un=l(28),rn=l(33),cn=l(208),dn=l(179),fn=l(180),_n=l(21),hn=l(9),pn=l(41),mn=l(4),gn=l(10),bn=l(14),vn=l(26),yn=l(5),In=l(16),On=l(17),xn=l(25),Cn=l(36),Dn=l(87),Rn=l(38),jn=l(31),Un=l(111),Mn=l(209),wn=l(7),Pn=l(116),Sn=l(105),En=l(287),kn=l(23),Vn=l(178),$n=l(32),Ln=l(104),Tn=l(37),qn=l(140),Nn=l(195),An=l(146),Fn=l(49),Wn=l(48),Gn=l(1984),Bn=l(63),Hn=l(235),Kn=C._29({encapsulation:2,styles:[],data:{}}),zn=(C._27("addon-messages-discussions",Gn.a,function(n){return C._57(0,[(n()(),C._31(0,0,null,null,1,"addon-messages-discussions",[],null,null,null,_,Kn)),C._30(1,245760,null,0,Gn.a,[j.a,U.a,nn.a,M.a,mn.a,Bn.a,hn.a,bn.a,en.a,Hn.a],null,null)],function(n,e){n(e,1,0)},null)},{},{},[]),l(1987)),Jn=C._29({encapsulation:2,styles:[],data:{}}),Zn=(C._27("addon-messages-contacts",zn.a,function(n){return C._57(0,[(n()(),C._31(0,0,null,null,1,"addon-messages-contacts",[],null,null,null,y,Jn)),C._30(1,245760,null,0,zn.a,[U.a,nn.a,hn.a,M.a,mn.a,Bn.a,j.a],null,null)],function(n,e){n(e,1,0)},null)},{},{},[]),l(447)),Qn=l(1374),Xn=l(207),Yn=l(676),ne=l(1375),ee=l(350),le=l(253),te=l(448),ae=l(81),se=l(70),oe=l(65),ie=l(69),ue=l(449),re=l(66),ce=l(452),de=l(453),fe=C._29({encapsulation:2,styles:[],data:{}}),_e=C._27("page-addon-messages-index",k,function(n){return C._57(0,[(n()(),C._31(0,0,null,null,1,"page-addon-messages-index",[],null,null,null,x,fe)),C._30(1,180224,null,0,k,[j.a,U.a],null,null)],null,null)},{},{},[]),he=l(22),pe=l(346),me=l(347),ge=l(349),be=l(348),ve=l(446),ye=l(675),Ie=l(103),Oe=l(254);l.d(e,"AddonMessagesIndexPageModuleNgFactory",function(){return xe});var xe=C._28(q,[],function(n){return C._40([C._41(512,C.o,C._21,[[8,[N.a,A.a,F.a,W.a,G.a,B.a,H.a,K.a,z.a,J.a,Z.a,Q.a,_e]],[3,C.o],C.K]),C._41(4608,wn.m,wn.l,[C.G,[2,wn.v]]),C._41(4608,he.x,he.x,[]),C._41(4608,he.d,he.d,[]),C._41(4608,pe.b,pe.a,[]),C._41(4608,me.a,me.b,[]),C._41(4608,ge.b,ge.a,[]),C._41(4608,be.b,be.a,[]),C._41(4608,nn.a,nn.a,[ve.a,pe.b,me.a,ge.b,be.b,nn.b,nn.c]),C._41(512,wn.b,wn.b,[]),C._41(512,he.v,he.v,[]),C._41(512,he.i,he.i,[]),C._41(512,he.s,he.s,[]),C._41(512,ye.a,ye.a,[]),C._41(512,R.b,R.b,[]),C._41(512,$.a,$.a,[]),C._41(512,Ie.a,Ie.a,[]),C._41(512,V.a,V.a,[]),C._41(512,L.a,L.a,[]),C._41(512,ye.b,ye.b,[]),C._41(512,q,q,[]),C._41(256,nn.c,void 0,[]),C._41(256,nn.b,void 0,[]),C._41(256,Oe.a,k,[])])})},1983:function(n,e,l){"use strict";l.d(e,"a",function(){return p});var t=l(0),a=l(7),s=l(8),o=l(3),i=l(24),u=l(29),r=l(103),c=l(1984),d=l(1985),f=l(1986),_=l(1987),h=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},p=function(){function n(){}return n=h([Object(t.I)({declarations:[c.a,d.a,f.a,_.a],imports:[a.b,s.k,o.b.forChild(),i.a,u.a,r.a],providers:[],exports:[c.a,d.a,f.a,_.a]})],n)}()},1984:function(n,e,l){"use strict";l.d(e,"a",function(){return p});var t=l(0),a=l(8),s=l(3),o=l(12),i=l(1),u=l(148),r=l(4),c=l(2),d=l(9),f=l(235),_=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},h=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},p=function(){function n(n,e,l,t,a,s,o,i,r,c){var d=this;this.eventsProvider=n,this.messagesProvider=t,this.domUtils=a,this.appProvider=o,this.utils=r,this.loaded=!1,this.search={enabled:!1,showResults:!1,results:[],loading:"",text:""},this.search.loading=l.instant("core.searching"),this.loadingMessages=l.instant("core.loading"),this.siteId=e.getCurrentSiteId(),this.newMessagesObserver=n.on(u.a.NEW_MESSAGE_EVENT,function(n){if(n.userId&&d.discussions){var e=d.discussions.find(function(e){return e.message.user==n.userId});void 0===e?(d.loaded=!1,d.refreshData().finally(function(){d.loaded=!0})):(e.message.message=n.message,e.message.timecreated=n.timecreated)}},this.siteId),this.readChangedObserver=n.on(u.a.READ_CHANGED_EVENT,function(n){if(n.userId&&d.discussions){var e=d.discussions.find(function(e){return e.message.user==n.userId});void 0!==e&&(e.unread=!1,d.messagesProvider.invalidateConversations(d.siteId),d.messagesProvider.refreshUnreadConversationCounts(d.siteId))}},this.siteId),this.appResumeSubscription=i.resume.subscribe(function(){d.loaded&&(d.loaded=!1,d.refreshData())}),this.discussionUserId=s.get("discussionUserId")||!1,this.pushObserver=c.on("receive").subscribe(function(n){r.isFalseOrZero(n.notif)&&n.site==d.siteId&&d.refreshData(null,!1)})}return n.prototype.ngOnInit=function(){var n=this;this.discussionUserId&&this.gotoDiscussion(this.discussionUserId),this.fetchData().then(function(){!n.discussionUserId&&n.discussions.length>0&&n.gotoDiscussion(n.discussions[0].message.user,void 0,!0)})},n.prototype.refreshData=function(n,e){var l=this;void 0===e&&(e=!0);var t=[];return t.push(this.messagesProvider.invalidateDiscussionsCache(this.siteId)),e&&t.push(this.messagesProvider.invalidateUnreadConversationCounts(this.siteId)),this.utils.allPromises(t).finally(function(){return l.fetchData().finally(function(){n&&n.complete()})})},n.prototype.fetchData=function(){var n=this;this.loadingMessage=this.loadingMessages,this.search.enabled=this.messagesProvider.isSearchMessagesEnabled();var e=[];return e.push(this.messagesProvider.getDiscussions(this.siteId).then(function(e){var l=[];for(var t in e)e[t].unread=!!e[t].unread,l.push(e[t]);n.discussions=l.sort(function(n,e){return e.message.timecreated-n.message.timecreated})})),e.push(this.messagesProvider.getUnreadConversationCounts(this.siteId)),Promise.all(e).catch(function(e){n.domUtils.showErrorModalDefault(e,"addon.messages.errorwhileretrievingdiscussions",!0)}).finally(function(){n.loaded=!0})},n.prototype.clearSearch=function(){var n=this;this.loaded=!1,this.search.showResults=!1,this.search.text="",this.fetchData().finally(function(){n.loaded=!0})},n.prototype.searchMessage=function(n){var e=this;return this.appProvider.closeKeyboard(),this.loaded=!1,this.loadingMessage=this.search.loading,this.messagesProvider.searchMessages(n,void 0,void 0,void 0,this.siteId).then(function(n){e.search.showResults=!0,e.search.results=n.messages}).catch(function(n){e.domUtils.showErrorModalDefault(n,"addon.messages.errorwhileretrievingmessages",!0)}).finally(function(){e.loaded=!0})},n.prototype.gotoDiscussion=function(n,e,l){void 0===l&&(l=!1),this.discussionUserId=n;var t={discussion:n,onlyWithSplitView:l};e&&(t.message=e),this.eventsProvider.trigger(u.a.SPLIT_VIEW_LOAD_EVENT,t,this.siteId)},n.prototype.ngOnDestroy=function(){this.newMessagesObserver&&this.newMessagesObserver.off(),this.readChangedObserver&&this.readChangedObserver.off(),this.cronObserver&&this.cronObserver.off(),this.appResumeSubscription&&this.appResumeSubscription.unsubscribe(),this.pushObserver&&this.pushObserver.unsubscribe()},n=_([Object(t.m)({selector:"addon-messages-discussions",templateUrl:"addon-messages-discussions.html"}),h("design:paramtypes",[o.a,i.a,s.c,u.a,r.a,a.t,d.a,a.v,c.a,f.a])],n)}()},1985:function(n,e,l){"use strict";l.d(e,"a",function(){return d});var t=l(0),a=l(8),s=l(12),o=l(1),i=l(148),u=l(4),r=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},c=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},d=function(){function n(n,e,l,a){var s=this;this.domUtils=n,this.messagesProvider=a,this.onUserSelected=new t.v,this.loaded=!1,this.canLoadMore=!1,this.loadMoreError=!1,this.contacts=[],this.onUserSelected=new t.v,this.memberInfoObserver=e.on(i.a.MEMBER_INFO_CHANGED_EVENT,function(n){if(n.userBlocked||n.userUnblocked){var e=s.contacts.find(function(e){return e.id==n.userId});e&&(e.isblocked=n.userBlocked)}else if(n.contactRemoved){var l=s.contacts.findIndex(function(e){return e.id==n.userId});l>=0&&s.contacts.splice(l,1)}else n.contactRequestConfirmed&&s.refreshData()},l.getCurrentSiteId())}return n.prototype.ngOnInit=function(){var n=this;this.fetchData().then(function(){n.contacts.length&&n.selectUser(n.contacts[0].id,!0)}).finally(function(){n.loaded=!0}),this.content.resize()},n.prototype.fetchData=function(n){var e=this;void 0===n&&(n=!1),this.loadMoreError=!1;var l=n?0:this.contacts.length;return(0===l?this.messagesProvider.invalidateUserContacts().catch(function(){}):Promise.resolve()).then(function(){return e.messagesProvider.getUserContacts(l)}).then(function(l){e.contacts=n?l.contacts:e.contacts.concat(l.contacts),e.canLoadMore=l.canLoadMore}).catch(function(n){e.loadMoreError=!0,e.domUtils.showErrorModalDefault(n,"addon.messages.errorwhileretrievingcontacts",!0)})},n.prototype.refreshData=function(n){return this.fetchData(!0).finally(function(){n&&n.complete()})},n.prototype.loadMore=function(n){return this.fetchData().finally(function(){n&&n()})},n.prototype.selectUser=function(n,e){void 0===e&&(e=!1),this.selectedUserId=n,this.onUserSelected.emit({userId:n,onInit:e})},n.prototype.ngOnDestroy=function(){this.memberInfoObserver&&this.memberInfoObserver.off()},r([Object(t.O)(),c("design:type",Object)],n.prototype,"onUserSelected",void 0),r([Object(t._9)(a.f),c("design:type",a.f)],n.prototype,"content",void 0),n=r([Object(t.m)({selector:"addon-messages-confirmed-contacts",templateUrl:"addon-messages-confirmed-contacts.html"}),c("design:paramtypes",[u.a,s.a,o.a,i.a])],n)}()},1986:function(n,e,l){"use strict";l.d(e,"a",function(){return d});var t=l(0),a=l(8),s=l(12),o=l(1),i=l(148),u=l(4),r=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},c=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},d=function(){function n(n,e,l,a){var s=this;this.domUtils=n,this.messagesProvider=a,this.onUserSelected=new t.v,this.loaded=!1,this.canLoadMore=!1,this.loadMoreError=!1,this.requests=[],this.memberInfoObserver=e.on(i.a.MEMBER_INFO_CHANGED_EVENT,function(n){if(n.contactRequestConfirmed||n.contactRequestDeclined){var e=s.requests.findIndex(function(e){return e.id==n.userId});e>=0&&s.requests.splice(e,1)}},l.getCurrentSiteId())}return n.prototype.ngOnInit=function(){var n=this;this.fetchData().then(function(){n.requests.length&&n.selectUser(n.requests[0].id,!0)}).finally(function(){n.loaded=!0}),this.content.resize()},n.prototype.fetchData=function(n){var e=this;void 0===n&&(n=!1),this.loadMoreError=!1;var l=n?0:this.requests.length;return(0===l?this.messagesProvider.invalidateContactRequestsCache().catch(function(){}):Promise.resolve()).then(function(){return e.messagesProvider.getContactRequests(l)}).then(function(l){e.requests=n?l.requests:e.requests.concat(l.requests),e.canLoadMore=l.canLoadMore}).catch(function(n){e.loadMoreError=!0,e.domUtils.showErrorModalDefault(n,"addon.messages.errorwhileretrievingcontacts",!0)})},n.prototype.refreshData=function(n){return this.messagesProvider.refreshContactRequestsCount(),this.fetchData(!0).finally(function(){n&&n.complete()})},n.prototype.loadMore=function(n){return this.fetchData().finally(function(){n&&n()})},n.prototype.selectUser=function(n,e){void 0===e&&(e=!1),this.selectedUserId=n,this.onUserSelected.emit({userId:n,onInit:e})},n.prototype.ngOnDestroy=function(){this.memberInfoObserver&&this.memberInfoObserver.off()},r([Object(t.O)(),c("design:type",Object)],n.prototype,"onUserSelected",void 0),r([Object(t._9)(a.f),c("design:type",a.f)],n.prototype,"content",void 0),n=r([Object(t.m)({selector:"addon-messages-contact-requests",templateUrl:"addon-messages-contact-requests.html"}),c("design:paramtypes",[u.a,s.a,o.a,i.a])],n)}()},1987:function(n,e,l){"use strict";l.d(e,"a",function(){return _});var t=l(0),a=l(8),s=l(3),o=l(1),i=l(148),u=l(4),r=l(9),c=l(12),d=this&&this.__decorate||function(n,e,l,t){var a,s=arguments.length,o=s<3?e:null===t?t=Object.getOwnPropertyDescriptor(e,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,e,l,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(s<3?a(o):s>3?a(e,l,o):a(e,l))||o);return s>3&&o&&Object.defineProperty(e,l,o),o},f=this&&this.__metadata||function(n,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,e)},_=function(){function n(n,e,l,t,a,s,o){var u=this;this.appProvider=l,this.messagesProvider=t,this.domUtils=a,this.eventsProvider=o,this.noSearchTypes=["online","offline","blocked","strangers"],this.loaded=!1,this.contactTypes=this.noSearchTypes,this.searchType="search",this.loadingMessage="",this.hasContacts=!1,this.contacts={search:[]},this.searchString="",this.currentUserId=n.getCurrentSiteUserId(),this.siteId=n.getCurrentSiteId(),this.searchingMessages=e.instant("core.searching"),this.loadingMessages=e.instant("core.loading"),this.loadingMessage=this.loadingMessages,this.discussionUserId=s.get("discussionUserId")||!1,this.memberInfoObserver=o.on(i.a.MEMBER_INFO_CHANGED_EVENT,function(n){n.contactRequestConfirmed&&u.refreshData()},n.getCurrentSiteId())}return n.prototype.ngOnInit=function(){var n=this;this.discussionUserId&&this.gotoDiscussion(this.discussionUserId),this.fetchData().then(function(){if(!n.discussionUserId&&n.hasContacts){var e=void 0;for(var l in n.contacts)if(n.contacts[l].length>0){e=n.contacts[l][0];break}e&&n.gotoDiscussion(e.id,!0)}}).finally(function(){n.loaded=!0})},n.prototype.refreshData=function(n){var e=this;return(this.searchString?this.performSearch(this.searchString):this.messagesProvider.invalidateAllContactsCache(this.currentUserId).then(function(){return e.fetchData()})).finally(function(){n.complete()})},n.prototype.fetchData=function(){var n=this;return this.loadingMessage=this.loadingMessages,this.messagesProvider.getAllContacts().then(function(e){for(var l in e)n.contacts[l]=e[l].length>0?n.sortUsers(e[l]):[];n.clearSearch()}).catch(function(e){n.domUtils.showErrorModalDefault(e,"addon.messages.errorwhileretrievingcontacts",!0)})},n.prototype.sortUsers=function(n){return n.sort(function(n,e){var l=n.fullname.toLowerCase(),t=e.fullname.toLowerCase();return l.localeCompare(t)})},n.prototype.clearSearch=function(){this.searchString="",this.contactTypes=this.noSearchTypes,this.hasContacts=!1;for(var n in this.contacts)if(this.contacts[n].length>0)return void(this.hasContacts=!0)},n.prototype.search=function(n){var e=this;return this.appProvider.closeKeyboard(),this.loaded=!1,this.loadingMessage=this.searchingMessages,this.performSearch(n).finally(function(){e.loaded=!0})},n.prototype.performSearch=function(n){var e=this;return this.messagesProvider.searchContacts(n).then(function(l){e.hasContacts=l.length>0,e.searchString=n,e.contactTypes=["search"],e.contacts.search=e.sortUsers(l)}).catch(function(n){e.domUtils.showErrorModalDefault(n,"addon.messages.errorwhileretrievingcontacts",!0)})},n.prototype.gotoDiscussion=function(n,e){void 0===e&&(e=!1),this.discussionUserId=n;this.eventsProvider.trigger(i.a.SPLIT_VIEW_LOAD_EVENT,{discussion:n,onlyWithSplitView:e},this.siteId)},n.prototype.ngOnDestroy=function(){this.memberInfoObserver&&this.memberInfoObserver.off()},n=d([Object(t.m)({selector:"addon-messages-contacts",templateUrl:"addon-messages-contacts.html"}),f("design:paramtypes",[o.a,s.c,r.a,i.a,u.a,a.t,c.a])],n)}()}});
+webpackJsonp([2],{
+
+/***/ 1863:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesIndexPageModule", function() { return AddonMessagesIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index__ = __webpack_require__(1998);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1978);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonMessagesIndexPageModule = /** @class */ (function () {
+    function AddonMessagesIndexPageModule() {
+    }
+    AddonMessagesIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__index__["a" /* AddonMessagesIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonMessagesComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__index__["a" /* AddonMessagesIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonMessagesIndexPageModule);
+    return AddonMessagesIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1978:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesComponentsModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(1979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__ = __webpack_require__(1980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__ = __webpack_require__(1981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__ = __webpack_require__(1982);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+var AddonMessagesComponentsModule = /** @class */ (function () {
+    function AddonMessagesComponentsModule() {
+    }
+    AddonMessagesComponentsModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__["a" /* AddonMessagesConfirmedContactsComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__["a" /* AddonMessagesContactRequestsComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */],
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */]
+            ],
+            providers: [],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__["a" /* AddonMessagesConfirmedContactsComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__["a" /* AddonMessagesContactRequestsComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
+            ]
+        })
+    ], AddonMessagesComponentsModule);
+    return AddonMessagesComponentsModule;
+}());
+
+//# sourceMappingURL=components.module.js.map
+
+/***/ }),
+
+/***/ 1979:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__ = __webpack_require__(157);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+/**
+ * Component that displays the list of discussions.
+ */
+var AddonMessagesDiscussionsComponent = /** @class */ (function () {
+    function AddonMessagesDiscussionsComponent(eventsProvider, sitesProvider, translate, messagesProvider, domUtils, navParams, appProvider, platform, utils, pushNotificationsDelegate) {
+        var _this = this;
+        this.eventsProvider = eventsProvider;
+        this.messagesProvider = messagesProvider;
+        this.domUtils = domUtils;
+        this.appProvider = appProvider;
+        this.utils = utils;
+        this.loaded = false;
+        this.search = {
+            enabled: false,
+            showResults: false,
+            results: [],
+            loading: '',
+            text: ''
+        };
+        this.search.loading = translate.instant('core.searching');
+        this.loadingMessages = translate.instant('core.loading');
+        this.siteId = sitesProvider.getCurrentSiteId();
+        // Update discussions when new message is received.
+        this.newMessagesObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, function (data) {
+            if (data.userId && _this.discussions) {
+                var discussion = _this.discussions.find(function (disc) {
+                    return disc.message.user == data.userId;
+                });
+                if (typeof discussion == 'undefined') {
+                    _this.loaded = false;
+                    _this.refreshData().finally(function () {
+                        _this.loaded = true;
+                    });
+                }
+                else {
+                    // An existing discussion has a new message, update the last message.
+                    discussion.message.message = data.message;
+                    discussion.message.timecreated = data.timecreated;
+                }
+            }
+        }, this.siteId);
+        // Update discussions when a message is read.
+        this.readChangedObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, function (data) {
+            if (data.userId && _this.discussions) {
+                var discussion = _this.discussions.find(function (disc) {
+                    return disc.message.user == data.userId;
+                });
+                if (typeof discussion != 'undefined') {
+                    // A discussion has been read reset counter.
+                    discussion.unread = false;
+                    // Conversations changed, invalidate them and refresh unread counts.
+                    _this.messagesProvider.invalidateConversations(_this.siteId);
+                    _this.messagesProvider.refreshUnreadConversationCounts(_this.siteId);
+                }
+            }
+        }, this.siteId);
+        // Refresh the view when the app is resumed.
+        this.appResumeSubscription = platform.resume.subscribe(function () {
+            if (!_this.loaded) {
+                return;
+            }
+            _this.loaded = false;
+            _this.refreshData();
+        });
+        this.discussionUserId = navParams.get('discussionUserId') || false;
+        // If a message push notification is received, refresh the view.
+        this.pushObserver = pushNotificationsDelegate.on('receive').subscribe(function (notification) {
+            // New message received. If it's from current site, refresh the data.
+            if (utils.isFalseOrZero(notification.notif) && notification.site == _this.siteId) {
+                // Don't refresh unread counts, it's refreshed from the main menu handler in this case.
+                _this.refreshData(null, false);
+            }
+        });
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesDiscussionsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        if (this.discussionUserId) {
+            // There is a discussion to load, open the discussion in a new state.
+            this.gotoDiscussion(this.discussionUserId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.discussionUserId && _this.discussions.length > 0) {
+                // Take first and load it.
+                _this.gotoDiscussion(_this.discussions[0].message.user, undefined, true);
+            }
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @param {boolean} [refreshUnreadCounts=true] Whteher to refresh unread counts.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesDiscussionsComponent.prototype.refreshData = function (refresher, refreshUnreadCounts) {
+        var _this = this;
+        if (refreshUnreadCounts === void 0) { refreshUnreadCounts = true; }
+        var promises = [];
+        promises.push(this.messagesProvider.invalidateDiscussionsCache(this.siteId));
+        if (refreshUnreadCounts) {
+            promises.push(this.messagesProvider.invalidateUnreadConversationCounts(this.siteId));
+        }
+        return this.utils.allPromises(promises).finally(function () {
+            return _this.fetchData().finally(function () {
+                if (refresher) {
+                    refresher.complete();
+                }
+            });
+        });
+    };
+    /**
+     * Fetch discussions.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesDiscussionsComponent.prototype.fetchData = function () {
+        var _this = this;
+        this.loadingMessage = this.loadingMessages;
+        this.search.enabled = this.messagesProvider.isSearchMessagesEnabled();
+        var promises = [];
+        promises.push(this.messagesProvider.getDiscussions(this.siteId).then(function (discussions) {
+            // Convert to an array for sorting.
+            var discussionsSorted = [];
+            for (var userId in discussions) {
+                discussions[userId].unread = !!discussions[userId].unread;
+                discussionsSorted.push(discussions[userId]);
+            }
+            _this.discussions = discussionsSorted.sort(function (a, b) {
+                return b.message.timecreated - a.message.timecreated;
+            });
+        }));
+        promises.push(this.messagesProvider.getUnreadConversationCounts(this.siteId));
+        return Promise.all(promises).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingdiscussions', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Clear search and show discussions again.
+     */
+    AddonMessagesDiscussionsComponent.prototype.clearSearch = function () {
+        var _this = this;
+        this.loaded = false;
+        this.search.showResults = false;
+        this.search.text = ''; // Reset searched string.
+        this.fetchData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Search messages cotaining text.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesDiscussionsComponent.prototype.searchMessage = function (query) {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        this.loaded = false;
+        this.loadingMessage = this.search.loading;
+        return this.messagesProvider.searchMessages(query, undefined, undefined, undefined, this.siteId).then(function (searchResults) {
+            _this.search.showResults = true;
+            _this.search.results = searchResults.messages;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Navigate to a particular discussion.
+     *
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {number} [messageId]      Message to scroll after loading the discussion. Used when searching.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
+     */
+    AddonMessagesDiscussionsComponent.prototype.gotoDiscussion = function (discussionUserId, messageId, onlyWithSplitView) {
+        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
+        this.discussionUserId = discussionUserId;
+        var params = {
+            discussion: discussionUserId,
+            onlyWithSplitView: onlyWithSplitView
+        };
+        if (messageId) {
+            params['message'] = messageId;
+        }
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
+    };
+    /**
+     * Component destroyed.
+     */
+    AddonMessagesDiscussionsComponent.prototype.ngOnDestroy = function () {
+        this.newMessagesObserver && this.newMessagesObserver.off();
+        this.readChangedObserver && this.readChangedObserver.off();
+        this.cronObserver && this.cronObserver.off();
+        this.appResumeSubscription && this.appResumeSubscription.unsubscribe();
+        this.pushObserver && this.pushObserver.unsubscribe();
+    };
+    AddonMessagesDiscussionsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-discussions',template:/*ion-inline-start:"D:\akaal\src\addon\messages\components\discussions\addon-messages-discussions.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-search-box *ngIf="search.enabled" (onSubmit)="searchMessage($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.message\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n        <ion-list *ngIf="search.showResults" no-margin>\n            <ion-item-divider>\n                <h2>{{ \'core.searchresults\' | translate }}</h2>\n                <ion-note item-end>{{ search.results.length }}</ion-note>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngFor="let result of search.results" [title]="result.fullname" (click)="gotoDiscussion(result.userid, result.messageid)" [class.core-split-item-selected]="result.userid == discussionUserId" class="addon-message-discussion">\n                <ion-avatar core-user-avatar [user]="result" item-start [checkOnline]="result.showonlinestatus"></ion-avatar>\n                <h2><core-format-text [text]="result.fullname"></core-format-text></h2>\n                <p><core-format-text clean="true" singleLine="true" [text]="result.lastmessage"></core-format-text></p>\n            </a>\n        </ion-list>\n\n        <ion-list *ngIf="!search.showResults" no-margin>\n            <a ion-item text-wrap *ngFor="let discussion of discussions" [title]="discussion.fullname" (click)="gotoDiscussion(discussion.message.user)" [class.core-split-item-selected]="discussion.message.user == discussionUserId" class="addon-message-discussion">\n                <ion-avatar core-user-avatar [user]="discussion" item-start [checkOnline]="discussion.showonlinestatus"></ion-avatar>\n                <h2>\n                    <core-format-text [text]="discussion.fullname"></core-format-text>\n                </h2>\n                <ion-note *ngIf="discussion.message.timecreated > 0 || discussion.unread">\n                    <span *ngIf="discussion.unread" class="core-primary-circle"></span>\n                    <span *ngIf="discussion.message.timecreated > 0">{{discussion.message.timecreated / 1000 | coreDateDayOrTime}}</span>\n                </ion-note>\n                <p><core-format-text clean="true" singleLine="true" [text]="discussion.message.message"></core-format-text></p>\n            </a>\n        </ion-list>\n\n        <core-empty-box *ngIf="(!discussions || discussions.length <= 0) && !search.showResults" icon="chatbubbles" [message]="\'addon.messages.nomessagesfound\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="(!search.results || search.results.length <= 0) && search.showResults" icon="search" [message]="\'core.noresults\' | translate"></core-empty-box>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\messages\components\discussions\addon-messages-discussions.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["v" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]])
+    ], AddonMessagesDiscussionsComponent);
+    return AddonMessagesDiscussionsComponent;
+}());
+
+//# sourceMappingURL=discussions.js.map
+
+/***/ }),
+
+/***/ 1980:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesConfirmedContactsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Component that displays the list of confirmed contacts.
+ */
+var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
+    function AddonMessagesConfirmedContactsComponent(domUtils, eventsProvider, sitesProvider, messagesProvider) {
+        var _this = this;
+        this.domUtils = domUtils;
+        this.messagesProvider = messagesProvider;
+        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
+        this.loaded = false;
+        this.canLoadMore = false;
+        this.loadMoreError = false;
+        this.contacts = [];
+        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
+        // Update block status of a user.
+        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
+            if (data.userBlocked || data.userUnblocked) {
+                var user = _this.contacts.find(function (user) { return user.id == data.userId; });
+                if (user) {
+                    user.isblocked = data.userBlocked;
+                }
+            }
+            else if (data.contactRemoved) {
+                var index = _this.contacts.findIndex(function (contact) { return contact.id == data.userId; });
+                if (index >= 0) {
+                    _this.contacts.splice(index, 1);
+                }
+            }
+            else if (data.contactRequestConfirmed) {
+                _this.refreshData();
+            }
+        }, sitesProvider.getCurrentSiteId());
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            if (_this.contacts.length) {
+                _this.selectUser(_this.contacts[0].id, true);
+            }
+        }).finally(function () {
+            _this.loaded = true;
+        });
+        // Workaround for infinite scrolling.
+        this.content.resize();
+    };
+    /**
+     * Fetch contacts.
+     *
+     * @param {boolean} [refresh=false] True if we are refreshing contacts, false if we are loading more.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.loadMoreError = false;
+        var limitFrom = refresh ? 0 : this.contacts.length;
+        var promise;
+        if (limitFrom === 0) {
+            // Always try to get latest data from server.
+            promise = this.messagesProvider.invalidateUserContacts().catch(function () {
+                // Shouldn't happen.
+            });
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            return _this.messagesProvider.getUserContacts(limitFrom);
+        }).then(function (result) {
+            _this.contacts = refresh ? result.contacts : _this.contacts.concat(result.contacts);
+            _this.canLoadMore = result.canLoadMore;
+        }).catch(function (error) {
+            _this.loadMoreError = true;
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Refresh contacts.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.refreshData = function (refresher) {
+        // No need to invalidate contacts, we always try to get the latest.
+        return this.fetchData(true).finally(function () {
+            refresher && refresher.complete();
+        });
+    };
+    /**
+     * Load more contacts.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.loadMore = function (infiniteComplete) {
+        return this.fetchData().finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
+    };
+    /**
+     * Notify that a contact has been selected.
+     *
+     * @param {number} userId User id.
+     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.selectUser = function (userId, onInit) {
+        if (onInit === void 0) { onInit = false; }
+        this.selectedUserId = userId;
+        this.onUserSelected.emit({ userId: userId, onInit: onInit });
+    };
+    /**
+     * Component destroyed.
+     */
+    AddonMessagesConfirmedContactsComponent.prototype.ngOnDestroy = function () {
+        this.memberInfoObserver && this.memberInfoObserver.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Output */])(),
+        __metadata("design:type", Object)
+    ], AddonMessagesConfirmedContactsComponent.prototype, "onUserSelected", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonMessagesConfirmedContactsComponent.prototype, "content", void 0);
+    AddonMessagesConfirmedContactsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-confirmed-contacts',template:/*ion-inline-start:"D:\akaal\src\addon\messages\components\confirmed-contacts\addon-messages-confirmed-contacts.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded" class="core-loading-center">\n        <ion-list no-margin>\n            <a ion-item text-wrap *ngFor="let contact of contacts" [title]="contact.fullname" (click)="selectUser(contact.id)" [class.core-split-item-selected]="contact.id == selectedUserId" class="addon-messages-conversation-item">\n                <ion-avatar item-start core-user-avatar [user]="contact" [checkOnline]="contact.showonlinestatus" [linkProfile]="false"></ion-avatar>\n                <h2>\n                    <core-format-text [text]="contact.fullname"></core-format-text>\n                    <core-icon *ngIf="contact.isblocked" name="fa-ban" item-end></core-icon>\n                </h2>\n            </a>\n        </ion-list>\n        <core-empty-box *ngIf="!contacts.length" icon="person" [message]="\'addon.messages.nocontactsgetstarted\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMore($event)" [error]="loadMoreError" position="bottom"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\messages\components\confirmed-contacts\addon-messages-confirmed-contacts.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */]])
+    ], AddonMessagesConfirmedContactsComponent);
+    return AddonMessagesConfirmedContactsComponent;
+}());
+
+//# sourceMappingURL=confirmed-contacts.js.map
+
+/***/ }),
+
+/***/ 1981:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactRequestsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Component that displays the list of contact requests.
+ */
+var AddonMessagesContactRequestsComponent = /** @class */ (function () {
+    function AddonMessagesContactRequestsComponent(domUtils, eventsProvider, sitesProvider, messagesProvider) {
+        var _this = this;
+        this.domUtils = domUtils;
+        this.messagesProvider = messagesProvider;
+        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
+        this.loaded = false;
+        this.canLoadMore = false;
+        this.loadMoreError = false;
+        this.requests = [];
+        // Hide the "Would like to contact you" message when a contact request is confirmed.
+        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
+            if (data.contactRequestConfirmed || data.contactRequestDeclined) {
+                var index = _this.requests.findIndex(function (request) { return request.id == data.userId; });
+                if (index >= 0) {
+                    _this.requests.splice(index, 1);
+                }
+            }
+        }, sitesProvider.getCurrentSiteId());
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesContactRequestsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            if (_this.requests.length) {
+                _this.selectUser(_this.requests[0].id, true);
+            }
+        }).finally(function () {
+            _this.loaded = true;
+        });
+        // Workaround for infinite scrolling.
+        this.content.resize();
+    };
+    /**
+     * Fetch contact requests.
+     *
+     * @param {boolean} [refresh=false] True if we are refreshing contact requests, false if we are loading more.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactRequestsComponent.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.loadMoreError = false;
+        var limitFrom = refresh ? 0 : this.requests.length;
+        var promise;
+        if (limitFrom === 0) {
+            // Always try to get latest data from server.
+            promise = this.messagesProvider.invalidateContactRequestsCache().catch(function () {
+                // Shouldn't happen.
+            });
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            return _this.messagesProvider.getContactRequests(limitFrom);
+        }).then(function (result) {
+            _this.requests = refresh ? result.requests : _this.requests.concat(result.requests);
+            _this.canLoadMore = result.canLoadMore;
+        }).catch(function (error) {
+            _this.loadMoreError = true;
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Refresh contact requests.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactRequestsComponent.prototype.refreshData = function (refresher) {
+        // Refresh the number of contacts requests to update badges.
+        this.messagesProvider.refreshContactRequestsCount();
+        // No need to invalidate contact requests, we always try to get the latest.
+        return this.fetchData(true).finally(function () {
+            refresher && refresher.complete();
+        });
+    };
+    /**
+     * Load more contact requests.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesContactRequestsComponent.prototype.loadMore = function (infiniteComplete) {
+        return this.fetchData().finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
+    };
+    /**
+     * Notify that a contact has been selected.
+     *
+     * @param {number} userId User id.
+     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
+     */
+    AddonMessagesContactRequestsComponent.prototype.selectUser = function (userId, onInit) {
+        if (onInit === void 0) { onInit = false; }
+        this.selectedUserId = userId;
+        this.onUserSelected.emit({ userId: userId, onInit: onInit });
+    };
+    /**
+     * Component destroyed.
+     */
+    AddonMessagesContactRequestsComponent.prototype.ngOnDestroy = function () {
+        this.memberInfoObserver && this.memberInfoObserver.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Output */])(),
+        __metadata("design:type", Object)
+    ], AddonMessagesContactRequestsComponent.prototype, "onUserSelected", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonMessagesContactRequestsComponent.prototype, "content", void 0);
+    AddonMessagesContactRequestsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-contact-requests',template:/*ion-inline-start:"D:\akaal\src\addon\messages\components\contact-requests\addon-messages-contact-requests.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded" class="core-loading-center">\n        <ion-list no-margin>\n            <a ion-item text-wrap *ngFor="let request of requests" [title]="request.fullname" (click)="selectUser(request.id)" [class.core-split-item-selected]="request.id == selectedUserId" class="addon-messages-conversation-item">\n                <ion-avatar item-start core-user-avatar [user]="request" [linkProfile]="false"></ion-avatar>\n                <h2><core-format-text [text]="request.fullname"></core-format-text></h2>\n                <p *ngIf="!request.iscontact && !request.confirmedOrDeclined">{{ \'addon.messages.wouldliketocontactyou\' | translate }}</p>\n            </a>\n        </ion-list>\n        <core-empty-box *ngIf="!requests.length" icon="person" [message]="\'addon.messages.nocontactrequests\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMore($event)" [error]="loadMoreError" position="bottom"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\messages\components\contact-requests\addon-messages-contact-requests.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */]])
+    ], AddonMessagesContactRequestsComponent);
+    return AddonMessagesContactRequestsComponent;
+}());
+
+//# sourceMappingURL=contact-requests.js.map
+
+/***/ }),
+
+/***/ 1982:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(12);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Component that displays the list of contacts.
+ */
+var AddonMessagesContactsComponent = /** @class */ (function () {
+    function AddonMessagesContactsComponent(sitesProvider, translate, appProvider, messagesProvider, domUtils, navParams, eventsProvider) {
+        var _this = this;
+        this.appProvider = appProvider;
+        this.messagesProvider = messagesProvider;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.noSearchTypes = ['online', 'offline', 'blocked', 'strangers'];
+        this.loaded = false;
+        this.contactTypes = this.noSearchTypes;
+        this.searchType = 'search';
+        this.loadingMessage = '';
+        this.hasContacts = false;
+        this.contacts = {
+            search: []
+        };
+        this.searchString = '';
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.searchingMessages = translate.instant('core.searching');
+        this.loadingMessages = translate.instant('core.loading');
+        this.loadingMessage = this.loadingMessages;
+        this.discussionUserId = navParams.get('discussionUserId') || false;
+        // Refresh the list when a contact request is confirmed.
+        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
+            if (data.contactRequestConfirmed) {
+                _this.refreshData();
+            }
+        }, sitesProvider.getCurrentSiteId());
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesContactsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        if (this.discussionUserId) {
+            // There is a discussion to load, open the discussion in a new state.
+            this.gotoDiscussion(this.discussionUserId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.discussionUserId && _this.hasContacts) {
+                var contact = void 0;
+                for (var x in _this.contacts) {
+                    if (_this.contacts[x].length > 0) {
+                        contact = _this.contacts[x][0];
+                        break;
+                    }
+                }
+                if (contact) {
+                    // Take first and load it.
+                    _this.gotoDiscussion(contact.id, true);
+                }
+            }
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.refreshData = function (refresher) {
+        var _this = this;
+        var promise;
+        if (this.searchString) {
+            // User has searched, update the search.
+            promise = this.performSearch(this.searchString);
+        }
+        else {
+            // Update contacts.
+            promise = this.messagesProvider.invalidateAllContactsCache(this.currentUserId).then(function () {
+                return _this.fetchData();
+            });
+        }
+        return promise.finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Fetch contacts.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.fetchData = function () {
+        var _this = this;
+        this.loadingMessage = this.loadingMessages;
+        return this.messagesProvider.getAllContacts().then(function (contacts) {
+            for (var x in contacts) {
+                if (contacts[x].length > 0) {
+                    _this.contacts[x] = _this.sortUsers(contacts[x]);
+                }
+                else {
+                    _this.contacts[x] = [];
+                }
+            }
+            _this.clearSearch();
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Sort user list by fullname
+     * @param  {any[]} list List to sort.
+     * @return {any[]}      Sorted list.
+     */
+    AddonMessagesContactsComponent.prototype.sortUsers = function (list) {
+        return list.sort(function (a, b) {
+            var compareA = a.fullname.toLowerCase(), compareB = b.fullname.toLowerCase();
+            return compareA.localeCompare(compareB);
+        });
+    };
+    /**
+     * Clear search and show all contacts again.
+     */
+    AddonMessagesContactsComponent.prototype.clearSearch = function () {
+        this.searchString = ''; // Reset searched string.
+        this.contactTypes = this.noSearchTypes;
+        this.hasContacts = false;
+        for (var x in this.contacts) {
+            if (this.contacts[x].length > 0) {
+                this.hasContacts = true;
+                return;
+            }
+        }
+    };
+    /**
+     * Search users from the UI.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.search = function (query) {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        this.loaded = false;
+        this.loadingMessage = this.searchingMessages;
+        return this.performSearch(query).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Perform the search of users.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.performSearch = function (query) {
+        var _this = this;
+        return this.messagesProvider.searchContacts(query).then(function (result) {
+            _this.hasContacts = result.length > 0;
+            _this.searchString = query;
+            _this.contactTypes = ['search'];
+            _this.contacts['search'] = _this.sortUsers(result);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Navigate to a particular discussion.
+     *
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
+     */
+    AddonMessagesContactsComponent.prototype.gotoDiscussion = function (discussionUserId, onlyWithSplitView) {
+        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
+        this.discussionUserId = discussionUserId;
+        var params = {
+            discussion: discussionUserId,
+            onlyWithSplitView: onlyWithSplitView
+        };
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
+    };
+    /**
+     * Component destroyed.
+     */
+    AddonMessagesContactsComponent.prototype.ngOnDestroy = function () {
+        this.memberInfoObserver && this.memberInfoObserver.off();
+    };
+    AddonMessagesContactsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-contacts',template:/*ion-inline-start:"D:\akaal\src\addon\messages\components\contacts\addon-messages-contacts.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-search-box (onSubmit)="search($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.contactname\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n        <core-empty-box *ngIf="!hasContacts && searchString == \'\'" icon="person" [message]="\'addon.messages.contactlistempty\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="!hasContacts && searchString != \'\'" icon="person" [message]="\'addon.messages.nousersfound\' | translate"></core-empty-box>\n\n        <ion-list *ngFor="let contactType of contactTypes" no-margin>\n            <ng-container *ngIf="contacts[contactType] && (contacts[contactType].length > 0 || contactType === searchType)">\n                <ion-item-divider>\n                    <h2>{{ \'addon.messages.type_\' + contactType | translate }}</h2>\n                    <ion-note item-end>{{ contacts[contactType].length }}</ion-note>\n                </ion-item-divider>\n                <ng-container *ngFor="let contact of contacts[contactType]">\n                    <!-- Don\'t show deleted users -->\n                    <a ion-item text-wrap *ngIf="contact.profileimageurl || contact.profileimageurlsmall"  [title]="contact.fullname" (click)="gotoDiscussion(contact.id)" [class.core-split-item-selected]="contact.id == discussionUserId" class="addon-messages-conversation-item">\n                        <ion-avatar core-user-avatar [user]="contact" item-start [checkOnline]="contact.showonlinestatus"></ion-avatar>\n                        <h2><core-format-text [text]="contact.fullname"></core-format-text></h2>\n                    </a>\n                </ng-container>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\messages\components\contacts\addon-messages-contacts.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonMessagesContactsComponent);
+    return AddonMessagesContactsComponent;
+}());
+
+//# sourceMappingURL=contacts.js.map
+
+/***/ }),
+
+/***/ 1998:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__ = __webpack_require__(141);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays the messages index page.
+ */
+var AddonMessagesIndexPage = /** @class */ (function () {
+    function AddonMessagesIndexPage(eventsProvider, sitesProvider) {
+        var _this = this;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        // Update split view or navigate.
+        this.loadSplitViewObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, function (data) {
+            if (data.discussion && (_this.splitviewCtrl.isOn() || !data.onlyWithSplitView)) {
+                _this.gotoDiscussion(data.discussion, data.message);
+            }
+        }, this.siteId);
+    }
+    /**
+     * Navigate to a particular discussion.
+     *
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {number} [messageId]      Message to scroll after loading the discussion. Used when searching.
+     */
+    AddonMessagesIndexPage.prototype.gotoDiscussion = function (discussionUserId, messageId) {
+        var params = {
+            userId: discussionUserId
+        };
+        if (messageId) {
+            params['message'] = messageId;
+        }
+        this.splitviewCtrl.push('AddonMessagesDiscussionPage', params);
+    };
+    /**
+     * User entered the page.
+     */
+    AddonMessagesIndexPage.prototype.ionViewDidEnter = function () {
+        this.tabsComponent && this.tabsComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonMessagesIndexPage.prototype.ionViewDidLeave = function () {
+        this.tabsComponent && this.tabsComponent.ionViewDidLeave();
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonMessagesIndexPage.prototype.ngOnDestroy = function () {
+        this.loadSplitViewObserver && this.loadSplitViewObserver.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonMessagesIndexPage.prototype, "splitviewCtrl", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__["a" /* CoreTabsComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__["a" /* CoreTabsComponent */])
+    ], AddonMessagesIndexPage.prototype, "tabsComponent", void 0);
+    AddonMessagesIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-messages-index',template:/*ion-inline-start:"D:\akaal\src\addon\messages\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.messages.messages\' | translate }}</ion-title>\n        <ion-buttons end>\n            <!-- Add an empty context menu so discussion page can add items in split view, otherwise the menu disappears in some cases. -->\n            <core-context-menu></core-context-menu>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <core-tabs>\n            <core-tab [title]="\'addon.messages.messages\' | translate" icon="chatbubbles">\n                <ng-template>\n                    <addon-messages-discussions></addon-messages-discussions>\n                </ng-template>\n            </core-tab>\n            <core-tab [title]="\'addon.messages.contacts\' | translate" icon="person">\n                <ng-template>\n                    <addon-messages-contacts></addon-messages-contacts>\n                </ng-template>\n            </core-tab>\n        </core-tabs>\n    </ion-content>\n</core-split-view>'/*ion-inline-end:"D:\akaal\src\addon\messages\pages\index\index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
+    ], AddonMessagesIndexPage);
+    return AddonMessagesIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=2.js.map

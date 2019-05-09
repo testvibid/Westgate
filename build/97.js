@@ -1,1 +1,419 @@
-webpackJsonp([97],{1885:function(l,n,e){"use strict";function a(l){return t._57(0,[t._52(402653184,1,{folderComponent:0}),(l()(),t._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),t._30(2,16384,null,0,V.a,[D.a,t.t,t.V,[2,w.a]],null,null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),t._30(5,49152,null,0,F.a,[T.a,[2,w.a],[2,A.a],D.a,t.t,t.V],null,null),t._30(6,212992,null,0,G.a,[F.a,J.a,K.a,N.a],null,null),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(8,0,null,3,3,"ion-title",[],null,null,null,U.b,U.a)),t._30(9,49152,null,0,q.a,[D.a,t.t,t.V,[2,z.a],[2,F.a]],null,null),(l()(),t._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._30(11,540672,null,0,B.a,[t.t,E.a,H.a,L.a,K.a,J.a,Q.a,S.a,W.a,X.a,Y.a,Z.a,[2,A.a],[2,$.a],[2,ll.a],nl.a,N.a],{text:[0,"text"]},null),(l()(),t._55(-1,3,["\n\n        "])),(l()(),t._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(14,16384,null,1,el.a,[D.a,t.t,t.V,[2,z.a],[2,F.a]],null,null),t._52(603979776,2,{_buttons:1}),(l()(),t._55(-1,null,["\n            "])),(l()(),t._55(-1,null,["\n        "])),(l()(),t._55(-1,3,["\n    "])),(l()(),t._55(-1,null,["\n"])),(l()(),t._55(-1,null,["\n"])),(l()(),t._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,al.b,al.a)),t._30(22,4374528,null,0,$.a,[D.a,J.a,tl.a,t.t,t.V,T.a,ul.a,t.M,[2,w.a],[2,A.a]],null,null),(l()(),t._55(-1,1,["\n    "])),(l()(),t._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,e){var a=!0;if("ionRefresh"===n){a=!1!==l.component.folderComponent.doRefresh(e)&&a}return a},null,null)),t._30(25,212992,null,0,ol.a,[J.a,$.a,t.M,rl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),t._55(-1,null,["\n        "])),(l()(),t._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,dl.b,dl.a)),t._30(28,114688,null,0,_l.a,[ol.a,D.a],{pullingText:[0,"pullingText"]},null),t._47(131072,il.a,[K.a,t.j]),(l()(),t._55(-1,null,["\n    "])),(l()(),t._55(-1,1,["\n\n    "])),(l()(),t._31(32,0,null,1,1,"addon-mod-folder-index",[],null,[[null,"dataRetrieved"]],function(l,n,e){var a=!0;if("dataRetrieved"===n){a=!1!==l.component.updateData(e)&&a}return a},M.c,M.b)),t._30(33,245760,[[1,4]],0,_.a,[t.C,cl.a,fl.a,Y.a,sl.a],{module:[0,"module"],courseId:[1,"courseId"],path:[2,"path"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._55(-1,1,["\n"])),(l()(),t._55(-1,null,["\n"]))],function(l,n){var e=n.component;l(n,6,0);l(n,11,0,e.title);l(n,25,0,!e.path&&e.folderComponent.loaded);l(n,28,0,t._34(1,"",t._56(n,28,0,t._44(n,29).transform("core.pulltorefresh")),""));l(n,33,0,e.module,e.courseId,e.path)},function(l,n){l(n,4,0,t._44(n,5)._hidden,t._44(n,5)._sbPadding);l(n,21,0,t._44(n,22).statusbarPadding,t._44(n,22)._hasRefresher);l(n,24,0,"inactive"!==t._44(n,25).state,t._44(n,25)._top);l(n,27,0,t._44(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var t=e(0),u=e(8),o=e(3),r=e(29),d=e(706),_=e(475),i=this&&this.__decorate||function(l,n,e,a){var t,u=arguments.length,o=u<3?n:null===a?a=Object.getOwnPropertyDescriptor(n,e):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,e,a);else for(var r=l.length-1;r>=0;r--)(t=l[r])&&(o=(u<3?t(o):u>3?t(n,e,o):t(n,e))||o);return u>3&&o&&Object.defineProperty(n,e,o),o},c=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},f=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.path=l.get("path"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},i([Object(t._9)(_.a),c("design:type",_.a)],l.prototype,"folderComponent",void 0),l=i([Object(t.m)({selector:"page-addon-mod-folder-index",templateUrl:"index.html"}),c("design:paramtypes",[u.t])],l)}(),s=this&&this.__decorate||function(l,n,e,a){var t,u=arguments.length,o=u<3?n:null===a?a=Object.getOwnPropertyDescriptor(n,e):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,e,a);else for(var r=l.length-1;r>=0;r--)(t=l[r])&&(o=(u<3?t(o):u>3?t(n,e,o):t(n,e))||o);return u>3&&o&&Object.defineProperty(n,e,o),o},p=function(){function l(){}return l=s([Object(t.I)({declarations:[f],imports:[r.a,d.a,u.l.forChild(f),o.b.forChild()]})],l)}(),b=e(1365),h=e(1366),m=e(1367),v=e(1368),g=e(1369),R=e(1370),y=e(1371),x=e(1372),j=e(1373),O=e(1376),P=e(1377),C=e(1378),I=e(1379),M=e(1426),V=e(447),D=e(6),w=e(37),k=e(1374),F=e(207),T=e(32),A=e(21),G=e(676),J=e(14),K=e(18),N=e(12),U=e(1375),q=e(350),z=e(253),B=e(41),E=e(1),H=e(4),L=e(10),Q=e(2),S=e(26),W=e(5),X=e(16),Y=e(9),Z=e(17),$=e(25),ll=e(34),nl=e(36),el=e(448),al=e(178),tl=e(31),ul=e(104),ol=e(140),rl=e(38),dl=e(195),_l=e(146),il=e(27),cl=e(307),fl=e(15),sl=e(375),pl=e(63),bl=t._29({encapsulation:2,styles:[],data:{}}),hl=t._27("page-addon-mod-folder-index",f,function(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"page-addon-mod-folder-index",[],null,null,null,a,bl)),t._30(1,49152,null,0,f,[pl.a],null,null)],null,null)},{},{},[]),ml=e(7),vl=e(22),gl=e(346),Rl=e(347),yl=e(349),xl=e(348),jl=e(446),Ol=e(675),Pl=e(103),Cl=e(24),Il=e(67),Ml=e(254);e.d(n,"AddonModFolderIndexPageModuleNgFactory",function(){return Vl});var Vl=t._28(p,[],function(l){return t._40([t._41(512,t.o,t._21,[[8,[b.a,h.a,m.a,v.a,g.a,R.a,y.a,x.a,j.a,O.a,P.a,C.a,I.a,M.a,hl]],[3,t.o],t.K]),t._41(4608,ml.m,ml.l,[t.G,[2,ml.v]]),t._41(4608,vl.x,vl.x,[]),t._41(4608,vl.d,vl.d,[]),t._41(4608,gl.b,gl.a,[]),t._41(4608,Rl.a,Rl.b,[]),t._41(4608,yl.b,yl.a,[]),t._41(4608,xl.b,xl.a,[]),t._41(4608,K.a,K.a,[jl.a,gl.b,Rl.a,yl.b,xl.b,K.b,K.c]),t._41(512,r.a,r.a,[]),t._41(512,ml.b,ml.b,[]),t._41(512,vl.v,vl.v,[]),t._41(512,vl.i,vl.i,[]),t._41(512,vl.s,vl.s,[]),t._41(512,Ol.a,Ol.a,[]),t._41(512,o.b,o.b,[]),t._41(512,Pl.a,Pl.a,[]),t._41(512,Cl.a,Cl.a,[]),t._41(512,Il.a,Il.a,[]),t._41(512,d.a,d.a,[]),t._41(512,Ol.b,Ol.b,[]),t._41(512,p,p,[]),t._41(256,K.c,void 0,[]),t._41(256,K.b,void 0,[]),t._41(256,Ml.a,f,[])])})}});
+webpackJsonp([97],{
+
+/***/ 1952:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEditPageModule", function() { return AddonModDataEditPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__edit__ = __webpack_require__(2087);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+var AddonModDataEditPageModule = /** @class */ (function () {
+    function AddonModDataEditPageModule() {
+    }
+    AddonModDataEditPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_7__components_components_module__["a" /* AddonModDataComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__["a" /* CoreCommentsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModDataEditPageModule);
+    return AddonModDataEditPageModule;
+}());
+
+//# sourceMappingURL=edit.module.js.map
+
+/***/ }),
+
+/***/ 2087:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEditPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_groups__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_data__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_components_module__ = __webpack_require__(399);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the view edit page.
+ */
+var AddonModDataEditPage = /** @class */ (function () {
+    function AddonModDataEditPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, translate, eventsProvider, fileUploaderProvider) {
+        this.utils = utils;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.fieldsDelegate = fieldsDelegate;
+        this.courseProvider = courseProvider;
+        this.dataProvider = dataProvider;
+        this.dataOffline = dataOffline;
+        this.dataHelper = dataHelper;
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.fileUploaderProvider = fileUploaderProvider;
+        this.offlineActions = [];
+        this.fields = {};
+        this.fieldsArray = [];
+        this.forceLeave = false; // To allow leaving the page without checking for changes.
+        this.title = '';
+        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
+        this.loaded = false;
+        this.selectedGroup = 0;
+        this.cssClass = '';
+        this.editFormRender = '';
+        this.extraImports = [__WEBPACK_IMPORTED_MODULE_15__components_components_module__["a" /* AddonModDataComponentsModule */]];
+        this.errors = {};
+        this.module = params.get('module') || {};
+        this.entryId = params.get('entryId') || null;
+        this.courseId = params.get('courseId');
+        this.selectedGroup = params.get('group') || 0;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.title = this.module.name;
+        this.editForm = new __WEBPACK_IMPORTED_MODULE_3__angular_forms__["c" /* FormGroup */]({});
+    }
+    /**
+     * View loaded.
+     */
+    AddonModDataEditPage.prototype.ionViewDidLoad = function () {
+        this.fetchEntryData();
+    };
+    /**
+     * Check if we can leave the page or not and ask to confirm the lost of data.
+     *
+     * @return {boolean | Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModDataEditPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        var inputData = this.editForm.value;
+        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
+            if (!changed) {
+                return Promise.resolve();
+            }
+            // Show confirmation if some data has been modified.
+            return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
+        }).then(function () {
+            // Delete the local files from the tmp folder.
+            return _this.dataHelper.getEditTmpFiles(inputData, _this.fieldsArray, _this.data.id, _this.entry.contents).then(function (files) {
+                _this.fileUploaderProvider.clearTmpFiles(files);
+            });
+        });
+    };
+    /**
+     * Fetch the entry data.
+     *
+     * @return {Promise<any>}         Resolved when done.
+     */
+    AddonModDataEditPage.prototype.fetchEntryData = function () {
+        var _this = this;
+        return this.dataProvider.getDatabase(this.courseId, this.module.id).then(function (data) {
+            _this.title = data.name || _this.title;
+            _this.data = data;
+            _this.cssClass = 'addon-data-entries-' + data.id;
+            return _this.dataProvider.getDatabaseAccessInformation(data.id);
+        }).then(function (accessData) {
+            if (_this.entryId) {
+                return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
+                    .then(function (groupInfo) {
+                    _this.groupInfo = groupInfo;
+                    // Check selected group is accessible.
+                    if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
+                        if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
+                            _this.selectedGroup = groupInfo.groups[0].id;
+                        }
+                    }
+                });
+            }
+        }).then(function () {
+            return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
+        }).then(function (actions) {
+            _this.offlineActions = actions;
+            return _this.dataProvider.getFields(_this.data.id);
+        }).then(function (fieldsData) {
+            _this.fieldsArray = fieldsData;
+            _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
+            return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
+        }).then(function (entry) {
+            if (entry) {
+                entry = entry.entry;
+                // Index contents by fieldid.
+                entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
+            }
+            else {
+                entry = {
+                    contents: {}
+                };
+            }
+            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, _this.fieldsArray);
+        }).then(function (entryData) {
+            _this.entry = entryData;
+            _this.editFormRender = _this.displayEditFields();
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Saves data.
+     *
+     * @param {Event} e Event.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModDataEditPage.prototype.save = function (e) {
+        var _this = this;
+        e.preventDefault();
+        e.stopPropagation();
+        var inputData = this.editForm.value;
+        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
+            if (!changed) {
+                if (_this.entryId) {
+                    return _this.returnToEntryList();
+                }
+                // New entry, no changes means no field filled, warn the user.
+                return Promise.reject('addon.mod_data.emptyaddform');
+            }
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            // Create an ID to assign files.
+            var entryTemp = _this.entryId ? _this.entryId : -(new Date().getTime());
+            return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline).catch(function (e) {
+                if (!_this.offline) {
+                    // Cannot submit in online, prepare for offline usage.
+                    _this.offline = true;
+                    return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline);
+                }
+                return Promise.reject(e);
+            }).then(function (editData) {
+                if (editData.length > 0) {
+                    if (_this.entryId) {
+                        return _this.dataProvider.editEntry(_this.data.id, _this.entryId, _this.courseId, editData, _this.fields, undefined, _this.offline);
+                    }
+                    return _this.dataProvider.addEntry(_this.data.id, entryTemp, _this.courseId, editData, _this.selectedGroup, _this.fields, undefined, _this.offline);
+                }
+                return false;
+            }).then(function (result) {
+                if (!result) {
+                    // No field filled, warn the user.
+                    return Promise.reject('addon.mod_data.emptyaddform');
+                }
+                // This is done if entry is updated when editing or creating if not.
+                if ((_this.entryId && result.updated) || (!_this.entryId && result.newentryid)) {
+                    var promises = [];
+                    _this.entryId = _this.entryId || result.newentryid;
+                    promises.push(_this.dataProvider.invalidateEntryData(_this.data.id, _this.entryId, _this.siteId));
+                    promises.push(_this.dataProvider.invalidateEntriesData(_this.data.id, _this.siteId));
+                    return Promise.all(promises).then(function () {
+                        _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, { dataId: _this.data.id, entryId: _this.entryId }, _this.siteId);
+                    }).finally(function () {
+                        return _this.returnToEntryList();
+                    });
+                }
+                else {
+                    _this.errors = {};
+                    if (result.fieldnotifications) {
+                        result.fieldnotifications.forEach(function (fieldNotif) {
+                            var field = _this.fieldsArray.find(function (field) { return field.name == fieldNotif.fieldname; });
+                            if (field) {
+                                _this.errors[field.id] = fieldNotif.notification;
+                            }
+                        });
+                    }
+                    _this.jsData['errors'] = _this.errors;
+                    setTimeout(function () {
+                        _this.scrollToFirstError();
+                    });
+                }
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Cannot edit entry', true);
+        });
+    };
+    /**
+     * Set group to see the database.
+     *
+     * @param  {number}       groupId Group identifier to set.
+     * @return {Promise<any>}         Resolved when done.
+     */
+    AddonModDataEditPage.prototype.setGroup = function (groupId) {
+        this.selectedGroup = groupId;
+        this.loaded = false;
+        return this.fetchEntryData();
+    };
+    /**
+     * Displays Edit Search Fields.
+     *
+     * @return {string}  Generated HTML.
+     */
+    AddonModDataEditPage.prototype.displayEditFields = function () {
+        this.jsData = {
+            fields: this.fields,
+            contents: this.utils.clone(this.entry.contents),
+            form: this.editForm,
+            data: this.data,
+            errors: this.errors
+        };
+        var replace, render, template = this.data.addtemplate || this.dataHelper.getDefaultTemplate('add', this.fieldsArray);
+        // Replace the fields found on template.
+        this.fieldsArray.forEach(function (field) {
+            replace = '[[' + field.name + ']]';
+            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
+            replace = new RegExp(replace, 'gi');
+            // Replace field by a generic directive.
+            render = '<addon-mod-data-field-plugin mode="edit" [field]="fields[' + field.id + ']"\
+                [value]="contents[' + field.id + ']" [form]="form" [database]="data" [error]="errors[' + field.id + ']">\
+                </addon-mod-data-field-plugin>';
+            template = template.replace(replace, render);
+            // Replace the field id tag.
+            replace = '[[' + field.name + '#id]]';
+            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
+            replace = new RegExp(replace, 'gi');
+            template = template.replace(replace, 'field_' + field.id);
+        });
+        return template;
+    };
+    /**
+     * Return to the entry list (previous page) discarding temp data.
+     *
+     * @return {Promise<any>}  Resolved when done.
+     */
+    AddonModDataEditPage.prototype.returnToEntryList = function () {
+        var _this = this;
+        var inputData = this.editForm.value;
+        return this.dataHelper.getEditTmpFiles(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (files) {
+            _this.fileUploaderProvider.clearTmpFiles(files);
+        }).finally(function () {
+            // Go back to entry list.
+            _this.forceLeave = true;
+            _this.navCtrl.pop();
+        });
+    };
+    /**
+     * Scroll to first error or to the top if not found.
+     */
+    AddonModDataEditPage.prototype.scrollToFirstError = function () {
+        if (!this.domUtils.scrollToElementBySelector(this.content, '.addon-data-error')) {
+            this.domUtils.scrollToTop(this.content);
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModDataEditPage.prototype, "content", void 0);
+    AddonModDataEditPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-data-edit',template:/*ion-inline-start:"D:\akaal\src\addon\mod\data\pages\edit\edit.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n        <ion-buttons end>\n            <button ion-button clear (click)="save($event)" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="action-sheet">\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n            </ion-select>\n        </ion-item>\n\n        <div class="addon-data-contents addon-data-entries-{{data.id}}" *ngIf="data">\n            <core-style [css]="data.csstemplate" prefix=".addon-data-entries-{{data.id}}"></core-style>\n\n            <form (ngSubmit)="save($event)" [formGroup]="editForm">\n                <core-compile-html [text]="editFormRender" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n            </form>\n        </div>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\data\pages\edit\edit.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_groups__["a" /* CoreGroupsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
+            __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModDataHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */]])
+    ], AddonModDataEditPage);
+    return AddonModDataEditPage;
+}());
+
+//# sourceMappingURL=edit.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=97.js.map

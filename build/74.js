@@ -1,1 +1,131 @@
-webpackJsonp([74],{1904:function(e,n,l){"use strict";function t(e){return a._57(0,[a._52(402653184,1,{wikiComponent:0}),(e()(),a._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),a._30(2,16384,null,0,V.a,[D.a,a.t,a.V,[2,P.a]],null,null),(e()(),a._55(-1,null,["\n    "])),(e()(),a._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),a._30(5,49152,null,0,E.a,[L.a,[2,P.a],[2,A.a],D.a,a.t,a.V],null,null),a._30(6,212992,null,0,F.a,[E.a,G.a,J.a,K.a],null,null),(e()(),a._55(-1,3,["\n        "])),(e()(),a._31(8,0,null,3,3,"ion-title",[],null,null,null,N.b,N.a)),a._30(9,49152,null,0,U.a,[D.a,a.t,a.V,[2,W.a],[2,E.a]],null,null),(e()(),a._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),a._30(11,540672,null,0,q.a,[a.t,z.a,B.a,H.a,J.a,G.a,Q.a,S.a,X.a,Y.a,Z.a,$.a,[2,A.a],[2,ee.a],[2,ne.a],le.a,K.a],{text:[0,"text"]},null),(e()(),a._55(-1,3,["\n\n        "])),(e()(),a._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),a._30(14,16384,null,1,te.a,[D.a,a.t,a.V,[2,W.a],[2,E.a]],null,null),a._52(603979776,2,{_buttons:1}),(e()(),a._55(-1,null,["\n            "])),(e()(),a._55(-1,null,["\n        "])),(e()(),a._55(-1,3,["\n    "])),(e()(),a._55(-1,null,["\n"])),(e()(),a._55(-1,null,["\n"])),(e()(),a._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ae.b,ae.a)),a._30(22,4374528,null,0,ee.a,[D.a,G.a,ie.a,a.t,a.V,L.a,ue.a,a.M,[2,P.a],[2,A.a]],null,null),(e()(),a._55(-1,1,["\n    "])),(e()(),a._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(e,n,l){var t=!0;if("ionRefresh"===n){t=!1!==e.component.wikiComponent.doRefresh(l)&&t}return t},null,null)),a._30(25,212992,null,0,oe.a,[G.a,ee.a,a.M,re.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(e()(),a._55(-1,null,["\n        "])),(e()(),a._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,de.b,de.a)),a._30(28,114688,null,0,_e.a,[oe.a,D.a],{pullingText:[0,"pullingText"]},null),a._47(131072,se.a,[J.a,a.j]),(e()(),a._55(-1,null,["\n    "])),(e()(),a._55(-1,1,["\n\n    "])),(e()(),a._31(32,0,null,1,1,"addon-mod-wiki-index",[],null,[[null,"dataRetrieved"]],function(e,n,l){var t=!0;if("dataRetrieved"===n){t=!1!==e.component.updateData(l)&&t}return t},C.c,C.b)),a._30(33,245760,[[1,4]],0,d.a,[a.C,ce.a,[2,ee.a],pe.a,fe.a,A.a,Q.a,be.a,ge.a,he.a],{module:[0,"module"],courseId:[1,"courseId"],action:[2,"action"],pageId:[3,"pageId"],pageTitle:[4,"pageTitle"],wikiId:[5,"wikiId"],subwikiId:[6,"subwikiId"],userId:[7,"userId"],groupId:[8,"groupId"]},{dataRetrieved:"dataRetrieved"}),(e()(),a._55(-1,1,["\n"])),(e()(),a._55(-1,null,["\n"]))],function(e,n){var l=n.component;e(n,6,0);e(n,11,0,l.title);e(n,25,0,l.wikiComponent.loaded);e(n,28,0,a._34(1,"",a._56(n,28,0,a._44(n,29).transform("core.pulltorefresh")),""));e(n,33,0,l.module,l.courseId,l.action,l.pageId,l.pageTitle,l.wikiId,l.subwikiId,l.userId,l.groupId)},function(e,n){e(n,4,0,a._44(n,5)._hidden,a._44(n,5)._sbPadding);e(n,21,0,a._44(n,22).statusbarPadding,a._44(n,22)._hasRefresher);e(n,24,0,"inactive"!==a._44(n,25).state,a._44(n,25)._top);e(n,27,0,a._44(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var a=l(0),i=l(8),u=l(3),o=l(29),r=l(717),d=l(488),_=this&&this.__decorate||function(e,n,l,t){var a,i=arguments.length,u=i<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)u=Reflect.decorate(e,n,l,t);else for(var o=e.length-1;o>=0;o--)(a=e[o])&&(u=(i<3?a(u):i>3?a(n,l,u):a(n,l))||u);return i>3&&u&&Object.defineProperty(n,l,u),u},s=this&&this.__metadata||function(e,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,n)},c=function(){function e(e){this.module=e.get("module")||{},this.courseId=e.get("courseId"),this.action=e.get("action")||"page",this.pageId=e.get("pageId"),this.pageTitle=e.get("pageTitle"),this.wikiId=e.get("wikiId"),this.subwikiId=e.get("subwikiId"),this.userId=e.get("userId"),this.groupId=e.get("groupId"),this.title=this.pageTitle||this.module.name}return e.prototype.updateData=function(e){this.title="string"==typeof e?e:this.pageTitle||e.title||this.title},e.prototype.ionViewDidEnter=function(){this.wikiComponent.ionViewDidEnter()},e.prototype.ionViewDidLeave=function(){this.wikiComponent.ionViewDidLeave()},_([Object(a._9)(d.a),s("design:type",d.a)],e.prototype,"wikiComponent",void 0),e=_([Object(a.m)({selector:"page-addon-mod-wiki-index",templateUrl:"index.html"}),s("design:paramtypes",[i.t])],e)}(),p=this&&this.__decorate||function(e,n,l,t){var a,i=arguments.length,u=i<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,l):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)u=Reflect.decorate(e,n,l,t);else for(var o=e.length-1;o>=0;o--)(a=e[o])&&(u=(i<3?a(u):i>3?a(n,l,u):a(n,l))||u);return i>3&&u&&Object.defineProperty(n,l,u),u},f=function(){function e(){}return e=p([Object(a.I)({declarations:[c],imports:[o.a,r.a,i.l.forChild(c),u.b.forChild()]})],e)}(),b=l(1365),g=l(1366),h=l(1367),I=l(1368),m=l(1369),w=l(1370),v=l(1371),k=l(1372),y=l(1373),R=l(1376),x=l(1377),j=l(1378),O=l(1379),C=l(1437),T=l(1456),V=l(447),D=l(6),P=l(37),M=l(1374),E=l(207),L=l(32),A=l(21),F=l(676),G=l(14),J=l(18),K=l(12),N=l(1375),U=l(350),W=l(253),q=l(41),z=l(1),B=l(4),H=l(10),Q=l(2),S=l(26),X=l(5),Y=l(16),Z=l(9),$=l(17),ee=l(25),ne=l(34),le=l(36),te=l(448),ae=l(178),ie=l(31),ue=l(104),oe=l(140),re=l(38),de=l(195),_e=l(146),se=l(27),ce=l(215),pe=l(266),fe=l(298),be=l(68),ge=l(42),he=l(65),Ie=l(63),me=a._29({encapsulation:2,styles:[],data:{}}),we=a._27("page-addon-mod-wiki-index",c,function(e){return a._57(0,[(e()(),a._31(0,0,null,null,1,"page-addon-mod-wiki-index",[],null,null,null,t,me)),a._30(1,49152,null,0,c,[Ie.a],null,null)],null,null)},{},{},[]),ve=l(7),ke=l(22),ye=l(346),Re=l(347),xe=l(349),je=l(348),Oe=l(446),Ce=l(675),Te=l(103),Ve=l(24),De=l(67),Pe=l(254);l.d(n,"AddonModWikiIndexPageModuleNgFactory",function(){return Me});var Me=a._28(f,[],function(e){return a._40([a._41(512,a.o,a._21,[[8,[b.a,g.a,h.a,I.a,m.a,w.a,v.a,k.a,y.a,R.a,x.a,j.a,O.a,C.a,T.a,we]],[3,a.o],a.K]),a._41(4608,ve.m,ve.l,[a.G,[2,ve.v]]),a._41(4608,ke.x,ke.x,[]),a._41(4608,ke.d,ke.d,[]),a._41(4608,ye.b,ye.a,[]),a._41(4608,Re.a,Re.b,[]),a._41(4608,xe.b,xe.a,[]),a._41(4608,je.b,je.a,[]),a._41(4608,J.a,J.a,[Oe.a,ye.b,Re.a,xe.b,je.b,J.b,J.c]),a._41(512,o.a,o.a,[]),a._41(512,ve.b,ve.b,[]),a._41(512,ke.v,ke.v,[]),a._41(512,ke.i,ke.i,[]),a._41(512,ke.s,ke.s,[]),a._41(512,Ce.a,Ce.a,[]),a._41(512,u.b,u.b,[]),a._41(512,Te.a,Te.a,[]),a._41(512,Ve.a,Ve.a,[]),a._41(512,De.a,De.a,[]),a._41(512,r.a,r.a,[]),a._41(512,Ce.b,Ce.b,[]),a._41(512,f,f,[]),a._41(256,J.c,void 0,[]),a._41(256,J.b,void 0,[]),a._41(256,Pe.a,c,[])])})}});
+webpackJsonp([74],{
+
+/***/ 1889:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModPageIndexPageModule", function() { return AddonModPageIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2024);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModPageIndexPageModule = /** @class */ (function () {
+    function AddonModPageIndexPageModule() {
+    }
+    AddonModPageIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModPageIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModPageComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModPageIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModPageIndexPageModule);
+    return AddonModPageIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 2024:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModPageIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(427);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a page.
+ */
+var AddonModPageIndexPage = /** @class */ (function () {
+    function AddonModPageIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the page instance.
+     *
+     * @param {any} page Page instance.
+     */
+    AddonModPageIndexPage.prototype.updateData = function (page) {
+        this.title = page.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModPageIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModPageIndexComponent */])
+    ], AddonModPageIndexPage.prototype, "pageComponent", void 0);
+    AddonModPageIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-page-index',template:/*ion-inline-start:"D:\akaal\src\addon\mod\page\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="pageComponent.loaded" (ionRefresh)="pageComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-page-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-page-index>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\page\pages\index\index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
+    ], AddonModPageIndexPage);
+    return AddonModPageIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=74.js.map

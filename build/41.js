@@ -1,1 +1,440 @@
-webpackJsonp([41],{1933:function(l,n,t){"use strict";function u(l){return p._57(0,[(l()(),p._31(0,0,null,null,9,"ion-item",[["class","item item-block"],["text-center",""]],null,null,null,H.b,H.a)),p._30(1,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,7,{contentLabel:0}),p._52(603979776,8,{_buttons:1}),p._52(603979776,9,{_icons:1}),p._30(5,16384,null,0,B.a,[],null,null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(7,0,null,2,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,T.b,T.a)),p._30(8,114688,null,0,J.a,[G.a,p.t,p.V],null,null),(l()(),p._55(-1,2,["\n        "]))],function(l,n){l(n,8,0)},function(l,n){l(n,7,0,p._44(n,8)._paused)})}function e(l){return p._57(0,[(l()(),p._31(0,0,null,null,2,"ion-badge",[["item-end",""]],[[8,"hidden",0]],null,null,null,null)),p._30(1,16384,null,0,K.a,[G.a,p.t,p.V],null,null),(l()(),p._55(2,null,["",""]))],null,function(l,n){l(n,0,0,n.parent.context.$implicit.loading||!n.parent.context.$implicit.badge);l(n,2,0,n.parent.context.$implicit.badge)})}function a(l){return p._57(0,[(l()(),p._31(0,0,null,null,1,"ion-spinner",[["item-end",""]],[[2,"spinner-paused",null]],null,null,T.b,T.a)),p._30(1,114688,null,0,J.a,[G.a,p.t,p.V],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,0,p._44(n,1)._paused)})}function i(l){return p._57(0,[(l()(),p._31(0,0,null,null,22,"a",[["class","item item-block"],["detail-push",""],["ion-item",""]],[[8,"title",0]],[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.openHandler(l.context.$implicit)&&u}return u},H.b,H.a)),p._30(1,278528,null,0,q.i,[p.E,p.F,p.t,p.W],{ngClass:[0,"ngClass"]},null),p._46(2,2),p._30(3,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,10,{contentLabel:0}),p._52(603979776,11,{_buttons:1}),p._52(603979776,12,{_icons:1}),p._30(7,16384,null,0,B.a,[],null,null),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(10,0,null,0,1,"core-icon",[["item-start",""]],null,null,null,X.b,X.a)),p._30(11,245760,null,0,Y.a,[p.t],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(13,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._55(14,null,["",""])),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._26(16777216,null,4,1,null,e)),p._30(18,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._26(16777216,null,4,1,null,a)),p._30(21,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,2,["\n        "]))],function(l,n){l(n,1,0,l(n,2,0,"core-moremenu-handler",n.context.$implicit.class));l(n,11,0,n.context.$implicit.icon);l(n,18,0,n.context.$implicit.showBadge);l(n,21,0,n.context.$implicit.showBadge&&n.context.$implicit.loading)},function(l,n){l(n,0,0,p._34(1,"",p._56(n,0,0,p._44(n,8).transform(n.context.$implicit.title)),""));l(n,14,0,p._56(n,14,0,p._44(n,15).transform(n.context.$implicit.title)))})}function o(l){return p._57(0,[(l()(),p._31(0,0,null,null,13,"a",[["class","item item-block"],["core-link",""],["ion-item",""]],[[8,"href",4],[8,"title",0]],null,null,H.b,H.a)),p._30(1,81920,null,0,Z.a,[p.t,ll.a,nl.a,g.a,tl.a,ul.a,[2,el.a],[2,al.a],[2,il.a]],{capture:[0,"capture"],inApp:[1,"inApp"]},null),p._30(2,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,13,{contentLabel:0}),p._52(603979776,14,{_buttons:1}),p._52(603979776,15,{_icons:1}),p._30(6,16384,null,0,B.a,[],null,null),(l()(),p._55(-1,2,["\n                "])),(l()(),p._31(8,0,null,0,1,"core-icon",[["item-start",""]],null,null,null,X.b,X.a)),p._30(9,245760,null,0,Y.a,[p.t],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n                "])),(l()(),p._31(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),p._55(12,null,["",""])),(l()(),p._55(-1,2,["\n            "]))],function(l,n){l(n,1,0,"app"==n.parent.context.$implicit.type,"inappbrowser"==n.parent.context.$implicit.type);l(n,9,0,n.parent.context.$implicit.icon)},function(l,n){l(n,0,0,n.parent.context.$implicit.url,p._34(1,"",n.parent.context.$implicit.label,""));l(n,12,0,n.parent.context.$implicit.label)})}function _(l){return p._57(0,[(l()(),p._31(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""]],[[8,"title",0]],[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.openItem(l.parent.context.$implicit)&&u}return u},H.b,H.a)),p._30(1,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,16,{contentLabel:0}),p._52(603979776,17,{_buttons:1}),p._52(603979776,18,{_icons:1}),p._30(5,16384,null,0,B.a,[],null,null),(l()(),p._55(-1,2,["\n                "])),(l()(),p._31(7,0,null,0,1,"core-icon",[["item-start",""]],null,null,null,X.b,X.a)),p._30(8,245760,null,0,Y.a,[p.t],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n                "])),(l()(),p._31(10,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),p._55(11,null,["",""])),(l()(),p._55(-1,2,["\n            "]))],function(l,n){l(n,8,0,n.parent.context.$implicit.icon)},function(l,n){l(n,0,0,p._34(1,"",n.parent.context.$implicit.label,""));l(n,11,0,n.parent.context.$implicit.label)})}function r(l){return p._57(0,[(l()(),p._31(0,0,null,null,7,"div",[["class","core-moremenu-customitem"]],null,null,null,null,null)),(l()(),p._55(-1,null,["\n            "])),(l()(),p._26(16777216,null,null,1,null,o)),p._30(3,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,null,["\n            "])),(l()(),p._26(16777216,null,null,1,null,_)),p._30(6,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,null,["\n        "]))],function(l,n){l(n,3,0,"embedded"!=n.context.$implicit.type);l(n,6,0,"embedded"==n.context.$implicit.type)},null)}function c(l){return p._57(0,[(l()(),p._31(0,0,null,null,15,"a",[["autoLogin","yes"],["class","item item-block"],["core-link",""],["ion-item",""]],[[8,"href",4],[8,"title",0]],null,null,H.b,H.a)),p._30(1,81920,null,0,Z.a,[p.t,ll.a,nl.a,g.a,tl.a,ul.a,[2,el.a],[2,al.a],[2,il.a]],{autoLogin:[0,"autoLogin"]},null),p._30(2,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,19,{contentLabel:0}),p._52(603979776,20,{_buttons:1}),p._52(603979776,21,{_icons:1}),p._30(6,16384,null,0,B.a,[],null,null),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(9,0,null,0,1,"ion-icon",[["aria-hidden","true"],["item-start",""],["name","globe"],["role","img"]],[[2,"hide",null]],null,null,null,null)),p._30(10,147456,[[21,4]],0,ol.a,[G.a,p.t,p.V],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(12,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._55(13,null,["",""])),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n        "]))],function(l,n){l(n,1,0,"yes");l(n,10,0,"globe")},function(l,n){l(n,0,0,n.component.siteInfo.siteurl,p._34(1,"",p._56(n,0,1,p._44(n,7).transform("core.mainmenu.website")),""));l(n,9,0,p._44(n,10)._hidden);l(n,13,0,p._56(n,13,0,p._44(n,14).transform("core.mainmenu.website")))})}function s(l){return p._57(0,[(l()(),p._31(0,0,null,null,15,"a",[["autoLogin","no"],["class","item item-block"],["core-link",""],["ion-item",""]],[[8,"href",4],[8,"title",0]],null,null,H.b,H.a)),p._30(1,81920,null,0,Z.a,[p.t,ll.a,nl.a,g.a,tl.a,ul.a,[2,el.a],[2,al.a],[2,il.a]],{autoLogin:[0,"autoLogin"]},null),p._30(2,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,22,{contentLabel:0}),p._52(603979776,23,{_buttons:1}),p._52(603979776,24,{_icons:1}),p._30(6,16384,null,0,B.a,[],null,null),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(9,0,null,0,1,"ion-icon",[["aria-hidden","true"],["item-start",""],["name","help-buoy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),p._30(10,147456,[[24,4]],0,ol.a,[G.a,p.t,p.V],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(12,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._55(13,null,["",""])),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n        "]))],function(l,n){l(n,1,0,"no");l(n,10,0,"help-buoy")},function(l,n){l(n,0,0,n.component.docsUrl,p._34(1,"",p._56(n,0,1,p._44(n,7).transform("core.mainmenu.help")),""));l(n,9,0,p._44(n,10)._hidden);l(n,13,0,p._56(n,13,0,p._44(n,14).transform("core.mainmenu.help")))})}function m(l){return p._57(0,[(l()(),p._31(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),p._30(1,16384,null,0,_l.a,[G.a,p.t,p.V,[2,rl.a]],null,null),(l()(),p._55(-1,null,["\n    "])),(l()(),p._31(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),p._30(4,49152,null,0,sl.a,[ml.a,[2,rl.a],[2,el.a],G.a,p.t,p.V],null,null),p._30(5,212992,null,0,pl.a,[sl.a,fl.a,Q.a,b.a],null,null),(l()(),p._55(-1,3,["\n        "])),(l()(),p._31(7,0,null,3,3,"ion-title",[],null,null,null,dl.b,dl.a)),p._30(8,49152,null,0,bl.a,[G.a,p.t,p.V,[2,gl.a],[2,sl.a]],null,null),(l()(),p._31(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),p._30(10,540672,null,0,hl.a,[p.t,g.a,ll.a,vl.a,Q.a,fl.a,nl.a,tl.a,Il.a,yl.a,kl.a,ul.a,[2,el.a],[2,al.a],[2,il.a],xl.a,b.a],{text:[0,"text"]},null),(l()(),p._55(-1,3,["\n    "])),(l()(),p._55(-1,null,["\n"])),(l()(),p._55(-1,null,["\n"])),(l()(),p._31(14,0,null,null,76,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ll.b,Ll.a)),p._30(15,4374528,null,0,al.a,[G.a,fl.a,Vl.a,p.t,p.V,ml.a,$l.a,p.M,[2,rl.a],[2,el.a]],null,null),(l()(),p._55(-1,1,["\n    "])),(l()(),p._31(17,0,null,1,72,"ion-list",[],null,null,null,null,null)),p._30(18,16384,null,0,jl.a,[G.a,p.t,p.V,fl.a,Cl.l,Vl.a],null,null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._31(20,0,null,null,14,"a",[["class","item item-block"],["core-user-link",""],["ion-item",""]],null,null,null,H.b,H.a)),p._30(21,81920,null,0,Ol.a,[p.t,[2,el.a]],{userId:[0,"userId"]},null),p._30(22,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,1,{contentLabel:0}),p._52(603979776,2,{_buttons:1}),p._52(603979776,3,{_icons:1}),p._30(26,16384,null,0,B.a,[],null,null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(28,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Pl.b,Pl.a)),p._30(29,770048,null,0,Dl.a,[el.a,g.a,nl.a,kl.a,b.a],{user:[0,"user"]},null),p._30(30,16384,null,0,wl.a,[],null,null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(32,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),p._55(33,null,["",""])),(l()(),p._55(-1,2,["\n        "])),(l()(),p._55(-1,null,["\n        "])),(l()(),p._31(36,0,null,null,5,"ion-item-divider",[["class","item item-divider"]],null,null,null,H.b,H.a)),p._30(37,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,4,{contentLabel:0}),p._52(603979776,5,{_buttons:1}),p._52(603979776,6,{_icons:1}),p._30(41,16384,null,0,Ml.a,[G.a,p.t,p.V],null,null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._26(16777216,null,null,1,null,u)),p._30(44,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._26(16777216,null,null,1,null,i)),p._30(47,802816,null,0,q.j,[p._11,p._6,p.E],{ngForOf:[0,"ngForOf"]},null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._26(16777216,null,null,1,null,r)),p._30(50,802816,null,0,q.j,[p._11,p._6,p.E],{ngForOf:[0,"ngForOf"]},null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._26(16777216,null,null,1,null,c)),p._30(53,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._26(16777216,null,null,1,null,s)),p._30(56,16384,null,0,q.k,[p._11,p._6],{ngIf:[0,"ngIf"]},null),(l()(),p._55(-1,null,["\n        "])),(l()(),p._31(58,0,null,null,14,"a",[["class","item item-block"],["ion-item",""]],[[8,"title",0]],[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.openSettings()&&u}return u},H.b,H.a)),p._30(59,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,25,{contentLabel:0}),p._52(603979776,26,{_buttons:1}),p._52(603979776,27,{_icons:1}),p._30(63,16384,null,0,B.a,[],null,null),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(66,0,null,0,1,"ion-icon",[["aria-hidden","true"],["item-start",""],["name","cog"],["role","img"]],[[2,"hide",null]],null,null,null,null)),p._30(67,147456,[[27,4]],0,ol.a,[G.a,p.t,p.V],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(69,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._55(70,null,["",""])),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n        "])),(l()(),p._55(-1,null,["\n        "])),(l()(),p._31(74,0,null,null,14,"a",[["class","item item-block"],["ion-item",""]],[[8,"title",0]],[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.logout()&&u}return u},H.b,H.a)),p._30(75,1097728,null,3,U.a,[N.a,G.a,p.t,p.V,[2,W.a]],null,null),p._52(335544320,28,{contentLabel:0}),p._52(603979776,29,{_buttons:1}),p._52(603979776,30,{_icons:1}),p._30(79,16384,null,0,B.a,[],null,null),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(82,0,null,0,1,"ion-icon",[["aria-hidden","true"],["item-start",""],["name","log-out"],["role","img"]],[[2,"hide",null]],null,null,null,null)),p._30(83,147456,[[30,4]],0,ol.a,[G.a,p.t,p.V],{name:[0,"name"]},null),(l()(),p._55(-1,2,["\n            "])),(l()(),p._31(85,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._55(86,null,["",""])),p._47(131072,z.a,[Q.a,p.j]),(l()(),p._55(-1,2,["\n        "])),(l()(),p._55(-1,null,["\n    "])),(l()(),p._55(-1,1,["\n"])),(l()(),p._55(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,10,0,t.siteInfo.sitename);l(n,21,0,t.siteInfo.userid);l(n,29,0,t.siteInfo);l(n,44,0,!(t.handlers&&t.handlers.length||t.handlersLoaded));l(n,47,0,t.handlers);l(n,50,0,t.customItems);l(n,53,0,t.showWeb);l(n,56,0,t.showHelp);l(n,67,0,"cog");l(n,83,0,"log-out")},function(l,n){var t=n.component;l(n,3,0,p._44(n,4)._hidden,p._44(n,4)._sbPadding);l(n,14,0,p._44(n,15).statusbarPadding,p._44(n,15)._hasRefresher);l(n,33,0,t.siteInfo.fullname);l(n,58,0,p._34(1,"",p._56(n,58,0,p._44(n,64).transform("core.mainmenu.appsettings")),""));l(n,66,0,p._44(n,67)._hidden);l(n,70,0,p._56(n,70,0,p._44(n,71).transform("core.mainmenu.appsettings")));l(n,74,0,p._34(1,"",p._56(n,74,0,p._44(n,80).transform(t.logoutLabel)),""));l(n,82,0,p._44(n,83)._hidden);l(n,86,0,p._56(n,86,0,p._44(n,87).transform(t.logoutLabel)))})}Object.defineProperty(n,"__esModule",{value:!0});var p=t(0),f=t(8),d=t(3),b=t(12),g=t(1),h=t(173),v=t(695),I=this&&this.__decorate||function(l,n,t,u){var e,a=arguments.length,i=a<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,t):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)i=Reflect.decorate(l,n,t,u);else for(var o=l.length-1;o>=0;o--)(e=l[o])&&(i=(a<3?e(i):a>3?e(n,t,i):e(n,t))||i);return a>3&&i&&Object.defineProperty(n,t,i),i},y=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},k=function(){function l(l,n,t,u,e){this.menuDelegate=l,this.sitesProvider=n,this.navCtrl=t,this.mainMenuProvider=u,this.langObserver=e.on(b.a.LANGUAGE_CHANGED,this.loadSiteInfo.bind(this)),this.updateSiteObserver=e.on(b.a.SITE_UPDATED,this.loadSiteInfo.bind(this),n.getCurrentSiteId()),this.loadSiteInfo()}return l.prototype.ionViewDidLoad=function(){var l=this;this.subscription=this.menuDelegate.getHandlers().subscribe(function(n){var t=n.filter(function(l){return!l.onlyInMore}).slice(0,v.a.NUM_MAIN_HANDLERS);l.handlers=[],n.forEach(function(n){-1==t.indexOf(n)&&l.handlers.push(n)}),l.handlersLoaded=l.menuDelegate.areHandlersLoaded()})},l.prototype.ngOnDestroy=function(){this.subscription&&this.subscription.unsubscribe()},l.prototype.loadSiteInfo=function(){var l=this,n=this.sitesProvider.getCurrentSite(),t=n.getStoredConfig();this.siteInfo=n.getInfo(),this.logoutLabel="core.mainmenu."+(t&&"1"==t.tool_mobile_forcelogout?"logout":"changesite"),this.showWeb=!n.isFeatureDisabled("CoreMainMenuDelegate_website"),this.showHelp=!n.isFeatureDisabled("CoreMainMenuDelegate_help"),n.getDocsUrl().then(function(n){l.docsUrl=n}),this.mainMenuProvider.getCustomMenuItems().then(function(n){l.customItems=n})},l.prototype.openHandler=function(l){this.navCtrl.push(l.page,l.pageParams)},l.prototype.openItem=function(l){this.navCtrl.push("CoreViewerIframePage",{title:l.label,url:l.url})},l.prototype.openSettings=function(){this.navCtrl.push("CoreSettingsListPage")},l.prototype.logout=function(){this.sitesProvider.logout()},l=I([Object(p.m)({selector:"page-core-mainmenu-more",templateUrl:"more.html"}),y("design:paramtypes",[h.a,g.a,f.s,v.a,b.a])],l)}(),x=t(24),L=t(29),V=this&&this.__decorate||function(l,n,t,u){var e,a=arguments.length,i=a<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,t):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)i=Reflect.decorate(l,n,t,u);else for(var o=l.length-1;o>=0;o--)(e=l[o])&&(i=(a<3?e(i):a>3?e(n,t,i):e(n,t))||i);return a>3&&i&&Object.defineProperty(n,t,i),i},$=function(){function l(){}return l=V([Object(p.I)({declarations:[k],imports:[x.a,L.a,f.l.forChild(k),d.b.forChild()]})],l)}(),j=t(1365),C=t(1366),O=t(1367),P=t(1368),D=t(1369),w=t(1370),M=t(1371),S=t(1372),R=t(1373),E=t(1376),A=t(1377),F=t(1378),H=t(30),U=t(20),N=t(19),G=t(6),W=t(28),B=t(33),T=t(117),J=t(97),K=t(147),q=t(7),z=t(27),Q=t(18),X=t(112),Y=t(95),Z=t(182),ll=t(4),nl=t(2),tl=t(26),ul=t(17),el=t(21),al=t(25),il=t(34),ol=t(45),_l=t(447),rl=t(37),cl=t(1374),sl=t(207),ml=t(32),pl=t(676),fl=t(14),dl=t(1375),bl=t(350),gl=t(253),hl=t(41),vl=t(10),Il=t(5),yl=t(16),kl=t(9),xl=t(36),Ll=t(178),Vl=t(31),$l=t(104),jl=t(87),Cl=t(38),Ol=t(686),Pl=t(208),Dl=t(180),wl=t(179),Ml=t(111),Sl=p._29({encapsulation:2,styles:[],data:{}}),Rl=p._27("page-core-mainmenu-more",k,function(l){return p._57(0,[(l()(),p._31(0,0,null,null,1,"page-core-mainmenu-more",[],null,null,null,m,Sl)),p._30(1,180224,null,0,k,[h.a,g.a,el.a,v.a,b.a],null,null)],null,null)},{},{},[]),El=t(22),Al=t(346),Fl=t(347),Hl=t(349),Ul=t(348),Nl=t(446),Gl=t(675),Wl=t(103),Bl=t(254);t.d(n,"CoreMainMenuPageModuleNgFactory",function(){return Tl});var Tl=p._28($,[],function(l){return p._40([p._41(512,p.o,p._21,[[8,[j.a,C.a,O.a,P.a,D.a,w.a,M.a,S.a,R.a,E.a,A.a,F.a,Rl]],[3,p.o],p.K]),p._41(4608,q.m,q.l,[p.G,[2,q.v]]),p._41(4608,El.x,El.x,[]),p._41(4608,El.d,El.d,[]),p._41(4608,Al.b,Al.a,[]),p._41(4608,Fl.a,Fl.b,[]),p._41(4608,Hl.b,Hl.a,[]),p._41(4608,Ul.b,Ul.a,[]),p._41(4608,Q.a,Q.a,[Nl.a,Al.b,Fl.a,Hl.b,Ul.b,Q.b,Q.c]),p._41(512,q.b,q.b,[]),p._41(512,El.v,El.v,[]),p._41(512,El.i,El.i,[]),p._41(512,El.s,El.s,[]),p._41(512,Gl.a,Gl.a,[]),p._41(512,d.b,d.b,[]),p._41(512,L.a,L.a,[]),p._41(512,Wl.a,Wl.a,[]),p._41(512,x.a,x.a,[]),p._41(512,Gl.b,Gl.b,[]),p._41(512,$,$,[]),p._41(256,Q.c,void 0,[]),p._41(256,Q.b,void 0,[]),p._41(256,Bl.a,k,[])])})}});
+webpackJsonp([41],{
+
+/***/ 1962:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreEmulatorCaptureMediaPageModule", function() { return CoreEmulatorCaptureMediaPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_media__ = __webpack_require__(2099);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreEmulatorCaptureMediaPageModule = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPageModule() {
+    }
+    CoreEmulatorCaptureMediaPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreEmulatorCaptureMediaPageModule);
+    return CoreEmulatorCaptureMediaPageModule;
+}());
+
+//# sourceMappingURL=capture-media.module.js.map
+
+/***/ }),
+
+/***/ 2099:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreEmulatorCaptureMediaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_file__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__ = __webpack_require__(18);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page to capture media in browser or desktop.
+ */
+var CoreEmulatorCaptureMediaPage = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPage(viewCtrl, params, domUtils, timeUtils, fileProvider, textUtils, cdr) {
+        this.viewCtrl = viewCtrl;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.fileProvider = fileProvider;
+        this.textUtils = textUtils;
+        this.cdr = cdr;
+        this.window = window;
+        this.type = params.get('type');
+        this.maxTime = params.get('maxTime');
+        this.facingMode = params.get('facingMode') || 'environment';
+        this.mimetype = params.get('mimetype');
+        this.extension = params.get('extension');
+        this.quality = params.get('quality') || 0.92;
+        this.returnDataUrl = !!params.get('returnDataUrl');
+    }
+    /**
+     * Component being initialized.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.initVariables();
+        var constraints = {
+            video: this.isAudio ? false : { facingMode: this.facingMode },
+            audio: !this.isImage
+        };
+        navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+            var chunks = [];
+            _this.localMediaStream = stream;
+            if (!_this.isImage) {
+                if (_this.isVideo) {
+                    _this.previewMedia = _this.previewVideo.nativeElement;
+                }
+                else {
+                    _this.previewMedia = _this.previewAudio.nativeElement;
+                    _this.initAudioDrawer(_this.localMediaStream);
+                    _this.audioDrawer.start();
+                }
+                _this.mediaRecorder = new _this.window.MediaRecorder(_this.localMediaStream, { mimeType: _this.mimetype });
+                // When video or audio is recorded, add it to the list of chunks.
+                _this.mediaRecorder.ondataavailable = function (e) {
+                    if (e.data.size > 0) {
+                        chunks.push(e.data);
+                    }
+                };
+                // When recording stops, create a Blob element with the recording and set it to the video or audio.
+                _this.mediaRecorder.onstop = function () {
+                    _this.mediaBlob = new Blob(chunks);
+                    chunks = [];
+                    _this.previewMedia.src = window.URL.createObjectURL(_this.mediaBlob);
+                };
+            }
+            if (_this.isImage || _this.isVideo) {
+                var hasLoaded_1 = false, waitTimeout_1;
+                // Listen for stream ready to display the stream.
+                _this.streamVideo.nativeElement.onloadedmetadata = function () {
+                    if (hasLoaded_1) {
+                        // Already loaded or timeout triggered, stop.
+                        return;
+                    }
+                    hasLoaded_1 = true;
+                    clearTimeout(waitTimeout_1);
+                    _this.readyToCapture = true;
+                    _this.streamVideo.nativeElement.onloadedmetadata = null;
+                    // Force change detection. Angular doesn't detect these async operations.
+                    _this.cdr.detectChanges();
+                };
+                // Set the stream as the source of the video.
+                _this.streamVideo.nativeElement.src = window.URL.createObjectURL(_this.localMediaStream);
+                // If stream isn't ready in a while, show error.
+                waitTimeout_1 = setTimeout(function () {
+                    if (!hasLoaded_1) {
+                        // Show error.
+                        hasLoaded_1 = true;
+                        _this.dismissWithError(-1, 'Cannot connect to webcam.');
+                    }
+                }, 10000);
+            }
+            else {
+                // It's ready to capture.
+                _this.readyToCapture = true;
+            }
+        }).catch(function (error) {
+            _this.dismissWithError(-1, error.message || error);
+        });
+    };
+    /**
+     * Initialize the audio drawer. This code has been extracted from MDN's example on MediaStream Recording:
+     * https://github.com/mdn/web-dictaphone
+     *
+     * @param {MediaStream} stream Stream returned by getUserMedia.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initAudioDrawer = function (stream) {
+        var skip = true, running = false;
+        var audioCtx = new (this.window.AudioContext || this.window.webkitAudioContext)(), canvasCtx = this.streamAudio.nativeElement.getContext('2d'), source = audioCtx.createMediaStreamSource(stream), analyser = audioCtx.createAnalyser(), bufferLength = analyser.frequencyBinCount, dataArray = new Uint8Array(bufferLength), width = this.streamAudio.nativeElement.width, height = this.streamAudio.nativeElement.height, drawAudio = function () {
+            if (!running) {
+                return;
+            }
+            // Update the draw every animation frame.
+            requestAnimationFrame(drawAudio);
+            // Skip half of the frames to improve performance, shouldn't affect the smoothness.
+            skip = !skip;
+            if (skip) {
+                return;
+            }
+            var sliceWidth = width / bufferLength;
+            var x = 0;
+            analyser.getByteTimeDomainData(dataArray);
+            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
+            canvasCtx.fillRect(0, 0, width, height);
+            canvasCtx.lineWidth = 1;
+            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
+            canvasCtx.beginPath();
+            for (var i = 0; i < bufferLength; i++) {
+                var v = dataArray[i] / 128.0, y = v * height / 2;
+                if (i === 0) {
+                    canvasCtx.moveTo(x, y);
+                }
+                else {
+                    canvasCtx.lineTo(x, y);
+                }
+                x += sliceWidth;
+            }
+            canvasCtx.lineTo(width, height / 2);
+            canvasCtx.stroke();
+        };
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        this.audioDrawer = {
+            start: function () {
+                if (running) {
+                    return;
+                }
+                running = true;
+                drawAudio();
+            },
+            stop: function () {
+                running = false;
+            }
+        };
+    };
+    /**
+     * Initialize some variables based on the params.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initVariables = function () {
+        if (this.type == 'captureimage') {
+            this.isCaptureImage = true;
+            this.type = 'image';
+        }
+        // Initialize some data based on the type of media to capture.
+        if (this.type == 'video') {
+            this.isVideo = true;
+            this.title = 'core.capturevideo';
+        }
+        else if (this.type == 'audio') {
+            this.isAudio = true;
+            this.title = 'core.captureaudio';
+        }
+        else if (this.type == 'image') {
+            this.isImage = true;
+            this.title = 'core.captureimage';
+        }
+    };
+    /**
+     * Main action clicked: record or stop recording.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.actionClicked = function () {
+        var _this = this;
+        if (this.isCapturing) {
+            // It's capturing, stop.
+            this.stopCapturing();
+            this.cdr.detectChanges();
+        }
+        else {
+            if (!this.isImage) {
+                // Start the capture.
+                this.isCapturing = true;
+                this.resetChrono = false;
+                this.mediaRecorder.start();
+                this.cdr.detectChanges();
+            }
+            else {
+                // Get the image from the video and set it to the canvas, using video width/height.
+                var width = this.streamVideo.nativeElement.videoWidth, height = this.streamVideo.nativeElement.videoHeight, loadingModal_1 = this.domUtils.showModalLoading();
+                this.imgCanvas.nativeElement.width = width;
+                this.imgCanvas.nativeElement.height = height;
+                this.imgCanvas.nativeElement.getContext('2d').drawImage(this.streamVideo.nativeElement, 0, 0, width, height);
+                // Convert the image to blob and show it in an image element.
+                this.imgCanvas.nativeElement.toBlob(function (blob) {
+                    loadingModal_1.dismiss();
+                    _this.mediaBlob = blob;
+                    _this.previewImage.nativeElement.setAttribute('src', window.URL.createObjectURL(_this.mediaBlob));
+                    _this.hasCaptured = true;
+                }, this.mimetype, this.quality);
+            }
+        }
+    };
+    /**
+     * User cancelled.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.cancel = function () {
+        // Send a "cancelled" error like the Cordova plugin does.
+        this.dismissWithError(3, 'Canceled.', 'Camera cancelled');
+    };
+    /**
+     * Discard the captured media.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.discard = function () {
+        this.previewMedia && this.previewMedia.pause();
+        this.streamVideo && this.streamVideo.nativeElement.play();
+        this.audioDrawer && this.audioDrawer.start();
+        this.hasCaptured = false;
+        this.isCapturing = false;
+        this.resetChrono = true;
+        delete this.mediaBlob;
+        this.cdr.detectChanges();
+    };
+    /**
+     * Close the modal, returning some data (success).
+     *
+     * @param {any} data Data to return.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithData = function (data) {
+        this.viewCtrl.dismiss(data, 'success');
+    };
+    /**
+     * Close the modal, returning an error.
+     *
+     * @param {number} code Error code. Will not be used if it's a Camera capture.
+     * @param {string} message Error message.
+     * @param {string} [cameraMessage] A specific message to use if it's a Camera capture. If not set, message will be used.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithError = function (code, message, cameraMessage) {
+        var isCamera = this.isImage && !this.isCaptureImage, error = isCamera ? (cameraMessage || message) : { code: code, message: message };
+        this.viewCtrl.dismiss(error, 'error');
+    };
+    /**
+     * Done capturing, write the file.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.done = function () {
+        var _this = this;
+        if (this.returnDataUrl) {
+            // Return the image as a base64 string.
+            this.dismissWithData(this.imgCanvas.nativeElement.toDataURL(this.mimetype, this.quality));
+            return;
+        }
+        if (!this.mediaBlob) {
+            // Shouldn't happen.
+            this.domUtils.showErrorModal('Please capture the media first.');
+            return;
+        }
+        // Create the file and return it.
+        var fileName = this.type + '_' + this.timeUtils.readableTimestamp() + '.' + this.extension, path = this.textUtils.concatenatePaths(__WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */].TMPFOLDER, 'media/' + fileName), loadingModal = this.domUtils.showModalLoading();
+        this.fileProvider.writeFile(path, this.mediaBlob).then(function (fileEntry) {
+            if (_this.isImage && !_this.isCaptureImage) {
+                _this.dismissWithData(fileEntry.toURL());
+            }
+            else {
+                // The capture plugin returns a MediaFile, not a FileEntry.
+                // The only difference is that it supports a new function that won't be supported in desktop.
+                fileEntry.getFormatData = function (successFn, errorFn) {
+                    // Nothing to do.
+                };
+                _this.dismissWithData([fileEntry]);
+            }
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        }).finally(function () {
+            loadingModal.dismiss();
+        });
+    };
+    /**
+     * Stop capturing. Only for video and audio.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.stopCapturing = function () {
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        this.mediaRecorder && this.mediaRecorder.stop();
+        this.isCapturing = false;
+        this.hasCaptured = true;
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnDestroy = function () {
+        var tracks = this.localMediaStream.getTracks();
+        tracks.forEach(function (track) {
+            track.stop();
+        });
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.previewMedia && this.previewMedia.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        delete this.mediaBlob;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('imgCanvas'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "imgCanvas", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewImage'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewImage", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamAudio", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewAudio", void 0);
+    CoreEmulatorCaptureMediaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-emulator-capture-media',template:/*ion-inline-start:"D:\akaal\src\core\emulator\pages\capture-media\capture-media.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-buttons start>\n            <button ion-button (click)="cancel()">{{ \'core.cancel\' | translate }}</button>\n        </ion-buttons>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button *ngIf="hasCaptured" (click)="done()">{{ \'core.done\' | translate }}</button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content  class="has-footer">\n    <core-loading [hideUntil]="readyToCapture">\n        <div class="core-av-wrapper">\n            <!-- Video stream for image and video. -->\n            <video *ngIf="!isAudio" [hidden]="hasCaptured" class="core-webcam-stream" autoplay #streamVideo></video>\n\n            <!-- For video recording, use 2 videos and show/hide them because a CSS rule caused problems with the controls. -->\n            <video *ngIf="isVideo" [hidden]="!hasCaptured" class="core-webcam-video-captured" controls #previewVideo></video>\n\n            <!-- Canvas to treat the image and an img to show the result. -->\n            <canvas *ngIf="isImage" class="core-webcam-image-canvas" #imgCanvas></canvas>\n            <img *ngIf="isImage" [hidden]="!hasCaptured" class="core-webcam-image" alt="{{ \'core.capturedimage\' | translate }}" #previewImage>\n\n            <!-- Canvas to show audio waves when recording audio and audio player to listen to the result. -->\n            <div *ngIf="isAudio" class="core-audio-record-container">\n                <canvas [hidden]="hasCaptured" class="core-audio-canvas" #streamAudio></canvas>\n                <audio [hidden]="!hasCaptured" class="core-audio-captured" controls #previewAudio></audio>\n            </div>\n        </div>\n    </core-loading>\n</ion-content>\n\n<ion-footer>\n    <ion-row *ngIf="readyToCapture">\n        <ion-col></ion-col>\n        <ion-col text-center>\n            <button ion-button icon-only clear *ngIf="!hasCaptured" (click)="actionClicked()" [attr.aria-label]="title">\n                <ion-icon *ngIf="!isCapturing && isAudio" name="microphone"></ion-icon>\n                <ion-icon *ngIf="!isCapturing && isVideo" name="videocam"></ion-icon>\n                <ion-icon *ngIf="isImage" name="camera"></ion-icon>\n                <ion-icon *ngIf="isCapturing" name="square"></ion-icon>\n            </button>\n            <button ion-button icon-only clear *ngIf="hasCaptured" (click)="discard()" [attr.aria-label]="\'core.discard\' | translate">\n                <ion-icon name="trash"></ion-icon>\n            </button>\n        </ion-col>\n        <ion-col padding text-end class="chrono-container">\n            <core-chrono *ngIf="!isImage" [hidden]="hasCaptured" [running]="isCapturing" [reset]="resetChrono" [endTime]="maxTime" (onEnd)="stopCapturing()"></core-chrono>\n        </ion-col>\n    </ion-row>\n</ion-footer>\n\n'/*ion-inline-end:"D:\akaal\src\core\emulator\pages\capture-media\capture-media.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]])
+    ], CoreEmulatorCaptureMediaPage);
+    return CoreEmulatorCaptureMediaPage;
+}());
+
+//# sourceMappingURL=capture-media.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=41.js.map

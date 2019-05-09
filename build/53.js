@@ -1,1 +1,196 @@
-webpackJsonp([53],{1921:function(l,e,n){"use strict";function a(l){return t._57(0,[(l()(),t._31(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),t._30(1,16384,null,0,k.a,[x.a,t.t,t.V,[2,D.a]],null,null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._31(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,G.b,G.a)),t._30(4,49152,null,0,M.a,[S.a,[2,D.a],[2,U.a],x.a,t.t,t.V],null,null),t._30(5,212992,null,0,F.a,[M.a,J.a,K.a,N.a],null,null),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(7,0,null,3,3,"ion-title",[],null,null,null,q.b,q.a)),t._30(8,49152,null,0,z.a,[x.a,t.t,t.V,[2,A.a],[2,M.a]],null,null),(l()(),t._55(9,0,["",""])),t._47(131072,B.a,[K.a,t.j]),(l()(),t._55(-1,3,["\n    "])),(l()(),t._55(-1,null,["\n"])),(l()(),t._55(-1,null,["\n"])),(l()(),t._31(14,0,null,null,5,"core-split-view",[],null,null,null,E.b,E.a)),t._30(15,245760,null,0,H.a,[[2,U.a],t.t,L.a,J.a,K.a],null,null),(l()(),t._55(-1,0,["\n    "])),(l()(),t._31(17,0,null,0,1,"core-grades-course",[["class","core-avoid-header"]],null,null,null,V.c,V.b)),t._30(18,114688,null,0,Q.a,[T.a,W.a,X.a,Y.a,[2,U.a],Z.a,[2,H.a]],{courseId:[0,"courseId"],userId:[1,"userId"],gradeId:[2,"gradeId"]},null),(l()(),t._55(-1,0,["\n"])),(l()(),t._55(-1,null,["\n\n\n"]))],function(l,e){var n=e.component;l(e,5,0),l(e,15,0);l(e,18,0,n.courseId,n.userId,n.gradeId)},function(l,e){l(e,3,0,t._44(e,4)._hidden,t._44(e,4)._sbPadding);l(e,9,0,t._56(e,9,0,t._44(e,10).transform("core.grades.grades")))})}Object.defineProperty(e,"__esModule",{value:!0});var t=n(0),u=n(8),r=n(3),o=n(1),c=this&&this.__decorate||function(l,e,n,a){var t,u=arguments.length,r=u<3?e:null===a?a=Object.getOwnPropertyDescriptor(e,n):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(l,e,n,a);else for(var o=l.length-1;o>=0;o--)(t=l[o])&&(r=(u<3?t(r):u>3?t(e,n,r):t(e,n))||r);return u>3&&r&&Object.defineProperty(e,n,r),r},_=this&&this.__metadata||function(l,e){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,e)},s=function(){function l(l,e){this.courseId=l.get("courseId"),this.userId=l.get("userId")||e.getCurrentSiteUserId(),this.gradeId=l.get("gradeId")}return l=c([Object(t.m)({selector:"page-core-grades-course-split",templateUrl:"coursesplit.html"}),_("design:paramtypes",[u.t,o.a])],l)}(),d=n(24),i=n(29),f=n(687),b=this&&this.__decorate||function(l,e,n,a){var t,u=arguments.length,r=u<3?e:null===a?a=Object.getOwnPropertyDescriptor(e,n):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(l,e,n,a);else for(var o=l.length-1;o>=0;o--)(t=l[o])&&(r=(u<3?t(r):u>3?t(e,n,r):t(e,n))||r);return u>3&&r&&Object.defineProperty(e,n,r),r},p=function(){function l(){}return l=b([Object(t.I)({declarations:[s],imports:[f.a,d.a,i.a,u.l.forChild(s),r.b.forChild()]})],l)}(),g=n(1365),h=n(1366),I=n(1367),v=n(1368),y=n(1369),j=n(1370),m=n(1371),O=n(1372),R=n(1373),P=n(1376),C=n(1377),w=n(1378),V=n(1408),k=n(447),x=n(6),D=n(37),G=n(1374),M=n(207),S=n(32),U=n(21),F=n(676),J=n(14),K=n(18),N=n(12),q=n(1375),z=n(350),A=n(253),B=n(27),E=n(449),H=n(34),L=n(66),Q=n(470),T=n(154),W=n(4),X=n(63),Y=n(164),Z=n(9),$=t._29({encapsulation:2,styles:[],data:{}}),ll=t._27("page-core-grades-course-split",s,function(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"page-core-grades-course-split",[],null,null,null,a,$)),t._30(1,49152,null,0,s,[X.a,o.a],null,null)],null,null)},{},{},[]),el=n(7),nl=n(22),al=n(346),tl=n(347),ul=n(349),rl=n(348),ol=n(446),cl=n(675),_l=n(103),sl=n(254);n.d(e,"CoreGradesCourseSplitPageModuleNgFactory",function(){return dl});var dl=t._28(p,[],function(l){return t._40([t._41(512,t.o,t._21,[[8,[g.a,h.a,I.a,v.a,y.a,j.a,m.a,O.a,R.a,P.a,C.a,w.a,V.a,ll]],[3,t.o],t.K]),t._41(4608,el.m,el.l,[t.G,[2,el.v]]),t._41(4608,nl.x,nl.x,[]),t._41(4608,nl.d,nl.d,[]),t._41(4608,al.b,al.a,[]),t._41(4608,tl.a,tl.b,[]),t._41(4608,ul.b,ul.a,[]),t._41(4608,rl.b,rl.a,[]),t._41(4608,K.a,K.a,[ol.a,al.b,tl.a,ul.b,rl.b,K.b,K.c]),t._41(512,el.b,el.b,[]),t._41(512,nl.v,nl.v,[]),t._41(512,nl.i,nl.i,[]),t._41(512,nl.s,nl.s,[]),t._41(512,cl.a,cl.a,[]),t._41(512,r.b,r.b,[]),t._41(512,i.a,i.a,[]),t._41(512,_l.a,_l.a,[]),t._41(512,d.a,d.a,[]),t._41(512,f.a,f.a,[]),t._41(512,cl.b,cl.b,[]),t._41(512,p,p,[]),t._41(256,K.c,void 0,[]),t._41(256,K.b,void 0,[]),t._41(256,sl.a,s,[])])})}});
+webpackJsonp([53],{
+
+/***/ 1905:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCommentsViewerPageModule", function() { return CoreCommentsViewerPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewer__ = __webpack_require__(2040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(260);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var CoreCommentsViewerPageModule = /** @class */ (function () {
+    function CoreCommentsViewerPageModule() {
+    }
+    CoreCommentsViewerPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__viewer__["a" /* CoreCommentsViewerPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCommentsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__viewer__["a" /* CoreCommentsViewerPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCommentsViewerPageModule);
+    return CoreCommentsViewerPageModule;
+}());
+
+//# sourceMappingURL=viewer.module.js.map
+
+/***/ }),
+
+/***/ 2040:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCommentsViewerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_user_providers_user__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_comments__ = __webpack_require__(144);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page that displays comments.
+ */
+var CoreCommentsViewerPage = /** @class */ (function () {
+    function CoreCommentsViewerPage(navParams, sitesProvider, userProvider, domUtils, translate, commentsProvider) {
+        this.userProvider = userProvider;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.commentsProvider = commentsProvider;
+        this.comments = [];
+        this.commentsLoaded = false;
+        this.contextLevel = navParams.get('contextLevel');
+        this.instanceId = navParams.get('instanceId');
+        this.component = navParams.get('component');
+        this.itemId = navParams.get('itemId');
+        this.area = navParams.get('area') || '';
+        this.page = navParams.get('page') || 0;
+        this.title = navParams.get('title') || this.translate.instant('core.comments');
+    }
+    /**
+     * View loaded.
+     */
+    CoreCommentsViewerPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchComments().finally(function () {
+            _this.commentsLoaded = true;
+        });
+    };
+    /**
+     * Fetches the comments.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    CoreCommentsViewerPage.prototype.fetchComments = function () {
+        var _this = this;
+        // Get comments data.
+        return this.commentsProvider.getComments(this.contextLevel, this.instanceId, this.component, this.itemId, this.area, this.page).then(function (comments) {
+            _this.comments = comments;
+            _this.comments.sort(function (a, b) { return b.timecreated - a.timecreated; });
+            _this.comments.forEach(function (comment) {
+                // Get the user profile image.
+                _this.userProvider.getProfile(comment.userid, undefined, true).then(function (user) {
+                    comment.profileimageurl = user.profileimageurl;
+                }).catch(function () {
+                    // Ignore errors.
+                });
+            });
+        }).catch(function (error) {
+            if (error && _this.component == 'assignsubmission_comments') {
+                _this.domUtils.showAlertTranslated('core.notice', 'core.commentsnotworking');
+            }
+            else {
+                _this.domUtils.showErrorModalDefault(error, _this.translate.instant('core.error') + ': get_comments');
+            }
+        });
+    };
+    /**
+     * Refresh the comments.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreCommentsViewerPage.prototype.refreshComments = function (refresher) {
+        var _this = this;
+        this.commentsProvider.invalidateCommentsData(this.contextLevel, this.instanceId, this.component, this.itemId, this.area, this.page).finally(function () {
+            return _this.fetchComments().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], CoreCommentsViewerPage.prototype, "content", void 0);
+    CoreCommentsViewerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-comments-viewer',template:/*ion-inline-start:"D:\akaal\src\core\comments\pages\viewer\viewer.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="commentsLoaded" (ionRefresh)="refreshComments($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="commentsLoaded">\n        <core-empty-box *ngIf="!comments || !comments.length" icon="chatbubbles" [message]="\'core.nocomments\' | translate"></core-empty-box>\n\n        <ion-card *ngFor="let comment of comments">\n            <ion-item text-wrap>\n                <ion-avatar core-user-avatar [user]="comment" item-start></ion-avatar>\n                <h2>{{ comment.fullname }}</h2>\n                <p>{{ comment.time }}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <core-format-text clean="true" [text]="comment.content"></core-format-text>\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\core\comments\pages\viewer\viewer.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__core_user_providers_user__["a" /* CoreUserProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_comments__["a" /* CoreCommentsProvider */]])
+    ], CoreCommentsViewerPage);
+    return CoreCommentsViewerPage;
+}());
+
+//# sourceMappingURL=viewer.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=53.js.map

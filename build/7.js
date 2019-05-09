@@ -1,1 +1,895 @@
-webpackJsonp([7],{1869:function(l,n,u){"use strict";function t(l){return o._57(0,[(l()(),o._31(0,0,null,null,13,"form",[["name","addon-mod_assign-edit-feedback-form"],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==o._44(l,2).onSubmit(u)&&t}if("reset"===n){t=!1!==o._44(l,2).onReset()&&t}return t},null,null)),o._30(1,16384,null,0,T.w,[],null,null),o._30(2,4210688,null,0,T.p,[[8,null],[8,null]],null,null),o._50(2048,null,T.b,null,[T.p]),o._30(4,16384,null,0,T.o,[T.b],null,null),(l()(),o._55(-1,null,["\n        "])),(l()(),o._31(6,0,null,null,1,"addon-mod-assign-feedback-plugin",[],null,null,null,D.b,D.a)),o._30(7,114688,null,0,M.a,[o.C,s.a,F.a,G.a],{assign:[0,"assign"],submission:[1,"submission"],plugin:[2,"plugin"],userId:[3,"userId"],edit:[4,"edit"]},null),(l()(),o._55(-1,null,["\n        "])),(l()(),o._31(9,0,null,null,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.done(u)&&t}return t},E.b,E.a)),o._30(10,1097728,null,0,$.a,[[8,""],P.a,o.t,o.V],{block:[0,"block"]},null),(l()(),o._55(11,0,["",""])),o._47(131072,U.a,[R.a,o.j]),(l()(),o._55(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,7,0,u.assign,u.submission,u.plugin,u.userId,!0);l(n,10,0,"")},function(l,n){l(n,0,0,o._44(n,4).ngClassUntouched,o._44(n,4).ngClassTouched,o._44(n,4).ngClassPristine,o._44(n,4).ngClassDirty,o._44(n,4).ngClassValid,o._44(n,4).ngClassInvalid,o._44(n,4).ngClassPending);l(n,11,0,o._56(n,11,0,o._44(n,12).transform("core.done")))})}function a(l){return o._57(0,[(l()(),o._31(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),o._30(1,16384,null,0,N.a,[P.a,o.t,o.V,[2,q.a]],null,null),(l()(),o._55(-1,null,["\n    "])),(l()(),o._31(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,H.b,H.a)),o._30(4,49152,null,0,z.a,[W.a,[2,q.a],[2,B.a],P.a,o.t,o.V],null,null),o._30(5,212992,null,0,J.a,[z.a,K.a,R.a,Q.a],null,null),(l()(),o._55(-1,3,["\n        "])),(l()(),o._31(7,0,null,3,3,"ion-title",[],null,null,null,X.b,X.a)),o._30(8,49152,null,0,Y.a,[P.a,o.t,o.V,[2,Z.a],[2,z.a]],null,null),(l()(),o._31(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),o._30(10,540672,null,0,ll.a,[o.t,nl.a,i.a,ul.a,R.a,K.a,tl.a,al.a,ol.a,_l.a,el.a,il.a,[2,B.a],[2,sl.a],[2,rl.a],cl.a,Q.a],{text:[0,"text"]},null),(l()(),o._55(-1,3,["\n        "])),(l()(),o._31(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),o._30(13,16384,null,1,dl.a,[P.a,o.t,o.V,[2,Z.a],[2,z.a]],null,null),o._52(603979776,1,{_buttons:1}),(l()(),o._55(-1,null,["\n            "])),(l()(),o._31(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.closeModal()&&t}return t},E.b,E.a)),o._30(17,1097728,[[1,4]],0,$.a,[[8,""],P.a,o.t,o.V],null,null),o._47(131072,U.a,[R.a,o.j]),(l()(),o._55(-1,0,["\n                "])),(l()(),o._31(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._30(21,147456,null,0,ml.a,[P.a,o.t,o.V],{name:[0,"name"]},null),(l()(),o._55(-1,0,["\n            "])),(l()(),o._55(-1,null,["\n        "])),(l()(),o._55(-1,3,["\n    "])),(l()(),o._55(-1,null,["\n"])),(l()(),o._55(-1,null,["\n"])),(l()(),o._31(27,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),o._30(28,4374528,null,0,sl.a,[P.a,K.a,gl.a,o.t,o.V,W.a,pl.a,o.M,[2,q.a],[2,B.a]],null,null),(l()(),o._55(-1,1,["\n    "])),(l()(),o._26(16777216,null,1,1,null,t)),o._30(31,16384,null,0,bl.k,[o._11,o._6],{ngIf:[0,"ngIf"]},null),(l()(),o._55(-1,1,["\n"])),(l()(),o._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,5,0);l(n,10,0,u.plugin.name);l(n,21,0,"close");l(n,31,0,u.userId&&u.plugin)},function(l,n){l(n,3,0,o._44(n,4)._hidden,o._44(n,4)._sbPadding);l(n,16,0,o._56(n,16,0,o._44(n,18).transform("core.close")));l(n,20,0,o._44(n,21)._hidden);l(n,27,0,o._44(n,28).statusbarPadding,o._44(n,28)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(0),_=u(8),e=u(3),i=u(4),s=u(167),r=this&&this.__decorate||function(l,n,u,t){var a,o=arguments.length,_=o<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,u):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)_=Reflect.decorate(l,n,u,t);else for(var e=l.length-1;e>=0;e--)(a=l[e])&&(_=(o<3?a(_):o>3?a(n,u,_):a(n,u))||_);return o>3&&_&&Object.defineProperty(n,u,_),_},c=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},d=function(){function l(l,n,u,t,a){this.viewCtrl=n,this.domUtils=u,this.translate=t,this.feedbackDelegate=a,this.forceLeave=!1,this.assign=l.get("assign"),this.submission=l.get("submission"),this.plugin=l.get("plugin"),this.userId=l.get("userId")}return l.prototype.ionViewCanLeave=function(){var l=this;return!!this.forceLeave||this.hasDataChanged().then(function(n){if(n)return l.domUtils.showConfirm(l.translate.instant("core.confirmcanceledit"))})},l.prototype.closeModal=function(l){this.viewCtrl.dismiss(l)},l.prototype.done=function(l){l.preventDefault(),l.stopPropagation(),this.forceLeave=!0,this.closeModal(this.getInputData())},l.prototype.getInputData=function(){return this.domUtils.getDataFromForm(document.forms["addon-mod_assign-edit-feedback-form"])},l.prototype.hasDataChanged=function(){return this.feedbackDelegate.hasPluginDataChanged(this.assign,this.userId,this.plugin,this.getInputData(),this.userId).catch(function(){return!0})},r([Object(o.D)(),c("design:type",Object)],l.prototype,"assign",void 0),r([Object(o.D)(),c("design:type",Object)],l.prototype,"submission",void 0),r([Object(o.D)(),c("design:type",Object)],l.prototype,"plugin",void 0),r([Object(o.D)(),c("design:type",Number)],l.prototype,"userId",void 0),l=r([Object(o.m)({selector:"page-addon-mod-assign-edit-feedback-modal",templateUrl:"edit-feedback-modal.html"}),c("design:paramtypes",[_.t,_.E,i.a,e.c,s.a])],l)}(),m=u(24),f=u(29),g=u(1383),p=this&&this.__decorate||function(l,n,u,t){var a,o=arguments.length,_=o<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,u):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)_=Reflect.decorate(l,n,u,t);else for(var e=l.length-1;e>=0;e--)(a=l[e])&&(_=(o<3?a(_):o>3?a(n,u,_):a(n,u))||_);return o>3&&_&&Object.defineProperty(n,u,_),_},b=function(){function l(){}return l=p([Object(o.I)({declarations:[d],imports:[m.a,f.a,g.a,_.l.forChild(d),e.b.forChild()]})],l)}(),k=u(1365),I=u(1366),h=u(1367),v=u(1368),x=u(1369),y=u(1370),C=u(1371),w=u(1372),j=u(1373),V=u(1376),S=u(1377),O=u(1378),A=u(1379),L=u(1988),T=u(22),D=u(1991),M=u(1382),F=u(72),G=u(162),E=u(46),$=u(43),P=u(6),U=u(27),R=u(18),N=u(447),q=u(37),H=u(1374),z=u(207),W=u(32),B=u(21),J=u(676),K=u(14),Q=u(12),X=u(1375),Y=u(350),Z=u(253),ll=u(41),nl=u(1),ul=u(10),tl=u(2),al=u(26),ol=u(5),_l=u(16),el=u(9),il=u(17),sl=u(25),rl=u(34),cl=u(36),dl=u(448),ml=u(45),fl=u(178),gl=u(31),pl=u(104),bl=u(7),kl=u(63),Il=o._29({encapsulation:2,styles:[],data:{}}),hl=o._27("page-addon-mod-assign-edit-feedback-modal",d,function(l){return o._57(0,[(l()(),o._31(0,0,null,null,1,"page-addon-mod-assign-edit-feedback-modal",[],null,null,null,a,Il)),o._30(1,49152,null,0,d,[kl.a,q.a,i.a,R.a,s.a],null,null)],null,null)},{assign:"assign",submission:"submission",plugin:"plugin",userId:"userId"},{},[]),vl=u(346),xl=u(347),yl=u(349),Cl=u(348),wl=u(446),jl=u(675),Vl=u(103),Sl=u(67),Ol=u(254);u.d(n,"AddonModAssignEditFeedbackModalPageModuleNgFactory",function(){return Al});var Al=o._28(b,[],function(l){return o._40([o._41(512,o.o,o._21,[[8,[k.a,I.a,h.a,v.a,x.a,y.a,C.a,w.a,j.a,V.a,S.a,O.a,A.a,L.a,hl]],[3,o.o],o.K]),o._41(4608,bl.m,bl.l,[o.G,[2,bl.v]]),o._41(4608,T.x,T.x,[]),o._41(4608,T.d,T.d,[]),o._41(4608,vl.b,vl.a,[]),o._41(4608,xl.a,xl.b,[]),o._41(4608,yl.b,yl.a,[]),o._41(4608,Cl.b,Cl.a,[]),o._41(4608,R.a,R.a,[wl.a,vl.b,xl.a,yl.b,Cl.b,R.b,R.c]),o._41(512,bl.b,bl.b,[]),o._41(512,T.v,T.v,[]),o._41(512,T.i,T.i,[]),o._41(512,T.s,T.s,[]),o._41(512,jl.a,jl.a,[]),o._41(512,e.b,e.b,[]),o._41(512,f.a,f.a,[]),o._41(512,Vl.a,Vl.a,[]),o._41(512,m.a,m.a,[]),o._41(512,Sl.a,Sl.a,[]),o._41(512,g.a,g.a,[]),o._41(512,jl.b,jl.b,[]),o._41(512,b,b,[]),o._41(256,R.c,void 0,[]),o._41(256,R.b,void 0,[]),o._41(256,Ol.a,d,[])])})},1988:function(l,n,u){"use strict";function t(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"core-context-menu-item",[],null,null,null,M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],href:[2,"href"],priority:[3,"priority"]},null),D._47(131072,E.a,[$.a,D.j])],function(l,n){var u=n.component;l(n,1,0,D._56(n,1,0,D._44(n,2).transform("core.openinbrowser")),"open",u.externalUrl,900)},null)}function a(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.expandDescription()&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],priority:[2,"priority"]},{action:"action"}),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,1,0,D._56(n,1,0,D._44(n,2).transform("core.moduleintro")),"arrow-forward",800)},null)}function o(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.gotoBlog(u)&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],priority:[2,"priority"]},{action:"action"}),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,1,0,D._34(1,"",D._56(n,1,0,D._44(n,2).transform("addon.blog.blog")),""),"fa-newspaper-o",750)},null)}function _(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.doRefresh(null,u)&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],closeOnClick:[2,"closeOnClick"],priority:[3,"priority"]},{action:"action"}),D._47(131072,E.a,[$.a,D.j])],function(l,n){var u=n.component;l(n,1,0,D._56(n,1,0,D._44(n,2).transform("core.refresh")),u.refreshIcon,!1,700)},null)}function e(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.doRefresh(null,u,!0)&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],closeOnClick:[2,"closeOnClick"],priority:[3,"priority"]},{action:"action"}),D._47(131072,E.a,[$.a,D.j])],function(l,n){var u=n.component;l(n,1,0,D._56(n,1,0,D._44(n,2).transform("core.settings.synchronizenow")),u.syncIcon,!1,600)},null)}function i(l){return D._57(0,[(l()(),D._31(0,0,null,null,1,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.prefetch()&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconAction:[1,"iconAction"],closeOnClick:[2,"closeOnClick"],priority:[3,"priority"]},{action:"action"})],function(l,n){var u=n.component;l(n,1,0,u.prefetchText,u.prefetchStatusIcon,!1,500)},null)}function s(l){return D._57(0,[(l()(),D._31(0,0,null,null,1,"core-context-menu-item",[],null,[[null,"action"]],function(l,n,u){var t=!0;if("action"===n){t=!1!==l.component.removeFiles()&&t}return t},M.b,M.a)),D._30(1,770048,null,0,F.a,[G.a],{content:[0,"content"],iconDescription:[1,"iconDescription"],iconAction:[2,"iconAction"],priority:[3,"priority"]},{action:"action"})],function(l,n){l(n,1,0,n.component.size,"cube","trash",400)},null)}function r(l){return D._57(0,[(l()(),D._31(0,0,null,null,13,"ion-card",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.expandDescription(u)&&t}return t},null,null)),D._30(1,16384,null,0,P.a,[U.a,D.t,D.V],null,null),(l()(),D._55(-1,null,["\n        "])),(l()(),D._31(3,0,null,null,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,R.b,R.a)),D._30(4,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,3,{contentLabel:0}),D._52(603979776,4,{_buttons:1}),D._52(603979776,5,{_icons:1}),D._30(8,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(10,0,null,2,1,"core-format-text",[["maxHeight","120"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.expandDescription(u)&&t}return t},null,null)),D._30(11,540672,null,0,W.a,[D.t,B.a,J.a,K.a,$.a,Q.a,X.a,Y.a,Z.a,ll.a,nl.a,ul.a,[2,tl.a],[2,al.a],[2,ol.a],_l.a,el.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"],maxHeight:[3,"maxHeight"]},null),(l()(),D._55(-1,2,["\n        "])),(l()(),D._55(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,11,0,u.description,u.component,u.componentId,"120")},null)}function c(l){return D._57(0,[(l()(),D._31(0,0,null,null,1,"core-file",[],null,null,null,il.b,il.a)),D._30(1,245760,null,0,sl.a,[B.a,X.a,J.a,ll.a,nl.a,rl.a,cl.a,el.a,K.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(l,n){var u=n.component;l(n,1,0,n.context.$implicit,u.component,u.componentId)},null)}function d(l){return D._57(0,[(l()(),D._31(0,0,null,null,5,"ion-card",[],null,null,null,null,null)),D._30(1,16384,null,0,P.a,[U.a,D.t,D.V],null,null),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,c)),D._30(4,802816,null,0,dl.j,[D._11,D._6,D.E],{ngForOf:[0,"ngForOf"]},null),(l()(),D._55(-1,null,["\n    "]))],function(l,n){l(n,4,0,n.component.assign.introattachments)},null)}function m(l){return D._57(0,[(l()(),D._31(0,0,null,null,6,"div",[["class","core-warning-card"],["icon-start",""]],null,null,null,null,null)),(l()(),D._55(-1,null,["\n        "])),(l()(),D._31(2,0,null,null,1,"ion-icon",[["name","warning"],["role","img"]],[[2,"hide",null]],null,null,null,null)),D._30(3,147456,null,0,ml.a,[U.a,D.t,D.V],{name:[0,"name"]},null),(l()(),D._55(4,null,["\n        ","\n    "])),D._48(5,{$a:0}),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,3,0,"warning")},function(l,n){var u=n.component;l(n,2,0,D._44(n,3)._hidden);l(n,4,0,D._56(n,4,0,D._44(n,6).transform("core.hasdatatosync",l(n,5,0,u.moduleName))))})}function f(l){return D._57(0,[(l()(),D._31(0,0,null,null,3,"ion-label",[["id","addon-assign-groupslabel"]],null,null,null,null,null)),D._30(1,16384,[[6,4]],0,fl.a,[U.a,D.t,D.V,[8,null],[8,null],[8,null],[8,null]],{id:[0,"id"]},null),(l()(),D._55(2,null,["",""])),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,1,0,"addon-assign-groupslabel")},function(l,n){l(n,2,0,D._56(n,2,0,D._44(n,3).transform("core.groupsseparate")))})}function g(l){return D._57(0,[(l()(),D._31(0,0,null,null,3,"ion-label",[["id","addon-assign-groupslabel"]],null,null,null,null,null)),D._30(1,16384,[[6,4]],0,fl.a,[U.a,D.t,D.V,[8,null],[8,null],[8,null],[8,null]],{id:[0,"id"]},null),(l()(),D._55(2,null,["",""])),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,1,0,"addon-assign-groupslabel")},function(l,n){l(n,2,0,D._56(n,2,0,D._44(n,3).transform("core.groupsvisible")))})}function p(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),D._30(1,16384,[[9,4]],0,gl.a,[D.t],{value:[0,"value"]},null),(l()(),D._55(2,null,["",""]))],function(l,n){l(n,1,0,n.context.$implicit.id)},function(l,n){l(n,2,0,n.context.$implicit.name)})}function b(l){return D._57(0,[(l()(),D._31(0,0,null,null,24,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(603979776,6,{contentLabel:0}),D._52(603979776,7,{_buttons:1}),D._52(603979776,8,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,1,1,null,f)),D._30(8,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,1,1,null,g)),D._30(11,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(13,0,null,3,10,"ion-select",[["aria-labelledby","addon-assign-groupslabel"],["interface","action-sheet"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==D._44(l,14)._click(u)&&t}if("keyup.space"===n){t=!1!==D._44(l,14)._keyup()&&t}if("ngModelChange"===n){t=!1!==(a.group=u)&&t}if("ionChange"===n){t=!1!==a.setGroup(a.group)&&t}return t},pl.b,pl.a)),D._30(14,1228800,null,1,bl.a,[kl.a,q.a,U.a,D.t,D.V,[2,N.a],Il.a],{interface:[0,"interface"]},{ionChange:"ionChange"}),D._52(603979776,9,{options:1}),D._50(1024,null,hl.l,function(l){return[l]},[bl.a]),D._30(17,671744,null,0,hl.q,[[8,null],[8,null],[8,null],[2,hl.l]],{model:[0,"model"]},{update:"ngModelChange"}),D._50(2048,null,hl.m,null,[hl.q]),D._30(19,16384,null,0,hl.n,[hl.m],null,null),(l()(),D._55(-1,null,["\n                "])),(l()(),D._26(16777216,null,null,1,null,p)),D._30(22,802816,null,0,dl.j,[D._11,D._6,D.E],{ngForOf:[0,"ngForOf"]},null),(l()(),D._55(-1,null,["\n            "])),(l()(),D._55(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,8,0,u.groupInfo.separateGroups);l(n,11,0,u.groupInfo.visibleGroups);l(n,14,0,"action-sheet");l(n,17,0,u.group);l(n,22,0,u.groupInfo.groups)},function(l,n){l(n,13,0,D._44(n,14)._disabled,D._44(n,19).ngClassUntouched,D._44(n,19).ngClassTouched,D._44(n,19).ngClassPristine,D._44(n,19).ngClassDirty,D._44(n,19).ngClassValid,D._44(n,19).ngClassInvalid,D._44(n,19).ngClassPending)})}function k(l){return D._57(0,[(l()(),D._31(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,10,{contentLabel:0}),D._52(603979776,11,{_buttons:1}),D._52(603979776,12,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),D._55(8,null,["",""])),D._47(131072,E.a,[$.a,D.j]),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),D._55(12,null,["",""])),(l()(),D._55(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,D._56(n,8,0,D._44(n,9).transform("addon.mod_assign.timeremaining")));l(n,12,0,u.timeRemaining)})}function I(l){return D._57(0,[(l()(),D._31(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,13,{contentLabel:0}),D._52(603979776,14,{_buttons:1}),D._52(603979776,15,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),D._55(8,null,["",""])),D._47(131072,E.a,[$.a,D.j]),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),D._55(12,null,["",""])),(l()(),D._55(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,D._56(n,8,0,D._44(n,9).transform("addon.mod_assign.latesubmissions")));l(n,12,0,u.lateSubmissions)})}function h(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"h2",[],null,null,null,null,null)),(l()(),D._55(1,null,["",""])),D._47(131072,E.a,[$.a,D.j])],null,function(l,n){l(n,1,0,D._56(n,1,0,D._44(n,2).transform("addon.mod_assign.numberofteams")))})}function v(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"h2",[],null,null,null,null,null)),(l()(),D._55(1,null,["",""])),D._47(131072,E.a,[$.a,D.j])],null,function(l,n){l(n,1,0,D._56(n,1,0,D._44(n,2).transform("addon.mod_assign.numberofparticipants")))})}function x(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"ion-badge",[["color","primary"],["item-end",""]],null,null,null,null,null)),D._30(1,16384,null,0,vl.a,[U.a,D.t,D.V],{color:[0,"color"]},null),(l()(),D._55(2,null,["\n                ","\n            "]))],function(l,n){l(n,1,0,"primary")},function(l,n){l(n,2,0,n.component.summary.participantcount)})}function y(l){return D._57(0,[(l()(),D._31(0,0,null,null,15,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToSubmissionList()&&t}return t},R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,16,{contentLabel:0}),D._52(603979776,17,{_buttons:1}),D._52(603979776,18,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,2,1,null,h)),D._30(8,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,2,1,null,v)),D._30(11,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,4,1,null,x)),D._30(14,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,8,0,u.assign.teamsubmission);l(n,11,0,!u.assign.teamsubmission);l(n,14,0,u.showNumbers)},null)}function C(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"ion-badge",[["color","primary"],["item-end",""]],null,null,null,null,null)),D._30(1,16384,null,0,vl.a,[U.a,D.t,D.V],{color:[0,"color"]},null),(l()(),D._55(2,null,["\n                ","\n            "]))],function(l,n){l(n,1,0,"primary")},function(l,n){l(n,2,0,n.component.summary.submissiondraftscount)})}function w(l){return D._57(0,[(l()(),D._31(0,0,null,null,13,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[1,"detail-none",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.goToSubmissionList(a.submissionStatusDraft,a.summary.submissiondraftscount)&&t}return t},R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,19,{contentLabel:0}),D._52(603979776,20,{_buttons:1}),D._52(603979776,21,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),D._55(8,null,["",""])),D._47(131072,E.a,[$.a,D.j]),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,4,1,null,C)),D._30(12,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n        "]))],function(l,n){l(n,12,0,n.component.showNumbers)},function(l,n){var u=n.component;l(n,0,0,!(!u.showNumbers||u.summary.submissiondraftscount)||null);l(n,8,0,D._56(n,8,0,D._44(n,9).transform("addon.mod_assign.numberofdraftsubmissions")))})}function j(l){return D._57(0,[(l()(),D._31(0,0,null,null,2,"ion-badge",[["color","primary"],["item-end",""]],null,null,null,null,null)),D._30(1,16384,null,0,vl.a,[U.a,D.t,D.V],{color:[0,"color"]},null),(l()(),D._55(2,null,["\n                ","\n            "]))],function(l,n){l(n,1,0,"primary")},function(l,n){l(n,2,0,n.component.summary.submissionssubmittedcount)})}function V(l){return D._57(0,[(l()(),D._31(0,0,null,null,13,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[1,"detail-none",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.goToSubmissionList(a.submissionStatusSubmitted,a.summary.submissionssubmittedcount)&&t}return t},R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,22,{contentLabel:0}),D._52(603979776,23,{_buttons:1}),D._52(603979776,24,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),D._55(8,null,["",""])),D._47(131072,E.a,[$.a,D.j]),(l()(),D._55(-1,2,["\n            "])),(l()(),D._26(16777216,null,4,1,null,j)),D._30(12,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,2,["\n        "]))],function(l,n){l(n,12,0,n.component.showNumbers)},function(l,n){var u=n.component;l(n,0,0,!(!u.showNumbers||u.summary.submissionssubmittedcount)||null);l(n,8,0,D._56(n,8,0,D._44(n,9).transform("addon.mod_assign.numberofsubmittedassignments")))})}function S(l){return D._57(0,[(l()(),D._31(0,0,null,null,14,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[1,"detail-none",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.goToSubmissionList(a.needGrading,a.needsGradingAvalaible)&&t}return t},R.b,R.a)),D._30(1,1097728,null,3,N.a,[q.a,U.a,D.t,D.V,[2,H.a]],null,null),D._52(335544320,25,{contentLabel:0}),D._52(603979776,26,{_buttons:1}),D._52(603979776,27,{_icons:1}),D._30(5,16384,null,0,z.a,[],null,null),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),D._55(8,null,["",""])),D._47(131072,E.a,[$.a,D.j]),(l()(),D._55(-1,2,["\n            "])),(l()(),D._31(11,0,null,4,2,"ion-badge",[["color","primary"],["item-end",""]],null,null,null,null,null)),D._30(12,16384,null,0,vl.a,[U.a,D.t,D.V],{color:[0,"color"]},null),(l()(),D._55(13,null,["\n                ","\n            "])),(l()(),D._55(-1,2,["\n        "]))],function(l,n){l(n,12,0,"primary")},function(l,n){var u=n.component;l(n,0,0,!u.needsGradingAvalaible||null);l(n,8,0,D._56(n,8,0,D._44(n,9).transform("addon.mod_assign.numberofsubmissionsneedgrading")));l(n,13,0,u.summary.submissionsneedgradingcount)})}function O(l){return D._57(0,[(l()(),D._31(0,0,null,null,5,"div",[["class","core-info-card"],["icon-start",""]],null,null,null,null,null)),(l()(),D._55(-1,null,["\n            "])),(l()(),D._31(2,0,null,null,1,"ion-icon",[["name","information-circle"],["role","img"]],[[2,"hide",null]],null,null,null,null)),D._30(3,147456,null,0,ml.a,[U.a,D.t,D.V],{name:[0,"name"]},null),(l()(),D._55(4,null,["\n            ","\n        "])),D._47(131072,E.a,[$.a,D.j])],function(l,n){l(n,3,0,"information-circle")},function(l,n){l(n,2,0,D._44(n,3)._hidden);l(n,4,0,D._56(n,4,0,D._44(n,5).transform("addon.mod_assign.ungroupedusers")))})}function A(l){return D._57(0,[(l()(),D._31(0,0,null,null,31,"ion-list",[["class","core-list-align-detail-right with-borders"]],null,null,null,null,null)),D._30(1,16384,null,0,xl.a,[U.a,D.t,D.V,Q.a,yl.l,Cl.a],null,null),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,b)),D._30(4,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._26(16777216,null,null,1,null,k)),D._30(7,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,I)),D._30(10,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,y)),D._30(14,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,w)),D._30(18,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,V)),D._30(22,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,S)),D._30(26,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n\n        "])),(l()(),D._55(-1,null,["\n        "])),(l()(),D._26(16777216,null,null,1,null,O)),D._30(30,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,4,0,u.groupInfo.separateGroups||u.groupInfo.visibleGroups);l(n,7,0,u.timeRemaining);l(n,10,0,u.lateSubmissions);l(n,14,0,u.summary&&u.summary.participantcount);l(n,18,0,u.assign.submissiondrafts&&u.summary&&u.summary.submissionsenabled);l(n,22,0,u.summary&&u.summary.submissionsenabled);l(n,26,0,u.summary&&u.summary.submissionsenabled&&!u.assign.teamsubmission&&u.showNumbers);l(n,30,0,u.assign.teamsubmission&&u.summary&&u.summary.warnofungroupedusers)},null)}function L(l){return D._57(0,[(l()(),D._31(0,0,null,null,1,"addon-mod-assign-submission",[],null,null,null,wl.b,wl.a)),D._30(1,245760,[[1,4]],0,jl.a,[tl.a,nl.a,J.a,B.a,Vl.a,Sl.a,K.a,$.a,X.a,el.a,Ol.a,Al.a,Ll.a,Tl.a,Dl.a,Ml.a,Fl.a,Gl.a,El.a,[2,ol.a]],{courseId:[0,"courseId"],moduleId:[1,"moduleId"]},null)],function(l,n){var u=n.component;l(n,1,0,u.courseId,u.module.id)},null)}function T(l){return D._57(0,[D._52(671088640,1,{submissionComponent:0}),(l()(),D._55(-1,null,["\n"])),(l()(),D._31(2,0,null,null,28,"core-navbar-buttons",[["end",""]],null,null,null,$l.b,$l.a)),D._30(3,245760,null,1,Pl.a,[D.t,Z.a,J.a],null,null),D._52(603979776,2,{buttons:1}),(l()(),D._55(-1,0,["\n    "])),(l()(),D._31(6,0,null,0,23,"core-context-menu",[],null,null,null,Ul.b,Ul.a)),D._30(7,245760,null,0,G.a,[$.a,Rl.a,D.t,J.a,[2,Nl.a],X.a],null,null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,t)),D._30(10,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,a)),D._30(13,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,o)),D._30(16,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,_)),D._30(19,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,e)),D._30(22,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,i)),D._30(25,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n        "])),(l()(),D._26(16777216,null,0,1,null,s)),D._30(28,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n    "])),(l()(),D._55(-1,0,["\n"])),(l()(),D._55(-1,null,["\n\n"])),(l()(),D._55(-1,null,["\n"])),(l()(),D._31(33,0,null,null,21,"core-loading",[["class","core-loading-center"]],null,null,null,ql.b,ql.a)),D._30(34,638976,null,0,Hl.a,[$.a,D.t,el.a,X.a],{hideUntil:[0,"hideUntil"]},null),(l()(),D._55(-1,0,["\n\n    "])),(l()(),D._55(-1,0,["\n    "])),(l()(),D._26(16777216,null,0,1,null,r)),D._30(38,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n\n    "])),(l()(),D._26(16777216,null,0,1,null,d)),D._30(41,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n\n    "])),(l()(),D._55(-1,0,["\n    "])),(l()(),D._26(16777216,null,0,1,null,m)),D._30(45,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n\n    "])),(l()(),D._55(-1,0,["\n    "])),(l()(),D._26(16777216,null,0,1,null,A)),D._30(49,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n\n    "])),(l()(),D._55(-1,0,["\n    "])),(l()(),D._26(16777216,null,0,1,null,L)),D._30(53,16384,null,0,dl.k,[D._11,D._6],{ngIf:[0,"ngIf"]},null),(l()(),D._55(-1,0,["\n\n"])),(l()(),D._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0),l(n,7,0);l(n,10,0,u.externalUrl);l(n,13,0,u.assign&&(u.description||u.assign.introattachments&&u.assign.introattachments.length));l(n,16,0,u.blog);l(n,19,0,u.loaded&&!u.hasOffline&&u.isOnline);l(n,22,0,u.loaded&&u.hasOffline&&u.isOnline);l(n,25,0,u.prefetchStatusIcon);l(n,28,0,u.size);l(n,34,0,u.loaded);l(n,38,0,u.description);l(n,41,0,u.assign&&u.assign.introattachments&&u.assign.introattachments.length);l(n,45,0,u.hasOffline);l(n,49,0,u.assign&&u.canViewAllSubmissions);l(n,53,0,u.loaded&&!u.canViewAllSubmissions&&u.canViewOwnSubmission)},null)}u.d(n,"b",function(){return Bl}),n.c=T,u.d(n,"a",function(){return Jl});var D=u(0),M=u(82),F=u(74),G=u(70),E=u(27),$=u(18),P=u(79),U=u(6),R=u(30),N=u(20),q=u(19),H=u(28),z=u(33),W=u(41),B=u(1),J=u(4),K=u(10),Q=u(14),X=u(2),Y=u(26),Z=u(5),ll=u(16),nl=u(9),ul=u(17),tl=u(21),al=u(25),ol=u(34),_l=u(36),el=u(12),il=u(196),sl=u(163),rl=u(128),cl=u(64),dl=u(7),ml=u(45),fl=u(60),gl=u(93),pl=u(115),bl=u(94),kl=u(32),Il=u(52),hl=u(22),vl=u(147),xl=u(87),yl=u(38),Cl=u(31),wl=u(1989),jl=u(677),Vl=u(78),Sl=u(23),Ol=u(15),Al=u(134),Ll=u(164),Tl=u(42),Dl=u(68),Ml=u(149),Fl=u(72),Gl=u(162),El=u(123),$l=u(89),Pl=u(83),Ul=u(81),Rl=u(65),Nl=u(69),ql=u(49),Hl=u(48),zl=u(681),Wl=u(355),Bl=D._29({encapsulation:2,styles:[],data:{}}),Jl=D._27("addon-mod-assign-index",zl.a,function(l){return D._57(0,[(l()(),D._31(0,0,null,null,1,"addon-mod-assign-index",[],null,null,null,T,Bl)),D._30(1,245760,null,0,zl.a,[D.C,Fl.a,[2,al.a],Gl.a,El.a,Wl.a,Sl.a,Dl.a,tl.a],null,null)],function(l,n){l(n,1,0)},null)},{module:"module",courseId:"courseId",group:"group"},{dataRetrieved:"dataRetrieved"},[])},1989:function(l,n,u){"use strict";function t(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function a(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,16,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.openUserProfile(a.submitId)&&t}return t},Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,3,{contentLabel:0}),Ol._52(603979776,4,{_buttons:1}),Ol._52(603979776,5,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Gl.b,Gl.a)),Ol._30(8,16384,null,0,El.a,[],null,null),Ol._30(9,770048,null,0,$l.a,[Pl.a,Ul.a,Rl.a,Nl.a,ql.a],{user:[0,"user"]},null),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._31(11,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._26(16777216,null,2,1,null,t)),Ol._30(15,540672,null,0,Hl.r,[Ol._11],{ngTemplateOutlet:[0,"ngTemplateOutlet"]},null),(l()(),Ol._55(-1,2,["\n    "]))],function(l,n){l(n,9,0,n.component.user);l(n,15,0,Ol._44(n.parent,39))},function(l,n){var u=n.component;l(n,0,0,u.user.fullname);l(n,12,0,u.user.fullname)})}function o(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function _(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,6,{contentLabel:0}),Ol._52(603979776,7,{_buttons:1}),Ol._52(603979776,8,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,[""," ",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._26(16777216,null,2,1,null,o)),Ol._30(12,540672,null,0,Hl.r,[Ol._11],{ngTemplateOutlet:[0,"ngTemplateOutlet"]},null),(l()(),Ol._55(-1,2,["\n    "]))],function(l,n){l(n,12,0,Ol._44(n.parent,39))},function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.hiddenuser")),u.blindId)})}function e(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,0,null,null,null,null,null,null,null))],null,null)}function i(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,9,{contentLabel:0}),Ol._52(603979776,10,{_buttons:1}),Ol._52(603979776,11,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n        "])),(l()(),Ol._26(16777216,null,2,1,null,e)),Ol._30(12,540672,null,0,Hl.r,[Ol._11],{ngTemplateOutlet:[0,"ngTemplateOutlet"]},null),(l()(),Ol._55(-1,2,["\n    "]))],function(l,n){l(n,12,0,Ol._44(n.parent,39))},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.submissionstatus")))})}function s(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"addon-mod-assign-submission-plugin",[],null,null,null,Bl.b,Bl.a)),Ol._30(1,114688,[[2,4]],0,Jl.a,[Ol.C,Kl.a,Ql.a,Xl.a],{assign:[0,"assign"],submission:[1,"submission"],plugin:[2,"plugin"]},null)],function(l,n){var u=n.component;l(n,1,0,u.assign,u.userSubmission,n.context.$implicit)},null)}function r(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,14,{contentLabel:0}),Ol._52(603979776,15,{_buttons:1}),Ol._52(603979776,16,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._49(13,1),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.timemodified")));l(n,12,0,Ol._56(n,12,0,l(n,13,0,Ol._44(n.parent.parent,0),1e3*u.userSubmission.timemodified)))})}function c(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,16,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,278528,null,0,Hl.i,[Ol.E,Ol.F,Ol.t,Ol.W],{ngClass:[0,"ngClass"]},null),Ol._46(2,1),Ol._30(3,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,17,{contentLabel:0}),Ol._52(603979776,18,{_buttons:1}),Ol._52(603979776,19,{_icons:1}),Ol._30(7,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(9,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(13,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._31(14,0,null,null,1,"core-format-text",[],null,null,null,null,null)),Ol._30(15,540672,null,0,Yl.a,[Ol.t,Ul.a,Zl.a,ln.a,Wl.a,nn.a,Rl.a,un.a,tn.a,an.a,Nl.a,on.a,[2,Pl.a],[2,_n.a],[2,en.a],sn.a,ql.a],{text:[0,"text"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,1,0,l(n,2,0,u.timeRemainingClass));l(n,15,0,u.timeRemaining)},function(l,n){l(n,10,0,Ol._56(n,10,0,Ol._44(n,11).transform("addon.mod_assign.timeremaining")))})}function d(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],[[8,"innerHTML",1]],null,null,null,null)),Ol._48(1,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,0,0,Ol._56(n,0,0,Ol._44(n,2).transform("addon.mod_assign.allowsubmissionsfromdatesummary",l(n,1,0,u.fromDate))))})}function m(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],[[8,"innerHTML",1]],null,null,null,null)),Ol._48(1,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,0,0,Ol._56(n,0,0,Ol._44(n,2).transform("addon.mod_assign.allowsubmissionsanddescriptionfromdatesummary",l(n,1,0,u.fromDate))))})}function f(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,20,{contentLabel:0}),Ol._52(603979776,21,{_buttons:1}),Ol._52(603979776,22,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,d)),Ol._30(8,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,m)),Ol._30(11,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,8,0,u.assign.intro);l(n,11,0,!u.assign.intro)},null)}function g(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._49(2,1)],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,l(n,2,0,Ol._44(n.parent.parent.parent,0),1e3*u.assign.duedate)))})}function p(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,2).transform("addon.mod_assign.duedateno")))})}function b(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,16,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,23,{contentLabel:0}),Ol._52(603979776,24,{_buttons:1}),Ol._52(603979776,25,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,g)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,p)),Ol._30(15,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,12,0,u.assign.duedate);l(n,15,0,!u.assign.duedate)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.duedate")))})}function k(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,26,{contentLabel:0}),Ol._52(603979776,27,{_buttons:1}),Ol._52(603979776,28,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._49(13,1),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.cutoffdate")));l(n,12,0,Ol._56(n,12,0,l(n,13,0,Ol._44(n.parent.parent,0),1e3*u.assign.cutoffdate)))})}function I(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,29,{contentLabel:0}),Ol._52(603979776,30,{_buttons:1}),Ol._52(603979776,31,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._49(13,1),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.extensionduedate")));l(n,12,0,Ol._56(n,12,0,l(n,13,0,Ol._44(n.parent.parent,0),1e3*u.lastAttempt.extensionduedate)))})}function h(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._48(2,{current:0,total:1}),Ol._48(3,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,Ol._44(n,4).transform("addon.mod_assign.outof",l(n,3,0,l(n,2,0,u.currentAttempt,u.maxAttemptsText)))))})}function v(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._48(2,{current:0,total:1}),Ol._48(3,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,Ol._44(n,4).transform("addon.mod_assign.outof",l(n,3,0,l(n,2,0,u.currentAttempt,u.assign.maxattempts)))))})}function x(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,16,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,32,{contentLabel:0}),Ol._52(603979776,33,{_buttons:1}),Ol._52(603979776,34,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,h)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,v)),Ol._30(15,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,12,0,u.assign.maxattempts==u.unlimitedAttempts);l(n,15,0,u.assign.maxattempts!=u.unlimitedAttempts)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.attemptnumber")))})}function y(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,3,"a",[["block",""],["color","primary"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToEdit()&&t}return t},rn.b,rn.a)),Ol._30(1,1097728,[[36,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{color:[0,"color"],block:[1,"block"]},null),(l()(),Ol._55(2,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],function(l,n){l(n,1,0,"primary","")},function(l,n){l(n,2,0,Ol._56(n,2,0,Ol._44(n,3).transform("addon.mod_assign.editsubmission")))})}function C(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,3,"a",[["block",""],["color","primary"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToEdit()&&t}return t},rn.b,rn.a)),Ol._30(1,1097728,[[36,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{color:[0,"color"],block:[1,"block"]},null),(l()(),Ol._55(2,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],function(l,n){l(n,1,0,"primary","")},function(l,n){l(n,2,0,Ol._56(n,2,0,Ol._44(n,3).transform("addon.mod_assign.addsubmission")))})}function w(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,11,null,null,null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                            "])),(l()(),Ol._31(2,0,null,null,3,"a",[["block",""],["color","primary"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.copyPrevious()&&t}return t},rn.b,rn.a)),Ol._30(3,1097728,[[36,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{color:[0,"color"],block:[1,"block"]},null),(l()(),Ol._55(4,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n                            "])),(l()(),Ol._31(7,0,null,null,3,"a",[["block",""],["color","primary"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToEdit()&&t}return t},rn.b,rn.a)),Ol._30(8,1097728,[[36,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{color:[0,"color"],block:[1,"block"]},null),(l()(),Ol._55(9,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n                        "]))],function(l,n){l(n,3,0,"primary","");l(n,8,0,"primary","")},function(l,n){l(n,4,0,Ol._56(n,4,0,Ol._44(n,5).transform("addon.mod_assign.addnewattemptfromprevious")));l(n,9,0,Ol._56(n,9,0,Ol._44(n,10).transform("addon.mod_assign.addnewattempt")))})}function j(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,3,"a",[["block",""],["color","primary"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToEdit()&&t}return t},rn.b,rn.a)),Ol._30(1,1097728,[[36,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{color:[0,"color"],block:[1,"block"]},null),(l()(),Ol._55(2,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],function(l,n){l(n,1,0,"primary","")},function(l,n){l(n,2,0,Ol._56(n,2,0,Ol._44(n,3).transform("addon.mod_assign.editsubmission")))})}function V(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,17,"div",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,y)),Ol._30(4,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,C)),Ol._30(8,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,w)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,j)),Ol._30(16,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                    "]))],function(l,n){var u=n.component;l(n,4,0,u.hasOffline);l(n,8,0,!(u.hasOffline||u.userSubmission&&u.userSubmission.status&&u.userSubmission.status!=u.statusNew));l(n,12,0,!u.hasOffline&&u.userSubmission&&u.userSubmission.status==u.statusReopened);l(n,16,0,!u.hasOffline&&u.userSubmission&&u.userSubmission.status&&u.userSubmission.status!=u.statusNew&&u.userSubmission.status!=u.statusReopened)},null)}function S(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[["class","core-danger-item"]],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""]))],null,function(l,n){l(n,1,0,n.context.$implicit)})}function O(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._31(2,0,null,null,2,"p",[["class","core-danger-item"]],null,null,null,null,null)),(l()(),Ol._55(3,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,S)),Ol._30(7,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n                    "]))],function(l,n){l(n,7,0,n.component.unsupportedEditPlugins)},function(l,n){l(n,3,0,Ol._56(n,3,0,Ol._44(n,4).transform("addon.mod_assign.erroreditpluginsnotsupported")))})}function A(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._31(2,0,null,null,2,"p",[["class","core-danger-item"]],null,null,null,null,null)),(l()(),Ol._55(3,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n                    "]))],null,function(l,n){l(n,3,0,Ol._56(n,3,0,Ol._44(n,4).transform("addon.mod_assign.cannoteditduetostatementsubmission")))})}function L(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,15,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,35,{contentLabel:0}),Ol._52(603979776,36,{_buttons:1}),Ol._52(603979776,37,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,V)),Ol._30(8,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,O)),Ol._30(11,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,A)),Ol._30(14,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,8,0,!u.unsupportedEditPlugins.length&&!u.showErrorStatementEdit);l(n,11,0,u.unsupportedEditPlugins&&u.unsupportedEditPlugins.length&&!u.showErrorStatementEdit);l(n,14,0,u.showErrorStatementEdit)},null)}function T(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,19,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,38,{contentLabel:0}),Ol._52(603979776,39,{_buttons:1}),Ol._52(603979776,40,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(7,0,null,1,3,"ion-label",[],null,null,null,null,null)),Ol._30(8,16384,[[38,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Ol._31(9,0,null,null,1,"core-format-text",[],null,null,null,null,null)),Ol._30(10,540672,null,0,Yl.a,[Ol.t,Ul.a,Zl.a,ln.a,Wl.a,nn.a,Rl.a,un.a,tn.a,an.a,Nl.a,on.a,[2,Pl.a],[2,_n.a],[2,en.a],sn.a,ql.a],{text:[0,"text"]},null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(12,0,null,4,6,"ion-checkbox",[["item-end",""],["name","submissionstatement"]],[[2,"checkbox-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==Ol._44(l,13)._click(u)&&t}if("ngModelChange"===n){t=!1!==(a.submitModel.submissionStatement=u)&&t}return t},mn.b,mn.a)),Ol._30(13,1228800,null,0,fn.a,[Dl.a,Tl.a,[2,Ll.a],Ol.t,Ol.V],null,null),Ol._50(1024,null,gn.l,function(l){return[l]},[fn.a]),Ol._30(15,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[2,gn.l]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(17,16384,null,0,gn.n,[gn.m],null,null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._55(-1,2,["\n                    "]))],function(l,n){var u=n.component;l(n,10,0,u.submissionStatement);l(n,15,0,"submissionstatement",u.submitModel.submissionStatement)},function(l,n){l(n,12,0,Ol._44(n,13)._disabled,Ol._44(n,17).ngClassUntouched,Ol._44(n,17).ngClassTouched,Ol._44(n,17).ngClassPristine,Ol._44(n,17).ngClassDirty,Ol._44(n,17).ngClassValid,Ol._44(n,17).ngClassInvalid,Ol._44(n,17).ngClassPending)})}function D(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,15,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,41,{contentLabel:0}),Ol._52(603979776,42,{_buttons:1}),Ol._52(603979776,43,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(7,0,null,2,3,"a",[["block",""],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.submitForGrading(a.submitModel.submissionStatement)&&t}return t},rn.b,rn.a)),Ol._30(8,1097728,[[42,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{block:[0,"block"]},null),(l()(),Ol._55(9,0,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(12,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(13,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "]))],function(l,n){l(n,8,0,"")},function(l,n){l(n,9,0,Ol._56(n,9,0,Ol._44(n,10).transform("addon.mod_assign.submitassignment")));l(n,13,0,Ol._56(n,13,0,Ol._44(n,14).transform("addon.mod_assign.submitassignment_help")))})}function M(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,44,{contentLabel:0}),Ol._52(603979776,45,{_buttons:1}),Ol._52(603979776,46,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(7,0,null,2,2,"p",[["class","core-danger-item"]],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "]))],null,function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.cannotsubmitduetostatementsubmission")))})}function F(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,12,"div",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,T)),Ol._30(3,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,D)),Ol._30(7,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,M)),Ol._30(11,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                "]))],function(l,n){var u=n.component;l(n,3,0,u.submissionStatement);l(n,7,0,!u.showErrorStatementSubmit);l(n,11,0,u.showErrorStatementSubmit)},null)}function G(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,13,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openUserProfile(l.parent.context.$implicit.id)&&t}return t},Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,50,{contentLabel:0}),Ol._52(603979776,51,{_buttons:1}),Ol._52(603979776,52,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                            "])),(l()(),Ol._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Gl.b,Gl.a)),Ol._30(8,16384,null,0,El.a,[],null,null),Ol._30(9,770048,null,0,$l.a,[Pl.a,Ul.a,Rl.a,Nl.a,ql.a],{user:[0,"user"]},null),(l()(),Ol._55(-1,2,["\n                            "])),(l()(),Ol._31(11,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),(l()(),Ol._55(-1,2,["\n                        "]))],function(l,n){l(n,9,0,n.parent.context.$implicit)},function(l,n){l(n,0,0,n.parent.context.$implicit.fullname);l(n,12,0,n.parent.context.$implicit.fullname)})}function E(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,53,{contentLabel:0}),Ol._52(603979776,54,{_buttons:1}),Ol._52(603979776,55,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(6,2,["\n                            "," "])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._31(8,0,null,2,1,"core-format-text",[],null,null,null,null,null)),Ol._30(9,540672,null,0,Yl.a,[Ol.t,Ul.a,Zl.a,ln.a,Wl.a,nn.a,Rl.a,un.a,tn.a,an.a,Nl.a,on.a,[2,Pl.a],[2,_n.a],[2,en.a],sn.a,ql.a],{text:[0,"text"]},null),(l()(),Ol._55(-1,2,["\n                        "]))],function(l,n){l(n,9,0,n.parent.context.$implicit)},function(l,n){l(n,6,0,Ol._56(n,6,0,Ol._44(n,7).transform("addon.mod_assign.hiddenuser")))})}function $(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,7,"div",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,G)),Ol._30(3,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,E)),Ol._30(6,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                    "]))],function(l,n){l(n,3,0,n.context.$implicit.fullname);l(n,6,0,!n.context.$implicit.fullname)},null)}function P(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,47,{contentLabel:0}),Ol._52(603979776,48,{_buttons:1}),Ol._52(603979776,49,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,3,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._48(9,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,$)),Ol._30(13,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){l(n,13,0,n.component.membersToSubmit)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,10).transform("addon.mod_assign.userswhoneedtosubmit",l(n,9,0,""))))})}function U(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,56,{contentLabel:0}),Ol._52(603979776,57,{_buttons:1}),Ol._52(603979776,58,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.submissionslocked")))})}function R(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,2).transform("addon.mod_assign.submissioneditable")))})}function N(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,2).transform("addon.mod_assign.submissionnoteditable")))})}function q(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,18,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,278528,null,0,Hl.i,[Ol.E,Ol.F,Ol.t,Ol.W],{ngClass:[0,"ngClass"]},null),Ol._48(2,{submissioneditable:0,submissionnoteditable:1}),Ol._30(3,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,59,{contentLabel:0}),Ol._52(603979776,60,{_buttons:1}),Ol._52(603979776,61,{_icons:1}),Ol._30(7,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(9,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,R)),Ol._30(14,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[12,2]],2,1,null,N)),Ol._30(17,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,1,0,l(n,2,0,u.lastAttempt.caneditowner,!u.lastAttempt.caneditowner));l(n,14,0,u.lastAttempt.caneditowner);l(n,17,0,!u.lastAttempt.caneditowner)},function(l,n){l(n,10,0,Ol._56(n,10,0,Ol._44(n,11).transform("addon.mod_assign.editingstatus")))})}function H(l){return Ol._57(0,[(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,s)),Ol._30(2,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,r)),Ol._30(6,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,c)),Ol._30(9,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,f)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,b)),Ol._30(15,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,k)),Ol._30(18,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,I)),Ol._30(21,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,x)),Ol._30(24,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,L)),Ol._30(28,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,F)),Ol._30(32,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,P)),Ol._30(36,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,U)),Ol._30(40,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[12,2]],null,1,null,q)),Ol._30(44,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,2,0,u.submissionPlugins);l(n,6,0,u.userSubmission&&u.userSubmission.status!=u.statusNew&&u.userSubmission.timemodified);l(n,9,0,u.timeRemaining);l(n,12,0,u.fromDate&&!u.isSubmittedForGrading);l(n,15,0,u.assign.duedate&&!u.isSubmittedForGrading);l(n,18,0,u.assign.duedate&&u.assign.cutoffdate&&u.isSubmittedForGrading);l(n,21,0,u.assign.duedate&&u.lastAttempt&&u.lastAttempt.extensionduedate&&!u.isSubmittedForGrading);l(n,24,0,u.currentAttempt&&!u.isGrading);l(n,28,0,u.canEdit);l(n,32,0,u.canSubmit);l(n,36,0,u.membersToSubmit&&u.membersToSubmit.length>0);l(n,40,0,u.lastAttempt&&u.lastAttempt.locked);l(n,44,0,u.lastAttempt&&u.isSubmittedForGrading&&void 0!==u.lastAttempt.caneditowner)},null)}function z(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,5,"a",[["icon-only",""],["ion-button",""],["item-end",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.showAdvancedGrade()&&t}return t},rn.b,rn.a)),Ol._30(1,1097728,[[65,4]],0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],null,null),(l()(),Ol._55(-1,0,["\n                        "])),(l()(),Ol._31(3,0,null,0,1,"ion-icon",[["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Ol._30(4,147456,null,0,pn.a,[Dl.a,Ol.t,Ol.V],{name:[0,"name"]},null),(l()(),Ol._55(-1,0,["\n                    "]))],function(l,n){l(n,4,0,"search")},function(l,n){l(n,3,0,Ol._44(n,4)._hidden)})}function W(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,17,"ion-item",[["class","core-grading-summary item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,64,{contentLabel:0}),Ol._52(603979776,65,{_buttons:1}),Ol._52(603979776,66,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._31(12,0,null,null,1,"core-format-text",[],null,null,null,null,null)),Ol._30(13,540672,null,0,Yl.a,[Ol.t,Ul.a,Zl.a,ln.a,Wl.a,nn.a,Rl.a,un.a,tn.a,an.a,Nl.a,on.a,[2,Pl.a],[2,_n.a],[2,en.a],sn.a,ql.a],{text:[0,"text"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],4,1,null,z)),Ol._30(16,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,13,0,u.feedback.gradefordisplay);l(n,16,0,u.feedback.advancedgrade)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.currentgrade")))})}function B(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,4,"ion-input",[["min","0"],["type","text"]],[[8,"lang",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.grade.grade=u)&&t}return t},bn.b,bn.a)),Ol._30(1,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(3,16384,null,0,gn.n,[gn.m],null,null),Ol._30(4,5423104,null,0,kn.a,[Dl.a,nn.a,Tl.a,In.a,Ol.t,Ol.V,[2,_n.a],[2,Ll.a],[2,gn.m],hn.a],{type:[0,"type"],min:[1,"min"],max:[2,"max"]},null)],function(l,n){var u=n.component;l(n,1,0,u.grade.grade);l(n,4,0,"text","0",u.gradeInfo.grade)},function(l,n){l(n,0,0,n.component.grade.lang,Ol._44(n,3).ngClassUntouched,Ol._44(n,3).ngClassTouched,Ol._44(n,3).ngClassPristine,Ol._44(n,3).ngClassDirty,Ol._44(n,3).ngClassValid,Ol._44(n,3).ngClassInvalid,Ol._44(n,3).ngClassPending)})}function J(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[["item-content",""]],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,2).transform("addon.mod_assign.gradelocked")))})}function K(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,19,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,67,{contentLabel:0}),Ol._52(603979776,68,{_buttons:1}),Ol._52(603979776,69,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,1,5,"ion-label",[["stacked",""]],null,null,null,null,null)),Ol._30(8,16384,[[67,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),Ol._31(9,0,null,null,3,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),Ol._48(11,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],3,1,null,B)),Ol._30(15,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],3,1,null,J)),Ol._30(18,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,15,0,!u.grade.disabled);l(n,18,0,u.grade.disabled)},function(l,n){var u=n.component;l(n,10,0,Ol._56(n,10,0,Ol._44(n,12).transform("addon.mod_assign.gradeoutof",l(n,11,0,u.gradeInfo.grade))))})}function Q(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),Ol._30(1,16384,[[73,4]],0,vn.a,[Ol.t],{value:[0,"value"]},null),(l()(),Ol._55(2,null,["",""]))],function(l,n){l(n,1,0,n.context.$implicit.value)},function(l,n){l(n,2,0,n.context.$implicit.label)})}function X(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,24,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,70,{contentLabel:0}),Ol._52(603979776,71,{_buttons:1}),Ol._52(603979776,72,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,1,4,"ion-label",[],null,null,null,null,null)),Ol._30(8,16384,[[70,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Ol._31(9,0,null,null,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(13,0,null,3,10,"ion-select",[["interface","action-sheet"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==Ol._44(l,14)._click(u)&&t}if("keyup.space"===n){t=!1!==Ol._44(l,14)._keyup()&&t}if("ngModelChange"===n){t=!1!==(a.grade.grade=u)&&t}return t},xn.b,xn.a)),Ol._30(14,1228800,null,1,yn.a,[In.a,Tl.a,Dl.a,Ol.t,Ol.V,[2,Ll.a],Cn.a],{disabled:[0,"disabled"],interface:[1,"interface"]},null),Ol._52(603979776,73,{options:1}),Ol._50(1024,null,gn.l,function(l){return[l]},[yn.a]),Ol._30(17,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[2,gn.l]],{isDisabled:[0,"isDisabled"],model:[1,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(19,16384,null,0,gn.n,[gn.m],null,null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,Q)),Ol._30(22,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,14,0,u.grade.disabled,"action-sheet");l(n,17,0,u.grade.disabled,u.grade.grade);l(n,22,0,u.grade.scale)},function(l,n){l(n,10,0,Ol._56(n,10,0,Ol._44(n,11).transform("addon.mod_assign.grade")));l(n,13,0,Ol._44(n,14)._disabled,Ol._44(n,19).ngClassUntouched,Ol._44(n,19).ngClassTouched,Ol._44(n,19).ngClassPristine,Ol._44(n,19).ngClassDirty,Ol._44(n,19).ngClassValid,Ol._44(n,19).ngClassInvalid,Ol._44(n,19).ngClassPending)})}function Y(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),Ol._30(1,16384,[[77,4]],0,vn.a,[Ol.t],{value:[0,"value"]},null),(l()(),Ol._55(2,null,["",""]))],function(l,n){l(n,1,0,n.context.$implicit.value)},function(l,n){l(n,2,0,n.context.$implicit.label)})}function Z(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,"ion-select",[["interface","action-sheet"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Ol._44(l,1)._click(u)&&t}if("keyup.space"===n){t=!1!==Ol._44(l,1)._keyup()&&t}if("ngModelChange"===n){t=!1!==(l.parent.context.$implicit.selectedId=u)&&t}return t},xn.b,xn.a)),Ol._30(1,1228800,null,1,yn.a,[In.a,Tl.a,Dl.a,Ol.t,Ol.V,[2,Ll.a],Cn.a],{disabled:[0,"disabled"],interface:[1,"interface"]},null),Ol._52(603979776,77,{options:1}),Ol._50(1024,null,gn.l,function(l){return[l]},[yn.a]),Ol._30(4,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[2,gn.l]],{isDisabled:[0,"isDisabled"],model:[1,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(6,16384,null,0,gn.n,[gn.m],null,null),(l()(),Ol._55(-1,null,["\n                        "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,Y)),Ol._30(9,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n                    "]))],function(l,n){var u=n.component;l(n,1,0,u.gradeInfo.disabled,"action-sheet");l(n,4,0,u.gradeInfo.disabled,n.parent.context.$implicit.selectedId);l(n,9,0,n.parent.context.$implicit.options)},function(l,n){l(n,0,0,Ol._44(n,1)._disabled,Ol._44(n,6).ngClassUntouched,Ol._44(n,6).ngClassTouched,Ol._44(n,6).ngClassPristine,Ol._44(n,6).ngClassDirty,Ol._44(n,6).ngClassValid,Ol._44(n,6).ngClassInvalid,Ol._44(n,6).ngClassPending)})}function ll(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[["item-content",""]],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""]))],null,function(l,n){l(n,1,0,n.parent.context.$implicit.selected)})}function nl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,17,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,74,{contentLabel:0}),Ol._52(603979776,75,{_buttons:1}),Ol._52(603979776,76,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,1,3,"ion-label",[],null,null,null,null,null)),Ol._30(8,16384,[[74,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Ol._31(9,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],3,1,null,Z)),Ol._30(13,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],3,1,null,ll)),Ol._30(16,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,13,0,u.canSaveGrades&&n.context.$implicit.itemNumber);l(n,16,0,!u.canSaveGrades||!n.context.$implicit.itemNumber)},function(l,n){l(n,10,0,n.context.$implicit.name)})}function ul(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.grade.gradebookGrade)})}function tl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""]))],null,function(l,n){var u=n.component;l(n,1,0,u.grade.scale[u.grade.gradebookGrade].label)})}function al(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Ol._55(-1,null,["-"]))],null,null)}function ol(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,19,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,78,{contentLabel:0}),Ol._52(603979776,79,{_buttons:1}),Ol._52(603979776,80,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,ul)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,tl)),Ol._30(15,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,al)),Ol._30(18,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,12,0,!1!==u.grade.gradebookGrade&&null!==u.grade.gradebookGrade&&!u.grade.scale);l(n,15,0,!1!==u.grade.gradebookGrade&&null!==u.grade.gradebookGrade&&u.grade.scale);l(n,18,0,!1===u.grade.gradebookGrade||null===u.grade.gradebookGrade)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.currentgrade")))})}function _l(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"addon-mod-assign-feedback-plugin",[],null,null,null,wn.b,wn.a)),Ol._30(1,114688,null,0,jn.a,[Ol.C,Vn.a,Ql.a,Xl.a],{assign:[0,"assign"],submission:[1,"submission"],plugin:[2,"plugin"],userId:[3,"userId"],canEdit:[4,"canEdit"]},null)],function(l,n){var u=n.component;l(n,1,0,u.assign,u.userSubmission,n.context.$implicit,u.submitId,u.canSaveGrades)},null)}function el(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,81,{contentLabel:0}),Ol._52(603979776,82,{_buttons:1}),Ol._52(603979776,83,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.markingworkflowstate")));l(n,12,0,Ol._56(n,12,0,Ol._44(n,13).transform(u.workflowStatusTranslationId)))})}function il(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,22,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,84,{contentLabel:0}),Ol._52(603979776,85,{_buttons:1}),Ol._52(603979776,86,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,1,3,"ion-label",[],null,null,null,null,null)),Ol._30(12,16384,[[84,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Ol._55(13,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(16,0,null,4,5,"ion-toggle",[],[[2,"toggle-disabled",null],[2,"toggle-checked",null],[2,"toggle-activated",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keyup"]],function(l,n,u){var t=!0,a=l.component;if("keyup"===n){t=!1!==Ol._44(l,17)._keyup(u)&&t}if("ngModelChange"===n){t=!1!==(a.grade.applyToAll=u)&&t}return t},Sn.b,Sn.a)),Ol._30(17,1228800,null,0,On.a,[Tl.a,Dl.a,nn.a,Ol.t,Ol.V,An.a,[2,Ll.a],Ln.l,hn.a,Ol.M],null,null),Ol._50(1024,null,gn.l,function(l){return[l]},[On.a]),Ol._30(19,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[2,gn.l]],{model:[0,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(21,16384,null,0,gn.n,[gn.m],null,null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){l(n,19,0,n.component.grade.applyToAll)},function(l,n){l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.groupsubmissionsettings")));l(n,13,0,Ol._56(n,13,0,Ol._44(n,14).transform("addon.mod_assign.applytoteam")));l(n,16,0,Ol._44(n,17)._disabled,Ol._44(n,17)._value,Ol._44(n,17)._activated,Ol._44(n,21).ngClassUntouched,Ol._44(n,21).ngClassTouched,Ol._44(n,21).ngClassPristine,Ol._44(n,21).ngClassDirty,Ol._44(n,21).ngClassValid,Ol._44(n,21).ngClassInvalid,Ol._44(n,21).ngClassPending)})}function sl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._48(2,{current:0,total:1}),Ol._48(3,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,Ol._44(n,4).transform("addon.mod_assign.outof",l(n,3,0,l(n,2,0,u.currentAttempt,u.maxAttemptsText)))))})}function rl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._48(2,{current:0,total:1}),Ol._48(3,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,Ol._44(n,4).transform("addon.mod_assign.outof",l(n,3,0,l(n,2,0,u.currentAttempt,u.assign.maxattempts)))))})}function cl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,90,{contentLabel:0}),Ol._52(603979776,91,{_buttons:1}),Ol._52(603979776,92,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(7,0,null,1,3,"ion-label",[],null,null,null,null,null)),Ol._30(8,16384,[[90,4]],0,dn.a,[Dl.a,Ol.t,Ol.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Ol._55(9,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(12,0,null,4,5,"ion-toggle",[],[[2,"toggle-disabled",null],[2,"toggle-checked",null],[2,"toggle-activated",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keyup"]],function(l,n,u){var t=!0,a=l.component;if("keyup"===n){t=!1!==Ol._44(l,13)._keyup(u)&&t}if("ngModelChange"===n){t=!1!==(a.grade.addAttempt=u)&&t}return t},Sn.b,Sn.a)),Ol._30(13,1228800,null,0,On.a,[Tl.a,Dl.a,nn.a,Ol.t,Ol.V,An.a,[2,Ll.a],Ln.l,hn.a,Ol.M],null,null),Ol._50(1024,null,gn.l,function(l){return[l]},[On.a]),Ol._30(15,671744,null,0,gn.q,[[8,null],[8,null],[8,null],[2,gn.l]],{model:[0,"model"]},{update:"ngModelChange"}),Ol._50(2048,null,gn.m,null,[gn.q]),Ol._30(17,16384,null,0,gn.n,[gn.m],null,null),(l()(),Ol._55(-1,2,["\n                    "]))],function(l,n){l(n,15,0,n.component.grade.addAttempt)},function(l,n){l(n,9,0,Ol._56(n,9,0,Ol._44(n,10).transform("addon.mod_assign.addattempt")));l(n,12,0,Ol._44(n,13)._disabled,Ol._44(n,13)._value,Ol._44(n,13)._activated,Ol._44(n,17).ngClassUntouched,Ol._44(n,17).ngClassTouched,Ol._44(n,17).ngClassPristine,Ol._44(n,17).ngClassDirty,Ol._44(n,17).ngClassValid,Ol._44(n,17).ngClassInvalid,Ol._44(n,17).ngClassPending)})}function dl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,27,null,null,null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._31(2,0,null,null,21,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(3,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,87,{contentLabel:0}),Ol._52(603979776,88,{_buttons:1}),Ol._52(603979776,89,{_icons:1}),Ol._30(7,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(9,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(10,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,sl)),Ol._30(14,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,rl)),Ol._30(17,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                        "])),(l()(),Ol._31(19,0,null,2,3,"p",[],null,null,null,null,null)),(l()(),Ol._55(20,null,["",": ",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,cl)),Ol._30(26,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                "]))],function(l,n){var u=n.component;l(n,14,0,u.assign.maxattempts==u.unlimitedAttempts);l(n,17,0,u.assign.maxattempts!=u.unlimitedAttempts);l(n,26,0,u.canSaveGrades&&u.allowAddAttempt)},function(l,n){var u=n.component;l(n,10,0,Ol._56(n,10,0,Ol._44(n,11).transform("addon.mod_assign.attemptsettings")));l(n,20,0,Ol._56(n,20,0,Ol._44(n,21).transform("addon.mod_assign.attemptreopenmethod")),Ol._56(n,20,1,Ol._44(n,22).transform("addon.mod_assign.attemptreopenmethod_"+u.assign.attemptreopenmethod)))})}function ml(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""])),Ol._49(2,1)],null,function(l,n){var u=n.component;l(n,1,0,Ol._56(n,1,0,l(n,2,0,Ol._44(n.parent.parent.parent.parent,0),1e3*u.feedback.gradeddate)))})}function fl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,20,"a",[["class","item item-block"],["detail-push",""],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.openUserProfile(a.grader.id)&&t}return t},Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,93,{contentLabel:0}),Ol._52(603979776,94,{_buttons:1}),Ol._52(603979776,95,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,Gl.b,Gl.a)),Ol._30(8,16384,null,0,El.a,[],null,null),Ol._30(9,770048,null,0,$l.a,[Pl.a,Ul.a,Rl.a,Nl.a,ql.a],{user:[0,"user"]},null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(15,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Ol._55(16,null,["",""])),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],2,1,null,ml)),Ol._30(19,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,9,0,u.grader);l(n,19,0,u.feedback.gradeddate)},function(l,n){var u=n.component;l(n,0,0,u.grader.fullname);l(n,12,0,Ol._56(n,12,0,Ol._44(n,13).transform("addon.mod_assign.gradedby")));l(n,16,0,u.grader.fullname)})}function gl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,Al.b,Al.a)),Ol._30(1,1097728,null,3,Ll.a,[Tl.a,Dl.a,Ol.t,Ol.V,[2,Ml.a]],null,null),Ol._52(335544320,96,{contentLabel:0}),Ol._52(603979776,97,{_buttons:1}),Ol._52(603979776,98,{_icons:1}),Ol._30(5,16384,null,0,Fl.a,[],null,null),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,2,["\n                    "])),(l()(),Ol._31(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(12,null,["",""])),Ol._49(13,1),(l()(),Ol._55(-1,2,["\n                "]))],null,function(l,n){var u=n.component;l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.gradedon")));l(n,12,0,Ol._56(n,12,0,l(n,13,0,Ol._44(n.parent.parent.parent,0),1e3*u.feedback.gradeddate)))})}function pl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,7,"a",[["block",""],["core-link",""],["icon-end",""],["ion-button",""]],[[8,"href",4]],null,null,rn.b,rn.a)),Ol._30(1,1097728,null,0,cn.a,[[8,""],Dl.a,Ol.t,Ol.V],{block:[0,"block"]},null),Ol._30(2,81920,null,0,Tn.a,[Ol.t,Zl.a,Rl.a,Ul.a,un.a,on.a,[2,Pl.a],[2,_n.a],[2,en.a]],null,null),(l()(),Ol._55(3,0,["\n                        ","\n                        "])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._31(5,0,null,0,1,"ion-icon",[["name","open"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Ol._30(6,147456,null,0,pn.a,[Dl.a,Ol.t,Ol.V],{name:[0,"name"]},null),(l()(),Ol._55(-1,0,["\n                    "]))],function(l,n){l(n,1,0,""),l(n,2,0);l(n,6,0,"open")},function(l,n){l(n,0,0,n.component.gradeUrl);l(n,3,0,Ol._56(n,3,0,Ol._44(n,4).transform("core.openinbrowser")));l(n,5,0,Ol._44(n,6)._hidden)})}function bl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,12,"div",[["class","core-warning-card"],["icon-start",""]],null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._31(2,0,null,null,1,"ion-icon",[["name","warning"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Ol._30(3,147456,null,0,pn.a,[Dl.a,Ol.t,Ol.V],{name:[0,"name"]},null),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._31(5,0,null,null,3,"p",[],null,null,null,null,null)),(l()(),Ol._55(6,null,["",""])),Ol._48(7,{$a:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n                    "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,pl)),Ol._30(11,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n                "]))],function(l,n){var u=n.component;l(n,3,0,"warning");l(n,11,0,u.gradeUrl)},function(l,n){var u=n.component;l(n,2,0,Ol._44(n,3)._hidden);l(n,6,0,Ol._56(n,6,0,Ol._44(n,8).transform("addon.mod_assign.cannotgradefromapp",l(n,7,0,u.moduleName))))})}function kl(l){return Ol._57(0,[(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,W)),Ol._30(3,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,K)),Ol._30(7,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,X)),Ol._30(11,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,nl)),Ol._30(15,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,ol)),Ol._30(19,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,_l)),Ol._30(22,802816,null,0,Hl.j,[Ol._11,Ol._6,Ol.E],{ngForOf:[0,"ngForOf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,el)),Ol._30(26,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,il)),Ol._30(30,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,dl)),Ol._30(34,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,fl)),Ol._30(38,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,gl)),Ol._30(42,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n\n                "])),(l()(),Ol._55(-1,null,["\n                "])),(l()(),Ol._26(16777216,[[62,2]],null,1,null,bl)),Ol._30(46,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,3,0,u.feedback.gradefordisplay&&(!u.isGrading||"simple"!=u.grade.method));l(n,7,0,"simple"==u.grade.method&&!u.grade.scale);l(n,11,0,"simple"==u.grade.method&&u.grade.scale);l(n,15,0,u.gradeInfo.outcomes);l(n,19,0,"simple"==u.grade.method);l(n,22,0,u.feedback.plugins);l(n,26,0,u.workflowStatusTranslationId);l(n,30,0,u.assign.teamsubmission&&u.canSaveGrades);l(n,34,0,u.isGrading&&u.assign.attemptreopenmethod!=u.attemptReopenMethodNone);l(n,38,0,u.grader);l(n,42,0,!u.grader&&u.feedback.gradeddate);l(n,46,0,u.isGrading&&!u.canSaveGrades)},null)}function Il(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,7,"core-tab",[],null,null,null,Dn.b,Dn.a)),Ol._30(1,245760,null,2,Mn.a,[Fn.a,Ol.t,Zl.a,Rl.a],{title:[0,"title"]},null),Ol._52(603979776,62,{template:0}),Ol._52(335544320,63,{scroll:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._26(0,[[62,2]],null,0,null,kl)),(l()(),Ol._55(-1,null,["\n        "]))],function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,4).transform("addon.mod_assign.grade")))},null)}function hl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.lastAttempt.submissiongroupname)})}function vl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,null,null,null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._31(2,0,null,null,3,"p",[["class","text-danger"]],null,null,null,null,null)),(l()(),Ol._31(3,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),Ol._55(4,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._31(7,0,null,null,2,"p",[["class","text-danger"]],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n        "]))],null,function(l,n){l(n,4,0,Ol._56(n,4,0,Ol._44(n,5).transform("addon.mod_assign.noteam")));l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.noteam_desc")))})}function xl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,10,null,null,null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._31(2,0,null,null,3,"p",[["class","text-danger"]],null,null,null,null,null)),(l()(),Ol._31(3,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),Ol._55(4,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._31(7,0,null,null,2,"p",[["class","text-danger"]],null,null,null,null,null)),(l()(),Ol._55(8,null,["",""])),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n        "]))],null,function(l,n){l(n,4,0,Ol._56(n,4,0,Ol._44(n,5).transform("addon.mod_assign.multipleteams")));l(n,8,0,Ol._56(n,8,0,Ol._44(n,9).transform("addon.mod_assign.multipleteams_desc")))})}function yl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Ol._55(1,null,["\n            ","\n        "])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],null,function(l,n){l(n,1,0,Ol._56(n,1,0,Ol._44(n,2).transform("addon.mod_assign.defaultteam")))})}function Cl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,13,null,null,null,null,null,null,null)),(l()(),Ol._55(-1,null,["\n        "])),(l()(),Ol._26(16777216,null,null,1,null,hl)),Ol._30(3,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n        "])),(l()(),Ol._26(16777216,null,null,1,null,vl)),Ol._30(6,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n        "])),(l()(),Ol._26(16777216,null,null,1,null,xl)),Ol._30(9,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n        "])),(l()(),Ol._26(16777216,null,null,1,null,yl)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,3,0,u.lastAttempt.submissiongroup&&u.lastAttempt.submissiongroupname);l(n,6,0,u.assign.preventsubmissionnotingroup&&!u.lastAttempt.submissiongroup&&(!u.lastAttempt.usergroups||u.lastAttempt.usergroups.length<=0));l(n,9,0,u.assign.preventsubmissionnotingroup&&!u.lastAttempt.submissiongroup&&u.lastAttempt.usergroups&&u.lastAttempt.usergroups.length>0);l(n,12,0,!u.assign.preventsubmissionnotingroup&&!u.lastAttempt.submissiongroup)},null)}function wl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),Ol._30(1,16384,null,0,Gn.a,[Dl.a,Ol.t,Ol.V],{color:[0,"color"]},null),(l()(),Ol._55(2,null,["\n        ","\n    "]))],function(l,n){l(n,1,0,n.component.statusColor)},function(l,n){l(n,2,0,n.component.statusTranslated)})}function jl(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,3,"ion-badge",[["item-end",""]],null,null,null,null,null)),Ol._30(1,16384,null,0,Gn.a,[Dl.a,Ol.t,Ol.V],{color:[0,"color"]},null),(l()(),Ol._55(2,null,["\n        ","\n    "])),Ol._47(131072,zl.a,[Wl.a,Ol.j])],function(l,n){l(n,1,0,n.component.gradingColor)},function(l,n){var u=n.component;l(n,2,0,Ol._56(n,2,0,Ol._44(n,3).transform(u.gradingStatusTranslationId)))})}function Vl(l){return Ol._57(0,[(l()(),Ol._55(-1,null,["\n    "])),(l()(),Ol._26(16777216,null,null,1,null,Cl)),Ol._30(2,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n    "])),(l()(),Ol._26(16777216,null,null,1,null,wl)),Ol._30(5,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n    "])),(l()(),Ol._26(16777216,null,null,1,null,jl)),Ol._30(8,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,2,0,u.assign&&u.assign.teamsubmission&&u.lastAttempt);l(n,5,0,u.statusTranslated);l(n,8,0,u.gradingStatusTranslationId)},null)}function Sl(l){return Ol._57(0,[Ol._47(0,En.a,[tn.a,$n.a]),Ol._52(402653184,1,{tabs:0}),Ol._52(671088640,2,{submissionComponents:1}),(l()(),Ol._31(3,0,null,null,33,"core-loading",[],null,null,null,Pn.b,Pn.a)),Ol._30(4,638976,null,0,Un.a,[Wl.a,Ol.t,ql.a,Rl.a],{hideUntil:[0,"hideUntil"]},null),(l()(),Ol._55(-1,0,["\n\n    "])),(l()(),Ol._55(-1,0,["\n    "])),(l()(),Ol._26(16777216,null,0,1,null,a)),Ol._30(8,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,0,["\n\n    "])),(l()(),Ol._55(-1,0,["\n    "])),(l()(),Ol._26(16777216,null,0,1,null,_)),Ol._30(12,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,0,["\n\n    "])),(l()(),Ol._55(-1,0,["\n    "])),(l()(),Ol._26(16777216,null,0,1,null,i)),Ol._30(16,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,0,["\n\n    "])),(l()(),Ol._55(-1,0,["\n    "])),(l()(),Ol._31(19,0,null,0,16,"core-tabs",[["parentScrollable","true"]],null,null,null,Rn.b,Rn.a)),Ol._30(20,4964352,[[1,4]],0,Fn.a,[Ol.t,_n.a,Zl.a,Nl.a,nn.a,Wl.a],{selectedIndex:[0,"selectedIndex"],hideUntil:[1,"hideUntil"],parentScrollable:[2,"parentScrollable"]},null),(l()(),Ol._55(-1,0,["\n        "])),(l()(),Ol._55(-1,0,["\n        "])),(l()(),Ol._31(23,0,null,0,7,"core-tab",[],null,null,null,Dn.b,Dn.a)),Ol._30(24,245760,null,2,Mn.a,[Fn.a,Ol.t,Zl.a,Rl.a],{title:[0,"title"]},null),Ol._52(603979776,12,{template:0}),Ol._52(335544320,13,{scroll:0}),Ol._47(131072,zl.a,[Wl.a,Ol.j]),(l()(),Ol._55(-1,null,["\n            "])),(l()(),Ol._26(0,[[12,2]],null,0,null,H)),(l()(),Ol._55(-1,null,["\n        "])),(l()(),Ol._55(-1,0,["\n\n        "])),(l()(),Ol._55(-1,0,["\n        "])),(l()(),Ol._26(16777216,null,0,1,null,Il)),Ol._30(34,16384,null,0,Hl.k,[Ol._11,Ol._6],{ngIf:[0,"ngIf"]},null),(l()(),Ol._55(-1,0,["\n    "])),(l()(),Ol._55(-1,0,["\n"])),(l()(),Ol._55(-1,null,["\n\n"])),(l()(),Ol._55(-1,null,["\n"])),(l()(),Ol._26(0,[["submissionStatus",2]],null,0,null,Vl)),(l()(),Ol._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,u.loaded);l(n,8,0,!u.blindMarking&&u.user);l(n,12,0,u.blindMarking&&!u.user);l(n,16,0,u.blindMarking&&u.user||!u.blindMarking&&!u.user);l(n,20,0,u.selectedTab,u.loaded,"true");l(n,24,0,Ol._56(n,24,0,Ol._44(n,27).transform("addon.mod_assign.submission")));l(n,34,0,u.feedback||u.isGrading)},null)}u.d(n,"a",function(){return Xn}),n.b=Sl;var Ol=u(0),Al=u(30),Ll=u(20),Tl=u(19),Dl=u(6),Ml=u(28),Fl=u(33),Gl=u(208),El=u(179),$l=u(180),Pl=u(21),Ul=u(1),Rl=u(2),Nl=u(9),ql=u(12),Hl=u(7),zl=u(27),Wl=u(18),Bl=u(1990),Jl=u(679),Kl=u(169),Ql=u(72),Xl=u(162),Yl=u(41),Zl=u(4),ln=u(10),nn=u(14),un=u(26),tn=u(5),an=u(16),on=u(17),_n=u(25),en=u(34),sn=u(36),rn=u(46),cn=u(43),dn=u(60),mn=u(236),fn=u(185),gn=u(22),pn=u(45),bn=u(96),kn=u(80),In=u(32),hn=u(31),vn=u(93),xn=u(115),yn=u(94),Cn=u(52),wn=u(1991),jn=u(1382),Vn=u(167),Sn=u(1381),On=u(351),An=u(183),Ln=u(38),Tn=u(182),Dn=u(453),Mn=u(69),Fn=u(150),Gn=u(147),En=u(231),$n=u(23),Pn=u(49),Un=u(48),Rn=u(452),Nn=u(677),qn=u(78),Hn=u(15),zn=u(134),Wn=u(164),Bn=u(42),Jn=u(68),Kn=u(149),Qn=u(123),Xn=Ol._29({encapsulation:2,styles:[],data:{}});Ol._27("addon-mod-assign-submission",Nn.a,function(l){return Ol._57(0,[(l()(),Ol._31(0,0,null,null,1,"addon-mod-assign-submission",[],null,null,null,Sl,Xn)),Ol._30(1,245760,null,0,Nn.a,[Pl.a,Nl.a,Zl.a,Ul.a,qn.a,$n.a,ln.a,Wl.a,Rl.a,ql.a,Hn.a,zn.a,Wn.a,Bn.a,Jn.a,Kn.a,Ql.a,Xl.a,Qn.a,[2,en.a]],null,null)],function(l,n){l(n,1,0)},null)},{courseId:"courseId",moduleId:"moduleId",submitId:"submitId",blindId:"blindId",showGrade:"showGrade"},{},[])},1990:function(l,n,u){"use strict";function t(l){return i._57(0,[(l()(),i._31(0,0,null,null,3,"ion-badge",[["color","primary"]],null,null,null,null,null)),i._30(1,16384,null,0,s.a,[r.a,i.t,i.V],{color:[0,"color"]},null),(l()(),i._55(2,null,["\n                ","\n            "])),i._47(131072,c.a,[d.a,i.j])],function(l,n){l(n,1,0,"primary")},function(l,n){l(n,2,0,i._56(n,2,0,i._44(n,3).transform("addon.mod_assign.submissionnotsupported")))})}function a(l){return i._57(0,[(l()(),i._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),i._55(-1,null,["\n                "])),(l()(),i._31(2,0,null,null,1,"core-format-text",[],null,null,null,null,null)),i._30(3,540672,null,0,m.a,[i.t,f.a,g.a,p.a,d.a,b.a,k.a,I.a,h.a,v.a,x.a,y.a,[2,C.a],[2,w.a],[2,j.a],V.a,S.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"],maxHeight:[3,"maxHeight"],fullOnClick:[4,"fullOnClick"],fullTitle:[5,"fullTitle"]},null),(l()(),i._55(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,3,0,u.text,u.component,u.assign.cmid,80,!0,u.plugin.name)},null)}function o(l){return i._57(0,[(l()(),i._31(0,0,null,null,1,"core-file",[],null,null,null,O.b,O.a)),i._30(1,245760,null,0,A.a,[f.a,k.a,g.a,v.a,x.a,L.a,T.a,S.a,p.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"],alwaysDownload:[3,"alwaysDownload"]},null)],function(l,n){var u=n.component;l(n,1,0,n.context.$implicit,u.component,u.assign.cmid,!0)},null)}function _(l){return i._57(0,[(l()(),i._31(0,0,null,null,18,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,D.b,D.a)),i._30(1,1097728,null,3,M.a,[F.a,r.a,i.t,i.V,[2,G.a]],null,null),i._52(335544320,2,{contentLabel:0}),i._52(603979776,3,{_buttons:1}),i._52(603979776,4,{_icons:1}),i._30(5,16384,null,0,E.a,[],null,null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._31(7,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),i._55(8,null,["",""])),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,t)),i._30(11,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,a)),i._30(14,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,o)),i._30(17,802816,null,0,$.j,[i._11,i._6,i.E],{ngForOf:[0,"ngForOf"]},null),(l()(),i._55(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,11,0,u.notSupported);l(n,14,0,u.text);l(n,17,0,u.files)},function(l,n){l(n,8,0,n.component.plugin.name)})}function e(l){return i._57(0,[i._52(402653184,1,{dynamicComponent:0}),(l()(),i._55(-1,null,["\n"])),(l()(),i._31(2,0,null,null,10,"core-dynamic-component",[],null,null,null,P.b,P.a)),i._30(3,901120,[[1,4]],0,U.a,[h.a,i.o,i.F,[2,C.a],i.j,i.t,g.a],{component:[0,"component"],data:[1,"data"]},null),(l()(),i._55(-1,0,["\n    "])),(l()(),i._55(-1,0,["\n    "])),(l()(),i._31(6,0,null,0,5,"core-loading",[],null,null,null,R.b,R.a)),i._30(7,638976,null,0,N.a,[d.a,i.t,S.a,k.a],{hideUntil:[0,"hideUntil"]},null),(l()(),i._55(-1,0,["\n        "])),(l()(),i._26(16777216,null,0,1,null,_)),i._30(10,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,0,["\n    "])),(l()(),i._55(-1,0,["\n"])),(l()(),i._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0,u.pluginComponent,u.data);l(n,7,0,u.pluginLoaded);l(n,10,0,u.text.length>0||u.files.length>0)},null)}u.d(n,"a",function(){return B}),n.b=e;var i=u(0),s=u(147),r=u(6),c=u(27),d=u(18),m=u(41),f=u(1),g=u(4),p=u(10),b=u(14),k=u(2),I=u(26),h=u(5),v=u(16),x=u(9),y=u(17),C=u(21),w=u(25),j=u(34),V=u(36),S=u(12),O=u(196),A=u(163),L=u(128),T=u(64),D=u(30),M=u(20),F=u(19),G=u(28),E=u(33),$=u(7),P=u(1380),U=u(197),R=u(49),N=u(48),q=u(679),H=u(169),z=u(72),W=u(162),B=i._29({encapsulation:2,styles:[],data:{}});i._27("addon-mod-assign-submission-plugin",q.a,function(l){return i._57(0,[(l()(),i._31(0,0,null,null,1,"addon-mod-assign-submission-plugin",[],null,null,null,e,B)),i._30(1,114688,null,0,q.a,[i.C,H.a,z.a,W.a],null,null)],function(l,n){l(n,1,0)},null)},{assign:"assign",submission:"submission",plugin:"plugin",edit:"edit",allowOffline:"allowOffline"},{},[])},1991:function(l,n,u){"use strict";function t(l){return i._57(0,[(l()(),i._31(0,0,null,null,3,"ion-badge",[["color","primary"]],null,null,null,null,null)),i._30(1,16384,null,0,s.a,[r.a,i.t,i.V],{color:[0,"color"]},null),(l()(),i._55(2,null,["\n                ","\n            "])),i._47(131072,c.a,[d.a,i.j])],function(l,n){l(n,1,0,"primary")},function(l,n){l(n,2,0,i._56(n,2,0,i._44(n,3).transform("addon.mod_assign.feedbacknotsupported")))})}function a(l){return i._57(0,[(l()(),i._31(0,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),i._55(-1,null,["\n                "])),(l()(),i._31(2,0,null,null,1,"core-format-text",[],null,null,null,null,null)),i._30(3,540672,null,0,m.a,[i.t,f.a,g.a,p.a,d.a,b.a,k.a,I.a,h.a,v.a,x.a,y.a,[2,C.a],[2,w.a],[2,j.a],V.a,S.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"],maxHeight:[3,"maxHeight"],fullOnClick:[4,"fullOnClick"],fullTitle:[5,"fullTitle"]},null),(l()(),i._55(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,3,0,u.text,u.component,u.assign.cmid,80,!0,u.plugin.name)},null)}function o(l){return i._57(0,[(l()(),i._31(0,0,null,null,1,"core-file",[],null,null,null,O.b,O.a)),i._30(1,245760,null,0,A.a,[f.a,k.a,g.a,v.a,x.a,L.a,T.a,S.a,p.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"],alwaysDownload:[3,"alwaysDownload"]},null)],function(l,n){var u=n.component;l(n,1,0,n.context.$implicit,u.component,u.assign.cmid,!0)},null)}function _(l){return i._57(0,[(l()(),i._31(0,0,null,null,18,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,D.b,D.a)),i._30(1,1097728,null,3,M.a,[F.a,r.a,i.t,i.V,[2,G.a]],null,null),i._52(335544320,2,{contentLabel:0}),i._52(603979776,3,{_buttons:1}),i._52(603979776,4,{_icons:1}),i._30(5,16384,null,0,E.a,[],null,null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._31(7,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),i._55(8,null,["",""])),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,t)),i._30(11,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,a)),i._30(14,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,2,["\n            "])),(l()(),i._26(16777216,null,2,1,null,o)),i._30(17,802816,null,0,$.j,[i._11,i._6,i.E],{ngForOf:[0,"ngForOf"]},null),(l()(),i._55(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,11,0,u.notSupported);l(n,14,0,u.text);l(n,17,0,u.files)},function(l,n){l(n,8,0,n.component.plugin.name)})}function e(l){return i._57(0,[i._52(402653184,1,{dynamicComponent:0}),(l()(),i._55(-1,null,["\n"])),(l()(),i._31(2,0,null,null,10,"core-dynamic-component",[],null,null,null,P.b,P.a)),i._30(3,901120,[[1,4]],0,U.a,[h.a,i.o,i.F,[2,C.a],i.j,i.t,g.a],{component:[0,"component"],data:[1,"data"]},null),(l()(),i._55(-1,0,["\n    "])),(l()(),i._55(-1,0,["\n    "])),(l()(),i._31(6,0,null,0,5,"core-loading",[],null,null,null,R.b,R.a)),i._30(7,638976,null,0,N.a,[d.a,i.t,S.a,k.a],{hideUntil:[0,"hideUntil"]},null),(l()(),i._55(-1,0,["\n        "])),(l()(),i._26(16777216,null,0,1,null,_)),i._30(10,16384,null,0,$.k,[i._11,i._6],{ngIf:[0,"ngIf"]},null),(l()(),i._55(-1,0,["\n    "])),(l()(),i._55(-1,0,["\n"])),(l()(),i._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0,u.pluginComponent,u.data);l(n,7,0,u.pluginLoaded);l(n,10,0,u.text.length>0||u.files.length>0)},null)}u.d(n,"a",function(){return B}),n.b=e;var i=u(0),s=u(147),r=u(6),c=u(27),d=u(18),m=u(41),f=u(1),g=u(4),p=u(10),b=u(14),k=u(2),I=u(26),h=u(5),v=u(16),x=u(9),y=u(17),C=u(21),w=u(25),j=u(34),V=u(36),S=u(12),O=u(196),A=u(163),L=u(128),T=u(64),D=u(30),M=u(20),F=u(19),G=u(28),E=u(33),$=u(7),P=u(1380),U=u(197),R=u(49),N=u(48),q=u(1382),H=u(167),z=u(72),W=u(162),B=i._29({encapsulation:2,styles:[],data:{}});i._27("addon-mod-assign-feedback-plugin",q.a,function(l){return i._57(0,[(l()(),i._31(0,0,null,null,1,"addon-mod-assign-feedback-plugin",[],null,null,null,e,B)),i._30(1,114688,null,0,q.a,[i.C,H.a,z.a,W.a],null,null)],function(l,n){l(n,1,0)},null)},{assign:"assign",submission:"submission",plugin:"plugin",userId:"userId",canEdit:"canEdit",edit:"edit"},{},[])}});
+webpackJsonp([7],{
+
+/***/ 1976:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizPlayerPageModule", function() { return AddonModQuizPlayerPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_question_components_components_module__ = __webpack_require__(955);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__player__ = __webpack_require__(2114);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModQuizPlayerPageModule = /** @class */ (function () {
+    function AddonModQuizPlayerPageModule() {
+    }
+    AddonModQuizPlayerPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__player__["a" /* AddonModQuizPlayerPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_question_components_components_module__["a" /* CoreQuestionComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__player__["a" /* AddonModQuizPlayerPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModQuizPlayerPageModule);
+    return AddonModQuizPlayerPageModule;
+}());
+
+//# sourceMappingURL=player.module.js.map
+
+/***/ }),
+
+/***/ 2114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizPlayerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_logger__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_time__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_question_providers_helper__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_question_components_question_question__ = __webpack_require__(973);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_quiz__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_quiz_sync__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_helper__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__classes_auto_save__ = __webpack_require__(2115);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that allows attempting a quiz.
+ */
+var AddonModQuizPlayerPage = /** @class */ (function () {
+    function AddonModQuizPlayerPage(navParams, logger, translate, eventsProvider, sitesProvider, syncProvider, domUtils, popoverCtrl, timeUtils, quizProvider, quizHelper, quizSync, questionHelper, cdr, modalCtrl, navCtrl) {
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.sitesProvider = sitesProvider;
+        this.syncProvider = syncProvider;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.quizProvider = quizProvider;
+        this.quizHelper = quizHelper;
+        this.quizSync = quizSync;
+        this.questionHelper = questionHelper;
+        this.cdr = cdr;
+        this.navCtrl = navCtrl;
+        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT; // Component to link the files to.
+        this.preflightData = {}; // Preflight data to attempt the quiz.
+        this.forceLeave = false; // If true, don't perform any check when leaving the view.
+        this.reloadNavigaton = false; // Whether navigation needs to be reloaded because some data was sent to server.
+        this.quizId = navParams.get('quizId');
+        this.courseId = navParams.get('courseId');
+        this.moduleUrl = navParams.get('moduleUrl');
+        // Block the quiz so it cannot be synced.
+        this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT, this.quizId);
+        // Create the auto save instance.
+        this.autoSave = new __WEBPACK_IMPORTED_MODULE_14__classes_auto_save__["a" /* AddonModQuizAutoSave */]('addon-mod_quiz-player-form', '#addon-mod_quiz-connection-error-button', logger, popoverCtrl, questionHelper, quizProvider);
+        // Create the navigation modal.
+        this.navigationModal = modalCtrl.create('AddonModQuizNavigationModalPage', {
+            page: this
+        }, { cssClass: 'core-modal-lateral',
+            showBackdrop: true,
+            enableBackdropDismiss: true,
+            enterAnimation: 'core-modal-lateral-transition',
+            leaveAnimation: 'core-modal-lateral-transition' });
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModQuizPlayerPage.prototype.ngOnInit = function () {
+        var _this = this;
+        // Start the player when the page is loaded.
+        this.start();
+        // Listen for errors on auto-save.
+        this.autoSaveErrorSubscription = this.autoSave.onError().subscribe(function (error) {
+            _this.autoSaveError = error;
+            _this.cdr.detectChanges();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModQuizPlayerPage.prototype.ngOnDestroy = function () {
+        // Stop auto save.
+        this.autoSave.cancelAutoSave();
+        this.autoSave.stopCheckChangesProcess();
+        this.autoSaveErrorSubscription && this.autoSaveErrorSubscription.unsubscribe();
+        // Unblock the quiz so it can be synced.
+        this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT, this.quizId);
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModQuizPlayerPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        if (this.questions && this.questions.length && !this.showSummary) {
+            // Save answers.
+            var modal_1 = this.domUtils.showModalLoading('core.sending', true);
+            return this.processAttempt(false, false).catch(function () {
+                // Save attempt failed. Show confirmation.
+                modal_1.dismiss();
+                return _this.domUtils.showConfirm(_this.translate.instant('addon.mod_quiz.confirmleavequizonerror'));
+            }).finally(function () {
+                modal_1.dismiss();
+            });
+        }
+        return Promise.resolve();
+    };
+    /**
+     * Abort the quiz.
+     */
+    AddonModQuizPlayerPage.prototype.abortQuiz = function () {
+        this.quizAborted = true;
+    };
+    /**
+     * A behaviour button in a question was clicked (Check, Redo, ...).
+     *
+     * @param {any} button Clicked button.
+     */
+    AddonModQuizPlayerPage.prototype.behaviourButtonClicked = function (button) {
+        var _this = this;
+        // Confirm that the user really wants to do it.
+        this.domUtils.showConfirm(this.translate.instant('core.areyousure')).then(function () {
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            // Get the answers.
+            return _this.prepareAnswers().then(function (answers) {
+                // Add the clicked button data.
+                answers[button.name] = button.value;
+                // Behaviour checks are always in online.
+                return _this.quizProvider.processAttempt(_this.quiz, _this.attempt, answers, _this.preflightData);
+            }).then(function () {
+                _this.reloadNavigaton = true; // Data sent to server, navigation should be reloaded.
+                // Reload the current page.
+                var scrollElement = _this.content.getScrollElement(), scrollTop = scrollElement.scrollTop || 0, scrollLeft = scrollElement.scrollLeft || 0;
+                _this.loaded = false;
+                _this.domUtils.scrollToTop(_this.content); // Scroll top so the spinner is seen.
+                return _this.loadPage(_this.attempt.currentpage).finally(function () {
+                    _this.loaded = true;
+                    _this.domUtils.scrollTo(_this.content, scrollLeft, scrollTop);
+                });
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error performing action.');
+        });
+    };
+    /**
+     * Change the current page. If slot is supplied, try to scroll to that question.
+     *
+     * @param {number} page Page to load. -1 means summary.
+     * @param {boolean} [fromModal] Whether the page was selected using the navigation modal.
+     * @param {number} [slot] Slot of the question to scroll to.
+     */
+    AddonModQuizPlayerPage.prototype.changePage = function (page, fromModal, slot) {
+        var _this = this;
+        if (page != -1 && (this.attempt.state == __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_OVERDUE || this.attempt.finishedOffline)) {
+            // We can't load a page if overdue or the local attempt is finished.
+            return;
+        }
+        else if (page == this.attempt.currentpage && !this.showSummary && typeof slot != 'undefined') {
+            // Navigating to a question in the current page.
+            this.scrollToQuestion(slot);
+            return;
+        }
+        else if ((page == this.attempt.currentpage && !this.showSummary) || (fromModal && this.quiz.isSequential && page != -1)) {
+            // If the user is navigating to the current page we do nothing.
+            // Also, in sequential quizzes we don't allow navigating using the modal except for finishing the quiz (summary).
+            return;
+        }
+        else if (page === -1 && this.showSummary) {
+            // Summary already shown.
+            return;
+        }
+        this.loaded = false;
+        this.domUtils.scrollToTop(this.content);
+        // First try to save the attempt data. We only save it if we're not seeing the summary.
+        var promise = this.showSummary ? Promise.resolve() : this.processAttempt(false, false);
+        promise.then(function () {
+            if (!_this.showSummary) {
+                _this.reloadNavigaton = true; // Data sent to server, navigation should be reloaded.
+            }
+            // Attempt data successfully saved, load the page or summary.
+            var subPromise;
+            // Stop checking for changes during page change.
+            _this.autoSave.stopCheckChangesProcess();
+            if (page === -1) {
+                subPromise = _this.loadSummary();
+            }
+            else {
+                subPromise = _this.loadPage(page);
+            }
+            return subPromise.catch(function (error) {
+                // If the user isn't seeing the summary, start the check again.
+                if (!_this.showSummary) {
+                    _this.autoSave.startCheckChangesProcess(_this.quiz, _this.attempt, _this.preflightData, _this.offline);
+                }
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquestions', true);
+            });
+        }, function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorsaveattempt', true);
+        }).finally(function () {
+            _this.loaded = true;
+            if (typeof slot != 'undefined') {
+                // Scroll to the question. Give some time to the questions to render.
+                setTimeout(function () {
+                    _this.scrollToQuestion(slot);
+                }, 2000);
+            }
+        });
+    };
+    /**
+     * Convenience function to get the quiz data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.fetchData = function () {
+        var _this = this;
+        // Wait for any ongoing sync to finish. We won't sync a quiz while it's being played.
+        return this.quizSync.waitForSync(this.quizId).then(function () {
+            // Sync finished, now get the quiz.
+            return _this.quizProvider.getQuizById(_this.courseId, _this.quizId);
+        }).then(function (quizData) {
+            _this.quiz = quizData;
+            _this.quiz.isSequential = _this.quizProvider.isNavigationSequential(_this.quiz);
+            if (_this.quizProvider.isQuizOffline(_this.quiz)) {
+                // Quiz supports offline.
+                return true;
+            }
+            else {
+                // Quiz doesn't support offline right now, but maybe it did and then the setting was changed.
+                // If we have an unfinished offline attempt then we'll use offline mode.
+                return _this.quizProvider.isLastAttemptOfflineUnfinished(_this.quiz);
+            }
+        }).then(function (offlineMode) {
+            _this.offline = offlineMode;
+            if (_this.quiz.timelimit > 0) {
+                _this.quiz.readableTimeLimit = _this.timeUtils.formatTime(_this.quiz.timelimit);
+            }
+            // Get access information for the quiz.
+            return _this.quizProvider.getQuizAccessInformation(_this.quiz.id, _this.offline, true);
+        }).then(function (info) {
+            _this.quizAccessInfo = info;
+            // Get user attempts to determine last attempt.
+            return _this.quizProvider.getUserAttempts(_this.quiz.id, 'all', true, _this.offline, true);
+        }).then(function (attempts) {
+            if (!attempts.length) {
+                // There are no attempts, start a new one.
+                _this.newAttempt = true;
+            }
+            else {
+                var promises = [];
+                // Get the last attempt. If it's finished, start a new one.
+                _this.lastAttempt = attempts[attempts.length - 1];
+                _this.newAttempt = _this.quizProvider.isAttemptFinished(_this.lastAttempt.state);
+                // Load quiz last sync time.
+                promises.push(_this.quizSync.getSyncTime(_this.quiz.id).then(function (time) {
+                    _this.quiz.syncTime = time;
+                    _this.quiz.syncTimeReadable = _this.quizSync.getReadableTimeFromTimestamp(time);
+                }));
+                // Load flag to show if attempts are finished but not synced.
+                promises.push(_this.quizProvider.loadFinishedOfflineData(attempts));
+                return Promise.all(promises);
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquiz', true);
+        });
+    };
+    /**
+     * Finish an attempt, either by timeup or because the user clicked to finish it.
+     *
+     * @param {boolean} [userFinish] Whether the user clicked to finish the attempt.
+     * @param {boolean} [timeUp] Whether the quiz time is up.
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.finishAttempt = function (userFinish, timeUp) {
+        var _this = this;
+        var promise;
+        // Show confirm if the user clicked the finish button and the quiz is in progress.
+        if (!timeUp && this.attempt.state == __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_IN_PROGRESS) {
+            promise = this.domUtils.showConfirm(this.translate.instant('addon.mod_quiz.confirmclose'));
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            return _this.processAttempt(userFinish, timeUp).then(function () {
+                // Trigger an event to notify the attempt was finished.
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_FINISHED_EVENT, {
+                    quizId: _this.quizId,
+                    attemptId: _this.attempt.id,
+                    synced: !_this.offline
+                }, _this.sitesProvider.getCurrentSiteId());
+                // Leave the player.
+                _this.forceLeave = true;
+                _this.navCtrl.pop();
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorsaveattempt', true);
+        });
+    };
+    /**
+     * Fix sequence checks of current page.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.fixSequenceChecks = function () {
+        var _this = this;
+        // Get current page data again to get the latest sequencechecks.
+        return this.quizProvider.getAttemptData(this.attempt.id, this.attempt.currentpage, this.preflightData, this.offline, true)
+            .then(function (data) {
+            var newSequenceChecks = {};
+            data.questions.forEach(function (question) {
+                newSequenceChecks[question.slot] = _this.questionHelper.getQuestionSequenceCheckFromHtml(question.html);
+            });
+            // Notify the new sequence checks to the components.
+            _this.questionComponents.forEach(function (component) {
+                component.updateSequenceCheck(newSequenceChecks);
+            });
+        });
+    };
+    /**
+     * Get the input answers.
+     *
+     * @return {any} Object with the answers.
+     */
+    AddonModQuizPlayerPage.prototype.getAnswers = function () {
+        return this.questionHelper.getAnswersFromForm(document.forms['addon-mod_quiz-player-form']);
+    };
+    /**
+     * Initializes the timer if enabled.
+     */
+    AddonModQuizPlayerPage.prototype.initTimer = function () {
+        if (this.attemptAccessInfo.endtime > 0) {
+            // Quiz has an end time. Check if time left should be shown.
+            if (this.quizProvider.shouldShowTimeLeft(this.quizAccessInfo.activerulenames, this.attempt, this.attemptAccessInfo.endtime)) {
+                this.endTime = this.attemptAccessInfo.endtime;
+            }
+            else {
+                delete this.endTime;
+            }
+        }
+    };
+    /**
+     * Load a page questions.
+     *
+     * @param {number} page The page to load.
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadPage = function (page) {
+        var _this = this;
+        return this.quizProvider.getAttemptData(this.attempt.id, page, this.preflightData, this.offline, true).then(function (data) {
+            // Update attempt, status could change during the execution.
+            _this.attempt = data.attempt;
+            _this.attempt.currentpage = page;
+            _this.questions = data.questions;
+            _this.nextPage = data.nextpage;
+            _this.previousPage = _this.quiz.isSequential ? -1 : page - 1;
+            _this.showSummary = false;
+            _this.questions.forEach(function (question) {
+                // Get the readable mark for each question.
+                question.readableMark = _this.quizHelper.getQuestionMarkFromHtml(question.html);
+                // Extract the question info box.
+                _this.questionHelper.extractQuestionInfoBox(question, '.info');
+                // Set the preferred behaviour.
+                question.preferredBehaviour = _this.quiz.preferredbehaviour;
+                // Check if the question is blocked. If it is, treat it as a description question.
+                if (_this.quizProvider.isQuestionBlocked(question)) {
+                    question.type = 'description';
+                }
+            });
+            // Mark the page as viewed. We'll ignore errors in this call.
+            _this.quizProvider.logViewAttempt(_this.attempt.id, page, _this.preflightData, _this.offline).catch(function (error) {
+                // Ignore errors.
+            });
+            // Start looking for changes.
+            _this.autoSave.startCheckChangesProcess(_this.quiz, _this.attempt, _this.preflightData, _this.offline);
+        });
+    };
+    /**
+     * Load attempt summary.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadSummary = function () {
+        var _this = this;
+        this.summaryQuestions = [];
+        return this.quizProvider.getAttemptSummary(this.attempt.id, this.preflightData, this.offline, true, true).then(function (qs) {
+            _this.showSummary = true;
+            _this.summaryQuestions = qs;
+            _this.canReturn = _this.attempt.state == __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_IN_PROGRESS && !_this.attempt.finishedOffline;
+            _this.preventSubmitMessages = _this.quizProvider.getPreventSubmitMessages(_this.summaryQuestions);
+            _this.attempt.dueDateWarning = _this.quizProvider.getAttemptDueDateWarning(_this.quiz, _this.attempt);
+            // Log summary as viewed.
+            _this.quizProvider.logViewAttemptSummary(_this.attempt.id, _this.preflightData, _this.quizId).catch(function (error) {
+                // Ignore errors.
+            });
+        });
+    };
+    /**
+     * Load data to navigate the questions using the navigation modal.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadNavigation = function () {
+        var _this = this;
+        // We use the attempt summary to build the navigation because it contains all the questions.
+        return this.quizProvider.getAttemptSummary(this.attempt.id, this.preflightData, this.offline, true, true)
+            .then(function (questions) {
+            questions.forEach(function (question) {
+                question.stateClass = _this.questionHelper.getQuestionStateClass(question.state);
+            });
+            _this.navigation = questions;
+        });
+    };
+    /**
+     * Open the navigation modal.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.openNavigation = function () {
+        var _this = this;
+        var promise;
+        if (this.reloadNavigaton) {
+            // Some data has changed, reload the navigation.
+            var modal_2 = this.domUtils.showModalLoading();
+            promise = this.loadNavigation().catch(function () {
+                // Ignore errors.
+            }).then(function () {
+                modal_2.dismiss();
+                _this.reloadNavigaton = false;
+            });
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.finally(function () {
+            _this.navigationModal.present();
+        });
+    };
+    // Prepare the answers to be sent for the attempt.
+    AddonModQuizPlayerPage.prototype.prepareAnswers = function () {
+        return this.questionHelper.prepareAnswers(this.questions, this.getAnswers(), this.offline);
+    };
+    /**
+     * Process attempt.
+     *
+     * @param {boolean} [userFinish] Whether the user clicked to finish the attempt.
+     * @param {boolean} [timeUp] Whether the quiz time is up.
+     * @return {Promise<any>} Promise resolved when done.
+     * @param {boolean} [retrying] Whether we're retrying the change.
+     */
+    AddonModQuizPlayerPage.prototype.processAttempt = function (userFinish, timeUp, retrying) {
+        var _this = this;
+        // Get the answers to send.
+        return this.prepareAnswers().then(function (answers) {
+            // Send the answers.
+            return _this.quizProvider.processAttempt(_this.quiz, _this.attempt, answers, _this.preflightData, userFinish, timeUp, _this.offline).catch(function (error) {
+                if (error && error.errorcode == 'submissionoutofsequencefriendlymessage') {
+                    // There was an error with the sequence check. Try to ammend it.
+                    return _this.fixSequenceChecks().then(function () {
+                        if (retrying) {
+                            // We're already retrying, don't send the data again because it could cause an infinite loop.
+                            return Promise.reject(error);
+                        }
+                        // Sequence checks updated, try to send the data again.
+                        return _this.processAttempt(userFinish, timeUp, true);
+                    }, function () {
+                        return Promise.reject(error);
+                    });
+                }
+                return Promise.reject(error);
+            });
+        }).then(function () {
+            // Answers saved, cancel auto save.
+            _this.autoSave.cancelAutoSave();
+            _this.autoSave.hideAutoSaveError();
+        });
+    };
+    /**
+     * Scroll to a certain question.
+     *
+     * @param {number} slot Slot of the question to scroll to.
+     */
+    AddonModQuizPlayerPage.prototype.scrollToQuestion = function (slot) {
+        this.domUtils.scrollToElementBySelector(this.content, '#addon-mod_quiz-question-' + slot);
+    };
+    /**
+     * Show connection error.
+     *
+     * @param {Event} ev Click event.
+     */
+    AddonModQuizPlayerPage.prototype.showConnectionError = function (ev) {
+        this.autoSave.showAutoSaveError(ev);
+    };
+    /**
+     * Convenience function to start the player.
+     */
+    AddonModQuizPlayerPage.prototype.start = function () {
+        var _this = this;
+        var promise;
+        this.loaded = false;
+        if (this.quizDataLoaded) {
+            // Quiz data has been loaded, try to start or continue.
+            promise = this.startOrContinueAttempt();
+        }
+        else {
+            // Fetch data.
+            promise = this.fetchData().then(function () {
+                _this.quizDataLoaded = true;
+                return _this.startOrContinueAttempt();
+            });
+        }
+        promise.finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Start or continue an attempt.
+     *
+     * @return {Promise<any>} [description]
+     */
+    AddonModQuizPlayerPage.prototype.startOrContinueAttempt = function () {
+        var _this = this;
+        var attempt = this.newAttempt ? undefined : this.lastAttempt;
+        // Get the preflight data and start attempt if needed.
+        return this.quizHelper.getAndCheckPreflightData(this.quiz, this.quizAccessInfo, this.preflightData, attempt, this.offline, false, 'addon.mod_quiz.startattempt').then(function (attempt) {
+            // Re-fetch attempt access information with the right attempt (might have changed because a new attempt was created).
+            return _this.quizProvider.getAttemptAccessInformation(_this.quiz.id, attempt.id, _this.offline, true).then(function (info) {
+                _this.attemptAccessInfo = info;
+                _this.attempt = attempt;
+                return _this.loadNavigation();
+            }).then(function () {
+                if (_this.attempt.state != __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_OVERDUE && !_this.attempt.finishedOffline) {
+                    // Attempt not overdue and not finished in offline, load page.
+                    return _this.loadPage(_this.attempt.currentpage).then(function () {
+                        _this.initTimer();
+                    });
+                }
+                else {
+                    // Attempt is overdue or finished in offline, we can only load the summary.
+                    return _this.loadSummary();
+                }
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquestions', true);
+        });
+    };
+    /**
+     * Quiz time has finished.
+     */
+    AddonModQuizPlayerPage.prototype.timeUp = function () {
+        if (this.timeUpCalled) {
+            return;
+        }
+        this.timeUpCalled = true;
+        this.finishAttempt(false, true);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModQuizPlayerPage.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ViewChildren */])(__WEBPACK_IMPORTED_MODULE_10__core_question_components_question_question__["a" /* CoreQuestionComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* QueryList */])
+    ], AddonModQuizPlayerPage.prototype, "questionComponents", void 0);
+    AddonModQuizPlayerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-quiz-player',template:/*ion-inline-start:"D:\akaal\src\addon\mod\quiz\pages\player\player.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text *ngIf="quiz" [text]="quiz.name"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <button id="addon-mod_quiz-connection-error-button" ion-button icon-only [hidden]="!autoSaveError" (click)="showConnectionError($event)" [attr.aria-label]="\'core.error\' | translate">\n                <ion-icon name="alert"></ion-icon>\n            </button>\n            <button *ngIf="navigation && navigation.length" ion-button icon-only [attr.aria-label]="\'addon.mod_quiz.opentoc\' | translate" (click)="openNavigation()">\n                <ion-icon name="bookmark"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <!-- Navigation arrows and time left. -->\n    <ion-toolbar *ngIf="loaded && endTime && questions && questions.length && !quizAborted && !showSummary" color="light" ion-fixed>\n        <ion-title>\n            <core-timer [endTime]="endTime" (finished)="timeUp()" [timerText]="\'addon.mod_quiz.timeleft\' | translate" align="center"></core-timer>\n        </ion-title>\n        <ion-buttons end>\n            <a ion-button icon-only *ngIf="previousPage >= 0" (click)="changePage(previousPage)" [title]="\'core.previous\' | translate">\n                <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n            </a>\n            <a ion-button icon-only *ngIf="nextPage >= -1" (click)="changePage(nextPage)" [title]="\'core.next\' | translate">\n                <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n            </a>\n        </ion-buttons>\n    </ion-toolbar>\n    <core-loading [hideUntil]="loaded" [class.core-has-fixed-timer]="endTime">\n        <!-- Navigation arrows and time left. -->\n        <ion-toolbar *ngIf="!endTime && questions && questions.length && !quizAborted && !showSummary" color="light">\n            <ion-buttons end>\n                <a ion-button icon-only *ngIf="previousPage >= 0" (click)="changePage(previousPage)" [title]="\'core.previous\' | translate">\n                    <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n                </a>\n                <a ion-button icon-only *ngIf="nextPage >= -1" (click)="changePage(nextPage)" [title]="\'core.next\' | translate">\n                    <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n                </a>\n            </ion-buttons>\n        </ion-toolbar>\n        <!-- Button to start attempting. -->\n        <div padding *ngIf="!attempt">\n            <button ion-button block (click)="start()">{{ \'addon.mod_quiz.startattempt\' | translate }}</button>\n        </div>\n\n        <!-- Questions -->\n        <form name="addon-mod_quiz-player-form" *ngIf="questions && questions.length && !quizAborted && !showSummary">\n            <div *ngFor="let question of questions">\n                <ion-card id="addon-mod_quiz-question-{{question.slot}}">\n                    <!-- "Header" of the question. -->\n                    <ion-item-divider>\n                        <h2 *ngIf="question.number" class="inline">{{ \'core.question.questionno\' | translate:{$a: question.number} }}</h2>\n                        <h2 *ngIf="!question.number" class="inline">{{ \'core.question.information\' | translate }}</h2>\n                        <ion-note text-wrap item-end *ngIf="question.status || question.readableMark">\n                            <p *ngIf="question.status" class="block">{{question.status}}</p>\n                            <p *ngIf="question.readableMark"><core-format-text [text]="question.readableMark"></core-format-text></p>\n                        </ion-note>\n                    </ion-item-divider>\n                    <!-- Body of the question. -->\n                    <core-question text-wrap [question]="question" [component]="component" [componentId]="quiz.coursemodule" [attemptId]="attempt.id" [offlineEnabled]="offline" (onAbort)="abortQuiz()" (buttonClicked)="behaviourButtonClicked($event)"></core-question>\n                </ion-card>\n            </div>\n        </form>\n\n        <!-- Go to next or previous page. -->\n        <ion-grid text-wrap *ngIf="questions && questions.length && !quizAborted && !showSummary">\n            <ion-row>\n                <ion-col *ngIf="previousPage >= 0" >\n                    <button ion-button block icon-start color="light" (click)="changePage(previousPage)">\n                        <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n                        {{ \'core.previous\' | translate }}\n                    </button>\n                </ion-col>\n                <ion-col *ngIf="nextPage >= -1">\n                    <button ion-button block icon-end (click)="changePage(nextPage)">\n                        {{ \'core.next\' | translate }}\n                        <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n                    </button>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n\n        <!-- Summary -->\n        <ion-card *ngIf="!quizAborted && showSummary && summaryQuestions && summaryQuestions.length" class="addon-mod_quiz-table">\n            <ion-card-header text-wrap>\n                <h2>{{ \'addon.mod_quiz.summaryofattempt\' | translate }}</h2>\n            </ion-card-header>\n            <!-- "Header" of the summary table. -->\n            <ion-item text-wrap>\n                <ion-row align-items-center>\n                    <ion-col col-3 text-center class="hidden-phone"><b>{{ \'addon.mod_quiz.question\' | translate }}</b></ion-col>\n                    <ion-col col-3 text-center class="hidden-tablet"><b>#</b></ion-col>\n                    <ion-col col-9 text-center><b>{{ \'addon.mod_quiz.status\' | translate }}</b></ion-col>\n                </ion-row>\n            </ion-item>\n            <!-- Lift of questions of the summary table. -->\n            <ng-container *ngFor="let question of summaryQuestions">\n                <a ion-item (click)="changePage(question.page, false, question.slot)" *ngIf="question.number" [attr.aria-label]="\'core.question.questionno\' | translate:{$a: question.number}" [attr.detail-push]="!quiz.isSequential && canReturn ? true : null">\n                    <ion-row align-items-center>\n                        <ion-col col-3 text-center>{{ question.number }}</ion-col>\n                        <ion-col col-9 text-center text-wrap>{{ question.status }}</ion-col>\n                    </ion-row>\n                </a>\n            </ng-container>\n            <!-- Button to return to last page seen. -->\n            <ion-item *ngIf="canReturn">\n                <a ion-button block (click)="changePage(attempt.currentpage)">{{ \'addon.mod_quiz.returnattempt\' | translate }}</a>\n            </ion-item>\n            <!-- Due date warning. -->\n            <ion-item text-wrap *ngIf="attempt.dueDateWarning">\n                {{ attempt.dueDateWarning }}\n            </ion-item>\n            <!-- Time left (if quiz is timed). -->\n            <core-timer *ngIf="endTime" [endTime]="endTime" (finished)="timeUp()" [timerText]="\'addon.mod_quiz.timeleft\' | translate"></core-timer>\n            <!-- List of messages explaining why the quiz cannot be submitted. -->\n            <ion-item text-wrap *ngIf="preventSubmitMessages.length">\n                <p class="item-heading">{{ \'addon.mod_quiz.cannotsubmitquizdueto\' | translate }}</p>\n                <p *ngFor="let message of preventSubmitMessages">{{message}}</p>\n                <a ion-button block icon-end [href]="moduleUrl" core-link>\n                    <ion-icon name="open"></ion-icon>\n                    {{ \'core.openinbrowser\' | translate }}\n                </a>\n            </ion-item>\n            <!-- Button to submit the quiz. -->\n            <ion-item *ngIf="!attempt.finishedOffline && !preventSubmitMessages.length">\n                <a ion-button block (click)="finishAttempt(true)">{{ \'addon.mod_quiz.submitallandfinish\' | translate }}</a>\n            </ion-item>\n        </ion-card>\n\n        <!-- Quiz aborted -->\n        <ion-card *ngIf="attempt && (((!questions || !questions.length) && !showSummary) || quizAborted)">\n            <ion-item text-wrap>\n                <p>{{ \'addon.mod_quiz.errorparsequestions\' | translate }}</p>\n            </ion-item>\n            <ion-item>\n                <a ion-button block icon-end [href]="moduleUrl" core-link>\n                    <ion-icon name="open"></ion-icon>\n                    {{ \'core.openinbrowser\' | translate }}\n                </a>\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\quiz\pages\player\player.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["w" /* PopoverController */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_quiz__["a" /* AddonModQuizProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_helper__["a" /* AddonModQuizHelperProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_quiz_sync__["a" /* AddonModQuizSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__core_question_providers_helper__["a" /* CoreQuestionHelperProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */]])
+    ], AddonModQuizPlayerPage);
+    return AddonModQuizPlayerPage;
+}());
+
+//# sourceMappingURL=player.js.map
+
+/***/ }),
+
+/***/ 2115:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizAutoSave; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_connection_error_connection_error__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+/**
+ * Class to support auto-save in quiz. Every certain seconds, it will check if there are changes in the current page answers
+ * and, if so, it will save them automatically.
+ */
+var AddonModQuizAutoSave = /** @class */ (function () {
+    /**
+     * Constructor.
+     *
+     * @param {string} formName Name of the form where the answers are stored.
+     * @param {string} buttonSelector Selector to find the button to show the connection error.
+     * @param {CoreLoggerProvider} loggerProvider CoreLoggerProvider instance.
+     * @param {PopoverController} popoverCtrl PopoverController instance.
+     * @param {CoreQuestionHelperProvider} questionHelper CoreQuestionHelperProvider instance.
+     * @param {AddonModQuizProvider} quizProvider AddonModQuizProvider instance.
+     */
+    function AddonModQuizAutoSave(formName, buttonSelector, loggerProvider, popoverCtrl, questionHelper, quizProvider) {
+        var _this = this;
+        this.formName = formName;
+        this.buttonSelector = buttonSelector;
+        this.popoverCtrl = popoverCtrl;
+        this.questionHelper = questionHelper;
+        this.quizProvider = quizProvider;
+        this.CHECK_CHANGES_INTERVAL = 5000;
+        this.popoverShown = false; // Whether the popover is shown.
+        this.logger = loggerProvider.getInstance('AddonModQuizAutoSave');
+        // Create the popover.
+        this.popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_0__components_connection_error_connection_error__["a" /* AddonModQuizConnectionErrorComponent */]);
+        this.popover.onDidDismiss(function () {
+            _this.popoverShown = false;
+        });
+        // Create the observable to notify if an error happened.
+        this.errorObservable = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["BehaviorSubject"](false);
+    }
+    /**
+     * Cancel a pending auto save.
+     */
+    AddonModQuizAutoSave.prototype.cancelAutoSave = function () {
+        clearTimeout(this.autoSaveTimeout);
+        this.autoSaveTimeout = undefined;
+    };
+    /**
+     * Check if the answers have changed in a page.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.checkChanges = function (quiz, attempt, preflightData, offline) {
+        if (this.autoSaveTimeout) {
+            // We already have an auto save pending, no need to check changes.
+            return;
+        }
+        var answers = this.getAnswers();
+        if (!this.previousAnswers) {
+            // Previous answers isn't set, set it now.
+            this.previousAnswers = answers;
+        }
+        else {
+            // Check if answers have changed.
+            var equal = true;
+            for (var name_1 in answers) {
+                if (this.previousAnswers[name_1] != answers[name_1]) {
+                    equal = false;
+                    break;
+                }
+            }
+            if (!equal) {
+                this.setAutoSaveTimer(quiz, attempt, preflightData, offline);
+            }
+            this.previousAnswers = answers;
+        }
+    };
+    /**
+     * Get answers from a form.
+     *
+     * @return {any} Answers.
+     */
+    AddonModQuizAutoSave.prototype.getAnswers = function () {
+        return this.questionHelper.getAnswersFromForm(document.forms[this.formName]);
+    };
+    /**
+     * Hide the auto save error.
+     */
+    AddonModQuizAutoSave.prototype.hideAutoSaveError = function () {
+        this.errorObservable.next(false);
+        this.popover.dismiss();
+    };
+    /**
+     * Returns an observable that will notify when an error happens or stops.
+     * It will send true when there's an error, and false when the error has been ammended.
+     *
+     * @return {BehaviorSubject<boolean>} Observable.
+     */
+    AddonModQuizAutoSave.prototype.onError = function () {
+        return this.errorObservable;
+    };
+    /**
+     * Schedule an auto save process if it's not scheduled already.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.setAutoSaveTimer = function (quiz, attempt, preflightData, offline) {
+        var _this = this;
+        // Don't schedule if already shceduled or quiz is almost closed.
+        if (quiz.autosaveperiod && !this.autoSaveTimeout && !this.quizProvider.isAttemptTimeNearlyOver(quiz, attempt)) {
+            // Schedule save.
+            this.autoSaveTimeout = setTimeout(function () {
+                var answers = _this.getAnswers();
+                _this.cancelAutoSave();
+                _this.previousAnswers = answers; // Update previous answers to match what we're sending to the server.
+                _this.quizProvider.saveAttempt(quiz, attempt, answers, preflightData, offline).then(function () {
+                    // Save successful, we can hide the connection error if it was shown.
+                    _this.hideAutoSaveError();
+                }).catch(function (error) {
+                    // Error auto-saving. Show error and set timer again.
+                    _this.logger.warn('Error auto-saving data.', error);
+                    // If there was no error already, show the error message.
+                    if (!_this.errorObservable.getValue()) {
+                        _this.errorObservable.next(true);
+                        _this.showAutoSaveError();
+                    }
+                    // Try again.
+                    _this.setAutoSaveTimer(quiz, attempt, preflightData, offline);
+                });
+            }, quiz.autosaveperiod * 1000);
+        }
+    };
+    /**
+     * Show an error popover due to an auto save error.
+     */
+    AddonModQuizAutoSave.prototype.showAutoSaveError = function (ev) {
+        // Don't show popover if it was already shown.
+        if (!this.popoverShown) {
+            this.popoverShown = true;
+            // If no event is provided, simulate it targeting the button.
+            this.popover.present({
+                ev: ev || { target: document.querySelector(this.buttonSelector) }
+            });
+        }
+    };
+    /**
+     * Start a process to periodically check changes in answers.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.startCheckChangesProcess = function (quiz, attempt, preflightData, offline) {
+        var _this = this;
+        if (this.checkChangesInterval || !quiz.autosaveperiod) {
+            // We already have the interval in place or the quiz has autosave disabled.
+            return;
+        }
+        this.previousAnswers = undefined;
+        // Load initial answers in 2.5 seconds so the first check interval finds them already loaded.
+        this.loadPreviousAnswersTimeout = setTimeout(function () {
+            _this.checkChanges(quiz, attempt, preflightData, offline);
+        }, 2500);
+        // Check changes every certain time.
+        this.checkChangesInterval = setInterval(function () {
+            _this.checkChanges(quiz, attempt, preflightData, offline);
+        }, this.CHECK_CHANGES_INTERVAL);
+    };
+    /**
+     * Stops the periodical check for changes.
+     */
+    AddonModQuizAutoSave.prototype.stopCheckChangesProcess = function () {
+        clearTimeout(this.loadPreviousAnswersTimeout);
+        clearInterval(this.checkChangesInterval);
+        this.loadPreviousAnswersTimeout = undefined;
+        this.checkChangesInterval = undefined;
+    };
+    return AddonModQuizAutoSave;
+}());
+
+//# sourceMappingURL=auto-save.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=7.js.map

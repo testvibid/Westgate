@@ -1,1 +1,290 @@
-webpackJsonp([89],{1892:function(l,n,a){"use strict";function u(l){return t._57(0,[(l()(),t._31(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),t._30(1,16384,null,0,O.a,[R.a,t.t,t.V,[2,k.a]],null,null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._31(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),t._30(4,49152,null,0,S.a,[D.a,[2,k.a],[2,E.a],R.a,t.t,t.V],null,null),t._30(5,212992,null,0,L.a,[S.a,x.a,I.a,U.a],null,null),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(7,0,null,3,3,"ion-title",[],null,null,null,A.b,A.a)),t._30(8,49152,null,0,F.a,[R.a,t.t,t.V,[2,G.a],[2,S.a]],null,null),(l()(),t._55(9,0,["",""])),t._47(131072,J.a,[I.a,t.j]),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(13,16384,null,1,K.a,[R.a,t.t,t.V,[2,G.a],[2,S.a]],null,null),t._52(603979776,1,{_buttons:1}),(l()(),t._55(-1,null,["\n            "])),(l()(),t._31(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==l.component.closeModal()&&u}return u},N.b,N.a)),t._30(17,1097728,[[1,4]],0,T.a,[[8,""],R.a,t.t,t.V],null,null),t._47(131072,J.a,[I.a,t.j]),(l()(),t._55(-1,0,["\n                "])),(l()(),t._31(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._30(21,147456,null,0,q.a,[R.a,t.t,t.V],{name:[0,"name"]},null),(l()(),t._55(-1,0,["\n            "])),(l()(),t._55(-1,null,["\n        "])),(l()(),t._55(-1,3,["\n    "])),(l()(),t._55(-1,null,["\n"])),(l()(),t._55(-1,null,["\n"])),(l()(),t._31(27,0,null,null,47,"ion-content",[["class","addon-mod_lesson-password-modal"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,z.b,z.a)),t._30(28,4374528,null,0,B.a,[R.a,x.a,H.a,t.t,t.V,D.a,Q.a,t.M,[2,k.a],[2,E.a]],null,null),(l()(),t._55(-1,1,["\n    "])),(l()(),t._31(30,0,null,1,43,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,a){var u=!0,e=l.component;if("submit"===n){u=!1!==t._44(l,32).onSubmit(a)&&u}if("reset"===n){u=!1!==t._44(l,32).onReset()&&u}if("ngSubmit"===n){u=!1!==e.submitPassword(a,t._44(l,53))&&u}return u},null,null)),t._30(31,16384,null,0,W.w,[],null,null),t._30(32,4210688,null,0,W.p,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),t._50(2048,null,W.b,null,[W.p]),t._30(34,16384,null,0,W.o,[W.b],null,null),(l()(),t._55(-1,null,["\n        "])),(l()(),t._31(36,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,X.b,X.a)),t._30(37,1097728,null,3,Y.a,[Z.a,R.a,t.t,t.V,[2,$.a]],null,null),t._52(335544320,2,{contentLabel:0}),t._52(603979776,3,{_buttons:1}),t._52(603979776,4,{_icons:1}),t._30(41,16384,null,0,ll.a,[],null,null),(l()(),t._55(-1,2,["\n            "])),(l()(),t._31(43,0,null,3,12,"core-show-password",[["item-content",""]],null,null,null,nl.b,nl.a)),t._30(44,4308992,null,0,al.a,[t.t,ul.a,tl.a,x.a],{name:[0,"name"]},null),(l()(),t._55(-1,0,["\n                "])),(l()(),t._31(46,0,null,0,3,"ion-label",[],null,null,null,null,null)),t._30(47,16384,[[2,4]],0,el.a,[R.a,t.t,t.V,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),t._55(48,null,["",""])),t._47(131072,J.a,[I.a,t.j]),(l()(),t._55(-1,0,["\n                "])),(l()(),t._31(51,0,null,0,3,"ion-input",[["name","password"],["type","password"]],null,null,null,ol.b,ol.a)),t._30(52,81920,null,0,_l.a,[t.t,tl.a,ul.a,[2,E.a]],null,null),t._30(53,5423104,[["passwordinput",4]],0,sl.a,[R.a,x.a,Z.a,D.a,t.t,t.V,[2,B.a],[2,Y.a],[2,W.m],H.a],{type:[0,"type"],clearOnEdit:[1,"clearOnEdit"],placeholder:[2,"placeholder"]},null),t._47(131072,J.a,[I.a,t.j]),(l()(),t._55(-1,0,["\n            "])),(l()(),t._55(-1,2,["\n        "])),(l()(),t._55(-1,null,["\n        "])),(l()(),t._31(58,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,X.b,X.a)),t._30(59,1097728,null,3,Y.a,[Z.a,R.a,t.t,t.V,[2,$.a]],null,null),t._52(335544320,5,{contentLabel:0}),t._52(603979776,6,{_buttons:1}),t._52(603979776,7,{_icons:1}),t._30(63,16384,null,0,ll.a,[],null,null),(l()(),t._55(-1,2,["\n            "])),(l()(),t._31(65,0,null,2,6,"button",[["block",""],["icon-end",""],["ion-button",""],["type","submit"]],null,null,null,N.b,N.a)),t._30(66,1097728,[[6,4]],0,T.a,[[8,""],R.a,t.t,t.V],{block:[0,"block"]},null),(l()(),t._55(67,0,["\n                ","\n                "])),t._47(131072,J.a,[I.a,t.j]),(l()(),t._31(69,0,null,0,1,"ion-icon",[["md","ios-arrow-forward"],["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._30(70,147456,null,0,q.a,[R.a,t.t,t.V],{name:[0,"name"],md:[1,"md"]},null),(l()(),t._55(-1,0,["\n            "])),(l()(),t._55(-1,2,["\n        "])),(l()(),t._55(-1,null,["\n    "])),(l()(),t._55(-1,1,["\n"])),(l()(),t._55(-1,null,["\n"]))],function(l,n){l(n,5,0);l(n,21,0,"close");l(n,44,0,"password"),l(n,52,0);l(n,53,0,"password",!1,t._34(1,"",t._56(n,53,2,t._44(n,54).transform("core.login.password")),""));l(n,66,0,"");l(n,70,0,"arrow-forward","ios-arrow-forward")},function(l,n){l(n,3,0,t._44(n,4)._hidden,t._44(n,4)._sbPadding);l(n,9,0,t._56(n,9,0,t._44(n,10).transform("core.login.password")));l(n,16,0,t._56(n,16,0,t._44(n,18).transform("core.close")));l(n,20,0,t._44(n,21)._hidden);l(n,27,0,t._44(n,28).statusbarPadding,t._44(n,28)._hasRefresher);l(n,30,0,t._44(n,34).ngClassUntouched,t._44(n,34).ngClassTouched,t._44(n,34).ngClassPristine,t._44(n,34).ngClassDirty,t._44(n,34).ngClassValid,t._44(n,34).ngClassInvalid,t._44(n,34).ngClassPending);l(n,48,0,t._56(n,48,0,t._44(n,49).transform("addon.mod_lesson.enterpassword")));l(n,67,0,t._56(n,67,0,t._44(n,68).transform("addon.mod_lesson.continue")));l(n,69,0,t._44(n,70)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var t=a(0),e=a(8),o=this&&this.__decorate||function(l,n,a,u){var t,e=arguments.length,o=e<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,a):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,a,u);else for(var _=l.length-1;_>=0;_--)(t=l[_])&&(o=(e<3?t(o):e>3?t(n,a,o):t(n,a))||o);return e>3&&o&&Object.defineProperty(n,a,o),o},_=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},s=function(){function l(l){this.viewCtrl=l}return l.prototype.submitPassword=function(l,n){l.preventDefault(),l.stopPropagation(),this.viewCtrl.dismiss(n.value)},l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l=o([Object(t.m)({selector:"page-addon-mod-lesson-password-modal",templateUrl:"password-modal.html"}),_("design:paramtypes",[e.E])],l)}(),r=a(3),i=a(24),d=a(29),c=this&&this.__decorate||function(l,n,a,u){var t,e=arguments.length,o=e<3?n:null===u?u=Object.getOwnPropertyDescriptor(n,a):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,a,u);else for(var _=l.length-1;_>=0;_--)(t=l[_])&&(o=(e<3?t(o):e>3?t(n,a,o):t(n,a))||o);return e>3&&o&&Object.defineProperty(n,a,o),o},b=function(){function l(){}return l=c([Object(t.I)({declarations:[s],imports:[i.a,d.a,e.l.forChild(s),r.b.forChild()]})],l)}(),f=a(1365),m=a(1366),p=a(1367),g=a(1368),h=a(1369),w=a(1370),v=a(1371),y=a(1372),j=a(1373),P=a(1376),V=a(1377),C=a(1378),O=a(447),R=a(6),k=a(37),M=a(1374),S=a(207),D=a(32),E=a(21),L=a(676),x=a(14),I=a(18),U=a(12),A=a(1375),F=a(350),G=a(253),J=a(27),K=a(448),N=a(46),T=a(43),q=a(45),z=a(178),B=a(25),H=a(31),Q=a(104),W=a(22),X=a(30),Y=a(20),Z=a(19),$=a(28),ll=a(33),nl=a(685),al=a(358),ul=a(2),tl=a(4),el=a(60),ol=a(96),_l=a(356),sl=a(80),rl=t._29({encapsulation:2,styles:[],data:{}}),il=t._27("page-addon-mod-lesson-password-modal",s,function(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"page-addon-mod-lesson-password-modal",[],null,null,null,u,rl)),t._30(1,49152,null,0,s,[k.a],null,null)],null,null)},{},{},[]),dl=a(7),cl=a(346),bl=a(347),fl=a(349),ml=a(348),pl=a(446),gl=a(675),hl=a(103),wl=a(254);a.d(n,"AddonModLessonPasswordModalPageModuleNgFactory",function(){return vl});var vl=t._28(b,[],function(l){return t._40([t._41(512,t.o,t._21,[[8,[f.a,m.a,p.a,g.a,h.a,w.a,v.a,y.a,j.a,P.a,V.a,C.a,il]],[3,t.o],t.K]),t._41(4608,dl.m,dl.l,[t.G,[2,dl.v]]),t._41(4608,W.x,W.x,[]),t._41(4608,W.d,W.d,[]),t._41(4608,cl.b,cl.a,[]),t._41(4608,bl.a,bl.b,[]),t._41(4608,fl.b,fl.a,[]),t._41(4608,ml.b,ml.a,[]),t._41(4608,I.a,I.a,[pl.a,cl.b,bl.a,fl.b,ml.b,I.b,I.c]),t._41(512,dl.b,dl.b,[]),t._41(512,W.v,W.v,[]),t._41(512,W.i,W.i,[]),t._41(512,W.s,W.s,[]),t._41(512,gl.a,gl.a,[]),t._41(512,r.b,r.b,[]),t._41(512,d.a,d.a,[]),t._41(512,hl.a,hl.a,[]),t._41(512,i.a,i.a,[]),t._41(512,gl.b,gl.b,[]),t._41(512,b,b,[]),t._41(256,I.c,void 0,[]),t._41(256,I.b,void 0,[]),t._41(256,wl.a,s,[])])})}});
+webpackJsonp([89],{
+
+/***/ 1879:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackRespondentsPageModule", function() { return AddonModFeedbackRespondentsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(947);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__respondents__ = __webpack_require__(2014);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModFeedbackRespondentsPageModule = /** @class */ (function () {
+    function AddonModFeedbackRespondentsPageModule() {
+    }
+    AddonModFeedbackRespondentsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__respondents__["a" /* AddonModFeedbackRespondentsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__respondents__["a" /* AddonModFeedbackRespondentsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackRespondentsPageModule);
+    return AddonModFeedbackRespondentsPageModule;
+}());
+
+//# sourceMappingURL=respondents.module.js.map
+
+/***/ }),
+
+/***/ 2014:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackRespondentsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_groups__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__ = __webpack_require__(113);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page that displays feedback respondents.
+ */
+var AddonModFeedbackRespondentsPage = /** @class */ (function () {
+    function AddonModFeedbackRespondentsPage(navParams, feedbackProvider, groupsProvider, domUtils, feedbackHelper, navCtrl) {
+        this.feedbackProvider = feedbackProvider;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.navCtrl = navCtrl;
+        this.page = 0;
+        this.groupInfo = {
+            groups: [],
+            separateGroups: false,
+            visibleGroups: false
+        };
+        this.responses = {
+            attempts: [],
+            total: 0,
+            canLoadMore: false
+        };
+        this.anonResponses = {
+            attempts: [],
+            total: 0,
+            canLoadMore: false
+        };
+        this.feedbackLoaded = false;
+        this.loadingMore = false;
+        var module = navParams.get('module');
+        this.moduleId = module.id;
+        this.feedbackId = module.instance;
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackRespondentsPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            if (_this.splitviewCtrl.isOn()) {
+                if (_this.responses.attempts.length > 0) {
+                    // Take first and load it.
+                    _this.gotoAttempt(_this.responses.attempts[0]);
+                }
+                else if (_this.anonResponses.attempts.length > 0) {
+                    // Take first and load it.
+                    _this.gotoAttempt(_this.anonResponses.attempts[0]);
+                }
+            }
+        });
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackRespondentsPage.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.page = 0;
+        this.responses.total = 0;
+        this.responses.attempts = [];
+        this.anonResponses.total = 0;
+        this.anonResponses.attempts = [];
+        return this.groupsProvider.getActivityGroupInfo(this.moduleId).then(function (groupInfo) {
+            _this.groupInfo = groupInfo;
+            return _this.loadGroupAttempts(_this.selectedGroup);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            if (!refresh) {
+                // Some call failed on first fetch, go back.
+                _this.navCtrl.pop();
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Load Group attempts.
+     *
+     * @param  {number} [groupId]   If defined it will change group if not, it will load more attempts for the same group.
+     * @return {Promise<any>}       Resolved with the attempts loaded.
+     */
+    AddonModFeedbackRespondentsPage.prototype.loadGroupAttempts = function (groupId) {
+        var _this = this;
+        if (typeof groupId == 'undefined') {
+            this.page++;
+            this.loadingMore = true;
+        }
+        else {
+            this.selectedGroup = groupId;
+            this.page = 0;
+            this.responses.total = 0;
+            this.responses.attempts = [];
+            this.anonResponses.total = 0;
+            this.anonResponses.attempts = [];
+            this.feedbackLoaded = false;
+        }
+        return this.feedbackHelper.getResponsesAnalysis(this.feedbackId, this.selectedGroup, this.page).then(function (responses) {
+            _this.responses.total = responses.totalattempts;
+            _this.anonResponses.total = responses.totalanonattempts;
+            if (_this.anonResponses.attempts.length < responses.totalanonattempts) {
+                _this.anonResponses.attempts = _this.anonResponses.attempts.concat(responses.anonattempts);
+            }
+            if (_this.responses.attempts.length < responses.totalattempts) {
+                _this.responses.attempts = _this.responses.attempts.concat(responses.attempts);
+            }
+            _this.anonResponses.canLoadMore = _this.anonResponses.attempts.length < responses.totalanonattempts;
+            _this.responses.canLoadMore = _this.responses.attempts.length < responses.totalattempts;
+            return responses;
+        }).finally(function () {
+            _this.loadingMore = false;
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Navigate to a particular attempt.
+     *
+     * @param {any} attempt Attempt object to load.
+     */
+    AddonModFeedbackRespondentsPage.prototype.gotoAttempt = function (attempt) {
+        this.attemptId = attempt.id;
+        this.splitviewCtrl.push('AddonModFeedbackAttemptPage', {
+            attemptId: attempt.id,
+            attempt: attempt,
+            feedbackId: this.feedbackId,
+            moduleId: this.moduleId,
+            courseId: this.courseId
+        });
+    };
+    /**
+     * Change selected group or load more attempts.
+     *
+     * @param {number} [groupId] Group ID selected. If not defined, it will load more attempts.
+     */
+    AddonModFeedbackRespondentsPage.prototype.loadAttempts = function (groupId) {
+        var _this = this;
+        this.loadGroupAttempts(groupId).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        });
+    };
+    /**
+     * Refresh the attempts.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModFeedbackRespondentsPage.prototype.refreshFeedback = function (refresher) {
+        var _this = this;
+        if (this.feedbackLoaded) {
+            var promises = [];
+            promises.push(this.feedbackProvider.invalidateResponsesAnalysisData(this.feedbackId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.moduleId));
+            Promise.all(promises).finally(function () {
+                return _this.fetchData(true);
+            }).finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonModFeedbackRespondentsPage.prototype, "splitviewCtrl", void 0);
+    AddonModFeedbackRespondentsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-respondents',template:/*ion-inline-start:"D:\akaal\src\addon\mod\feedback\pages\respondents\respondents.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_feedback.responses\' |translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="feedbackLoaded" (ionRefresh)="refreshFeedback($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="feedbackLoaded">\n            <ion-list no-margin>\n                <ion-item text-wrap *ngIf="groupInfo.separateGroups || groupInfo.visibleGroups">\n                    <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n                    <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n                    <ion-select [(ngModel)]="selectedGroup" (ionChange)="loadAttempts(selectedGroup)" aria-labelledby="addon-feedback-groupslabel" interface="action-sheet">\n                        <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n                    </ion-select>\n                </ion-item>\n                <ng-container *ngIf="responses.total > 0">\n                    <ion-item-divider>\n                        {{ \'addon.mod_feedback.non_anonymous_entries\' | translate : {$a: responses.total } }}\n                    </ion-item-divider>\n                    <a *ngFor="let attempt of responses.attempts" ion-item text-wrap (click)="gotoAttempt(attempt)" [class.core-split-item-selected]="attempt.id == attemptId">\n                        <ion-avatar core-user-avatar [user]="attempt" item-start></ion-avatar>\n                        <h2><core-format-text [text]="attempt.fullname"></core-format-text></h2>\n                        <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate }}</p>\n                    </a>\n                    <ion-item padding text-center *ngIf="responses.canLoadMore">\n                        <!-- Button and spinner to show more attempts. -->\n                        <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                        <ion-spinner *ngIf="loadingMore"></ion-spinner>\n                    </ion-item>\n                </ng-container>\n                <ng-container *ngIf="anonResponses.total > 0">\n                    <ion-item-divider>\n                        {{ \'addon.mod_feedback.anonymous_entries\' |translate : {$a: anonResponses.total } }}\n                    </ion-item-divider>\n                    <a *ngFor="let attempt of anonResponses.attempts" ion-item text-wrap (click)="gotoAttempt(attempt)" [class.core-split-item-selected]="attempt.id == attemptId">\n                        <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}}</h2>\n                    </a>\n                    <ion-item padding text-center *ngIf="anonResponses.canLoadMore">\n                        <!-- Button and spinner to show more attempts. -->\n                        <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                        <ion-spinner *ngIf="loadingMore"></ion-spinner>\n                    </ion-item>\n                </ng-container>\n            </ion-list>\n        </core-loading>\n    </ion-content>\n</core-split-view>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\feedback\pages\respondents\respondents.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_groups__["a" /* CoreGroupsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */]])
+    ], AddonModFeedbackRespondentsPage);
+    return AddonModFeedbackRespondentsPage;
+}());
+
+//# sourceMappingURL=respondents.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=89.js.map

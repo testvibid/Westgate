@@ -1,1 +1,118 @@
-webpackJsonp([30],{1946:function(l,n,e){"use strict";function t(l){return a._57(0,[(l()(),a._31(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),a._30(1,16384,null,0,C.a,[V.a,a.t,a.V,[2,k.a]],null,null),(l()(),a._55(-1,null,["\n    "])),(l()(),a._31(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,x.b,x.a)),a._30(4,49152,null,0,D.a,[M.a,[2,k.a],[2,U.a],V.a,a.t,a.V],null,null),a._30(5,212992,null,0,F.a,[D.a,G.a,J.a,K.a],null,null),(l()(),a._55(-1,3,["\n        "])),(l()(),a._31(7,0,null,3,3,"ion-title",[],null,null,null,N.b,N.a)),a._30(8,49152,null,0,q.a,[V.a,a.t,a.V,[2,z.a],[2,D.a]],null,null),(l()(),a._55(9,0,["",""])),a._47(131072,A.a,[J.a,a.j]),(l()(),a._55(-1,3,["\n    "])),(l()(),a._55(-1,null,["\n"])),(l()(),a._55(-1,null,["\n"])),(l()(),a._31(14,0,null,null,1,"core-user-participants",[],null,null,null,w.c,w.b)),a._30(15,114688,null,0,B.a,[E.a,H.a],{courseId:[0,"courseId"]},null)],function(l,n){var e=n.component;l(n,5,0);l(n,15,0,e.courseId)},function(l,n){l(n,3,0,a._44(n,4)._hidden,a._44(n,4)._sbPadding);l(n,9,0,a._56(n,9,0,a._44(n,10).transform("core.user.participants")))})}Object.defineProperty(n,"__esModule",{value:!0});var a=e(0),u=e(8),r=e(3),o=e(456),c=e(29),i=this&&this.__decorate||function(l,n,e,t){var a,u=arguments.length,r=u<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,e):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(l,n,e,t);else for(var o=l.length-1;o>=0;o--)(a=l[o])&&(r=(u<3?a(r):u>3?a(n,e,r):a(n,e))||r);return u>3&&r&&Object.defineProperty(n,e,r),r},_=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},s=function(){function l(l){this.courseId=l.get("courseId")}return l=i([Object(a.m)({selector:"page-core-user-participants",templateUrl:"participants.html"}),_("design:paramtypes",[u.t])],l)}(),f=this&&this.__decorate||function(l,n,e,t){var a,u=arguments.length,r=u<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,e):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(l,n,e,t);else for(var o=l.length-1;o>=0;o--)(a=l[o])&&(r=(u<3?a(r):u>3?a(n,e,r):a(n,e))||r);return u>3&&r&&Object.defineProperty(n,e,r),r},d=function(){function l(){}return l=f([Object(a.I)({declarations:[s],imports:[o.a,c.a,u.l.forChild(s),r.b.forChild()]})],l)}(),p=e(1365),b=e(1366),h=e(1367),g=e(1368),v=e(1369),y=e(1370),j=e(1371),m=e(1372),O=e(1373),R=e(1376),P=e(1377),I=e(1378),w=e(1409),C=e(447),V=e(6),k=e(37),x=e(1374),D=e(207),M=e(32),U=e(21),F=e(676),G=e(14),J=e(18),K=e(12),N=e(1375),q=e(350),z=e(253),A=e(27),B=e(494),E=e(42),H=e(4),L=e(63),Q=a._29({encapsulation:2,styles:[],data:{}}),S=a._27("page-core-user-participants",s,function(l){return a._57(0,[(l()(),a._31(0,0,null,null,1,"page-core-user-participants",[],null,null,null,t,Q)),a._30(1,49152,null,0,s,[L.a],null,null)],null,null)},{},{},[]),T=e(7),W=e(22),X=e(346),Y=e(347),Z=e(349),$=e(348),ll=e(446),nl=e(675),el=e(103),tl=e(24),al=e(254);e.d(n,"CoreUserParticipantsPageModuleNgFactory",function(){return ul});var ul=a._28(d,[],function(l){return a._40([a._41(512,a.o,a._21,[[8,[p.a,b.a,h.a,g.a,v.a,y.a,j.a,m.a,O.a,R.a,P.a,I.a,w.a,S]],[3,a.o],a.K]),a._41(4608,T.m,T.l,[a.G,[2,T.v]]),a._41(4608,W.x,W.x,[]),a._41(4608,W.d,W.d,[]),a._41(4608,X.b,X.a,[]),a._41(4608,Y.a,Y.b,[]),a._41(4608,Z.b,Z.a,[]),a._41(4608,$.b,$.a,[]),a._41(4608,J.a,J.a,[ll.a,X.b,Y.a,Z.b,$.b,J.b,J.c]),a._41(512,T.b,T.b,[]),a._41(512,W.v,W.v,[]),a._41(512,W.i,W.i,[]),a._41(512,W.s,W.s,[]),a._41(512,nl.a,nl.a,[]),a._41(512,r.b,r.b,[]),a._41(512,c.a,c.a,[]),a._41(512,el.a,el.a,[]),a._41(512,tl.a,tl.a,[]),a._41(512,o.a,o.a,[]),a._41(512,nl.b,nl.b,[]),a._41(512,d,d,[]),a._41(256,J.c,void 0,[]),a._41(256,J.b,void 0,[]),a._41(256,al.a,s,[])])})}});
+webpackJsonp([30],{
+
+/***/ 1922:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSiteHelpPageModule", function() { return CoreLoginSiteHelpPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site_help__ = __webpack_require__(2057);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var CoreLoginSiteHelpPageModule = /** @class */ (function () {
+    function CoreLoginSiteHelpPageModule() {
+    }
+    CoreLoginSiteHelpPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__site_help__["a" /* CoreLoginSiteHelpPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__site_help__["a" /* CoreLoginSiteHelpPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+            ]
+        })
+    ], CoreLoginSiteHelpPageModule);
+    return CoreLoginSiteHelpPageModule;
+}());
+
+//# sourceMappingURL=site-help.module.js.map
+
+/***/ }),
+
+/***/ 2057:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginSiteHelpPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Component that displays some help regarding the CoreLoginSitePage.
+ */
+var CoreLoginSiteHelpPage = /** @class */ (function () {
+    function CoreLoginSiteHelpPage(viewCtrl) {
+        this.viewCtrl = viewCtrl;
+    }
+    /**
+     * Close help modal.
+     */
+    CoreLoginSiteHelpPage.prototype.closeHelp = function () {
+        this.viewCtrl.dismiss();
+    };
+    CoreLoginSiteHelpPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-site-help',template:/*ion-inline-start:"D:\akaal\src\core\login\pages\site-help\site-help.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.help\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeHelp()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding>\n    <core-format-text [text]="\'core.login.helpmelogin\' | translate"></core-format-text>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\core\login\pages\site-help\site-help.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */]])
+    ], CoreLoginSiteHelpPage);
+    return CoreLoginSiteHelpPage;
+}());
+
+//# sourceMappingURL=site-help.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=30.js.map

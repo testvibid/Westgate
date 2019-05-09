@@ -1,1 +1,206 @@
-webpackJsonp([83],{1897:function(l,n,u){"use strict";function t(l){return v._57(0,[(l()(),v._31(0,0,null,null,7,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.loadPage(-1)&&t}return t},J.b,J.a)),v._30(1,1097728,null,3,K.a,[Q.a,S.a,v.t,v.V,[2,U.a]],null,null),v._52(335544320,2,{contentLabel:0}),v._52(603979776,3,{_buttons:1}),v._52(603979776,4,{_icons:1}),v._30(5,16384,null,0,W.a,[],null,null),(l()(),v._55(6,2,["\n                ","\n            "])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,6,0,v._56(n,6,0,v._44(n,7).transform("addon.mod_quiz.finishattemptdots")))})}function a(l){return v._57(0,[(l()(),v._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,2).transform("addon.mod_quiz.showall")))})}function e(l){return v._57(0,[(l()(),v._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,2).transform("addon.mod_quiz.showeachpage")))})}function o(l){return v._57(0,[(l()(),v._31(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.switchMode()&&t}return t},J.b,J.a)),v._30(1,1097728,null,3,K.a,[Q.a,S.a,v.t,v.V,[2,U.a]],null,null),v._52(335544320,5,{contentLabel:0}),v._52(603979776,6,{_buttons:1}),v._52(603979776,7,{_icons:1}),v._30(5,16384,null,0,W.a,[],null,null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,a)),v._30(8,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,e)),v._30(11,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,8,0,!u.pageInstance.showAll);l(n,11,0,u.pageInstance.showAll)},null)}function i(l){return v._57(0,[(l()(),v._31(0,0,null,null,3,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._48(2,{$a:0}),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,3).transform("core.question.questionno",l(n,2,0,n.parent.context.$implicit.number))))})}function _(l){return v._57(0,[(l()(),v._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,2).transform("core.question.information")))})}function c(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"core-icon",[["color","info"],["item-content",""],["name","information-circle"]],null,null,null,X.b,X.a)),v._30(1,245760,null,0,Y.a,[v.t],{name:[0,"name"],color:[1,"color"]},null)],function(l,n){l(n,1,0,"information-circle","info")},null)}function r(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"core-icon",[["color","gray"],["item-content",""],["name","fa-question-circle"]],null,null,null,X.b,X.a)),v._30(1,245760,null,0,Y.a,[v.t],{name:[0,"name"],color:[1,"color"],ariaLabel:[2,"ariaLabel"]},null)],function(l,n){l(n,1,0,"fa-question-circle","gray",n.parent.context.$implicit.status)},null)}function s(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"core-icon",[["color","success"],["item-content",""],["name","fa-check"]],null,null,null,X.b,X.a)),v._30(1,245760,null,0,Y.a,[v.t],{name:[0,"name"],color:[1,"color"],ariaLabel:[2,"ariaLabel"]},null)],function(l,n){l(n,1,0,"fa-check","success",n.parent.context.$implicit.status)},null)}function f(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"core-icon",[["color","warning"],["item-content",""],["name","fa-check-square"]],null,null,null,X.b,X.a)),v._30(1,245760,null,0,Y.a,[v.t],{name:[0,"name"],color:[1,"color"],ariaLabel:[2,"ariaLabel"]},null)],function(l,n){l(n,1,0,"fa-check-square","warning",n.parent.context.$implicit.status)},null)}function m(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"core-icon",[["color","danger"],["item-content",""],["name","fa-remove"]],null,null,null,X.b,X.a)),v._30(1,245760,null,0,Y.a,[v.t],{name:[0,"name"],color:[1,"color"],ariaLabel:[2,"ariaLabel"]},null)],function(l,n){l(n,1,0,"fa-remove","danger",n.parent.context.$implicit.status)},null)}function d(l){return v._57(0,[(l()(),v._31(0,0,null,null,29,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.loadPage(l.context.$implicit.page,l.context.$implicit.slot)&&t}return t},J.b,J.a)),v._30(1,278528,null,0,T.i,[v.E,v.F,v.t,v.W],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),v._48(2,{"core-nav-item-selected":0}),v._30(3,1097728,null,3,K.a,[Q.a,S.a,v.t,v.V,[2,U.a]],null,null),v._52(335544320,8,{contentLabel:0}),v._52(603979776,9,{_buttons:1}),v._52(603979776,10,{_icons:1}),v._30(7,16384,null,0,W.a,[],null,null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,i)),v._30(10,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,_)),v._30(13,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,3,1,null,c)),v._30(16,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,3,1,null,r)),v._30(19,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,3,1,null,s)),v._30(22,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,3,1,null,f)),v._30(25,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,3,1,null,m)),v._30(28,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,1,0,v._34(1,"",n.context.$implicit.stateClass,""),l(n,2,0,!u.pageInstance.showSummary&&u.pageInstance.attempt.currentpage==n.context.$implicit.page));l(n,10,0,n.context.$implicit.number);l(n,13,0,!n.context.$implicit.number);l(n,16,0,!n.context.$implicit.number);l(n,19,0,"core-question-requiresgrading"==n.context.$implicit.stateClass);l(n,22,0,"core-question-correct"==n.context.$implicit.stateClass);l(n,25,0,"core-question-partiallycorrect"==n.context.$implicit.stateClass);l(n,28,0,"core-question-incorrect"==n.context.$implicit.stateClass||"core-question-notanswered"==n.context.$implicit.stateClass)},null)}function g(l){return v._57(0,[(l()(),v._31(0,0,null,null,7,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.loadPage(-1)&&t}return t},J.b,J.a)),v._30(1,1097728,null,3,K.a,[Q.a,S.a,v.t,v.V,[2,U.a]],null,null),v._52(335544320,11,{contentLabel:0}),v._52(603979776,12,{_buttons:1}),v._52(603979776,13,{_icons:1}),v._30(5,16384,null,0,W.a,[],null,null),(l()(),v._55(6,2,["\n                ","\n            "])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,6,0,v._56(n,6,0,v._44(n,7).transform("addon.mod_quiz.finishattemptdots")))})}function p(l){return v._57(0,[(l()(),v._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,2).transform("addon.mod_quiz.showall")))})}function b(l){return v._57(0,[(l()(),v._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),v._55(1,null,["",""])),v._47(131072,B.a,[H.a,v.j])],null,function(l,n){l(n,1,0,v._56(n,1,0,v._44(n,2).transform("addon.mod_quiz.showeachpage")))})}function h(l){return v._57(0,[(l()(),v._31(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.switchMode()&&t}return t},J.b,J.a)),v._30(1,1097728,null,3,K.a,[Q.a,S.a,v.t,v.V,[2,U.a]],null,null),v._52(335544320,14,{contentLabel:0}),v._52(603979776,15,{_buttons:1}),v._52(603979776,16,{_icons:1}),v._30(5,16384,null,0,W.a,[],null,null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,p)),v._30(8,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n                "])),(l()(),v._26(16777216,null,2,1,null,b)),v._30(11,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,8,0,!u.pageInstance.showAll);l(n,11,0,u.pageInstance.showAll)},null)}function I(l){return v._57(0,[(l()(),v._31(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),v._30(1,16384,null,0,Z.a,[S.a,v.t,v.V,[2,ll.a]],null,null),(l()(),v._55(-1,null,["\n    "])),(l()(),v._31(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,nl.b,nl.a)),v._30(4,49152,null,0,ul.a,[tl.a,[2,ll.a],[2,al.a],S.a,v.t,v.V],null,null),v._30(5,212992,null,0,el.a,[ul.a,ol.a,H.a,il.a],null,null),(l()(),v._55(-1,3,["\n        "])),(l()(),v._31(7,0,null,3,3,"ion-title",[],null,null,null,_l.b,_l.a)),v._30(8,49152,null,0,cl.a,[S.a,v.t,v.V,[2,rl.a],[2,ul.a]],null,null),(l()(),v._55(9,0,["",""])),v._47(131072,B.a,[H.a,v.j]),(l()(),v._55(-1,3,["\n        "])),(l()(),v._31(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),v._30(13,16384,null,1,sl.a,[S.a,v.t,v.V,[2,rl.a],[2,ul.a]],null,null),v._52(603979776,1,{_buttons:1}),(l()(),v._55(-1,null,["\n            "])),(l()(),v._31(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.closeModal()&&t}return t},fl.b,fl.a)),v._30(17,1097728,[[1,4]],0,ml.a,[[8,""],S.a,v.t,v.V],null,null),v._47(131072,B.a,[H.a,v.j]),(l()(),v._55(-1,0,["\n                "])),(l()(),v._31(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),v._30(21,147456,null,0,dl.a,[S.a,v.t,v.V],{name:[0,"name"]},null),(l()(),v._55(-1,0,["\n            "])),(l()(),v._55(-1,null,["\n        "])),(l()(),v._55(-1,3,["\n    "])),(l()(),v._55(-1,null,["\n"])),(l()(),v._55(-1,null,["\n"])),(l()(),v._31(27,0,null,null,28,"ion-content",[["class","addon-mod_quiz-navigation-modal"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,gl.b,gl.a)),v._30(28,4374528,null,0,pl.a,[S.a,ol.a,bl.a,v.t,v.V,tl.a,hl.a,v.M,[2,ll.a],[2,al.a]],null,null),(l()(),v._55(-1,1,["\n    "])),(l()(),v._31(30,0,null,1,24,"nav",[],null,null,null,null,null)),(l()(),v._55(-1,null,["\n        "])),(l()(),v._31(32,0,null,null,21,"ion-list",[],null,null,null,null,null)),v._30(33,16384,null,0,Il.a,[S.a,v.t,v.V,ol.a,vl.l,bl.a],null,null),(l()(),v._55(-1,null,["\n            "])),(l()(),v._55(-1,null,["\n            "])),(l()(),v._26(16777216,null,null,1,null,t)),v._30(37,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,null,["\n\n            "])),(l()(),v._55(-1,null,["\n            "])),(l()(),v._26(16777216,null,null,1,null,o)),v._30(41,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,null,["\n            "])),(l()(),v._26(16777216,null,null,1,null,d)),v._30(44,802816,null,0,T.j,[v._11,v._6,v.E],{ngForOf:[0,"ngForOf"]},null),(l()(),v._55(-1,null,["\n\n            "])),(l()(),v._55(-1,null,["\n            "])),(l()(),v._26(16777216,null,null,1,null,g)),v._30(48,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,null,["\n\n            "])),(l()(),v._55(-1,null,["\n            "])),(l()(),v._26(16777216,null,null,1,null,h)),v._30(52,16384,null,0,T.k,[v._11,v._6],{ngIf:[0,"ngIf"]},null),(l()(),v._55(-1,null,["\n        "])),(l()(),v._55(-1,null,["\n    "])),(l()(),v._55(-1,1,["\n"])),(l()(),v._55(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,5,0);l(n,21,0,"close");l(n,37,0,!u.isReview);l(n,41,0,u.isReview&&u.pageInstance.numPages>1);l(n,44,0,u.pageInstance.navigation);l(n,48,0,!u.isReview);l(n,52,0,u.isReview&&u.pageInstance.numPages>1)},function(l,n){l(n,3,0,v._44(n,4)._hidden,v._44(n,4)._sbPadding);l(n,9,0,v._56(n,9,0,v._44(n,10).transform("addon.mod_quiz.quiznavigation")));l(n,16,0,v._56(n,16,0,v._44(n,18).transform("core.close")));l(n,20,0,v._44(n,21)._hidden);l(n,27,0,v._44(n,28).statusbarPadding,v._44(n,28)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var v=u(0),k=u(8),w=this&&this.__decorate||function(l,n,u,t){var a,e=arguments.length,o=e<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,u):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,t);else for(var i=l.length-1;i>=0;i--)(a=l[i])&&(o=(e<3?a(o):e>3?a(n,u,o):a(n,u))||o);return e>3&&o&&Object.defineProperty(n,u,o),o},q=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},x=function(){function l(l,n){this.viewCtrl=n,this.isReview=!!l.get("isReview"),this.pageInstance=l.get("page")}return l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l.prototype.loadPage=function(l,n){this.pageInstance.changePage&&this.pageInstance.changePage(l,!0,n),this.closeModal()},l.prototype.switchMode=function(){this.pageInstance.switchMode&&this.pageInstance.switchMode(),this.closeModal()},l=w([Object(v.m)({selector:"page-addon-mod-quiz-navigation-modal",templateUrl:"navigation-modal.html"}),q("design:paramtypes",[k.t,k.E])],l)}(),y=u(3),j=u(24),$=u(29),P=this&&this.__decorate||function(l,n,u,t){var a,e=arguments.length,o=e<3?n:null===t?t=Object.getOwnPropertyDescriptor(n,u):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,t);else for(var i=l.length-1;i>=0;i--)(a=l[i])&&(o=(e<3?a(o):e>3?a(n,u,o):a(n,u))||o);return e>3&&o&&Object.defineProperty(n,u,o),o},R=function(){function l(){}return l=P([Object(v.I)({declarations:[x],imports:[$.a,j.a,k.l.forChild(x),y.b.forChild()]})],l)}(),M=u(1365),z=u(1366),L=u(1367),V=u(1368),C=u(1369),O=u(1370),A=u(1371),F=u(1372),E=u(1373),D=u(1376),N=u(1377),G=u(1378),J=u(30),K=u(20),Q=u(19),S=u(6),U=u(28),W=u(33),B=u(27),H=u(18),T=u(7),X=u(112),Y=u(95),Z=u(447),ll=u(37),nl=u(1374),ul=u(207),tl=u(32),al=u(21),el=u(676),ol=u(14),il=u(12),_l=u(1375),cl=u(350),rl=u(253),sl=u(448),fl=u(46),ml=u(43),dl=u(45),gl=u(178),pl=u(25),bl=u(31),hl=u(104),Il=u(87),vl=u(38),kl=u(63),wl=v._29({encapsulation:2,styles:[],data:{}}),ql=v._27("page-addon-mod-quiz-navigation-modal",x,function(l){return v._57(0,[(l()(),v._31(0,0,null,null,1,"page-addon-mod-quiz-navigation-modal",[],null,null,null,I,wl)),v._30(1,49152,null,0,x,[kl.a,ll.a],null,null)],null,null)},{},{},[]),xl=u(22),yl=u(346),jl=u(347),$l=u(349),Pl=u(348),Rl=u(446),Ml=u(675),zl=u(103),Ll=u(254);u.d(n,"AddonModQuizNavigationModalPageModuleNgFactory",function(){return Vl});var Vl=v._28(R,[],function(l){return v._40([v._41(512,v.o,v._21,[[8,[M.a,z.a,L.a,V.a,C.a,O.a,A.a,F.a,E.a,D.a,N.a,G.a,ql]],[3,v.o],v.K]),v._41(4608,T.m,T.l,[v.G,[2,T.v]]),v._41(4608,xl.x,xl.x,[]),v._41(4608,xl.d,xl.d,[]),v._41(4608,yl.b,yl.a,[]),v._41(4608,jl.a,jl.b,[]),v._41(4608,$l.b,$l.a,[]),v._41(4608,Pl.b,Pl.a,[]),v._41(4608,H.a,H.a,[Rl.a,yl.b,jl.a,$l.b,Pl.b,H.b,H.c]),v._41(512,$.a,$.a,[]),v._41(512,T.b,T.b,[]),v._41(512,xl.v,xl.v,[]),v._41(512,xl.i,xl.i,[]),v._41(512,xl.s,xl.s,[]),v._41(512,Ml.a,Ml.a,[]),v._41(512,y.b,y.b,[]),v._41(512,zl.a,zl.a,[]),v._41(512,j.a,j.a,[]),v._41(512,Ml.b,Ml.b,[]),v._41(512,R,R,[]),v._41(256,H.c,void 0,[]),v._41(256,H.b,void 0,[]),v._41(256,Ll.a,x,[])])})}});
+webpackJsonp([83],{
+
+/***/ 1882:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumDiscussionPageModule", function() { return AddonModForumDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_rating_components_components_module__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__entry__ = __webpack_require__(2017);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModForumDiscussionPageModule = /** @class */ (function () {
+    function AddonModForumDiscussionPageModule() {
+    }
+    AddonModForumDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__entry__["a" /* AddonModGlossaryEntryPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__entry__["a" /* AddonModGlossaryEntryPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+                __WEBPACK_IMPORTED_MODULE_6__core_rating_components_components_module__["a" /* CoreRatingComponentsModule */]
+            ],
+        })
+    ], AddonModForumDiscussionPageModule);
+    return AddonModForumDiscussionPageModule;
+}());
+
+//# sourceMappingURL=entry.module.js.map
+
+/***/ }),
+
+/***/ 2017:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModGlossaryEntryPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_glossary__ = __webpack_require__(143);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Page that displays a glossary entry.
+ */
+var AddonModGlossaryEntryPage = /** @class */ (function () {
+    function AddonModGlossaryEntryPage(navParams, domUtils, glossaryProvider) {
+        this.domUtils = domUtils;
+        this.glossaryProvider = glossaryProvider;
+        this.component = __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */].COMPONENT;
+        this.loaded = false;
+        this.showAuthor = false;
+        this.showDate = false;
+        this.courseId = navParams.get('courseId');
+        this.entryId = navParams.get('entryId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonModGlossaryEntryPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchEntry().then(function () {
+            _this.glossaryProvider.logEntryView(_this.entry.id, _this.componentId).catch(function () {
+                // Ignore errors.
+            });
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModGlossaryEntryPage.prototype.doRefresh = function (refresher) {
+        var _this = this;
+        return this.glossaryProvider.invalidateEntry(this.entry.id).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchEntry(true);
+        }).finally(function () {
+            refresher && refresher.complete();
+        });
+    };
+    /**
+     * Convenience function to get the glossary entry.
+     *
+     * @param {boolean} [refresh] Whether we're refreshing data.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModGlossaryEntryPage.prototype.fetchEntry = function (refresh) {
+        var _this = this;
+        return this.glossaryProvider.getEntry(this.entryId).then(function (result) {
+            _this.entry = result.entry;
+            _this.ratingInfo = result.ratinginfo;
+            if (!refresh) {
+                // Load the glossary.
+                return _this.glossaryProvider.getGlossaryById(_this.courseId, _this.entry.glossaryid).then(function (glossary) {
+                    _this.glossary = glossary;
+                    _this.componentId = glossary.coursemodule;
+                    switch (glossary.displayformat) {
+                        case 'fullwithauthor':
+                        case 'encyclopedia':
+                            _this.showAuthor = true;
+                            _this.showDate = true;
+                            break;
+                        case 'fullwithoutauthor':
+                            _this.showAuthor = false;
+                            _this.showDate = true;
+                            break;
+                        default:// Default, and faq, simple, entrylist, continuous.
+                            _this.showAuthor = false;
+                            _this.showDate = false;
+                    }
+                });
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_glossary.errorloadingentry', true);
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Function called when rating is updated online.
+     */
+    AddonModGlossaryEntryPage.prototype.ratingUpdated = function () {
+        this.glossaryProvider.invalidateEntry(this.entryId);
+    };
+    AddonModGlossaryEntryPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-glossary-entry',template:/*ion-inline-start:"D:\akaal\src\addon\mod\glossary\pages\entry\entry.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title *ngIf="entry"><core-format-text [text]="entry.concept"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n        <ng-container *ngIf="entry">\n            <ion-item text-wrap *ngIf="showAuthor">\n                <ion-avatar core-user-avatar [user]="entry" (click)="openUserProfile(post.userid)" item-start></ion-avatar>\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n                <p><core-format-text [text]="entry.userfullname"></core-format-text></p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="!showAuthor">\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n            </ion-item>\n            <ion-item text-wrap>\n                <core-format-text [component]="component" [componentId]="componentId" [text]="entry.definition"></core-format-text>\n            </ion-item>\n            <ng-container *ngIf="entry.attachment">\n                <div no-lines>\n                    <core-file *ngFor="let file of entry.attachments" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n                </div>\n            </ng-container>\n            <ion-item text-wrap *ngIf="entry.approved != 1">\n                <p><em>{{ \'addon.mod_glossary.entrypendingapproval\' | translate }}</em></p>\n            </ion-item>\n            <core-rating-rate *ngIf="glossary && ratingInfo" [ratingInfo]="ratingInfo" contextLevel="module" [instanceId]="glossary.coursemodule" [itemId]="entry.id" [itemSetId]="0" [courseId]="glossary.courseid" [aggregateMethod]="glossary.assessed" [scaleId]="glossary.scale" [userId]="entry.userid" (onUpdate)="ratingUpdated()"></core-rating-rate>\n            <core-rating-aggregate *ngIf="glossary && ratingInfo" [ratingInfo]="ratingInfo" contextLevel="module" [instanceId]="glossary.coursemodule" [itemId]="entry.id" [courseId]="glossary.courseid" [aggregateMethod]="glossary.assessed" [scaleId]="glossary.scale"></core-rating-aggregate>\n        </ng-container>\n\n        <ion-card *ngIf="!entry">\n            <ion-item class="core-error-card">\n                {{ \'addon.mod_glossary.errorloadingentry\' | translate }}\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\glossary\pages\entry\entry.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */]])
+    ], AddonModGlossaryEntryPage);
+    return AddonModGlossaryEntryPage;
+}());
+
+//# sourceMappingURL=entry.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=83.js.map

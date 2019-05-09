@@ -1,1 +1,329 @@
-webpackJsonp([84],{1896:function(n,l,e){"use strict";function t(n){return a._57(0,[a._52(402653184,1,{quizComponent:0}),(n()(),a._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),a._30(2,16384,null,0,P.a,[w.a,a.t,a.V,[2,I.a]],null,null),(n()(),a._55(-1,null,["\n    "])),(n()(),a._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),a._30(5,49152,null,0,k.a,[E.a,[2,I.a],[2,L.a],w.a,a.t,a.V],null,null),a._30(6,212992,null,0,T.a,[k.a,A.a,F.a,G.a],null,null),(n()(),a._55(-1,3,["\n        "])),(n()(),a._31(8,0,null,3,3,"ion-title",[],null,null,null,J.b,J.a)),a._30(9,49152,null,0,K.a,[w.a,a.t,a.V,[2,N.a],[2,k.a]],null,null),(n()(),a._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),a._30(11,540672,null,0,Q.a,[a.t,U.a,B.a,H.a,F.a,A.a,S.a,W.a,X.a,Y.a,Z.a,$.a,[2,L.a],[2,nn.a],[2,ln.a],en.a,G.a],{text:[0,"text"]},null),(n()(),a._55(-1,3,["\n\n        "])),(n()(),a._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),a._30(14,16384,null,1,tn.a,[w.a,a.t,a.V,[2,N.a],[2,k.a]],null,null),a._52(603979776,2,{_buttons:1}),(n()(),a._55(-1,null,["\n            "])),(n()(),a._55(-1,null,["\n        "])),(n()(),a._55(-1,3,["\n    "])),(n()(),a._55(-1,null,["\n"])),(n()(),a._55(-1,null,["\n"])),(n()(),a._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,an.b,an.a)),a._30(22,4374528,null,0,nn.a,[w.a,A.a,un.a,a.t,a.V,E.a,on.a,a.M,[2,I.a],[2,L.a]],null,null),(n()(),a._55(-1,1,["\n    "])),(n()(),a._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,e){var t=!0;if("ionRefresh"===l){t=!1!==n.component.quizComponent.doRefresh(e)&&t}return t},null,null)),a._30(25,212992,null,0,rn.a,[A.a,nn.a,a.M,_n.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),a._55(-1,null,["\n        "])),(n()(),a._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,dn.b,dn.a)),a._30(28,114688,null,0,cn.a,[rn.a,w.a],{pullingText:[0,"pullingText"]},null),a._47(131072,sn.a,[F.a,a.j]),(n()(),a._55(-1,null,["\n    "])),(n()(),a._55(-1,1,["\n\n    "])),(n()(),a._31(32,0,null,1,1,"addon-mod-quiz-index",[],null,[[null,"dataRetrieved"]],function(n,l,e){var t=!0;if("dataRetrieved"===l){t=!1!==n.component.updateData(e)&&t}return t},V.c,V.b)),a._30(33,245760,[[1,4]],0,_.a,[a.C,fn.a,[2,nn.a],pn.a,bn.a,hn.a,mn.a,vn.a,L.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(n()(),a._55(-1,1,["\n"])),(n()(),a._55(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,6,0);n(l,11,0,e.title);n(l,25,0,e.quizComponent.loaded);n(l,28,0,a._34(1,"",a._56(l,28,0,a._44(l,29).transform("core.pulltorefresh")),""));n(l,33,0,e.module,e.courseId)},function(n,l){n(l,4,0,a._44(l,5)._hidden,a._44(l,5)._sbPadding);n(l,21,0,a._44(l,22).statusbarPadding,a._44(l,22)._hasRefresher);n(l,24,0,"inactive"!==a._44(l,25).state,a._44(l,25)._top);n(l,27,0,a._44(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var a=e(0),u=e(8),o=e(3),i=e(29),r=e(712),_=e(483),d=this&&this.__decorate||function(n,l,e,t){var a,u=arguments.length,o=u<3?l:null===t?t=Object.getOwnPropertyDescriptor(l,e):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,l,e,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(u<3?a(o):u>3?a(l,e,o):a(l,e))||o);return u>3&&o&&Object.defineProperty(l,e,o),o},c=this&&this.__metadata||function(n,l){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,l)},s=function(){function n(n){this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.title=this.module.name}return n.prototype.updateData=function(n){this.title=n.name||this.title},n.prototype.ionViewDidEnter=function(){this.quizComponent.ionViewDidEnter()},n.prototype.ionViewDidLeave=function(){this.quizComponent.ionViewDidLeave()},d([Object(a._9)(_.a),c("design:type",_.a)],n.prototype,"quizComponent",void 0),n=d([Object(a.m)({selector:"page-addon-mod-quiz-index",templateUrl:"index.html"}),c("design:paramtypes",[u.t])],n)}(),f=this&&this.__decorate||function(n,l,e,t){var a,u=arguments.length,o=u<3?l:null===t?t=Object.getOwnPropertyDescriptor(l,e):t;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(n,l,e,t);else for(var i=n.length-1;i>=0;i--)(a=n[i])&&(o=(u<3?a(o):u>3?a(l,e,o):a(l,e))||o);return u>3&&o&&Object.defineProperty(l,e,o),o},p=function(){function n(){}return n=f([Object(a.I)({declarations:[s],imports:[i.a,r.a,u.l.forChild(s),o.b.forChild()]})],n)}(),b=e(1365),h=e(1366),m=e(1367),v=e(1368),g=e(1369),y=e(1370),R=e(1371),x=e(1372),j=e(1373),z=e(1376),q=e(1377),O=e(1378),C=e(1379),V=e(1432),D=e(1455),P=e(447),w=e(6),I=e(37),M=e(1374),k=e(207),E=e(32),L=e(21),T=e(676),A=e(14),F=e(18),G=e(12),J=e(1375),K=e(350),N=e(253),Q=e(41),U=e(1),B=e(4),H=e(10),S=e(2),W=e(26),X=e(5),Y=e(16),Z=e(9),$=e(17),nn=e(25),ln=e(34),en=e(36),tn=e(448),an=e(178),un=e(31),on=e(104),rn=e(140),_n=e(38),dn=e(195),cn=e(146),sn=e(27),fn=e(152),pn=e(288),bn=e(243),hn=e(238),mn=e(119),vn=e(312),gn=e(63),yn=a._29({encapsulation:2,styles:[],data:{}}),Rn=a._27("page-addon-mod-quiz-index",s,function(n){return a._57(0,[(n()(),a._31(0,0,null,null,1,"page-addon-mod-quiz-index",[],null,null,null,t,yn)),a._30(1,49152,null,0,s,[gn.a],null,null)],null,null)},{},{},[]),xn=e(7),jn=e(22),zn=e(346),qn=e(347),On=e(349),Cn=e(348),Vn=e(446),Dn=e(675),Pn=e(103),wn=e(24),In=e(67),Mn=e(254);e.d(l,"AddonModQuizIndexPageModuleNgFactory",function(){return kn});var kn=a._28(p,[],function(n){return a._40([a._41(512,a.o,a._21,[[8,[b.a,h.a,m.a,v.a,g.a,y.a,R.a,x.a,j.a,z.a,q.a,O.a,C.a,V.a,D.a,Rn]],[3,a.o],a.K]),a._41(4608,xn.m,xn.l,[a.G,[2,xn.v]]),a._41(4608,jn.x,jn.x,[]),a._41(4608,jn.d,jn.d,[]),a._41(4608,zn.b,zn.a,[]),a._41(4608,qn.a,qn.b,[]),a._41(4608,On.b,On.a,[]),a._41(4608,Cn.b,Cn.a,[]),a._41(4608,F.a,F.a,[Vn.a,zn.b,qn.a,On.b,Cn.b,F.b,F.c]),a._41(512,i.a,i.a,[]),a._41(512,xn.b,xn.b,[]),a._41(512,jn.v,jn.v,[]),a._41(512,jn.i,jn.i,[]),a._41(512,jn.s,jn.s,[]),a._41(512,Dn.a,Dn.a,[]),a._41(512,o.b,o.b,[]),a._41(512,Pn.a,Pn.a,[]),a._41(512,wn.a,wn.a,[]),a._41(512,In.a,In.a,[]),a._41(512,r.a,r.a,[]),a._41(512,Dn.b,Dn.b,[]),a._41(512,p,p,[]),a._41(256,F.c,void 0,[]),a._41(256,F.b,void 0,[]),a._41(256,Mn.a,s,[])])})}});
+webpackJsonp([84],{
+
+/***/ 1956:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModGlossaryNewDiscussionPageModule", function() { return AddonModGlossaryNewDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__edit__ = __webpack_require__(2091);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModGlossaryNewDiscussionPageModule = /** @class */ (function () {
+    function AddonModGlossaryNewDiscussionPageModule() {
+    }
+    AddonModGlossaryNewDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__edit__["a" /* AddonModGlossaryEditPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__edit__["a" /* AddonModGlossaryEditPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModGlossaryNewDiscussionPageModule);
+    return AddonModGlossaryNewDiscussionPageModule;
+}());
+
+//# sourceMappingURL=edit.module.js.map
+
+/***/ }),
+
+/***/ 2091:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModGlossaryEditPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_fileuploader_providers_fileuploader__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_glossary__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_offline__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_helper__ = __webpack_require__(422);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the edit form.
+ */
+var AddonModGlossaryEditPage = /** @class */ (function () {
+    function AddonModGlossaryEditPage(navParams, navCtrl, translate, domUtils, eventsProvider, sitesProvider, uploaderProvider, textUtils, glossaryProvider, glossaryOffline, glossaryHelper) {
+        this.navParams = navParams;
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.sitesProvider = sitesProvider;
+        this.uploaderProvider = uploaderProvider;
+        this.textUtils = textUtils;
+        this.glossaryProvider = glossaryProvider;
+        this.glossaryOffline = glossaryOffline;
+        this.glossaryHelper = glossaryHelper;
+        this.component = __WEBPACK_IMPORTED_MODULE_9__providers_glossary__["a" /* AddonModGlossaryProvider */].COMPONENT;
+        this.loaded = false;
+        this.entry = {
+            concept: '',
+            definition: '',
+            timecreated: 0,
+        };
+        this.options = {
+            categories: [],
+            aliases: '',
+            usedynalink: false,
+            casesensitive: false,
+            fullmatch: false
+        };
+        this.attachments = [];
+        this.definitionControl = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */]();
+        this.categories = [];
+        this.isDestroyed = false;
+        this.saved = false;
+        this.courseId = navParams.get('courseId');
+        this.module = navParams.get('module');
+        this.glossary = navParams.get('glossary');
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModGlossaryEditPage.prototype.ngOnInit = function () {
+        var _this = this;
+        var entry = this.navParams.get('entry');
+        var promise;
+        if (entry) {
+            this.entry.concept = entry.concept || '';
+            this.entry.definition = entry.definition || '';
+            this.originalData = {
+                concept: this.entry.concept,
+                definition: this.entry.definition,
+                files: [],
+            };
+            if (entry.options) {
+                this.options.categories = entry.options.categories || [];
+                this.options.aliases = entry.options.aliases || '';
+                this.options.usedynalink = !!entry.options.usedynalink;
+                if (this.options.usedynalink) {
+                    this.options.casesensitive = !!entry.options.casesensitive;
+                    this.options.fullmatch = !!entry.options.fullmatch;
+                }
+            }
+            // Treat offline attachments if any.
+            if (entry.attachments && entry.attachments.offline) {
+                promise = this.glossaryHelper.getStoredFiles(this.glossary.id, entry.concept, entry.timecreated).then(function (files) {
+                    _this.attachments = files;
+                    _this.originalData.files = files.slice();
+                });
+            }
+        }
+        this.definitionControl.setValue(this.entry.definition);
+        Promise.resolve(promise).then(function () {
+            _this.glossaryProvider.getAllCategories(_this.glossary.id).then(function (categories) {
+                _this.categories = categories;
+            }).finally(function () {
+                _this.loaded = true;
+            });
+        });
+    };
+    /**
+     * Definition changed.
+     *
+     * @param {string} text The new text.
+     */
+    AddonModGlossaryEditPage.prototype.onDefinitionChange = function (text) {
+        this.entry.definition = text;
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModGlossaryEditPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        var promise;
+        if (!this.saved && this.glossaryHelper.hasEntryDataChanged(this.entry, this.attachments, this.originalData)) {
+            // Show confirmation if some data has been modified.
+            promise = this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            // Delete the local files from the tmp folder.
+            _this.uploaderProvider.clearTmpFiles(_this.attachments);
+        });
+    };
+    /**
+     * Save the entry.
+     */
+    AddonModGlossaryEditPage.prototype.save = function () {
+        var _this = this;
+        var definition = this.entry.definition, saveOffline = false, promise;
+        var timecreated = this.entry.timecreated || Date.now();
+        if (!this.entry.concept || !definition) {
+            this.domUtils.showErrorModal('addon.mod_glossary.fillfields', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        // Add some HTML to the definition if needed.
+        definition = this.textUtils.formatHtmlLines(definition);
+        // Upload attachments first if any.
+        if (this.attachments.length > 0) {
+            promise = this.glossaryHelper.uploadOrStoreFiles(this.glossary.id, this.entry.concept, timecreated, this.attachments, false).catch(function () {
+                // Cannot upload them in online, save them in offline.
+                saveOffline = true;
+                return _this.glossaryHelper.uploadOrStoreFiles(_this.glossary.id, _this.entry.concept, timecreated, _this.attachments, true);
+            });
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        promise.then(function (attach) {
+            var options = {
+                aliases: _this.options.aliases,
+                categories: _this.options.categories.join(',')
+            };
+            if (_this.glossary.usedynalink) {
+                options.usedynalink = _this.options.usedynalink ? 1 : 0;
+                if (_this.options.usedynalink) {
+                    options.casesensitive = _this.options.casesensitive ? 1 : 0;
+                    options.fullmatch = _this.options.fullmatch ? 1 : 0;
+                }
+            }
+            if (saveOffline) {
+                var promise_1;
+                if (_this.entry && !_this.glossary.allowduplicatedentries) {
+                    // Check if the entry is duplicated in online or offline mode.
+                    promise_1 = _this.glossaryProvider.isConceptUsed(_this.glossary.id, _this.entry.concept, _this.entry.timecreated)
+                        .then(function (used) {
+                        if (used) {
+                            // There's a entry with same name, reject with error message.
+                            return Promise.reject(_this.translate.instant('addon.mod_glossary.errconceptalreadyexists'));
+                        }
+                    });
+                }
+                else {
+                    promise_1 = Promise.resolve();
+                }
+                return promise_1.then(function () {
+                    // Save entry in offline.
+                    return _this.glossaryOffline.addNewEntry(_this.glossary.id, _this.entry.concept, definition, _this.courseId, options, attach, timecreated, undefined, undefined, _this.entry).then(function () {
+                        // Don't return anything.
+                    });
+                });
+            }
+            else {
+                // Try to send it to server.
+                // Don't allow offline if there are attachments since they were uploaded fine.
+                return _this.glossaryProvider.addEntry(_this.glossary.id, _this.entry.concept, definition, _this.courseId, options, attach, timecreated, undefined, _this.entry, !_this.attachments.length, !_this.glossary.allowduplicatedentries);
+            }
+        }).then(function (entryId) {
+            // Delete the local files from the tmp folder.
+            _this.uploaderProvider.clearTmpFiles(_this.attachments);
+            if (entryId) {
+                // Data sent to server, delete stored files (if any).
+                _this.glossaryHelper.deleteStoredFiles(_this.glossary.id, _this.entry.concept, timecreated);
+            }
+            var data = {
+                glossaryId: _this.glossary.id,
+            };
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_9__providers_glossary__["a" /* AddonModGlossaryProvider */].ADD_ENTRY_EVENT, data, _this.sitesProvider.getCurrentSiteId());
+            _this.saved = true;
+            _this.navCtrl.pop();
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_glossary.cannoteditentry', true);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    AddonModGlossaryEditPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-glossary-edit',template:/*ion-inline-start:"D:\akaal\src\addon\mod\glossary\pages\edit\edit.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="module.name"></core-format-text></ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="save()"> {{ \'core.save\' | translate }}</button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <ion-list>\n            <ion-item>\n                <ion-label stacked>{{ \'addon.mod_glossary.concept\' | translate }}</ion-label>\n                <ion-input type="text" [placeholder]="\'addon.mod_glossary.concept\' | translate" [(ngModel)]="entry.concept"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-label stacked>{{ \'addon.mod_glossary.definition\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="definitionControl" (contentChanged)="onDefinitionChange($event)" [placeholder]="\'addon.mod_glossary.definition\' | translate" name="addon_mod_glossary_edit" [component]="component" [componentId]="glossary.cmid"></core-rich-text-editor>\n            </ion-item>\n            <ion-item *ngIf="categories.length > 0">\n                <ion-label stacked id="addon-mod-glossary-categories-label">{{ \'addon.mod_glossary.categories\' | translate }}</ion-label>\n                <ion-select [(ngModel)]="options.categories" multiple="true" aria-labelledby="addon-mod-glossary-categories-label" interface="action-sheet">\n                    <ion-option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item>\n                <ion-label stacked id="addon-mod-glossary-aliases-label">{{ \'addon.mod_glossary.aliases\' | translate }}</ion-label>\n                <ion-textarea [(ngModel)]="options.aliases" rows="1" core-auto-rows aria-labelledby="addon-mod-glossary-aliases-label"></ion-textarea>\n            </ion-item>\n            <ion-item-divider>{{ \'addon.mod_glossary.attachment\' | translate }}</ion-item-divider>\n            <core-attachments [files]="attachments" [component]="component" [componentId]="glossary.cmid" [allowOffline]="true"></core-attachments>\n            <ng-container *ngIf="glossary.usedynalink">\n                <ion-item-divider>{{ \'addon.mod_glossary.linking\' | translate }}</ion-item-divider>\n                <ion-item text-wrap>\n                    <ion-label>{{ \'addon.mod_glossary.entryusedynalink\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="options.usedynalink"></ion-toggle>\n                </ion-item>\n                <ion-item text-wrap>\n                    <ion-label>{{ \'addon.mod_glossary.casesensitive\' | translate }}</ion-label>\n                    <ion-toggle [disabled]="!options.usedynalink" [(ngModel)]="options.casesensitive"></ion-toggle>\n                </ion-item>\n                <ion-item text-wrap>\n                    <ion-label>{{ \'addon.mod_glossary.fullmatch\' | translate }}</ion-label>\n                    <ion-toggle [disabled]="!options.usedynalink" [(ngModel)]="options.fullmatch"></ion-toggle>\n                </ion-item>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\glossary\pages\edit\edit.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["s" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_glossary__["a" /* AddonModGlossaryProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_offline__["a" /* AddonModGlossaryOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_helper__["a" /* AddonModGlossaryHelperProvider */]])
+    ], AddonModGlossaryEditPage);
+    return AddonModGlossaryEditPage;
+}());
+
+//# sourceMappingURL=edit.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=84.js.map
