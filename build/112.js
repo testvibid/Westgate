@@ -1,1 +1,1305 @@
-webpackJsonp([112],{1955:function(n,l,t){"use strict";function u(n){return I._57(0,[(n()(),I._31(0,0,null,null,3,"core-empty-box",[["icon","paper"]],null,null,null,Q.b,Q.a)),I._30(1,49152,null,0,X.a,[],{message:[0,"message"],icon:[1,"icon"]},null),I._47(131072,Y.a,[Z.a,I.j]),(n()(),I._55(-1,0,["\n            "]))],function(n,l){n(l,1,0,I._56(l,1,0,I._44(l,2).transform("addon.mod_assign.submissionstatus_")),"paper")},null)}function i(n){return I._57(0,[(n()(),I._31(0,0,null,null,3,"ion-label",[["id","addon-assign-groupslabel"]],null,null,null,null,null)),I._30(1,16384,[[3,4]],0,nn.a,[ln.a,I.t,I.V,[8,null],[8,null],[8,null],[8,null]],{id:[0,"id"]},null),(n()(),I._55(2,null,["",""])),I._47(131072,Y.a,[Z.a,I.j])],function(n,l){n(l,1,0,"addon-assign-groupslabel")},function(n,l){n(l,2,0,I._56(l,2,0,I._44(l,3).transform("core.groupsseparate")))})}function a(n){return I._57(0,[(n()(),I._31(0,0,null,null,3,"ion-label",[["id","addon-assign-groupslabel"]],null,null,null,null,null)),I._30(1,16384,[[3,4]],0,nn.a,[ln.a,I.t,I.V,[8,null],[8,null],[8,null],[8,null]],{id:[0,"id"]},null),(n()(),I._55(2,null,["",""])),I._47(131072,Y.a,[Z.a,I.j])],function(n,l){n(l,1,0,"addon-assign-groupslabel")},function(n,l){n(l,2,0,I._56(l,2,0,I._44(l,3).transform("core.groupsvisible")))})}function e(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),I._30(1,16384,[[6,4]],0,tn.a,[I.t],{value:[0,"value"]},null),(n()(),I._55(2,null,["",""]))],function(n,l){n(l,1,0,l.context.$implicit.id)},function(n,l){n(l,2,0,l.context.$implicit.name)})}function s(n){return I._57(0,[(n()(),I._31(0,0,null,null,24,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,un.b,un.a)),I._30(1,1097728,null,3,an.a,[en.a,ln.a,I.t,I.V,[2,sn.a]],null,null),I._52(603979776,3,{contentLabel:0}),I._52(603979776,4,{_buttons:1}),I._52(603979776,5,{_icons:1}),I._30(5,16384,null,0,on.a,[],null,null),(n()(),I._55(-1,2,["\n                    "])),(n()(),I._26(16777216,null,1,1,null,i)),I._30(8,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                    "])),(n()(),I._26(16777216,null,1,1,null,a)),I._30(11,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                    "])),(n()(),I._31(13,0,null,3,10,"ion-select",[["aria-labelledby","addon-assign-groupslabel"],["interface","action-sheet"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"click"],[null,"keyup.space"]],function(n,l,t){var u=!0,i=n.component;if("click"===l){u=!1!==I._44(n,14)._click(t)&&u}if("keyup.space"===l){u=!1!==I._44(n,14)._keyup()&&u}if("ngModelChange"===l){u=!1!==(i.groupId=t)&&u}if("ionChange"===l){u=!1!==i.setGroup(i.groupId)&&u}return u},_n.b,_n.a)),I._30(14,1228800,null,1,dn.a,[cn.a,en.a,ln.a,I.t,I.V,[2,an.a],gn.a],{interface:[0,"interface"]},{ionChange:"ionChange"}),I._52(603979776,6,{options:1}),I._50(1024,null,fn.l,function(n){return[n]},[dn.a]),I._30(17,671744,null,0,fn.q,[[8,null],[8,null],[8,null],[2,fn.l]],{model:[0,"model"]},{update:"ngModelChange"}),I._50(2048,null,fn.m,null,[fn.q]),I._30(19,16384,null,0,fn.n,[fn.m],null,null),(n()(),I._55(-1,null,["\n                        "])),(n()(),I._26(16777216,null,null,1,null,e)),I._30(22,802816,null,0,rn.j,[I._11,I._6,I.E],{ngForOf:[0,"ngForOf"]},null),(n()(),I._55(-1,null,["\n                    "])),(n()(),I._55(-1,2,["\n                "]))],function(n,l){var t=l.component;n(l,8,0,t.groupInfo.separateGroups);n(l,11,0,t.groupInfo.visibleGroups);n(l,14,0,"action-sheet");n(l,17,0,t.groupId);n(l,22,0,t.groupInfo.groups)},function(n,l){n(l,13,0,I._44(l,14)._disabled,I._44(l,19).ngClassUntouched,I._44(l,19).ngClassTouched,I._44(l,19).ngClassPristine,I._44(l,19).ngClassDirty,I._44(l,19).ngClassValid,I._44(l,19).ngClassInvalid,I._44(l,19).ngClassPending)})}function o(n){return I._57(0,[(n()(),I._31(0,0,null,null,1,"h2",[],null,null,null,null,null)),(n()(),I._55(1,null,["",""]))],null,function(n,l){n(l,1,0,l.parent.context.$implicit.userfullname)})}function r(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"h2",[],null,null,null,null,null)),(n()(),I._55(1,null,["","",""])),I._47(131072,Y.a,[Z.a,I.j])],null,function(n,l){n(l,1,0,I._56(l,1,0,I._44(l,2).transform("addon.mod_assign.hiddenuser")),l.parent.context.$implicit.blindid)})}function _(n){return I._57(0,[(n()(),I._31(0,0,null,null,1,"span",[],null,null,null,null,null)),(n()(),I._55(1,null,["",""]))],null,function(n,l){n(l,1,0,l.parent.parent.context.$implicit.groupname)})}function d(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),I._55(1,null,["",""])),I._47(131072,Y.a,[Z.a,I.j])],null,function(n,l){n(l,1,0,I._56(l,1,0,I._44(l,2).transform("addon.mod_assign.noteam")))})}function c(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),I._55(1,null,["",""])),I._47(131072,Y.a,[Z.a,I.j])],null,function(n,l){n(l,1,0,I._56(l,1,0,I._44(l,2).transform("addon.mod_assign.multipleteams")))})}function g(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),I._55(1,null,["",""])),I._47(131072,Y.a,[Z.a,I.j])],null,function(n,l){n(l,1,0,I._56(l,1,0,I._44(l,2).transform("addon.mod_assign.defaultteam")))})}function f(n){return I._57(0,[(n()(),I._31(0,0,null,null,13,"p",[],null,null,null,null,null)),(n()(),I._55(-1,null,["\n                            "])),(n()(),I._26(16777216,null,null,1,null,_)),I._30(3,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n                            "])),(n()(),I._26(16777216,null,null,1,null,d)),I._30(6,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n                            "])),(n()(),I._26(16777216,null,null,1,null,c)),I._30(9,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n                            "])),(n()(),I._26(16777216,null,null,1,null,g)),I._30(12,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n                        "]))],function(n,l){var t=l.component;n(l,3,0,l.parent.context.$implicit.groupname);n(l,6,0,t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname&&!l.parent.context.$implicit.manyGroups&&!l.parent.context.$implicit.blindid);n(l,9,0,t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname&&l.parent.context.$implicit.manyGroups&&!l.parent.context.$implicit.blindid);n(l,12,0,!t.assign.preventsubmissionnotingroup&&!l.parent.context.$implicit.groupname)},null)}function p(n){return I._57(0,[(n()(),I._31(0,0,null,null,2,"ion-badge",[["text-center",""],["text-wrap",""]],null,null,null,null,null)),I._30(1,16384,null,0,pn.a,[ln.a,I.t,I.V],{color:[0,"color"]},null),(n()(),I._55(2,null,["\n                            ","\n                        "]))],function(n,l){n(l,1,0,l.parent.context.$implicit.statusColor)},function(n,l){n(l,2,0,l.parent.context.$implicit.statusTranslated)})}function m(n){return I._57(0,[(n()(),I._31(0,0,null,null,3,"ion-badge",[["text-center",""],["text-wrap",""]],null,null,null,null,null)),I._30(1,16384,null,0,pn.a,[ln.a,I.t,I.V],{color:[0,"color"]},null),(n()(),I._55(2,null,["\n                            ","\n                        "])),I._47(131072,Y.a,[Z.a,I.j])],function(n,l){n(l,1,0,l.parent.context.$implicit.gradingColor)},function(n,l){n(l,2,0,I._56(l,2,0,I._44(l,3).transform(l.parent.context.$implicit.gradingStatusTranslationId)))})}function h(n){return I._57(0,[(n()(),I._31(0,0,null,null,28,null,null,null,null,null,null,null)),(n()(),I._55(-1,null,["\n                    "])),(n()(),I._31(2,0,null,null,25,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[2,"core-split-item-selected",null]],[[null,"click"]],function(n,l,t){var u=!0;if("click"===l){u=!1!==n.component.loadSubmission(n.context.$implicit)&&u}return u},un.b,un.a)),I._30(3,1097728,null,3,an.a,[en.a,ln.a,I.t,I.V,[2,sn.a]],null,null),I._52(335544320,7,{contentLabel:0}),I._52(603979776,8,{_buttons:1}),I._52(603979776,9,{_icons:1}),I._30(7,16384,null,0,on.a,[],null,null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._31(9,0,null,0,2,"ion-avatar",[["core-user-avatar",""],["item-start",""]],null,null,null,mn.b,mn.a)),I._30(10,770048,null,0,hn.a,[bn.a,C.a,vn.a,In.a,k.a],{user:[0,"user"],linkProfile:[1,"linkProfile"]},null),I._30(11,16384,null,0,Pn.a,[],null,null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._26(16777216,null,2,1,null,o)),I._30(14,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._26(16777216,null,2,1,null,r)),I._30(17,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._26(16777216,null,2,1,null,f)),I._30(20,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._26(16777216,null,2,1,null,p)),I._30(23,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                        "])),(n()(),I._26(16777216,null,2,1,null,m)),I._30(26,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,2,["\n                    "])),(n()(),I._55(-1,null,["\n                "]))],function(n,l){var t=l.component;n(l,10,0,l.context.$implicit,!1);n(l,14,0,l.context.$implicit.userfullname);n(l,17,0,!l.context.$implicit.userfullname);n(l,20,0,t.assign.teamsubmission);n(l,23,0,l.context.$implicit.statusTranslated);n(l,26,0,l.context.$implicit.gradingStatusTranslationId)},function(n,l){n(l,2,0,l.context.$implicit.submitid==l.component.selectedSubmissionId)})}function b(n){return I._57(0,[(n()(),I._31(0,0,null,null,10,"ion-item",[["class","core-warning-card item item-block"],["icon-start",""],["text-wrap",""]],null,null,null,un.b,un.a)),I._30(1,1097728,null,3,an.a,[en.a,ln.a,I.t,I.V,[2,sn.a]],null,null),I._52(335544320,10,{contentLabel:0}),I._52(603979776,11,{_buttons:1}),I._52(603979776,12,{_icons:1}),I._30(5,16384,null,0,on.a,[],null,null),(n()(),I._55(-1,2,["\n                    "])),(n()(),I._31(7,0,null,2,1,"ion-icon",[["name","warning"],["role","img"]],[[2,"hide",null]],null,null,null,null)),I._30(8,147456,[[12,4]],0,xn.a,[ln.a,I.t,I.V],{name:[0,"name"]},null),(n()(),I._55(9,2,["\n                    ","\n                "])),I._47(131072,Y.a,[Z.a,I.j])],function(n,l){n(l,8,0,"warning")},function(n,l){n(l,7,0,I._44(l,8)._hidden);n(l,9,0,I._56(l,9,0,I._44(l,10).transform("addon.mod_assign.notallparticipantsareshown")))})}function v(n){return I._57(0,[I._52(402653184,1,{splitviewCtrl:0}),(n()(),I._31(1,0,null,null,16,"ion-header",[],null,null,null,null,null)),I._30(2,16384,null,0,yn.a,[ln.a,I.t,I.V,[2,Sn.a]],null,null),(n()(),I._55(-1,null,["\n    "])),(n()(),I._31(4,0,null,null,12,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,kn.b,kn.a)),I._30(5,49152,null,0,Cn.a,[cn.a,[2,Sn.a],[2,bn.a],ln.a,I.t,I.V],null,null),I._30(6,212992,null,0,An.a,[Cn.a,On.a,Z.a,k.a],null,null),(n()(),I._55(-1,3,["\n        "])),(n()(),I._31(8,0,null,3,3,"ion-title",[],null,null,null,wn.b,wn.a)),I._30(9,49152,null,0,Dn.a,[ln.a,I.t,I.V,[2,Gn.a],[2,Cn.a]],null,null),(n()(),I._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),I._30(11,540672,null,0,jn.a,[I.t,C.a,A.a,$n.a,Z.a,On.a,vn.a,Rn.a,Tn.a,Vn.a,In.a,En.a,[2,bn.a],[2,Mn.a],[2,j.a],Un.a,k.a],{text:[0,"text"]},null),(n()(),I._55(-1,3,["\n\n        "])),(n()(),I._31(13,0,null,2,2,"ion-buttons",[["end",""]],null,null,null,null,null)),I._30(14,16384,null,1,Ln.a,[ln.a,I.t,I.V,[2,Gn.a],[2,Cn.a]],null,null),I._52(603979776,2,{_buttons:1}),(n()(),I._55(-1,3,["\n    "])),(n()(),I._55(-1,null,["\n"])),(n()(),I._55(-1,null,["\n"])),(n()(),I._31(19,0,null,null,35,"core-split-view",[],null,null,null,Nn.b,Nn.a)),I._30(20,245760,[[1,4]],0,j.a,[[2,bn.a],I.t,Fn.a,On.a,Z.a],null,null),(n()(),I._55(-1,0,["\n    "])),(n()(),I._31(22,0,null,0,31,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Bn.b,Bn.a)),I._30(23,4374528,null,0,Mn.a,[ln.a,On.a,qn.a,I.t,I.V,cn.a,Hn.a,I.M,[2,Sn.a],[2,bn.a]],null,null),(n()(),I._55(-1,1,["\n        "])),(n()(),I._31(25,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,t){var u=!0;if("ionRefresh"===l){u=!1!==n.component.refreshList(t)&&u}return u},null,null)),I._30(26,212992,null,0,Jn.a,[On.a,Mn.a,I.M,Kn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),I._55(-1,null,["\n            "])),(n()(),I._31(28,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Wn.b,Wn.a)),I._30(29,114688,null,0,zn.a,[Jn.a,ln.a],{pullingText:[0,"pullingText"]},null),I._47(131072,Y.a,[Z.a,I.j]),(n()(),I._55(-1,null,["\n        "])),(n()(),I._55(-1,1,["\n        "])),(n()(),I._31(33,0,null,1,19,"core-loading",[],null,null,null,Qn.b,Qn.a)),I._30(34,638976,null,0,Xn.a,[Z.a,I.t,k.a,vn.a],{hideUntil:[0,"hideUntil"]},null),(n()(),I._55(-1,0,["\n            "])),(n()(),I._26(16777216,null,0,1,null,u)),I._30(37,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,0,["\n\n            "])),(n()(),I._31(39,0,null,0,12,"ion-list",[],null,null,null,null,null)),I._30(40,16384,null,0,Yn.a,[ln.a,I.t,I.V,On.a,Kn.l,qn.a],null,null),(n()(),I._55(-1,null,["\n                "])),(n()(),I._26(16777216,null,null,1,null,s)),I._30(43,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n                "])),(n()(),I._55(-1,null,["\n                "])),(n()(),I._26(16777216,null,null,1,null,h)),I._30(47,802816,null,0,rn.j,[I._11,I._6,I.E],{ngForOf:[0,"ngForOf"]},null),(n()(),I._55(-1,null,["\n\n                "])),(n()(),I._26(16777216,null,null,1,null,b)),I._30(50,16384,null,0,rn.k,[I._11,I._6],{ngIf:[0,"ngIf"]},null),(n()(),I._55(-1,null,["\n            "])),(n()(),I._55(-1,0,["\n        "])),(n()(),I._55(-1,1,["\n    "])),(n()(),I._55(-1,0,["\n"])),(n()(),I._55(-1,null,["\n"]))],function(n,l){var t=l.component;n(l,6,0);n(l,11,0,t.title),n(l,20,0);n(l,26,0,t.loaded);n(l,29,0,I._34(1,"",I._56(l,29,0,I._44(l,30).transform("core.pulltorefresh")),""));n(l,34,0,t.loaded);n(l,37,0,!t.submissions||0==t.submissions.length);n(l,43,0,t.groupInfo.separateGroups||t.groupInfo.visibleGroups);n(l,47,0,t.submissions);n(l,50,0,!t.haveAllParticipants)},function(n,l){n(l,4,0,I._44(l,5)._hidden,I._44(l,5)._sbPadding);n(l,22,0,I._44(l,23).statusbarPadding,I._44(l,23)._hasRefresher);n(l,25,0,"inactive"!==I._44(l,26).state,I._44(l,26)._top);n(l,28,0,I._44(l,29).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var I=t(0),P=t(8),x=t(3),y=t(24),S=t(29),k=t(12),C=t(1),A=t(4),O=t(68),w=t(72),D=t(123),G=t(162),j=t(34),$=this&&this.__decorate||function(n,l,t,u){var i,a=arguments.length,e=a<3?l:null===u?u=Object.getOwnPropertyDescriptor(l,t):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)e=Reflect.decorate(n,l,t,u);else for(var s=n.length-1;s>=0;s--)(i=n[s])&&(e=(a<3?i(e):a>3?i(l,t,e):i(l,t))||e);return a>3&&e&&Object.defineProperty(l,t,e),e},R=this&&this.__metadata||function(n,l){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(n,l)},T=function(){function n(n,l,t,u,i,a,e,s,o){var r=this;this.domUtils=u,this.translate=i,this.assignProvider=a,this.assignOfflineProvider=e,this.assignHelper=s,this.groupsProvider=o,this.groupId=0,this.groupInfo={groups:[],separateGroups:!1,visibleGroups:!1},this.moduleId=n.get("moduleId"),this.courseId=n.get("courseId"),this.groupId=n.get("groupId"),this.selectedStatus=n.get("status"),this.title=this.translate.instant(this.selectedStatus?this.selectedStatus==w.a.NEED_GRADING?"addon.mod_assign.numberofsubmissionsneedgrading":"addon.mod_assign.submissionstatus_"+this.selectedStatus:"addon.mod_assign.numberofparticipants"),this.gradedObserver=t.on(w.a.GRADED_EVENT,function(n){r.assign&&n.assignmentId==r.assign.id&&n.userId==l.getCurrentSiteUserId()&&(r.loaded=!1,r.refreshAllData().finally(function(){r.loaded=!0}))},l.getCurrentSiteId())}return n.prototype.ngOnInit=function(){var n=this;this.fetchAssignment().finally(function(){!n.selectedSubmissionId&&n.splitviewCtrl.isOn()&&n.submissions.length>0&&n.loadSubmission(n.submissions[0]),n.loaded=!0})},n.prototype.fetchAssignment=function(){var n=this;return this.assignProvider.getAssignment(this.courseId,this.moduleId).then(function(l){return n.title=l.name||n.title,n.assign=l,n.assignProvider.getSubmissions(l.id)}).then(function(l){return l.canviewsubmissions?(n.submissionsData=l,n.groupsProvider.getActivityGroupInfo(n.assign.cmid,!1).then(function(l){return n.groupInfo=l,n.setGroup(n.groupId||l.groups&&l.groups[0]&&l.groups[0].id||0)})):Promise.reject(null)}).catch(function(l){n.domUtils.showErrorModalDefault(l,"Error getting assigment data.")})},n.prototype.setGroup=function(n){var l,t,u=this;return this.groupId=n,this.haveAllParticipants=!0,this.assignHelper.getParticipants(this.assign,this.groupId).then(function(n){u.haveAllParticipants=!0,l=n}).catch(function(){u.haveAllParticipants=!1}).then(function(){if(!u.assign.markingworkflow)return u.assignProvider.getAssignmentGrades(u.assign.id).then(function(n){t=n})}).then(function(){return u.assignProvider.getSubmissionsUserData(u.submissionsData.submissions,u.courseId,u.assign.id,u.assign.blindmarking&&!u.assign.revealidentities,l)}).then(function(n){var l=u.selectedStatus==w.a.NEED_GRADING,i=l?w.a.SUBMISSION_STATUS_SUBMITTED:u.selectedStatus,a=[],e=[];return n.forEach(function(n){i&&i!=n.status||a.push(u.assignOfflineProvider.getSubmissionGrade(u.assign.id,n.userid).catch(function(){}).then(function(i){var a=!1;return i&&n.timemodified<i.timemodified&&(a=!0),(l?u.assignProvider.needsSubmissionToBeGraded(n,u.assign.id):Promise.resolve(!0)).then(function(l){if(l){if("graded"==n.gradingstatus&&!u.assign.markingworkflow){var i=t.filter(function(l){return l.userid==n.userid}).reduce(function(n,l){return n.timemodified>l.timemodified?n:l});i&&i.timemodified<n.timemodified&&(n.gradingstatus=w.a.GRADED_FOLLOWUP_SUBMIT)}n.statusColor=u.assignProvider.getSubmissionStatusColor(n.status),n.gradingColor=u.assignProvider.getSubmissionGradingStatusColor(n.gradingstatus),n.statusTranslated=("success"!=n.statusColor||!n.gradingstatus)&&u.translate.instant("addon.mod_assign.submissionstatus_"+n.status),a?(n.gradingStatusTranslationId="addon.mod_assign.gradenotsynced",n.gradingColor=""):n.gradingStatusTranslationId=("danger"!=n.statusColor||"danger"!=n.gradingColor)&&u.assignProvider.getSubmissionGradingStatusTranslationId(n.gradingstatus),e.push(n)}})}))}),Promise.all(a).then(function(){u.submissions=e})})},n.prototype.loadSubmission=function(n){this.selectedSubmissionId===n.submitid&&this.splitviewCtrl.isOn()||(this.selectedSubmissionId=n.submitid,this.splitviewCtrl.push("AddonModAssignSubmissionReviewPage",{courseId:this.courseId,moduleId:this.moduleId,submitId:n.submitid,blindId:n.blindid}))},n.prototype.refreshAllData=function(){var n=this,l=[];return l.push(this.assignProvider.invalidateAssignmentData(this.courseId)),this.assign&&(l.push(this.assignProvider.invalidateAllSubmissionData(this.assign.id)),l.push(this.assignProvider.invalidateAssignmentUserMappingsData(this.assign.id)),l.push(this.assignProvider.invalidateAssignmentGradesData(this.assign.id)),l.push(this.assignProvider.invalidateListParticipantsData(this.assign.id))),Promise.all(l).finally(function(){return n.fetchAssignment()})},n.prototype.refreshList=function(n){this.refreshAllData().finally(function(){n.complete()})},n.prototype.ngOnDestroy=function(){this.gradedObserver&&this.gradedObserver.off()},$([Object(I._9)(j.a),R("design:type",j.a)],n.prototype,"splitviewCtrl",void 0),n=$([Object(I.m)({selector:"page-addon-mod-assign-submission-list",templateUrl:"submission-list.html"}),R("design:paramtypes",[P.t,C.a,k.a,A.a,x.c,w.a,D.a,G.a,O.a])],n)}(),V=this&&this.__decorate||function(n,l,t,u){var i,a=arguments.length,e=a<3?l:null===u?u=Object.getOwnPropertyDescriptor(l,t):u;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)e=Reflect.decorate(n,l,t,u);else for(var s=n.length-1;s>=0;s--)(i=n[s])&&(e=(a<3?i(e):a>3?i(l,t,e):i(l,t))||e);return a>3&&e&&Object.defineProperty(l,t,e),e},E=function(){function n(){}return n=V([Object(I.I)({declarations:[T],imports:[y.a,S.a,P.l.forChild(T),x.b.forChild()]})],n)}(),M=t(1365),U=t(1366),L=t(1367),N=t(1368),F=t(1369),B=t(1370),q=t(1371),H=t(1372),J=t(1373),K=t(1376),W=t(1377),z=t(1378),Q=t(116),X=t(105),Y=t(27),Z=t(18),nn=t(60),ln=t(6),tn=t(93),un=t(30),an=t(20),en=t(19),sn=t(28),on=t(33),rn=t(7),_n=t(115),dn=t(94),cn=t(32),gn=t(52),fn=t(22),pn=t(147),mn=t(208),hn=t(180),bn=t(21),vn=t(2),In=t(9),Pn=t(179),xn=t(45),yn=t(447),Sn=t(37),kn=t(1374),Cn=t(207),An=t(676),On=t(14),wn=t(1375),Dn=t(350),Gn=t(253),jn=t(41),$n=t(10),Rn=t(26),Tn=t(5),Vn=t(16),En=t(17),Mn=t(25),Un=t(36),Ln=t(448),Nn=t(449),Fn=t(66),Bn=t(178),qn=t(31),Hn=t(104),Jn=t(140),Kn=t(38),Wn=t(195),zn=t(146),Qn=t(49),Xn=t(48),Yn=t(87),Zn=t(63),nl=I._29({encapsulation:2,styles:[],data:{}}),ll=I._27("page-addon-mod-assign-submission-list",T,function(n){return I._57(0,[(n()(),I._31(0,0,null,null,1,"page-addon-mod-assign-submission-list",[],null,null,null,v,nl)),I._30(1,245760,null,0,T,[Zn.a,C.a,k.a,A.a,Z.a,w.a,D.a,G.a,O.a],null,null)],function(n,l){n(l,1,0)},null)},{},{},[]),tl=t(346),ul=t(347),il=t(349),al=t(348),el=t(446),sl=t(675),ol=t(103),rl=t(254);t.d(l,"AddonModAssignSubmissionListPageModuleNgFactory",function(){return _l});var _l=I._28(E,[],function(n){return I._40([I._41(512,I.o,I._21,[[8,[M.a,U.a,L.a,N.a,F.a,B.a,q.a,H.a,J.a,K.a,W.a,z.a,ll]],[3,I.o],I.K]),I._41(4608,rn.m,rn.l,[I.G,[2,rn.v]]),I._41(4608,fn.x,fn.x,[]),I._41(4608,fn.d,fn.d,[]),I._41(4608,tl.b,tl.a,[]),I._41(4608,ul.a,ul.b,[]),I._41(4608,il.b,il.a,[]),I._41(4608,al.b,al.a,[]),I._41(4608,Z.a,Z.a,[el.a,tl.b,ul.a,il.b,al.b,Z.b,Z.c]),I._41(512,rn.b,rn.b,[]),I._41(512,fn.v,fn.v,[]),I._41(512,fn.i,fn.i,[]),I._41(512,fn.s,fn.s,[]),I._41(512,sl.a,sl.a,[]),I._41(512,x.b,x.b,[]),I._41(512,S.a,S.a,[]),I._41(512,ol.a,ol.a,[]),I._41(512,y.a,y.a,[]),I._41(512,sl.b,sl.b,[]),I._41(512,E,E,[]),I._41(256,Z.c,void 0,[]),I._41(256,Z.b,void 0,[]),I._41(256,rl.a,T,[])])})}});
+webpackJsonp([112],{
+
+/***/ 1977:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesDiscussionPageModule", function() { return AddonMessagesDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__discussion__ = __webpack_require__(2116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(61);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonMessagesDiscussionPageModule = /** @class */ (function () {
+    function AddonMessagesDiscussionPageModule() {
+    }
+    AddonMessagesDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__discussion__["a" /* AddonMessagesDiscussionPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__discussion__["a" /* AddonMessagesDiscussionPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonMessagesDiscussionPageModule);
+    return AddonMessagesDiscussionPageModule;
+}());
+
+//# sourceMappingURL=discussion.module.js.map
+
+/***/ }),
+
+/***/ 2116:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_messages_offline__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sync__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_user_providers_user__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_logger__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__classes_animations__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_split_view_split_view__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ts_md5_dist_md5__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ts_md5_dist_md5___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_ts_md5_dist_md5__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_moment__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_moment__);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a message discussion page.
+ */
+var AddonMessagesDiscussionPage = /** @class */ (function () {
+    function AddonMessagesDiscussionPage(eventsProvider, sitesProvider, navParams, userProvider, navCtrl, messagesSync, domUtils, messagesProvider, logger, utils, appProvider, translate, svComponent, messagesOffline, modalCtrl) {
+        var _this = this;
+        this.eventsProvider = eventsProvider;
+        this.userProvider = userProvider;
+        this.navCtrl = navCtrl;
+        this.messagesSync = messagesSync;
+        this.domUtils = domUtils;
+        this.messagesProvider = messagesProvider;
+        this.utils = utils;
+        this.appProvider = appProvider;
+        this.translate = translate;
+        this.svComponent = svComponent;
+        this.messagesOffline = messagesOffline;
+        this.modalCtrl = modalCtrl;
+        this.unreadMessageFrom = 0;
+        this.messagesBeingSent = 0;
+        this.pagesLoaded = 1;
+        this.lastMessage = { text: '', timecreated: 0 };
+        this.keepMessageMap = {};
+        this.oldContentHeight = 0;
+        this.scrollBottom = true;
+        this.viewDestroyed = false;
+        this.showLoadingModal = false; // Whether to show a loading modal while fetching data.
+        this.loaded = false;
+        this.showKeyboard = false;
+        this.canLoadMore = false;
+        this.loadMoreError = false;
+        this.messages = [];
+        this.showDelete = false;
+        this.canDelete = false;
+        this.isGroup = false;
+        this.members = {}; // Members that wrote a message, indexed by ID.
+        this.favouriteIcon = 'fa-star';
+        this.deleteIcon = 'trash';
+        this.blockIcon = 'close-circle';
+        this.addRemoveIcon = 'add';
+        this.requestContactSent = false;
+        this.requestContactReceived = false;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.groupMessagingEnabled = this.messagesProvider.isGroupMessagingEnabled();
+        this.logger = logger.getInstance('AddonMessagesDiscussionPage');
+        this.conversationId = navParams.get('conversationId');
+        this.userId = navParams.get('userId');
+        this.showKeyboard = navParams.get('showKeyboard');
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_7__providers_sync__["a" /* AddonMessagesSyncProvider */].AUTO_SYNCED, function (data) {
+            if ((data.userId && data.userId == _this.userId) ||
+                (data.conversationId && data.conversationId == _this.conversationId)) {
+                // Fetch messages.
+                _this.fetchMessages();
+                // Show first warning if any.
+                if (data.warnings && data.warnings[0]) {
+                    _this.domUtils.showErrorModal(data.warnings[0]);
+                }
+            }
+        }, this.siteId);
+        // Refresh data if info of a mamber of the conversation have changed.
+        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
+            if (data.userId && (_this.members[data.userId] || _this.otherMember && data.userId == _this.otherMember.id)) {
+                _this.fetchData();
+            }
+        }, this.siteId);
+    }
+    /**
+     * Adds a new message to the message list.
+     *
+     * @param {any} message Message to be added.
+     * @param {boolean} [keep=true] If set the keep flag or not.
+     */
+    AddonMessagesDiscussionPage.prototype.addMessage = function (message, keep) {
+        if (keep === void 0) { keep = true; }
+        /* Create a hash to identify the message. The text of online messages isn't reliable because it can have random data
+           like VideoJS ID. Try to use id and fallback to text for offline messages. */
+        message.hash = __WEBPACK_IMPORTED_MODULE_15_ts_md5_dist_md5__["Md5"].hashAsciiStr(String(message.id || message.text || '')) + '#' + message.timecreated + '#' +
+            message.useridfrom;
+        if (typeof this.keepMessageMap[message.hash] === 'undefined') {
+            // Message not added to the list. Add it now.
+            this.messages.push(message);
+        }
+        // Message needs to be kept in the list.
+        this.keepMessageMap[message.hash] = keep;
+    };
+    /**
+     * Remove a message if it shouldn't be in the list anymore.
+     *
+     * @param {string} hash Hash of the message to be removed.
+     */
+    AddonMessagesDiscussionPage.prototype.removeMessage = function (hash) {
+        if (this.keepMessageMap[hash]) {
+            // Selected to keep it, clear the flag.
+            this.keepMessageMap[hash] = false;
+            return;
+        }
+        delete this.keepMessageMap[hash];
+        var position = this.messages.findIndex(function (message) {
+            return message.hash == hash;
+        });
+        if (position >= 0) {
+            this.messages.splice(position, 1);
+        }
+    };
+    /**
+     * Runs when the page has loaded. This event only happens once per page being created.
+     * If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+     * Setup code for the page.
+     */
+    AddonMessagesDiscussionPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // Disable the profile button if we're already coming from a profile.
+        var backViewPage = this.navCtrl.getPrevious() && this.navCtrl.getPrevious().component.name;
+        this.showInfo = !backViewPage || backViewPage !== 'CoreUserProfilePage';
+        // Recalculate footer position when keyboard is shown or hidden.
+        this.keyboardObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */].KEYBOARD_CHANGE, function (kbHeight) {
+            _this.content.resize();
+        });
+        this.fetchData();
+    };
+    /**
+     * Convenience function to fetch the conversation data.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.fetchData = function () {
+        var _this = this;
+        var loader;
+        if (this.showLoadingModal) {
+            loader = this.domUtils.showModalLoading();
+        }
+        if (!this.groupMessagingEnabled && this.userId) {
+            // Get the user profile to retrieve the user fullname and image.
+            this.userProvider.getProfile(this.userId, undefined, true).then(function (user) {
+                if (!_this.title) {
+                    _this.title = user.fullname;
+                }
+                _this.conversationImage = user.profileimageurl;
+            });
+        }
+        // Synchronize messages if needed.
+        return this.messagesSync.syncDiscussion(this.conversationId, this.userId).catch(function () {
+            // Ignore errors.
+        }).then(function (warnings) {
+            if (warnings && warnings[0]) {
+                _this.domUtils.showErrorModal(warnings[0]);
+            }
+            if (_this.groupMessagingEnabled) {
+                // Get the conversation ID if it exists and we don't have it yet.
+                return _this.getConversation(_this.conversationId, _this.userId).then(function (exists) {
+                    var promises = [];
+                    if (exists) {
+                        // Fetch the messages for the first time.
+                        promises.push(_this.fetchMessages());
+                    }
+                    if (_this.userId) {
+                        // Get the member info. Invalidate first to make sure we get the latest status.
+                        promises.push(_this.messagesProvider.invalidateMemberInfo(_this.userId).catch(function () {
+                            // Shouldn't happen.
+                        }).then(function () {
+                            return _this.messagesProvider.getMemberInfo(_this.userId);
+                        }).then(function (member) {
+                            _this.otherMember = member;
+                            if (!exists && member) {
+                                _this.conversationImage = member.profileimageurl;
+                                _this.title = member.fullname;
+                            }
+                            _this.blockIcon = _this.otherMember && _this.otherMember.isblocked ? 'checkmark-circle' : 'close-circle';
+                            _this.addRemoveIcon = _this.otherMember && _this.otherMember.iscontact ? 'remove' : 'add';
+                        }));
+                    }
+                    else {
+                        _this.otherMember = null;
+                    }
+                    return Promise.all(promises);
+                });
+            }
+            else {
+                _this.otherMember = null;
+                // Fetch the messages for the first time.
+                return _this.fetchMessages().then(function () {
+                    if (!_this.title && _this.messages.length) {
+                        // Didn't receive the fullname via argument. Try to get it from messages.
+                        // It's possible that name cannot be resolved when no messages were yet exchanged.
+                        if (_this.messages[0].useridto != _this.currentUserId) {
+                            _this.title = _this.messages[0].usertofullname || '';
+                        }
+                        else {
+                            _this.title = _this.messages[0].userfromfullname || '';
+                        }
+                    }
+                });
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+        }).finally(function () {
+            _this.checkCanDelete();
+            _this.resizeContent();
+            _this.loaded = true;
+            _this.setPolling(); // Make sure we're polling messages.
+            _this.setContactRequestInfo();
+            _this.setFooterType();
+            loader && loader.dismiss();
+        });
+    };
+    /**
+     * Runs when the page has fully entered and is now the active page.
+     * This event will fire, whether it was the first load or a cached page.
+     */
+    AddonMessagesDiscussionPage.prototype.ionViewDidEnter = function () {
+        this.setPolling();
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonMessagesDiscussionPage.prototype.ionViewWillLeave = function () {
+        this.unsetPolling();
+    };
+    /**
+     * Convenience function to fetch messages.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.fetchMessages = function () {
+        var _this = this;
+        this.loadMoreError = false;
+        if (this.messagesBeingSent > 0) {
+            // We do not poll while a message is being sent or we could confuse the user.
+            // Otherwise, his message would disappear from the list, and he'd have to wait for the interval to check for messages.
+            return Promise.reject(null);
+        }
+        else if (this.fetching) {
+            // Already fetching.
+            return Promise.reject(null);
+        }
+        else if (this.groupMessagingEnabled && !this.conversationId) {
+            // Don't have enough data to fetch messages.
+            return Promise.reject(null);
+        }
+        if (this.conversationId) {
+            this.logger.debug("Polling new messages for conversation '" + this.conversationId + "'");
+        }
+        else {
+            this.logger.debug("Polling new messages for discussion with user '" + this.userId + "'");
+        }
+        this.fetching = true;
+        // Wait for synchronization process to finish.
+        return this.messagesSync.waitForSyncConversation(this.conversationId, this.userId).then(function () {
+            // Fetch messages. Invalidate the cache before fetching.
+            if (_this.groupMessagingEnabled) {
+                return _this.messagesProvider.invalidateConversationMessages(_this.conversationId).catch(function () {
+                    // Ignore errors.
+                }).then(function () {
+                    return _this.getConversationMessages(_this.pagesLoaded);
+                });
+            }
+            else {
+                return _this.messagesProvider.invalidateDiscussionCache(_this.userId).catch(function () {
+                    // Ignore errors.
+                }).then(function () {
+                    return _this.getDiscussionMessages(_this.pagesLoaded);
+                });
+            }
+        }).then(function (messages) {
+            _this.loadMessages(messages);
+        }).finally(function () {
+            _this.fetching = false;
+        });
+    };
+    /**
+     * Format and load a list of messages into the view.
+     *
+     * @param {any[]} messages Messages to load.
+     */
+    AddonMessagesDiscussionPage.prototype.loadMessages = function (messages) {
+        var _this = this;
+        if (this.viewDestroyed) {
+            return;
+        }
+        // Check if we are at the bottom to scroll it after render.
+        // Use a 5px error margin because in iOS there is 1px difference for some reason.
+        this.scrollBottom = Math.abs(this.domUtils.getScrollHeight(this.content) - this.domUtils.getScrollTop(this.content) -
+            this.domUtils.getContentHeight(this.content)) < 5;
+        if (this.messagesBeingSent > 0) {
+            // Ignore polling due to a race condition.
+            return;
+        }
+        // Add new messages to the list and mark the messages that should still be displayed.
+        messages.forEach(function (message) {
+            _this.addMessage(message);
+        });
+        // Remove messages that shouldn't be in the list anymore.
+        for (var hash in this.keepMessageMap) {
+            this.removeMessage(hash);
+        }
+        // Sort the messages.
+        this.messagesProvider.sortMessages(this.messages);
+        // Calculate which messages need to display the date or user data.
+        this.messages.forEach(function (message, index) {
+            message.showDate = _this.showDate(message, _this.messages[index - 1]);
+            message.showUserData = _this.showUserData(message, _this.messages[index - 1]);
+        });
+        // Notify that there can be a new message.
+        this.notifyNewMessage();
+        // Mark retrieved messages as read if they are not.
+        this.markMessagesAsRead();
+    };
+    /**
+     * Get the conversation.
+     *
+     * @param {number} conversationId Conversation ID.
+     * @param {number} userId User ID.
+     * @return {Promise<boolean>} Promise resolved with a boolean: whether the conversation exists or not.
+     */
+    AddonMessagesDiscussionPage.prototype.getConversation = function (conversationId, userId) {
+        var _this = this;
+        var promise, fallbackConversation;
+        // Try to get the conversationId if we don't have it.
+        if (conversationId) {
+            promise = Promise.resolve(conversationId);
+        }
+        else {
+            promise = this.messagesProvider.getConversationBetweenUsers(userId, undefined, true).then(function (conversation) {
+                fallbackConversation = conversation;
+                return conversation.id;
+            });
+        }
+        return promise.then(function (conversationId) {
+            // Retrieve the conversation. Invalidate data first to get the right unreadcount.
+            return _this.messagesProvider.invalidateConversation(conversationId).catch(function () {
+                // Ignore errors.
+            }).then(function () {
+                return _this.messagesProvider.getConversation(conversationId, undefined, true);
+            }).catch(function (error) {
+                // Get conversation failed, use the fallback one if we have it.
+                if (fallbackConversation) {
+                    return fallbackConversation;
+                }
+                return Promise.reject(error);
+            }).then(function (conversation) {
+                _this.conversation = conversation;
+                if (conversation) {
+                    _this.conversationId = conversation.id;
+                    _this.title = conversation.name;
+                    _this.conversationImage = conversation.imageurl;
+                    _this.isGroup = conversation.type == __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].MESSAGE_CONVERSATION_TYPE_GROUP;
+                    _this.favouriteIcon = conversation.isfavourite ? 'fa-star-o' : 'fa-star';
+                    if (!_this.isGroup) {
+                        _this.userId = conversation.userid;
+                    }
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            });
+        }, function (error) {
+            // Probably conversation does not exist or user is offline. Try to load offline messages.
+            return _this.messagesOffline.getMessages(userId).then(function (messages) {
+                if (messages && messages.length) {
+                    // We have offline messages, this probably means that the conversation didn't exist. Don't display error.
+                    messages.forEach(function (message) {
+                        message.pending = true;
+                        message.text = message.smallmessage;
+                    });
+                    _this.loadMessages(messages);
+                }
+                else if (error.errorcode != 'errorconversationdoesnotexist') {
+                    // Display the error.
+                    return Promise.reject(error);
+                }
+            });
+        });
+    };
+    /**
+     * Get the messages of the conversation. Used if group messaging is supported.
+     *
+     * @param {number} pagesToLoad Number of "pages" to load.
+     * @param  {number} [offset=0] Offset for message list.
+     * @return {Promise<any[]>} Promise resolved with the list of messages.
+     */
+    AddonMessagesDiscussionPage.prototype.getConversationMessages = function (pagesToLoad, offset) {
+        var _this = this;
+        if (offset === void 0) { offset = 0; }
+        var excludePending = offset > 0;
+        return this.messagesProvider.getConversationMessages(this.conversationId, excludePending, offset).then(function (result) {
+            pagesToLoad--;
+            // Treat members. Don't use CoreUtilsProvider.arrayToObject because we don't want to override the existing object.
+            if (result.members) {
+                result.members.forEach(function (member) {
+                    _this.members[member.id] = member;
+                });
+            }
+            if (pagesToLoad > 0 && result.canLoadMore) {
+                offset += __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].LIMIT_MESSAGES;
+                // Get more messages.
+                return _this.getConversationMessages(pagesToLoad, offset).then(function (nextMessages) {
+                    return result.messages.concat(nextMessages);
+                });
+            }
+            else {
+                // No more messages to load, return them.
+                _this.canLoadMore = result.canLoadMore;
+                return result.messages;
+            }
+        });
+    };
+    /**
+     * Get a discussion. Can load several "pages".
+     *
+     * @param  {number}  pagesToLoad          Number of pages to load.
+     * @param  {number}  [lfReceivedUnread=0] Number of unread received messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfReceivedRead=0]   Number of read received messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfSentUnread=0]     Number of unread sent messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfSentRead=0]       Number of read sent messages already fetched, so fetch will be done from this.
+     * @return {Promise<any>}  Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.getDiscussionMessages = function (pagesToLoad, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead) {
+        var _this = this;
+        if (lfReceivedUnread === void 0) { lfReceivedUnread = 0; }
+        if (lfReceivedRead === void 0) { lfReceivedRead = 0; }
+        if (lfSentUnread === void 0) { lfSentUnread = 0; }
+        if (lfSentRead === void 0) { lfSentRead = 0; }
+        // Only get offline messages if we're loading the first "page".
+        var excludePending = lfReceivedUnread > 0 || lfReceivedRead > 0 || lfSentUnread > 0 || lfSentRead > 0;
+        // Get next messages.
+        return this.messagesProvider.getDiscussion(this.userId, excludePending, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead).then(function (result) {
+            pagesToLoad--;
+            if (pagesToLoad > 0 && result.canLoadMore) {
+                // More pages to load. Calculate new limit froms.
+                result.messages.forEach(function (message) {
+                    if (!message.pending) {
+                        if (message.useridfrom == _this.userId) {
+                            if (message.read) {
+                                lfReceivedRead++;
+                            }
+                            else {
+                                lfReceivedUnread++;
+                            }
+                        }
+                        else {
+                            if (message.read) {
+                                lfSentRead++;
+                            }
+                            else {
+                                lfSentUnread++;
+                            }
+                        }
+                    }
+                });
+                // Get next messages.
+                return _this.getDiscussionMessages(pagesToLoad, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead)
+                    .then(function (nextMessages) {
+                    return result.messages.concat(nextMessages);
+                });
+            }
+            else {
+                // No more messages to load, return them.
+                _this.canLoadMore = result.canLoadMore;
+                return result.messages;
+            }
+        });
+    };
+    /**
+     * Mark messages as read.
+     */
+    AddonMessagesDiscussionPage.prototype.markMessagesAsRead = function () {
+        var _this = this;
+        var readChanged = false;
+        var promises = [];
+        if (this.messagesProvider.isMarkAllMessagesReadEnabled()) {
+            var messageUnreadFound = false;
+            // Mark all messages at a time if there is any unread message.
+            if (this.groupMessagingEnabled) {
+                messageUnreadFound = this.conversation && this.conversation.unreadcount > 0 && this.conversationId > 0;
+            }
+            else {
+                for (var x in this.messages) {
+                    var message = this.messages[x];
+                    // If an unread message is found, mark all messages as read.
+                    if (message.useridfrom != this.currentUserId && message.read == 0) {
+                        messageUnreadFound = true;
+                        break;
+                    }
+                }
+            }
+            if (messageUnreadFound) {
+                this.setUnreadLabelPosition();
+                var promise = void 0;
+                if (this.groupMessagingEnabled) {
+                    promise = this.messagesProvider.markAllConversationMessagesRead(this.conversationId);
+                }
+                else {
+                    promise = this.messagesProvider.markAllMessagesRead(this.userId).then(function () {
+                        // Mark all messages as read.
+                        _this.messages.forEach(function (message) {
+                            message.read = 1;
+                        });
+                    });
+                }
+                promises.push(promise.then(function () {
+                    readChanged = true;
+                }));
+            }
+        }
+        else {
+            this.setUnreadLabelPosition();
+            // Mark each message as read one by one.
+            this.messages.forEach(function (message) {
+                // If the message is unread, call this.messagesProvider.markMessageRead.
+                if (message.useridfrom != _this.currentUserId && message.read == 0) {
+                    promises.push(_this.messagesProvider.markMessageRead(message.id).then(function () {
+                        readChanged = true;
+                        message.read = 1;
+                    }));
+                }
+            });
+        }
+        Promise.all(promises).finally(function () {
+            if (readChanged) {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, {
+                    conversationId: _this.conversationId,
+                    userId: _this.userId
+                }, _this.siteId);
+            }
+        });
+    };
+    /**
+     * Notify the last message found so discussions list controller can tell if last message should be updated.
+     */
+    AddonMessagesDiscussionPage.prototype.notifyNewMessage = function () {
+        var last = this.messages[this.messages.length - 1];
+        var trigger = false;
+        if (!last) {
+            this.lastMessage = { text: '', timecreated: 0 };
+            trigger = true;
+        }
+        else if (last.text !== this.lastMessage.text || last.timecreated !== this.lastMessage.timecreated) {
+            this.lastMessage = { text: last.text, timecreated: last.timecreated };
+            trigger = true;
+        }
+        if (trigger) {
+            // Update discussions last message.
+            this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, {
+                conversationId: this.conversationId,
+                userId: this.userId,
+                message: this.lastMessage.text,
+                timecreated: this.lastMessage.timecreated,
+                isfavourite: this.conversation && this.conversation.isfavourite,
+                type: this.conversation && this.conversation.type
+            }, this.siteId);
+            // Update navBar links and buttons.
+            var newCanDelete = (last && last.id && this.messages.length == 1) || this.messages.length > 1;
+            if (this.canDelete != newCanDelete) {
+                this.checkCanDelete();
+            }
+        }
+    };
+    /**
+     * Set the place where the unread label position has to be.
+     */
+    AddonMessagesDiscussionPage.prototype.setUnreadLabelPosition = function () {
+        if (this.unreadMessageFrom != 0) {
+            return;
+        }
+        if (this.groupMessagingEnabled) {
+            // Use the unreadcount from the conversation to calculate where should the label be placed.
+            if (this.conversation && this.conversation.unreadcount > 0 && this.messages) {
+                // Iterate over messages to find the right message using the unreadcount. Skip offline messages and own messages.
+                var found = 0;
+                for (var i = this.messages.length - 1; i >= 0; i--) {
+                    var message = this.messages[i];
+                    if (!message.pending && message.useridfrom != this.currentUserId) {
+                        found++;
+                        if (found == this.conversation.unreadcount) {
+                            this.unreadMessageFrom = parseInt(message.id, 10);
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        else {
+            var previousMessageRead = false;
+            for (var x in this.messages) {
+                var message = this.messages[x];
+                if (message.useridfrom != this.currentUserId) {
+                    var unreadFrom = message.read == 0 && previousMessageRead;
+                    if (unreadFrom) {
+                        // Save where the label is placed.
+                        this.unreadMessageFrom = parseInt(message.id, 10);
+                        break;
+                    }
+                    previousMessageRead = message.read != 0;
+                }
+            }
+        }
+        // Do not update the message unread from label on next refresh.
+        if (this.unreadMessageFrom == 0) {
+            // Using negative to indicate the label is not placed but should not be placed.
+            this.unreadMessageFrom = -1;
+        }
+    };
+    /**
+     * Check if there's any message in the list that can be deleted.
+     */
+    AddonMessagesDiscussionPage.prototype.checkCanDelete = function () {
+        // All messages being sent should be at the end of the list.
+        var first = this.messages[0];
+        this.canDelete = first && !first.sending;
+    };
+    /**
+     * Hide unread label when sending messages.
+     */
+    AddonMessagesDiscussionPage.prototype.hideUnreadLabel = function () {
+        if (this.unreadMessageFrom > 0) {
+            this.unreadMessageFrom = -1;
+        }
+    };
+    /**
+     * Wait until fetching is false.
+     * @return {Promise<void>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.waitForFetch = function () {
+        var _this = this;
+        if (!this.fetching) {
+            return Promise.resolve();
+        }
+        var deferred = this.utils.promiseDefer();
+        setTimeout(function () {
+            return _this.waitForFetch().finally(function () {
+                deferred.resolve();
+            });
+        }, 400);
+        return deferred.promise;
+    };
+    /**
+     * Set a polling to get new messages every certain time.
+     */
+    AddonMessagesDiscussionPage.prototype.setPolling = function () {
+        var _this = this;
+        if (this.groupMessagingEnabled && !this.conversationId) {
+            // Don't have enough data to poll messages.
+            return;
+        }
+        if (!this.polling) {
+            // Start polling.
+            this.polling = setInterval(function () {
+                _this.fetchMessages().catch(function () {
+                    // Ignore errors.
+                });
+            }, __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].POLL_INTERVAL);
+        }
+    };
+    /**
+     * Unset polling.
+     */
+    AddonMessagesDiscussionPage.prototype.unsetPolling = function () {
+        if (this.polling) {
+            this.logger.debug("Cancelling polling for conversation with user '" + this.userId + "'");
+            clearInterval(this.polling);
+            this.polling = undefined;
+        }
+    };
+    /**
+     * Copy message to clipboard.
+     *
+     * @param {any} message Message to be copied.
+     */
+    AddonMessagesDiscussionPage.prototype.copyMessage = function (message) {
+        this.utils.copyToClipboard(message.smallmessage || message.text || '');
+    };
+    /**
+     * Function to delete a message.
+     *
+     * @param {any} message  Message object to delete.
+     * @param {number} index Index where the message is to delete it from the view.
+     */
+    AddonMessagesDiscussionPage.prototype.deleteMessage = function (message, index) {
+        var _this = this;
+        var langKey = message.pending ? 'core.areyousure' : 'addon.messages.deletemessageconfirmation';
+        this.domUtils.showConfirm(this.translate.instant(langKey)).then(function () {
+            var modal = _this.domUtils.showModalLoading('core.deleting', true);
+            return _this.messagesProvider.deleteMessage(message).then(function () {
+                // Remove message from the list without having to wait for re-fetch.
+                _this.messages.splice(index, 1);
+                _this.removeMessage(message.hash);
+                _this.notifyNewMessage();
+                _this.fetchMessages(); // Re-fetch messages to update cached data.
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errordeletemessage', true);
+        });
+    };
+    /**
+     * Function to load previous messages.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.loadPrevious = function (infiniteComplete) {
+        var _this = this;
+        // If there is an ongoing fetch, wait for it to finish.
+        return this.waitForFetch().finally(function () {
+            _this.pagesLoaded++;
+            _this.fetchMessages().catch(function (error) {
+                _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
+                _this.pagesLoaded--;
+                _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+            }).finally(function () {
+                infiniteComplete && infiniteComplete();
+            });
+        });
+    };
+    /**
+     * Content or scroll has been resized. For content, only call it if it's been added on top.
+     */
+    AddonMessagesDiscussionPage.prototype.resizeContent = function () {
+        var _this = this;
+        var top = this.content.getContentDimensions().scrollTop;
+        this.content.resize();
+        // Wait for new content height to be calculated.
+        setTimeout(function () {
+            // Visible content size changed, maintain the bottom position.
+            if (!_this.viewDestroyed && _this.content && _this.domUtils.getContentHeight(_this.content) != _this.oldContentHeight) {
+                if (!top) {
+                    top = _this.content.getContentDimensions().scrollTop;
+                }
+                top += _this.oldContentHeight - _this.domUtils.getContentHeight(_this.content);
+                _this.oldContentHeight = _this.domUtils.getContentHeight(_this.content);
+                _this.domUtils.scrollTo(_this.content, 0, top, 0);
+            }
+        });
+    };
+    /**
+     * Scroll bottom when render has finished.
+     */
+    AddonMessagesDiscussionPage.prototype.scrollToBottom = function () {
+        var _this = this;
+        // Check if scroll is at bottom. If so, scroll bottom after rendering since there might be something new.
+        if (this.scrollBottom) {
+            // Need a timeout to leave time to the view to be rendered.
+            setTimeout(function () {
+                if (!_this.viewDestroyed) {
+                    _this.domUtils.scrollToBottom(_this.content, 0);
+                }
+            });
+            this.scrollBottom = false;
+        }
+    };
+    /**
+     * Sends a message to the server.
+     *
+     * @param {string} text Message text.
+     */
+    AddonMessagesDiscussionPage.prototype.sendMessage = function (text) {
+        var _this = this;
+        var message;
+        this.hideUnreadLabel();
+        this.showDelete = false;
+        this.scrollBottom = true;
+        message = {
+            pending: true,
+            sending: true,
+            useridfrom: this.currentUserId,
+            smallmessage: text,
+            text: text,
+            timecreated: new Date().getTime()
+        };
+        message.showDate = this.showDate(message, this.messages[this.messages.length - 1]);
+        this.addMessage(message, false);
+        this.messagesBeingSent++;
+        // If there is an ongoing fetch, wait for it to finish.
+        // Otherwise, if a message is sent while fetching it could disappear until the next fetch.
+        this.waitForFetch().finally(function () {
+            var promise;
+            if (_this.conversationId) {
+                promise = _this.messagesProvider.sendMessageToConversation(_this.conversation, text);
+            }
+            else {
+                promise = _this.messagesProvider.sendMessage(_this.userId, text);
+            }
+            promise.then(function (data) {
+                var promise;
+                _this.messagesBeingSent--;
+                if (data.sent) {
+                    if (!_this.conversationId && data.message && data.message.conversationid) {
+                        // Message sent to a new conversation, try to load the conversation.
+                        promise = _this.getConversation(data.message.conversationid, _this.userId).then(function () {
+                            // Now fetch messages.
+                            return _this.fetchMessages();
+                        }).finally(function () {
+                            // Start polling messages now that the conversation exists.
+                            _this.setPolling();
+                        });
+                    }
+                    else {
+                        // Message was sent, fetch messages right now.
+                        promise = _this.fetchMessages();
+                    }
+                }
+                else {
+                    promise = Promise.reject(null);
+                }
+                promise.catch(function () {
+                    // Fetch failed or is offline message, mark the message as sent.
+                    // If fetch is successful there's no need to mark it because the fetch will already show the message received.
+                    message.sending = false;
+                    if (data.sent) {
+                        // Message sent to server, not pending anymore.
+                        message.pending = false;
+                    }
+                    else if (data.message) {
+                        message.timecreated = data.message.timecreated;
+                    }
+                    _this.notifyNewMessage();
+                });
+            }).catch(function (error) {
+                _this.messagesBeingSent--;
+                // Only close the keyboard if an error happens.
+                // We want the user to be able to send multiple messages without the keyboard being closed.
+                _this.appProvider.closeKeyboard();
+                _this.domUtils.showErrorModalDefault(error, 'addon.messages.messagenotsent', true);
+                _this.removeMessage(message.hash);
+            });
+        });
+    };
+    /**
+     * Check date should be shown on message list for the current message.
+     * If date has changed from previous to current message it should be shown.
+     *
+     * @param {any} message       Current message where to show the date.
+     * @param {any} [prevMessage] Previous message where to compare the date with.
+     * @return {boolean}  If date has changed and should be shown.
+     */
+    AddonMessagesDiscussionPage.prototype.showDate = function (message, prevMessage) {
+        if (!prevMessage) {
+            // First message, show it.
+            return true;
+        }
+        // Check if day has changed.
+        return !__WEBPACK_IMPORTED_MODULE_16_moment__(message.timecreated).isSame(prevMessage.timecreated, 'day');
+    };
+    /**
+     * Check if the user info should be displayed for the current message.
+     * User data is only displayed for group conversations if the previous message was from another user.
+     *
+     * @param {any} message Current message where to show the user info.
+     * @param {any} [prevMessage] Previous message.
+     * @return {boolean} Whether user data should be shown.
+     */
+    AddonMessagesDiscussionPage.prototype.showUserData = function (message, prevMessage) {
+        return this.isGroup && message.useridfrom != this.currentUserId && this.members[message.useridfrom] &&
+            (!prevMessage || prevMessage.useridfrom != message.useridfrom || message.showDate);
+    };
+    /**
+     * Toggles delete state.
+     */
+    AddonMessagesDiscussionPage.prototype.toggleDelete = function () {
+        this.showDelete = !this.showDelete;
+    };
+    /**
+     * View info. If it's an individual conversation, go to the user profile.
+     * If it's a group conversation, view info about the group.
+     */
+    AddonMessagesDiscussionPage.prototype.viewInfo = function () {
+        var _this = this;
+        if (this.isGroup) {
+            // Display the group information.
+            var modal = this.modalCtrl.create('AddonMessagesConversationInfoPage', {
+                conversationId: this.conversationId
+            });
+            modal.present();
+            modal.onDidDismiss(function (userId) {
+                if (typeof userId != 'undefined') {
+                    // Open user conversation.
+                    if (_this.svComponent) {
+                        // Notify the left pane to load it, this way the right conversation will be highlighted.
+                        _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].OPEN_CONVERSATION_EVENT, { userId: userId }, _this.siteId);
+                    }
+                    else {
+                        // Open the discussion in a new view.
+                        _this.navCtrl.push('AddonMessagesDiscussionPage', { userId: userId });
+                    }
+                }
+            });
+        }
+        else {
+            // Open the user profile.
+            var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+            navCtrl.push('CoreUserProfilePage', { userId: this.userId });
+        }
+    };
+    /**
+     * Change the favourite state of the current conversation.
+     *
+     * @param {Function} [done] Function to call when done.
+     */
+    AddonMessagesDiscussionPage.prototype.changeFavourite = function (done) {
+        var _this = this;
+        this.favouriteIcon = 'spinner';
+        this.messagesProvider.setFavouriteConversation(this.conversation.id, !this.conversation.isfavourite).then(function () {
+            _this.conversation.isfavourite = !_this.conversation.isfavourite;
+            // Get the conversation data so it's cached. Don't block the user for this.
+            _this.messagesProvider.getConversation(_this.conversation.id, undefined, true);
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].UPDATE_CONVERSATION_LIST_EVENT, {
+                conversationId: _this.conversation.id,
+                action: 'favourite',
+                value: _this.conversation.isfavourite
+            }, _this.siteId);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error changing favourite state.');
+        }).finally(function () {
+            _this.favouriteIcon = _this.conversation.isfavourite ? 'fa-star-o' : 'fa-star';
+            done && done();
+        });
+    };
+    /**
+     * Calculate whether there are pending contact requests.
+     */
+    AddonMessagesDiscussionPage.prototype.setContactRequestInfo = function () {
+        var _this = this;
+        this.requestContactSent = false;
+        this.requestContactReceived = false;
+        if (this.otherMember && !this.otherMember.iscontact) {
+            this.requestContactSent = this.otherMember.contactrequests.some(function (request) {
+                return request.userid == _this.currentUserId && request.requesteduserid == _this.otherMember.id;
+            });
+            this.requestContactReceived = this.otherMember.contactrequests.some(function (request) {
+                return request.userid == _this.otherMember.id && request.requesteduserid == _this.currentUserId;
+            });
+        }
+    };
+    /**
+     * Calculate what to display in the footer.
+     */
+    AddonMessagesDiscussionPage.prototype.setFooterType = function () {
+        if (!this.otherMember) {
+            // Group conversation or group messaging not available.
+            this.footerType = 'message';
+        }
+        else if (this.otherMember.isblocked) {
+            this.footerType = 'blocked';
+        }
+        else if (this.requestContactReceived) {
+            this.footerType = 'requestReceived';
+        }
+        else if (this.otherMember.canmessage) {
+            this.footerType = 'message';
+        }
+        else if (this.requestContactSent) {
+            this.footerType = 'requestSent';
+        }
+        else if (this.otherMember.requirescontact) {
+            this.footerType = 'requiresContact';
+        }
+        else {
+            this.footerType = 'unable';
+        }
+    };
+    /**
+     * Displays a confirmation modal to block the user of the individual conversation.
+     *
+     * @return {Promise<any>} Promise resolved when user is blocked or dialog is cancelled.
+     */
+    AddonMessagesDiscussionPage.prototype.blockUser = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var template = this.translate.instant('addon.messages.blockuserconfirm', { $a: this.otherMember.fullname });
+        var okText = this.translate.instant('addon.messages.blockuser');
+        return this.domUtils.showConfirm(template, undefined, okText).then(function () {
+            _this.blockIcon = 'spinner';
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            _this.showLoadingModal = true;
+            return _this.messagesProvider.blockContact(_this.otherMember.id).finally(function () {
+                modal.dismiss();
+                _this.showLoadingModal = false;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        }).finally(function () {
+            _this.blockIcon = _this.otherMember.isblocked ? 'close-circle' : 'checkmark-circle';
+        });
+    };
+    /**
+     * Delete the conversation.
+     *
+     * @param {Function} [done] Function to call when done.
+     */
+    AddonMessagesDiscussionPage.prototype.deleteConversation = function (done) {
+        var _this = this;
+        this.domUtils.showConfirm(this.translate.instant('addon.messages.deleteallconfirm')).then(function () {
+            _this.deleteIcon = 'spinner';
+            return _this.messagesProvider.deleteConversation(_this.conversation.id).then(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].UPDATE_CONVERSATION_LIST_EVENT, {
+                    conversationId: _this.conversation.id,
+                    action: 'delete'
+                }, _this.siteId);
+                _this.conversationId = undefined;
+                _this.conversation = undefined;
+                _this.messages = [];
+            }).finally(function () {
+                _this.deleteIcon = 'trash';
+                done && done();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error deleting conversation.');
+        });
+    };
+    /**
+     * Displays a confirmation modal to unblock the user of the individual conversation.
+     *
+     * @return {Promise<any>} Promise resolved when user is unblocked or dialog is cancelled.
+     */
+    AddonMessagesDiscussionPage.prototype.unblockUser = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var template = this.translate.instant('addon.messages.unblockuserconfirm', { $a: this.otherMember.fullname });
+        var okText = this.translate.instant('addon.messages.unblockuser');
+        return this.domUtils.showConfirm(template, undefined, okText).then(function () {
+            _this.blockIcon = 'spinner';
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            _this.showLoadingModal = true;
+            return _this.messagesProvider.unblockContact(_this.otherMember.id).finally(function () {
+                modal.dismiss();
+                _this.showLoadingModal = false;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        }).finally(function () {
+            _this.blockIcon = _this.otherMember.isblocked ? 'close-circle' : 'checkmark-circle';
+        });
+    };
+    /**
+     * Displays a confirmation modal to send a contact request to the other user of the individual conversation.
+     *
+     * @return {Promise<any>} Promise resolved when the request is sent or the dialog is cancelled.
+     */
+    AddonMessagesDiscussionPage.prototype.createContactRequest = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var template = this.translate.instant('addon.messages.addcontactconfirm', { $a: this.otherMember.fullname });
+        var okText = this.translate.instant('core.add');
+        return this.domUtils.showConfirm(template, undefined, okText).then(function () {
+            _this.addRemoveIcon = 'spinner';
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            _this.showLoadingModal = true;
+            return _this.messagesProvider.createContactRequest(_this.otherMember.id).finally(function () {
+                modal.dismiss();
+                _this.showLoadingModal = false;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        }).finally(function () {
+            _this.addRemoveIcon = _this.otherMember.iscontact ? 'remove' : 'add';
+        });
+    };
+    /**
+     * Confirms the contact request of the other user of the individual conversation.
+     *
+     * @return {Promise<any>} Promise resolved when the request is confirmed.
+     */
+    AddonMessagesDiscussionPage.prototype.confirmContactRequest = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.showLoadingModal = true;
+        return this.messagesProvider.confirmContactRequest(this.otherMember.id).finally(function () {
+            modal.dismiss();
+            _this.showLoadingModal = false;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        });
+    };
+    /**
+     * Declines the contact request of the other user of the individual conversation.
+     *
+     * @return {Promise<any>} Promise resolved when the request is confirmed.
+     */
+    AddonMessagesDiscussionPage.prototype.declineContactRequest = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.showLoadingModal = true;
+        return this.messagesProvider.declineContactRequest(this.otherMember.id).finally(function () {
+            modal.dismiss();
+            _this.showLoadingModal = false;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        });
+    };
+    /**
+     * Displays a confirmation modal to remove the other user of the conversation from contacts.
+     *
+     * @return {Promise<any>} Promise resolved when the request is sent or the dialog is cancelled.
+     */
+    AddonMessagesDiscussionPage.prototype.removeContact = function () {
+        var _this = this;
+        if (!this.otherMember) {
+            // Should never happen.
+            return Promise.reject(null);
+        }
+        var template = this.translate.instant('addon.messages.removecontactconfirm', { $a: this.otherMember.fullname });
+        var okText = this.translate.instant('core.remove');
+        return this.domUtils.showConfirm(template, undefined, okText).then(function () {
+            _this.addRemoveIcon = 'spinner';
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            _this.showLoadingModal = true;
+            return _this.messagesProvider.removeContact(_this.otherMember.id).finally(function () {
+                modal.dismiss();
+                _this.showLoadingModal = false;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.error', true);
+        }).finally(function () {
+            _this.addRemoveIcon = _this.otherMember.iscontact ? 'remove' : 'add';
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonMessagesDiscussionPage.prototype.ngOnDestroy = function () {
+        // Unset again, just in case.
+        this.unsetPolling();
+        this.syncObserver && this.syncObserver.off();
+        this.keyboardObserver && this.keyboardObserver.off();
+        this.memberInfoObserver && this.memberInfoObserver.off();
+        this.viewDestroyed = true;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonMessagesDiscussionPage.prototype, "content", void 0);
+    AddonMessagesDiscussionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-messages-discussion',template:/*ion-inline-start:"D:\akaal\src\addon\messages\pages\discussion\discussion.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>\n            <img *ngIf="loaded && !otherMember && conversationImage" class="core-bar-button-image" [src]="conversationImage" alt="" onError="this.src=\'assets/img/group-avatar.png\'" core-external-content role="presentation" [siteId]="siteId || null">\n            <ion-avatar *ngIf="loaded && otherMember" class="core-bar-button-image" core-user-avatar [user]="otherMember" [linkProfile]="false" [checkOnline]="otherMember.showonlinestatus" item-start (click)="showInfo && viewInfo()"></ion-avatar>\n            <core-format-text [text]="title" (click)="showInfo && !isGroup && viewInfo()"></core-format-text>\n            <core-icon *ngIf="conversation && conversation.isfavourite" name="fa-star"></core-icon>\n        </ion-title>\n        <ion-buttons end></ion-buttons>\n    </ion-navbar>\n    <core-navbar-buttons end>\n        <core-context-menu>\n            <core-context-menu-item [hidden]="!showInfo || isGroup" [priority]="1000" [content]="\'addon.messages.info\' | translate" (action)="viewInfo()" iconAction="information-circle"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!showInfo || !isGroup" [priority]="1000" [content]="\'addon.messages.groupinfo\' | translate" (action)="viewInfo()" iconAction="information-circle"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!groupMessagingEnabled || !conversation" [priority]="800" [content]="(conversation && conversation.isfavourite ? \'addon.messages.removefromfavourites\' : \'addon.messages.addtofavourites\') | translate" (action)="changeFavourite($event)" [closeOnClick]="false" [iconAction]="favouriteIcon"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!otherMember || otherMember.isblocked" [priority]="700" [content]="\'addon.messages.blockuser\' | translate" (action)="blockUser()" [iconAction]="blockIcon"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!otherMember || !otherMember.isblocked" [priority]="700" [content]="\'addon.messages.unblockuser\' | translate" (action)="unblockUser()" [iconAction]="blockIcon"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!canDelete" [priority]="400" [content]="\'addon.messages.showdeletemessages\' | translate" (action)="toggleDelete()" [iconAction]="(showDelete ? \'checkbox-outline\' : \'square-outline\')"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!groupMessagingEnabled || !conversationId || isGroup" [priority]="200" [content]="\'addon.messages.deleteconversation\' | translate" (action)="deleteConversation($event)" [closeOnClick]="false" [iconAction]="deleteIcon"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!otherMember || otherMember.iscontact || requestContactSent || requestContactReceived" [priority]="100" [content]="\'addon.messages.addtoyourcontacts\' | translate" (action)="createContactRequest()" [iconAction]="addRemoveIcon"></core-context-menu-item>\n            <core-context-menu-item [hidden]="!otherMember || !otherMember.iscontact" [priority]="100" [content]="\'addon.messages.removefromyourcontacts\' | translate" (action)="removeContact()" [iconAction]="addRemoveIcon"></core-context-menu-item>\n        </core-context-menu>\n    </core-navbar-buttons>\n</ion-header>\n<ion-content class="has-footer">\n    <core-loading [hideUntil]="loaded">\n        <!-- Load previous messages. -->\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadPrevious($event)" position="top" [error]="loadMoreError"></core-infinite-loading>\n        <ion-list class="addon-messages-discussion-container safe-area-page" [class.addon-messages-discussion-group]="isGroup" [attr.aria-live]="\'polite\'">\n            <ng-container *ngFor="let message of messages; index as index; last as last">\n                <h6 text-center *ngIf="message.showDate" class="addon-messages-date">\n                    {{ message.timecreated | coreFormatDate: "strftimedayshort" }}\n                </h6>\n\n                <ion-chip class="addon-messages-unreadfrom" *ngIf="unreadMessageFrom && message.id == unreadMessageFrom" color="light">\n                    <ion-label>{{ \'addon.messages.newmessages\' | translate:{$a: title} }}</ion-label>\n                    <ion-icon name="arrow-round-down"></ion-icon>\n                </ion-chip>\n\n                <ion-item text-wrap (longPress)="copyMessage(message)" class="addon-message" [class.addon-message-mine]="message.useridfrom == currentUserId" [class.addon-message-not-mine]="message.useridfrom != currentUserId" [class.addon-message-no-user]="!message.showUserData" [@coreSlideInOut]="message.useridfrom == currentUserId ? \'\' : \'fromLeft\'">\n                    <!-- User data. -->\n                    <h2 class="addon-message-user" >\n                        <ion-avatar item-start core-user-avatar [user]="members[message.useridfrom]" [linkProfile]="false" *ngIf="message.showUserData"></ion-avatar>\n\n                        <div *ngIf="message.showUserData">{{ members[message.useridfrom].fullname }}</div>\n\n                        <ion-note *ngIf="!message.pending">{{ message.timecreated | coreFormatDate: "strftimetime" }}</ion-note>\n                        <ion-note *ngIf="message.pending"><ion-icon name="time"></ion-icon></ion-note>\n                    </h2>\n\n                    <!-- Some messages have <p> and some others don\'t. Add a <p> so they all have same styles. -->\n                    <p class="addon-message-text">\n                        <core-format-text (afterRender)="last && scrollToBottom()" [text]="message.text"></core-format-text>\n                    </p>\n\n                    <button ion-button icon-only clear="true" *ngIf="!message.sending && showDelete" (click)="deleteMessage(message, index)" class="addon-messages-delete-button" [@coreSlideInOut]="\'fromRight\'" [attr.aria-label]=" \'addon.messages.deletemessage\' | translate">\n                        <ion-icon name="trash" color="danger"></ion-icon>\n                    </button>\n                </ion-item>\n            </ng-container>\n        </ion-list>\n        <core-empty-box *ngIf="!messages || messages.length <= 0" icon="chatbubbles" [message]="\'addon.messages.nomessagesfound\' | translate"></core-empty-box>\n    </core-loading>\n</ion-content>\n<ion-footer color="light" class="footer-adjustable" *ngIf="loaded && (!conversationId || conversation)">\n    <ion-toolbar color="light" position="bottom">\n        <p *ngIf="footerType == \'unable\'" text-center margin-horizontal>{{ \'addon.messages.unabletomessage\' | translate }}</p>\n        <div *ngIf="footerType == \'blocked\'" padding-horizontal>\n            <p text-center>{{ \'addon.messages.youhaveblockeduser\' | translate }}</p>\n            <button ion-button block text-wrap margin-bottom (click)="unblockUser()">{{ \'addon.messages.unblockuser\' | translate }}</button>\n        </div>\n        <div *ngIf="footerType == \'requiresContact\'" padding-horizontal>\n            <p text-center><strong>{{ \'addon.messages.isnotinyourcontacts\' | translate: {$a: otherMember.fullname} }}</strong></p>\n            <p text-center>{{ \'addon.messages.requirecontacttomessage\' | translate: {$a: otherMember.fullname} }}</p>\n            <button ion-button block text-wrap margin-bottom (click)="createContactRequest()">{{ \'addon.messages.sendcontactrequest\' | translate }}</button>\n        </div>\n        <div *ngIf="footerType == \'requestReceived\'" padding-horizontal>\n            <p text-center>{{ \'addon.messages.userwouldliketocontactyou\' | translate: {$a: otherMember.fullname} }}</p>\n            <button ion-button block text-wrap margin-bottom (click)="confirmContactRequest()">{{ \'addon.messages.acceptandaddcontact\' | translate }}</button>\n            <button ion-button block text-wrap margin-bottom color="light" (click)="declineContactRequest()">{{ \'addon.messages.decline\' | translate }}</button>\n        </div>\n        <div *ngIf="footerType == \'requestSent\' || (footerType == \'message\' && requestContactSent)" padding-horizontal>\n            <p text-center><strong>{{ \'addon.messages.contactrequestsent\' | translate }}</strong></p>\n            <p text-center>{{ \'addon.messages.yourcontactrequestpending\' | translate: {$a: otherMember.fullname} }}</p>\n        </div>\n        <core-send-message-form *ngIf="footerType == \'message\'" (onSubmit)="sendMessage($event)" [showKeyboard]="showKeyboard" [placeholder]="\'addon.messages.newmessage\' | translate" (onResize)="resizeContent()"></core-send-message-form>\n    </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"D:\akaal\src\addon\messages\pages\discussion\discussion.html"*/,
+            animations: [__WEBPACK_IMPORTED_MODULE_13__classes_animations__["b" /* coreSlideInOut */]]
+        }),
+        __param(12, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_8__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__providers_sync__["a" /* AddonMessagesSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_logger__["a" /* CoreLoggerProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_14__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_messages_offline__["a" /* AddonMessagesOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* ModalController */]])
+    ], AddonMessagesDiscussionPage);
+    return AddonMessagesDiscussionPage;
+}());
+
+//# sourceMappingURL=discussion.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=112.js.map

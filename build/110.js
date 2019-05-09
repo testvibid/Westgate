@@ -1,1 +1,205 @@
-webpackJsonp([110],{1873:function(l,n,t){"use strict";function e(l){return a._57(0,[(l()(),a._31(0,0,null,null,9,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[2,"core-nav-item-selected",null]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.loadChapter(l.context.$implicit.id)&&e}return e},O.b,O.a)),a._30(1,1097728,null,3,R.a,[V.a,P.a,a.t,a.V,[2,w.a]],null,null),a._52(335544320,2,{contentLabel:0}),a._52(603979776,3,{_buttons:1}),a._52(603979776,4,{_icons:1}),a._30(5,16384,null,0,x.a,[],null,null),(l()(),a._55(-1,2,["\n                "])),(l()(),a._31(7,0,null,2,1,"p",[],[[1,"padding-left",0]],null,null,null,null)),(l()(),a._55(8,null,["",""])),(l()(),a._55(-1,2,["\n            "]))],null,function(l,n){l(n,0,0,n.component.selected==n.context.$implicit.id);l(n,7,0,1==n.context.$implicit.level||null);l(n,8,0,n.context.$implicit.title)})}function u(l){return a._57(0,[(l()(),a._31(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),a._30(1,16384,null,0,C.a,[P.a,a.t,a.V,[2,M.a]],null,null),(l()(),a._55(-1,null,["\n    "])),(l()(),a._31(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,$.b,$.a)),a._30(4,49152,null,0,F.a,[D.a,[2,M.a],[2,E.a],P.a,a.t,a.V],null,null),a._30(5,212992,null,0,A.a,[F.a,B.a,G.a,I.a],null,null),(l()(),a._55(-1,3,["\n        "])),(l()(),a._31(7,0,null,3,3,"ion-title",[],null,null,null,J.b,J.a)),a._30(8,49152,null,0,K.a,[P.a,a.t,a.V,[2,L.a],[2,F.a]],null,null),(l()(),a._55(9,0,["",""])),a._47(131072,N.a,[G.a,a.j]),(l()(),a._55(-1,3,["\n        "])),(l()(),a._31(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),a._30(13,16384,null,1,T.a,[P.a,a.t,a.V,[2,L.a],[2,F.a]],null,null),a._52(603979776,1,{_buttons:1}),(l()(),a._55(-1,null,["\n            "])),(l()(),a._31(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.closeModal()&&e}return e},U.b,U.a)),a._30(17,1097728,[[1,4]],0,q.a,[[8,""],P.a,a.t,a.V],null,null),a._47(131072,N.a,[G.a,a.j]),(l()(),a._55(-1,0,["\n                "])),(l()(),a._31(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._30(21,147456,null,0,z.a,[P.a,a.t,a.V],{name:[0,"name"]},null),(l()(),a._55(-1,0,["\n            "])),(l()(),a._55(-1,null,["\n        "])),(l()(),a._55(-1,3,["\n    "])),(l()(),a._55(-1,null,["\n"])),(l()(),a._55(-1,null,["\n"])),(l()(),a._31(27,0,null,null,12,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,H.b,H.a)),a._30(28,4374528,null,0,Q.a,[P.a,B.a,S.a,a.t,a.V,D.a,W.a,a.M,[2,M.a],[2,E.a]],null,null),(l()(),a._55(-1,1,["\n    "])),(l()(),a._31(30,0,null,1,8,"nav",[],null,null,null,null,null)),(l()(),a._55(-1,null,["\n        "])),(l()(),a._31(32,0,null,null,5,"ion-list",[],null,null,null,null,null)),a._30(33,16384,null,0,X.a,[P.a,a.t,a.V,B.a,Y.l,S.a],null,null),(l()(),a._55(-1,null,["\n            "])),(l()(),a._26(16777216,null,null,1,null,e)),a._30(36,802816,null,0,Z.j,[a._11,a._6,a.E],{ngForOf:[0,"ngForOf"]},null),(l()(),a._55(-1,null,["\n        "])),(l()(),a._55(-1,null,["\n    "])),(l()(),a._55(-1,1,["\n"])),(l()(),a._55(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,21,0,"close");l(n,36,0,t.chapters)},function(l,n){l(n,3,0,a._44(n,4)._hidden,a._44(n,4)._sbPadding);l(n,9,0,a._56(n,9,0,a._44(n,10).transform("addon.mod_book.toc")));l(n,16,0,a._56(n,16,0,a._44(n,18).transform("core.close")));l(n,20,0,a._44(n,21)._hidden);l(n,27,0,a._44(n,28).statusbarPadding,a._44(n,28)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var a=t(0),o=t(8),i=t(3),_=t(29),c=this&&this.__decorate||function(l,n,t,e){var u,a=arguments.length,o=a<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,t):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,t,e);else for(var i=l.length-1;i>=0;i--)(u=l[i])&&(o=(a<3?u(o):a>3?u(n,t,o):u(n,t))||o);return a>3&&o&&Object.defineProperty(n,t,o),o},r=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},d=function(){function l(l,n){this.viewCtrl=n,this.chapters=l.get("chapters")||[],this.selected=l.get("selected")}return l.prototype.loadChapter=function(l){this.viewCtrl.dismiss(l)},l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l=c([Object(a.m)({selector:"page-addon-mod-book-toc",templateUrl:"toc.html"}),r("design:paramtypes",[o.t,o.E])],l)}(),s=this&&this.__decorate||function(l,n,t,e){var u,a=arguments.length,o=a<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,t):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,t,e);else for(var i=l.length-1;i>=0;i--)(u=l[i])&&(o=(a<3?u(o):a>3?u(n,t,o):u(n,t))||o);return a>3&&o&&Object.defineProperty(n,t,o),o},f=function(){function l(){}return l=s([Object(a.I)({declarations:[d],imports:[_.a,o.l.forChild(d),i.b.forChild()]})],l)}(),b=t(1365),p=t(1366),m=t(1367),h=t(1368),g=t(1369),v=t(1370),y=t(1371),j=t(1372),k=t(1373),O=t(30),R=t(20),V=t(19),P=t(6),w=t(28),x=t(33),C=t(447),M=t(37),$=t(1374),F=t(207),D=t(32),E=t(21),A=t(676),B=t(14),G=t(18),I=t(12),J=t(1375),K=t(350),L=t(253),N=t(27),T=t(448),U=t(46),q=t(43),z=t(45),H=t(178),Q=t(25),S=t(31),W=t(104),X=t(87),Y=t(38),Z=t(7),ll=t(63),nl=a._29({encapsulation:2,styles:[],data:{}}),tl=a._27("page-addon-mod-book-toc",d,function(l){return a._57(0,[(l()(),a._31(0,0,null,null,1,"page-addon-mod-book-toc",[],null,null,null,u,nl)),a._30(1,49152,null,0,d,[ll.a,M.a],null,null)],null,null)},{},{},[]),el=t(22),ul=t(346),al=t(347),ol=t(349),il=t(348),_l=t(446),cl=t(675),rl=t(254);t.d(n,"AddonModBookTocPageModuleNgFactory",function(){return dl});var dl=a._28(f,[],function(l){return a._40([a._41(512,a.o,a._21,[[8,[b.a,p.a,m.a,h.a,g.a,v.a,y.a,j.a,k.a,tl]],[3,a.o],a.K]),a._41(4608,Z.m,Z.l,[a.G,[2,Z.v]]),a._41(4608,el.x,el.x,[]),a._41(4608,el.d,el.d,[]),a._41(4608,ul.b,ul.a,[]),a._41(4608,al.a,al.b,[]),a._41(4608,ol.b,ol.a,[]),a._41(4608,il.b,il.a,[]),a._41(4608,G.a,G.a,[_l.a,ul.b,al.a,ol.b,il.b,G.b,G.c]),a._41(512,_.a,_.a,[]),a._41(512,Z.b,Z.b,[]),a._41(512,el.v,el.v,[]),a._41(512,el.i,el.i,[]),a._41(512,el.s,el.s,[]),a._41(512,cl.a,cl.a,[]),a._41(512,cl.b,cl.b,[]),a._41(512,i.b,i.b,[]),a._41(512,f,f,[]),a._41(256,rl.a,d,[]),a._41(256,G.c,void 0,[]),a._41(256,G.b,void 0,[])])})}});
+webpackJsonp([110],{
+
+/***/ 1873:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignEditFeedbackModalPageModule", function() { return AddonModAssignEditFeedbackModalPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__ = __webpack_require__(2008);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(948);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModAssignEditFeedbackModalPageModule = /** @class */ (function () {
+    function AddonModAssignEditFeedbackModalPageModule() {
+    }
+    AddonModAssignEditFeedbackModalPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__["a" /* AddonModAssignEditFeedbackModalPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModAssignComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__["a" /* AddonModAssignEditFeedbackModalPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], AddonModAssignEditFeedbackModalPageModule);
+    return AddonModAssignEditFeedbackModalPageModule;
+}());
+
+//# sourceMappingURL=edit-feedback-modal.module.js.map
+
+/***/ }),
+
+/***/ 2008:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignEditFeedbackModalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_feedback_delegate__ = __webpack_require__(118);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Modal that allows editing a feedback plugin.
+ */
+var AddonModAssignEditFeedbackModalPage = /** @class */ (function () {
+    function AddonModAssignEditFeedbackModalPage(params, viewCtrl, domUtils, translate, feedbackDelegate) {
+        this.viewCtrl = viewCtrl;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.feedbackDelegate = feedbackDelegate;
+        this.forceLeave = false; // To allow leaving the page without checking for changes.
+        this.assign = params.get('assign');
+        this.submission = params.get('submission');
+        this.plugin = params.get('plugin');
+        this.userId = params.get('userId');
+    }
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModAssignEditFeedbackModalPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        return this.hasDataChanged().then(function (changed) {
+            if (changed) {
+                return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
+            }
+        });
+    };
+    /**
+     * Close modal.
+     *
+     * @param {any} data Data to return to the page.
+     */
+    AddonModAssignEditFeedbackModalPage.prototype.closeModal = function (data) {
+        this.viewCtrl.dismiss(data);
+    };
+    /**
+     * Done editing.
+     *
+     * @param {Event} e Click event.
+     */
+    AddonModAssignEditFeedbackModalPage.prototype.done = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        // Close the modal, sending the input data.
+        this.forceLeave = true;
+        this.closeModal(this.getInputData());
+    };
+    /**
+     * Get the input data.
+     *
+     * @return {any} Object with the data.
+     */
+    AddonModAssignEditFeedbackModalPage.prototype.getInputData = function () {
+        return this.domUtils.getDataFromForm(document.forms['addon-mod_assign-edit-feedback-form']);
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return {Promise<boolean>} Promise resolved with boolean: whether the data has changed.
+     */
+    AddonModAssignEditFeedbackModalPage.prototype.hasDataChanged = function () {
+        return this.feedbackDelegate.hasPluginDataChanged(this.assign, this.userId, this.plugin, this.getInputData(), this.userId)
+            .catch(function () {
+            // Ignore errors.
+            return true;
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AddonModAssignEditFeedbackModalPage.prototype, "assign", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AddonModAssignEditFeedbackModalPage.prototype, "submission", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AddonModAssignEditFeedbackModalPage.prototype, "plugin", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Number)
+    ], AddonModAssignEditFeedbackModalPage.prototype, "userId", void 0);
+    AddonModAssignEditFeedbackModalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-assign-edit-feedback-modal',template:/*ion-inline-start:"D:\akaal\src\addon\mod\assign\pages\edit-feedback-modal\edit-feedback-modal.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="plugin.name"></core-format-text></ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <form name="addon-mod_assign-edit-feedback-form" *ngIf="userId && plugin">\n        <addon-mod-assign-feedback-plugin [assign]="assign" [submission]="submission" [userId]="userId" [plugin]="plugin" [edit]="true"></addon-mod-assign-feedback-plugin>\n        <button ion-button block (click)="done($event)">{{ \'core.done\' | translate }}</button>\n    </form>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\assign\pages\edit-feedback-modal\edit-feedback-modal.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_feedback_delegate__["a" /* AddonModAssignFeedbackDelegate */]])
+    ], AddonModAssignEditFeedbackModalPage);
+    return AddonModAssignEditFeedbackModalPage;
+}());
+
+//# sourceMappingURL=edit-feedback-modal.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=110.js.map

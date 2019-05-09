@@ -1,1 +1,255 @@
-webpackJsonp([100],{1882:function(e,l,n){"use strict";function a(e){return t._57(0,[t._52(402653184,1,{feedbackComponent:0}),(e()(),t._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),t._30(2,16384,null,0,M.a,[V.a,t.t,t.V,[2,w.a]],null,null),(e()(),t._55(-1,null,["\n    "])),(e()(),t._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,D.b,D.a)),t._30(5,49152,null,0,T.a,[G.a,[2,w.a],[2,F.a],V.a,t.t,t.V],null,null),t._30(6,212992,null,0,A.a,[T.a,J.a,K.a,N.a],null,null),(e()(),t._55(-1,3,["\n        "])),(e()(),t._31(8,0,null,3,3,"ion-title",[],null,null,null,U.b,U.a)),t._30(9,49152,null,0,q.a,[V.a,t.t,t.V,[2,z.a],[2,T.a]],null,null),(e()(),t._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._30(11,540672,null,0,B.a,[t.t,E.a,H.a,L.a,K.a,J.a,Q.a,S.a,W.a,X.a,Y.a,Z.a,[2,F.a],[2,$.a],[2,ee.a],le.a,N.a],{text:[0,"text"]},null),(e()(),t._55(-1,3,["\n\n        "])),(e()(),t._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(14,16384,null,1,ne.a,[V.a,t.t,t.V,[2,z.a],[2,T.a]],null,null),t._52(603979776,2,{_buttons:1}),(e()(),t._55(-1,null,["\n            "])),(e()(),t._55(-1,null,["\n        "])),(e()(),t._55(-1,3,["\n    "])),(e()(),t._55(-1,null,["\n"])),(e()(),t._55(-1,null,["\n"])),(e()(),t._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ae.b,ae.a)),t._30(22,4374528,null,0,$.a,[V.a,J.a,te.a,t.t,t.V,G.a,ue.a,t.M,[2,w.a],[2,F.a]],null,null),(e()(),t._55(-1,1,["\n    "])),(e()(),t._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(e,l,n){var a=!0;if("ionRefresh"===l){a=!1!==e.component.feedbackComponent.doRefresh(n)&&a}return a},null,null)),t._30(25,212992,null,0,oe.a,[J.a,$.a,t.M,re.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(e()(),t._55(-1,null,["\n        "])),(e()(),t._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,de.b,de.a)),t._30(28,114688,null,0,ie.a,[oe.a,V.a],{pullingText:[0,"pullingText"]},null),t._47(131072,_e.a,[K.a,t.j]),(e()(),t._55(-1,null,["\n    "])),(e()(),t._55(-1,1,["\n\n    "])),(e()(),t._31(32,0,null,1,1,"addon-mod-feedback-index",[],null,[[null,"dataRetrieved"]],function(e,l,n){var a=!0;if("dataRetrieved"===l){a=!1!==e.component.updateData(n)&&a}return a},I.c,I.b)),t._30(33,245760,[[1,4]],0,i.a,[t.C,ce.a,[2,$.a],se.a,fe.a,be.a,F.a,pe.a,he.a],{module:[0,"module"],courseId:[1,"courseId"],group:[2,"group"],tab:[3,"tab"]},{dataRetrieved:"dataRetrieved"}),(e()(),t._55(-1,1,["\n"])),(e()(),t._55(-1,null,["\n"]))],function(e,l){var n=l.component;e(l,6,0);e(l,11,0,n.title);e(l,25,0,n.feedbackComponent.loaded);e(l,28,0,t._34(1,"",t._56(l,28,0,t._44(l,29).transform("core.pulltorefresh")),""));e(l,33,0,n.module,n.courseId,n.selectedGroup,n.selectedTab)},function(e,l){e(l,4,0,t._44(l,5)._hidden,t._44(l,5)._sbPadding);e(l,21,0,t._44(l,22).statusbarPadding,t._44(l,22)._hasRefresher);e(l,24,0,"inactive"!==t._44(l,25).state,t._44(l,25)._top);e(l,27,0,t._44(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var t=n(0),u=n(8),o=n(3),r=n(29),d=n(678),i=n(474),_=this&&this.__decorate||function(e,l,n,a){var t,u=arguments.length,o=u<3?l:null===a?a=Object.getOwnPropertyDescriptor(l,n):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(e,l,n,a);else for(var r=e.length-1;r>=0;r--)(t=e[r])&&(o=(u<3?t(o):u>3?t(l,n,o):t(l,n))||o);return u>3&&o&&Object.defineProperty(l,n,o),o},c=this&&this.__metadata||function(e,l){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,l)},s=function(){function e(e){this.module=e.get("module")||{},this.courseId=e.get("courseId"),this.selectedGroup=e.get("group")||0,this.selectedTab=e.get("tab")||"overview",this.title=this.module.name}return e.prototype.updateData=function(e){this.title=e.name||this.title},_([Object(t._9)(i.a),c("design:type",i.a)],e.prototype,"feedbackComponent",void 0),e=_([Object(t.m)({selector:"page-addon-mod-feedback-index",templateUrl:"index.html"}),c("design:paramtypes",[u.t])],e)}(),f=this&&this.__decorate||function(e,l,n,a){var t,u=arguments.length,o=u<3?l:null===a?a=Object.getOwnPropertyDescriptor(l,n):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(e,l,n,a);else for(var r=e.length-1;r>=0;r--)(t=e[r])&&(o=(u<3?t(o):u>3?t(l,n,o):t(l,n))||o);return u>3&&o&&Object.defineProperty(l,n,o),o},b=function(){function e(){}return e=f([Object(t.I)({declarations:[s],imports:[r.a,d.a,u.l.forChild(s),o.b.forChild()]})],e)}(),p=n(1365),h=n(1366),m=n(1367),g=n(1368),v=n(1369),R=n(1370),y=n(1371),x=n(1372),j=n(1373),k=n(1376),O=n(1377),P=n(1378),C=n(1379),I=n(1388),M=n(447),V=n(6),w=n(37),D=n(1374),T=n(207),G=n(32),F=n(21),A=n(676),J=n(14),K=n(18),N=n(12),U=n(1375),q=n(350),z=n(253),B=n(41),E=n(1),H=n(4),L=n(10),Q=n(2),S=n(26),W=n(5),X=n(16),Y=n(9),Z=n(17),$=n(25),ee=n(34),le=n(36),ne=n(448),ae=n(178),te=n(31),ue=n(104),oe=n(140),re=n(38),de=n(195),ie=n(146),_e=n(27),ce=n(135),se=n(271),fe=n(68),be=n(295),pe=n(286),he=n(23),me=n(63),ge=t._29({encapsulation:2,styles:[],data:{}}),ve=t._27("page-addon-mod-feedback-index",s,function(e){return t._57(0,[(e()(),t._31(0,0,null,null,1,"page-addon-mod-feedback-index",[],null,null,null,a,ge)),t._30(1,49152,null,0,s,[me.a],null,null)],null,null)},{},{},[]),Re=n(7),ye=n(22),xe=n(346),je=n(347),ke=n(349),Oe=n(348),Pe=n(446),Ce=n(675),Ie=n(103),Me=n(24),Ve=n(67),we=n(254);n.d(l,"AddonModFeedbackIndexPageModuleNgFactory",function(){return De});var De=t._28(b,[],function(e){return t._40([t._41(512,t.o,t._21,[[8,[p.a,h.a,m.a,g.a,v.a,R.a,y.a,x.a,j.a,k.a,O.a,P.a,C.a,I.a,ve]],[3,t.o],t.K]),t._41(4608,Re.m,Re.l,[t.G,[2,Re.v]]),t._41(4608,ye.x,ye.x,[]),t._41(4608,ye.d,ye.d,[]),t._41(4608,xe.b,xe.a,[]),t._41(4608,je.a,je.b,[]),t._41(4608,ke.b,ke.a,[]),t._41(4608,Oe.b,Oe.a,[]),t._41(4608,K.a,K.a,[Pe.a,xe.b,je.a,ke.b,Oe.b,K.b,K.c]),t._41(512,r.a,r.a,[]),t._41(512,Re.b,Re.b,[]),t._41(512,ye.v,ye.v,[]),t._41(512,ye.i,ye.i,[]),t._41(512,ye.s,ye.s,[]),t._41(512,Ce.a,Ce.a,[]),t._41(512,o.b,o.b,[]),t._41(512,Ie.a,Ie.a,[]),t._41(512,Me.a,Me.a,[]),t._41(512,Ve.a,Ve.a,[]),t._41(512,d.a,d.a,[]),t._41(512,Ce.b,Ce.b,[]),t._41(512,b,b,[]),t._41(256,K.c,void 0,[]),t._41(256,K.b,void 0,[]),t._41(256,we.a,s,[])])})}});
+webpackJsonp([100],{
+
+/***/ 1870:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatSessionsPageModule", function() { return AddonModChatSessionsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(949);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sessions__ = __webpack_require__(2005);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModChatSessionsPageModule = /** @class */ (function () {
+    function AddonModChatSessionsPageModule() {
+    }
+    AddonModChatSessionsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__sessions__["a" /* AddonModChatSessionsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModChatComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__sessions__["a" /* AddonModChatSessionsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChatSessionsPageModule);
+    return AddonModChatSessionsPageModule;
+}());
+
+//# sourceMappingURL=sessions.module.js.map
+
+/***/ }),
+
+/***/ 2005:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModChatSessionsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_user_providers_user__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_groups__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_chat__ = __webpack_require__(207);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays list of chat sessions.
+ */
+var AddonModChatSessionsPage = /** @class */ (function () {
+    function AddonModChatSessionsPage(navParams, chatProvider, domUtils, userProvider, groupsProvider, translate, utils) {
+        var _this = this;
+        this.chatProvider = chatProvider;
+        this.domUtils = domUtils;
+        this.userProvider = userProvider;
+        this.groupsProvider = groupsProvider;
+        this.translate = translate;
+        this.utils = utils;
+        this.loaded = false;
+        this.showAll = false;
+        this.groupId = 0;
+        this.sessions = [];
+        this.courseId = navParams.get('courseId');
+        this.cmId = navParams.get('cmId');
+        this.chatId = navParams.get('chatId');
+        this.fetchSessions().then(function () {
+            if (_this.splitviewCtrl.isOn() && _this.sessions.length > 0) {
+                _this.openSession(_this.sessions[0]);
+            }
+        });
+    }
+    /**
+     * Fetch chat sessions.
+     *
+     * @param {number} [showLoading] Display a loading modal.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModChatSessionsPage.prototype.fetchSessions = function (showLoading) {
+        var _this = this;
+        var modal = showLoading ? this.domUtils.showModalLoading() : null;
+        return this.groupsProvider.getActivityGroupInfo(this.cmId, false).then(function (groupInfo) {
+            _this.groupInfo = groupInfo;
+            if (groupInfo.groups && groupInfo.groups.length > 0) {
+                if (!groupInfo.groups.find(function (group) { return group.id === _this.groupId; })) {
+                    _this.groupId = groupInfo.groups[0].id;
+                }
+            }
+            else {
+                _this.groupId = 0;
+            }
+            return _this.chatProvider.getSessions(_this.chatId, _this.groupId, _this.showAll);
+        }).then(function (sessions) {
+            // Fetch user profiles.
+            var promises = [];
+            sessions.forEach(function (session) {
+                session.duration = session.sessionend - session.sessionstart;
+                session.sessionusers.forEach(function (sessionUser) {
+                    if (!sessionUser.userfullname) {
+                        // The WS does not return the user name, fetch user profile.
+                        promises.push(_this.userProvider.getProfile(sessionUser.userid, _this.courseId, true).then(function (user) {
+                            sessionUser.userfullname = user.fullname;
+                        }).catch(function () {
+                            // Error getting profile, most probably the user is deleted.
+                            sessionUser.userfullname = _this.translate.instant('core.deleteduser') + ' ' + sessionUser.userid;
+                        }));
+                    }
+                });
+                // If session has more than 4 users we display a "Show more" link.
+                session.allsessionusers = session.sessionusers;
+                if (session.sessionusers.length > 4) {
+                    session.sessionusers = session.allsessionusers.slice(0, 3);
+                }
+            });
+            return Promise.all(promises).then(function () {
+                _this.sessions = sessions;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.errorloadingcontent', true);
+        }).finally(function () {
+            _this.loaded = true;
+            modal && modal.dismiss();
+        });
+    };
+    /**
+     * Refresh chat sessions.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModChatSessionsPage.prototype.refreshSessions = function (refresher) {
+        var _this = this;
+        var promises = [
+            this.groupsProvider.invalidateActivityGroupInfo(this.cmId),
+            this.chatProvider.invalidateSessions(this.chatId, this.groupId, this.showAll)
+        ];
+        this.utils.allPromises(promises).finally(function () {
+            _this.fetchSessions().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Navigate to a session.
+     *
+     * @param {any} session Chat session.
+     */
+    AddonModChatSessionsPage.prototype.openSession = function (session) {
+        this.selectedSessionStart = session.sessionstart;
+        this.selectedSessionGroupId = this.groupId;
+        var params = {
+            courseId: this.courseId,
+            chatId: this.chatId,
+            groupId: this.groupId,
+            sessionStart: session.sessionstart,
+            sessionEnd: session.sessionend
+        };
+        this.splitviewCtrl.push('AddonModChatSessionMessagesPage', params);
+    };
+    /**
+     * Show more session users.
+     *
+     * @param {any} session Chat session.
+     * @param {Event} $event The event.
+     */
+    AddonModChatSessionsPage.prototype.showMoreUsers = function (session, $event) {
+        session.sessionusers = session.allsessionusers;
+        $event.stopPropagation();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonModChatSessionsPage.prototype, "splitviewCtrl", void 0);
+    AddonModChatSessionsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-chat-sessions',template:/*ion-inline-start:"D:\akaal\src\addon\mod\chat\pages\sessions\sessions.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_chat.chatreport\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSessions($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="loaded">\n            <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n                <ion-label id="addon-chat-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n                <ion-label id="addon-chat-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n                <ion-select [(ngModel)]="groupId" (ionChange)="fetchSessions(true)" aria-labelledby="addon-chat-groupslabel" interface="action-sheet">\n                    <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item>\n                <ion-label id="addon-chat-showalllabel">{{ \'addon.mod_chat.showincompletesessions\' | translate }}</ion-label>\n                <ion-toggle [(ngModel)]="showAll" (ionChange)="fetchSessions(true)" aria-labelledby="addon-chat-showalllabel"></ion-toggle>\n            </ion-item>\n            <ion-card *ngFor="let session of sessions" (click)="openSession(session)"\n                    [class.addon-mod-chat-session-selected]="session.sessionstart == selectedSessionStart && groupId == selectedSessionGroupId"\n                    [class.addon-mod-chat-session-show-more]="session.sessionusers.length < session.allsessionusers.length">\n                <ion-item text-wrap>\n                    <h2>{{ session.sessionstart * 1000 | coreFormatDate }}</h2>\n                    <p *ngIf="session.duration">{{ session.duration | coreDuration }}</p>\n                </ion-item>\n                <ion-card-content>\n                    <p *ngFor="let user of session.sessionusers">\n                        {{ user.userfullname }} <span *ngIf="user.messagecount">({{ user.messagecount }})</span>\n                    </p>\n                </ion-card-content>\n                <div *ngIf="session.sessionusers.length < session.allsessionusers.length">\n                    <button ion-button clear (click)="showMoreUsers(session, $event)">\n                        {{ \'core.showmore\' | translate }}\n                    </button>\n                </div>\n            </ion-card>\n            <core-empty-box *ngIf="sessions.length == 0" icon="chatbubbles" [message]="\'addon.mod_chat.nosessionsfound\' | translate">\n            </core-empty-box>\n        </core-loading>\n    </ion-content>\n</core-split-view>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\chat\pages\sessions\sessions.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_8__providers_chat__["a" /* AddonModChatProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */]])
+    ], AddonModChatSessionsPage);
+    return AddonModChatSessionsPage;
+}());
+
+//# sourceMappingURL=sessions.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=100.js.map

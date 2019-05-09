@@ -1,1 +1,132 @@
-webpackJsonp([105],{1878:function(l,n,e){"use strict";function a(l){return t._57(0,[t._52(402653184,1,{choiceComponent:0}),(l()(),t._31(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),t._30(2,16384,null,0,V.a,[D.a,t.t,t.V,[2,w.a]],null,null),(l()(),t._55(-1,null,["\n    "])),(l()(),t._31(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),t._30(5,49152,null,0,T.a,[A.a,[2,w.a],[2,F.a],D.a,t.t,t.V],null,null),t._30(6,212992,null,0,G.a,[T.a,J.a,K.a,N.a],null,null),(l()(),t._55(-1,3,["\n        "])),(l()(),t._31(8,0,null,3,3,"ion-title",[],null,null,null,U.b,U.a)),t._30(9,49152,null,0,q.a,[D.a,t.t,t.V,[2,z.a],[2,T.a]],null,null),(l()(),t._31(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._30(11,540672,null,0,B.a,[t.t,E.a,H.a,L.a,K.a,J.a,Q.a,S.a,W.a,X.a,Y.a,Z.a,[2,F.a],[2,$.a],[2,ll.a],nl.a,N.a],{text:[0,"text"]},null),(l()(),t._55(-1,3,["\n\n        "])),(l()(),t._31(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._30(14,16384,null,1,el.a,[D.a,t.t,t.V,[2,z.a],[2,T.a]],null,null),t._52(603979776,2,{_buttons:1}),(l()(),t._55(-1,null,["\n            "])),(l()(),t._55(-1,null,["\n        "])),(l()(),t._55(-1,3,["\n    "])),(l()(),t._55(-1,null,["\n"])),(l()(),t._55(-1,null,["\n"])),(l()(),t._31(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,al.b,al.a)),t._30(22,4374528,null,0,$.a,[D.a,J.a,tl.a,t.t,t.V,A.a,ul.a,t.M,[2,w.a],[2,F.a]],null,null),(l()(),t._55(-1,1,["\n    "])),(l()(),t._31(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,e){var a=!0;if("ionRefresh"===n){a=!1!==l.component.choiceComponent.doRefresh(e)&&a}return a},null,null)),t._30(25,212992,null,0,ol.a,[J.a,$.a,t.M,rl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),t._55(-1,null,["\n        "])),(l()(),t._31(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,il.b,il.a)),t._30(28,114688,null,0,_l.a,[ol.a,D.a],{pullingText:[0,"pullingText"]},null),t._47(131072,cl.a,[K.a,t.j]),(l()(),t._55(-1,null,["\n    "])),(l()(),t._55(-1,1,["\n\n    "])),(l()(),t._31(32,0,null,1,1,"addon-mod-choice-index",[],null,[[null,"dataRetrieved"]],function(l,n,e){var a=!0;if("dataRetrieved"===n){a=!1!==l.component.updateData(e)&&a}return a},M.c,M.b)),t._30(33,245760,[[1,4]],0,_.a,[t.C,dl.a,[2,$.a],sl.a,fl.a,bl.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._55(-1,1,["\n"])),(l()(),t._55(-1,null,["\n"]))],function(l,n){var e=n.component;l(n,6,0);l(n,11,0,e.title);l(n,25,0,e.choiceComponent.loaded);l(n,28,0,t._34(1,"",t._56(n,28,0,t._44(n,29).transform("core.pulltorefresh")),""));l(n,33,0,e.module,e.courseId)},function(l,n){l(n,4,0,t._44(n,5)._hidden,t._44(n,5)._sbPadding);l(n,21,0,t._44(n,22).statusbarPadding,t._44(n,22)._hasRefresher);l(n,24,0,"inactive"!==t._44(n,25).state,t._44(n,25)._top);l(n,27,0,t._44(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var t=e(0),u=e(8),o=e(3),r=e(29),i=e(704),_=e(467),c=this&&this.__decorate||function(l,n,e,a){var t,u=arguments.length,o=u<3?n:null===a?a=Object.getOwnPropertyDescriptor(n,e):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,e,a);else for(var r=l.length-1;r>=0;r--)(t=l[r])&&(o=(u<3?t(o):u>3?t(n,e,o):t(n,e))||o);return u>3&&o&&Object.defineProperty(n,e,o),o},d=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},s=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},c([Object(t._9)(_.a),d("design:type",_.a)],l.prototype,"choiceComponent",void 0),l=c([Object(t.m)({selector:"page-addon-mod-choice-index",templateUrl:"index.html"}),d("design:paramtypes",[u.t])],l)}(),f=this&&this.__decorate||function(l,n,e,a){var t,u=arguments.length,o=u<3?n:null===a?a=Object.getOwnPropertyDescriptor(n,e):a;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,e,a);else for(var r=l.length-1;r>=0;r--)(t=l[r])&&(o=(u<3?t(o):u>3?t(n,e,o):t(n,e))||o);return u>3&&o&&Object.defineProperty(n,e,o),o},b=function(){function l(){}return l=f([Object(t.I)({declarations:[s],imports:[r.a,i.a,u.l.forChild(s),o.b.forChild()]})],l)}(),h=e(1365),p=e(1366),m=e(1367),v=e(1368),g=e(1369),R=e(1370),y=e(1371),x=e(1372),j=e(1373),O=e(1376),C=e(1377),P=e(1378),I=e(1379),M=e(1422),V=e(447),D=e(6),w=e(37),k=e(1374),T=e(207),A=e(32),F=e(21),G=e(676),J=e(14),K=e(18),N=e(12),U=e(1375),q=e(350),z=e(253),B=e(41),E=e(1),H=e(4),L=e(10),Q=e(2),S=e(26),W=e(5),X=e(16),Y=e(9),Z=e(17),$=e(25),ll=e(34),nl=e(36),el=e(448),al=e(178),tl=e(31),ul=e(104),ol=e(140),rl=e(38),il=e(195),_l=e(146),cl=e(27),dl=e(268),sl=e(269),fl=e(306),bl=e(23),hl=e(63),pl=t._29({encapsulation:2,styles:[],data:{}}),ml=t._27("page-addon-mod-choice-index",s,function(l){return t._57(0,[(l()(),t._31(0,0,null,null,1,"page-addon-mod-choice-index",[],null,null,null,a,pl)),t._30(1,49152,null,0,s,[hl.a],null,null)],null,null)},{},{},[]),vl=e(7),gl=e(22),Rl=e(346),yl=e(347),xl=e(349),jl=e(348),Ol=e(446),Cl=e(675),Pl=e(103),Il=e(24),Ml=e(67),Vl=e(254);e.d(n,"AddonModChoiceIndexPageModuleNgFactory",function(){return Dl});var Dl=t._28(b,[],function(l){return t._40([t._41(512,t.o,t._21,[[8,[h.a,p.a,m.a,v.a,g.a,R.a,y.a,x.a,j.a,O.a,C.a,P.a,I.a,M.a,ml]],[3,t.o],t.K]),t._41(4608,vl.m,vl.l,[t.G,[2,vl.v]]),t._41(4608,gl.x,gl.x,[]),t._41(4608,gl.d,gl.d,[]),t._41(4608,Rl.b,Rl.a,[]),t._41(4608,yl.a,yl.b,[]),t._41(4608,xl.b,xl.a,[]),t._41(4608,jl.b,jl.a,[]),t._41(4608,K.a,K.a,[Ol.a,Rl.b,yl.a,xl.b,jl.b,K.b,K.c]),t._41(512,r.a,r.a,[]),t._41(512,vl.b,vl.b,[]),t._41(512,gl.v,gl.v,[]),t._41(512,gl.i,gl.i,[]),t._41(512,gl.s,gl.s,[]),t._41(512,Cl.a,Cl.a,[]),t._41(512,o.b,o.b,[]),t._41(512,Pl.a,Pl.a,[]),t._41(512,Il.a,Il.a,[]),t._41(512,Ml.a,Ml.a,[]),t._41(512,i.a,i.a,[]),t._41(512,Cl.b,Cl.b,[]),t._41(512,b,b,[]),t._41(256,K.c,void 0,[]),t._41(256,K.b,void 0,[]),t._41(256,Vl.a,s,[])])})}});
+webpackJsonp([105],{
+
+/***/ 1866:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModBookIndexPageModule", function() { return AddonModBookIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2001);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModBookIndexPageModule = /** @class */ (function () {
+    function AddonModBookIndexPageModule() {
+    }
+    AddonModBookIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModBookIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModBookComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModBookIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModBookIndexPageModule);
+    return AddonModBookIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 2001:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModBookIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(409);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a book.
+ */
+var AddonModBookIndexPage = /** @class */ (function () {
+    function AddonModBookIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.chapterId = navParams.get('chapterId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the book instance.
+     *
+     * @param {any} book Book instance.
+     */
+    AddonModBookIndexPage.prototype.updateData = function (book) {
+        this.title = book.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModBookIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModBookIndexComponent */])
+    ], AddonModBookIndexPage.prototype, "bookComponent", void 0);
+    AddonModBookIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-book-index',template:/*ion-inline-start:"D:\akaal\src\addon\mod\book\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="bookComponent.loaded" (ionRefresh)="bookComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-book-index [module]="module" [courseId]="courseId" [initialChapterId]="chapterId" (dataRetrieved)="updateData($event)"></addon-mod-book-index>\n</ion-content>\n'/*ion-inline-end:"D:\akaal\src\addon\mod\book\pages\index\index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
+    ], AddonModBookIndexPage);
+    return AddonModBookIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=105.js.map
