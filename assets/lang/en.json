@@ -1779,5 +1779,6 @@
     "core.wsfunctionnotavailable": "The web service function is not available.",
     "core.year": "year",
     "core.years": "years",
-    "core.yes": "Yes"
+    "core.yes": "Yes",
+     "core.login.usernamepolicy": "Username should be one word with two digits in the last."
 }
