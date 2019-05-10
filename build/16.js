@@ -112,8 +112,8 @@ var CoreSiteHomeIndexPage = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_index_index__["a" /* CoreSiteHomeIndexComponent */])
     ], CoreSiteHomeIndexPage.prototype, "siteHomeComponent", void 0);
     CoreSiteHomeIndexPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-sitehome-index',template:/*ion-inline-start:"D:\akaal\src\core\sitehome\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.sitehome.sitehome\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="siteHomeComponent && siteHomeComponent.dataLoaded" (ionRefresh)="siteHomeComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-sitehome-index></core-sitehome-index>\n</ion-content>'/*ion-inline-end:"D:\akaal\src\core\sitehome\pages\index\index.html"*/,
+       Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'core-sitehome-all-course-list',template:/*ion-inline-start:"D:\akaal\src\core\sitehome\components\all-course-list\core-sitehome-all-course-list.html"*/'<a *ngIf="show" ion-item text-wrap [navPush]="\'CoreCoursesAvailableCoursesPage\'">\n    <core-icon name="fa-graduation-cap" fixed-width item-start></core-icon>\n    <h2>{{ \'core.courses.availablecourses\' | translate}}</h2>\n</a>\n'/*ion-inline-end:"D:\akaal\src\core\sitehome\components\all-course-list\core-sitehome-all-course-list.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__core_course_providers_helper__["a" /* CoreCourseHelperProvider */],
             __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
