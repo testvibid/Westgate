@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.rasmiacademy.ardaykaal"
+        id        = "com.ardaykaal.lms"
         versionCode = "36100"
         android-versionCode="36100"
-        version   = "3.6.3">
+        version   = "3.6.1">
     <name>ArdayKaal</name>
 
     <description>
        ArdayKaal waa barnaamij casri ah oo ardayda u fududeynaya waxbarashadooda. Barnaamijka waxaa uu ardayda ka caawinayaa inay guul ka gaaraan imtixaanada
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="www.edtechsomalia.com" email="info@edtechsomalia.com">
+        EdTech Somalia
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
